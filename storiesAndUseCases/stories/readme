@@ -1,0 +1,8 @@
+All stories related to this project wil be contained within this directory.
+
+each story will have it's own file and will contain the following information:
+Name
+Description
+Progress
+Risk (1 = low, 5 = high)
+To Be Completed
