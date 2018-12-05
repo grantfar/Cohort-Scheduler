@@ -5,6 +5,7 @@ import * as mongoose from 'mongoose';
 import * as path from 'path';
 
 import setRoutes from './routes';
+import { isString } from 'util';
 
 const app = express();
 dotenv.load({ path: '.env' });
@@ -19,6 +20,9 @@ if (process.env.NODE_ENV === 'test') {
   mongodbURI = process.env.MONGODB_TEST_URI;
 } else {
   mongodbURI = process.env.MONGODB_URI;
+  if(!isString(mongodbURI) || mongodbURI.length < 1){
+    mongodbURI = "default";
+  }
   app.use(morgan('dev'));
 }
 
