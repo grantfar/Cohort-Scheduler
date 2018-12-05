@@ -6,7 +6,6 @@ var morgan = require("morgan");
 var mongoose = require("mongoose");
 var path = require("path");
 var routes_1 = require("./routes");
-var util_1 = require("util");
 var app = express();
 exports.app = app;
 dotenv.load({ path: '.env' });
@@ -20,9 +19,6 @@ if (process.env.NODE_ENV === 'test') {
 }
 else {
     mongodbURI = process.env.MONGODB_URI;
-    if (!util_1.isString(mongodbURI) || mongodbURI.length < 1) {
-        mongodbURI = "default";
-    }
     app.use(morgan('dev'));
 }
 mongoose.Promise = global.Promise;
