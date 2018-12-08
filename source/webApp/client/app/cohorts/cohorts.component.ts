@@ -18,9 +18,10 @@ export class CohortsComponent implements OnInit {
   isEditing = false;
 
   addCohortForm: FormGroup;
-  name = new FormControl('', Validators.required);
-  age = new FormControl('', Validators.required);
-  weight = new FormControl('', Validators.required);
+  cohort = new FormControl('', Validators.required);
+  class = new FormControl('', Validators.required);
+  required = new FormControl('', Validators.required);
+  sections;
 
   constructor(private cohortService: CohortService,
               private formBuilder: FormBuilder,
@@ -29,9 +30,10 @@ export class CohortsComponent implements OnInit {
   ngOnInit() {
     this.getCohorts();
     this.addCohortForm = this.formBuilder.group({
-      name: this.name,
-      age: this.age,
-      weight: this.weight
+      cohort: this.cohort,
+      class: this.class,
+      required: this.required,
+      sections: this.sections
     });
   }
 
