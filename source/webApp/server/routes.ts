@@ -1,22 +1,22 @@
 import * as express from 'express';
 
-import CatCtrl from './controllers/cat';
+import CohortCtrl from './controllers/cohort';
 import UserCtrl from './controllers/user';
 
 export default function setRoutes(app) {
 
   const router = express.Router();
 
-  const catCtrl = new CatCtrl();
+  const cohortCtrl = new CohortCtrl();
   const userCtrl = new UserCtrl();
 
-  // Cats
-  router.route('/cats').get(catCtrl.getAll);
-  router.route('/cats/count').get(catCtrl.count);
-  router.route('/cat').post(catCtrl.insert);
-  router.route('/cat/:id').get(catCtrl.get);
-  router.route('/cat/:id').put(catCtrl.update);
-  router.route('/cat/:id').delete(catCtrl.delete);
+  // Cohorts
+  router.route('/cohorts').get(cohortCtrl.getAll);
+  router.route('/cohorts/count').get(cohortCtrl.count);
+  router.route('/cohort').post(cohortCtrl.insert);
+  router.route('/cohort/:id').get(cohortCtrl.get);
+  router.route('/cohort/:id').put(cohortCtrl.update);
+  router.route('/cohort/:id').delete(cohortCtrl.delete);
 
   // Users
   router.route('/login').post(userCtrl.login);

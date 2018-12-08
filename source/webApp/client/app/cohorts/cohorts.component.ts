@@ -1,89 +1,89 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
-import { CatService } from '../services/cat.service';
+import { CohortService } from '../services/cohort.service';
 import { ToastComponent } from '../shared/toast/toast.component';
-import { Cat } from '../shared/models/cat.model';
+import { Cohort } from '../shared/models/cohort.model';
 
 @Component({
-  selector: 'app-cats',
-  templateUrl: './cats.component.html',
-  styleUrls: ['./cats.component.scss']
+  selector: 'app-cohorts',
+  templateUrl: './cohorts.component.html',
+  styleUrls: ['./cohorts.component.scss']
 })
-export class CatsComponent implements OnInit {
+export class CohortsComponent implements OnInit {
 
-  cat = new Cat();
-  cats: Cat[] = [];
+  cohort = new Cohort();
+  cohorts: Cohort[] = [];
   isLoading = true;
   isEditing = false;
 
-  addCatForm: FormGroup;
+  addCohortForm: FormGroup;
   name = new FormControl('', Validators.required);
   age = new FormControl('', Validators.required);
   weight = new FormControl('', Validators.required);
 
-  constructor(private catService: CatService,
+  constructor(private cohortService: CohortService,
               private formBuilder: FormBuilder,
               public toast: ToastComponent) { }
 
   ngOnInit() {
-    this.getCats();
-    this.addCatForm = this.formBuilder.group({
+    this.getCohorts();
+    this.addCohortForm = this.formBuilder.group({
       name: this.name,
       age: this.age,
       weight: this.weight
     });
   }
 
-  getCats() {
-    this.catService.getCats().subscribe(
-      data => this.cats = data,
+  getCohorts() {
+    this.cohortService.getCohorts().subscribe(
+      data => this.cohorts = data,
       error => console.log(error),
       () => this.isLoading = false
     );
   }
 
-  addCat() {
-    this.catService.addCat(this.addCatForm.value).subscribe(
+  addCohort() {
+    this.cohortService.addCohort(this.addCohortForm.value).subscribe(
       res => {
-        this.cats.push(res);
-        this.addCatForm.reset();
+        this.cohorts.push(res);
+        this.addCohortForm.reset();
         this.toast.setMessage('item added successfully.', 'success');
       },
       error => console.log(error)
     );
   }
 
-  enableEditing(cat: Cat) {
+  enableEditing(cohort: Cohort) {
     this.isEditing = true;
-    this.cat = cat;
+    this.cohort = cohort;
   }
 
   cancelEditing() {
     this.isEditing = false;
-    this.cat = new Cat();
+    this.cohort = new Cohort();
     this.toast.setMessage('item editing cancelled.', 'warning');
-    // reload the cats to reset the editing
-    this.getCats();
+    // reload the cohorts to reset the editing
+    this.getCohorts();
   }
 
-  editCat(cat: Cat) {
-    this.catService.editCat(cat).subscribe(
+  editCohort(cohort: Cohort) {
+    this.cohortService.editCohort(cohort).subscribe(
       () => {
         this.isEditing = false;
-        this.cat = cat;
+        this.cohort = cohort;
         this.toast.setMessage('item edited successfully.', 'success');
       },
       error => console.log(error)
     );
   }
 
-  deleteCat(cat: Cat) {
+  deleteCohort(cohort: Cohort) {
     if (window.confirm('Are you sure you want to permanently delete this item?')) {
-      this.catService.deleteCat(cat).subscribe(
+      this.cohortService.deleteCohort(cohort).subscribe(
         () => {
-          const pos = this.cats.map(elem => elem._id).indexOf(cat._id);
-          this.cats.splice(pos, 1);
+          const pos = this.cohorts.map(elem => elem._id).indexOf(cohort._id);
+          this.cohorts.splice(pos, 1);
           this.toast.setMessage('item deleted successfully.', 'success');
         },
         error => console.log(error)
