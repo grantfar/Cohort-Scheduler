@@ -40,12 +40,14 @@
         <tr>
           <td colspan="4">
             <form class="form-inline" #form="ngForm" (ngSubmit)="editCohort(cohort)">
-              <input class="form-control mr-2" type="text" name="name"
-                     [(ngModel)]="cohort.name" placeholder="Name" required>
-              <input class="form-control mr-2" type="number" name="age"
-                     [(ngModel)]="cohort.age" placeholder="Age" min="0" required>
-              <input class="form-control mr-2" type="number" name="weight"
-                     [(ngModel)]="cohort.weight" placeholder="Weight" step="any" min="0" required>
+              <input class="form-control mr-2" type="text" name="cohort"
+                     [(ngModel)]="cohort.cohort" placeholder="Cohort" required>
+              <input class="form-control mr-2" type="text" name="class"
+                     [(ngModel)]="cohort.class" placeholder="Class" min="0" required>
+              <input class="form-control mr-2" type="number" name="required"
+                     [(ngModel)]="cohort.required" placeholder="Seats Required" step="1" min="0" required>
+              <input class="form-control mr-2" type="text" name="sections"
+                     [(ngModel)]="cohort.sections" placeholder="Allowed Sections">
               <button class="btn btn-sm btn-primary mr-2" type="submit" [disabled]="!form.form.valid">
                 <i class="fa fa-floppy-o"></i> Save
               </button>
@@ -64,12 +66,14 @@
   <h4 class="card-header">Add new cohort</h4>
   <div class="card-body">
     <form class="form-inline" [formGroup]="addCohortForm" (ngSubmit)="addCohort()">
-      <input class="form-control mr-2" type="text" name="name"
-             formControlName="name" placeholder="Name">
-      <input class="form-control mr-2" type="number" name="age"
-             formControlName="age" placeholder="Age" min="0">
-      <input class="form-control mr-2" type="number" name="weight"
-             formControlName="weight" placeholder="Weight" step="any" min="0">
+      <input class="form-control mr-2" type="text" name="cohort"
+              placeholder="Cohort" required>
+      <input class="form-control mr-2" type="text" name="class"
+              placeholder="Class" min="0" required>
+      <input class="form-control mr-2" type="number" name="required"
+              placeholder="Seats Required" step="1" min="0" required>
+      <input class="form-control mr-2" type="text" name="sections"
+              placeholder="Allowed Sections">
       <button class="btn btn-primary" type="submit" [disabled]="!addCohortForm.valid">
         <i class="fa fa-plus"></i> Add
       </button>
