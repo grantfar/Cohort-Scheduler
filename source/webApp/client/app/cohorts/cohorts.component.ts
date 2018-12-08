@@ -18,7 +18,7 @@ export class CohortsComponent implements OnInit {
   isEditing = false;
 
   addCohortForm: FormGroup;
-  cohort = new FormControl('', Validators.required);
+  cohortName = new FormControl('', Validators.required);
   class = new FormControl('', Validators.required);
   required = new FormControl('', Validators.required);
   sections;
@@ -30,7 +30,7 @@ export class CohortsComponent implements OnInit {
   ngOnInit() {
     this.getCohorts();
     this.addCohortForm = this.formBuilder.group({
-      cohort: this.cohort,
+      cohort: this.cohortName,
       class: this.class,
       required: this.required,
       sections: this.sections
