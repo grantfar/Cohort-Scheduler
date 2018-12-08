@@ -23,6 +23,10 @@ if (process.env.NODE_ENV === 'test') {
 }
 
 mongoose.Promise = global.Promise;
+console.log(mongodbURI);
+if(mongodbURI == undefined){
+  mongodbURI= "mongodb://localhost:27017/angularfullstack"
+}
 mongoose.connect(mongodbURI)
   .then(db => {
     console.log('Connected to MongoDB');

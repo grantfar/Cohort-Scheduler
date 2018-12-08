@@ -22,6 +22,10 @@ else {
     app.use(morgan('dev'));
 }
 mongoose.Promise = global.Promise;
+console.log(mongodbURI);
+if (mongodbURI == undefined) {
+    mongodbURI = "mongodb://localhost:27017/angularfullstack";
+}
 mongoose.connect(mongodbURI)
     .then(function (db) {
     console.log('Connected to MongoDB');
