@@ -10,7 +10,8 @@ SOURCES += main.cpp \
     cohorts.cpp \
     schedule.cpp \
     permutations.cpp \
-    enrollment.cpp
+    enrollment.cpp \
+    getwd.cpp
 
 HEADERS += \
     courseSection.h \
@@ -19,4 +20,5 @@ HEADERS += \
     cohorts.h \
     schedule.h \
     permutation.h \
-    enrollment.h
+    enrollment.h \
+    getwd.h

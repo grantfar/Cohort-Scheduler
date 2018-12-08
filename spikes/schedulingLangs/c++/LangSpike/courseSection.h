@@ -2,6 +2,7 @@
 #define SECTION_H
 
 #include <string>
+#include <vector>
 
 class courseSection
 {
@@ -25,6 +26,14 @@ public:
   bool operator <(courseSection toCompare);
   bool operator >(courseSection toCompare);
   bool operator ==(courseSection toCompare);
+  int  getStartTime();
+  int  getEndTime();
+  bool* getDays();
+  bool sameDays(courseSection c);
+  bool overlaps( courseSection c);
+  std::string getDaysString();
+  static std::vector<std::vector<courseSection*>> generateConflicts(std::vector<courseSection> *coursesNeeded);
+  static bool compareTimes(courseSection a, courseSection b);
 };
 
 

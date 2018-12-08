@@ -12,7 +12,7 @@
 #include "permutation.h"
 #include "schedule.h"
 #include "enrollment.h"
-
+#include "getwd.h"
 using namespace std;
 
 allSections readInAllSections(){
@@ -99,15 +99,43 @@ int main(int argc, char* argv[])
       sectionsAvailable.push_back(sections.findSections(coursesRequired[i].name));
     }
   vector<vector<int>> fit;
-  vector<enrollment> fitSets;
+  vector<vector<enrollment>> fitSets;
   for(int i = 0; i< sectionsAvailable.size(); i++)
     {
       for(int j = 0; j < sectionsAvailable[i].size(); j++)
         {
           fit = generateCombosFit(coursesRequired[i],sectionsAvailable[i][j].getSize());
-
+          fitSets.push_back(enrollment::genEnrollments(&sectionsAvailable[i][j],fit));
           fit.clear();
         }
+      coursesRequired[i].trialIndexes = generateWorkingCombos(fitSets, coursesRequired[i].neededby.size());
+      fitSets.clear();
     }
-  printf("done\n");
+  vector<vector<int>> fullScheduleIndexes;
+  vector<int> lengths;
+  for(int i = 0; i < coursesRequired.size() ;i++)
+    {
+      lengths.push_back(coursesRequired[i].trialIndexes.size());
+    }
+  fullScheduleIndexes = indexCombos(lengths);
+
+ ofstream fileout;
+ fileout.open("results.txt");
+
+ cerr << getexepath() << fileout.is_open();
+  for(int i = 0; i < fullScheduleIndexes.size();i++){
+      Schedule s;
+      for(int j = 0; j < fullScheduleIndexes[0].size(); j++)
+        {
+           s.addRequirements(coursesRequired[j].trialIndexes[fullScheduleIndexes[i][j]],coursesRequired[j].neededby);
+        }
+
+          fileout << s.toString() << endl << endl;
+
+      if(i % 1000 == 0)
+        {
+          cout << i << "/" << fullScheduleIndexes.size() << endl;
+        }
+    }
+  fileout.close();
 }

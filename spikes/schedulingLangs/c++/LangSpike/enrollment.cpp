@@ -22,3 +22,14 @@ bool enrollment::testEnrolement(vector<enrollment> test,int count)
     }
   return true;
 }
+
+vector<enrollment> enrollment::genEnrollments(courseSection* enrolledIn ,vector<vector<int>> indexes)
+{
+  vector<enrollment> ret;
+  for(int i = 0; i< indexes.size(); i++)
+    {
+      ret.push_back(enrollment(enrolledIn,indexes[i]));
+    }
+  return ret;
+}
+

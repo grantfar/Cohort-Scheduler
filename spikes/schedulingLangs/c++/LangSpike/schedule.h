@@ -4,7 +4,7 @@
 #include "courseSection.h"
 #include <string>
 #include <vector>
-
+#include "enrollment.h"
 typedef struct cohortSchedule
 {
   cohortRequirements cohort;
@@ -16,7 +16,10 @@ class Schedule
 public:
   Schedule();
   vector<cohortSchedule> setOfSchedules;
+  void addRequirements(vector<enrollment> enrollments, vector<cohortRequirements> cohorts);
   void addRequirement(cohortRequirements toAddTo, courseSection toAdd);
+  bool checkValid();
+  string toString();
 };
 
 #endif // SCHEDULE_H

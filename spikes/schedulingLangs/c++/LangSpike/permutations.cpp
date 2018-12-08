@@ -5,7 +5,7 @@
 using namespace std;
 
 vector<vector<int>> permutation(int indexCount, int length){
-    vector<vector<int>> combos = comboIndexes(0,indexCount,length);
+    vector<vector<int>> combos = comboIndexes(indexCount,length);
     vector<vector<int>> ret = vector<vector<int>>();
     while(combos.size()!=0){
         heapsAlgorithm(combos.back(),length,&ret);
@@ -13,6 +13,7 @@ vector<vector<int>> permutation(int indexCount, int length){
     }
     return ret;
 }
+
 
 vector<vector<int>> generateCombosFit(course potental, int maxSize)
 {
@@ -95,7 +96,7 @@ vector<vector<enrollment>> generateWorkingCombos(vector<vector<enrollment>> posi
           if(posibilities[i][j].cohorts.size()==cohorts)
             {
               vector<enrollment> tmp;
-              tmp.push_back(posibilities[i][j].cohorts);
+              tmp.push_back(posibilities[i][j]);
               ret.push_back(tmp);
             }
         }
@@ -103,24 +104,28 @@ vector<vector<enrollment>> generateWorkingCombos(vector<vector<enrollment>> posi
   for(int i = 2; i<= posibilities.size(); i++){
       vector<vector<int>> indexes = comboIndexes(posibilities.size(),i);
       for(int j = 0; j< indexes.size(); j++){
-          vector<vector<int>> tmp;
+          vector<int> tmp;
+          vector<vector<int>> trial;
           for(int k = 0; k<i; k++){
               tmp.push_back(posibilities[indexes[j][k]].size());
             }
-          tmp = indexCombos(tmp);
+          trial = indexCombos(tmp);
           vector<enrollment> trialVec;
           int sum;
-          for(int k = 0; k<tmp.size(); k++)
+          for(int k = 0; k<trial.size(); k++)
             {
               sum = 0;
               trialVec.clear();
 
               for(int l = 0; l<i; l++){
-                  sum += posibilities[indexes[l][j]][tmp[l][j]].cohorts.size();
-                  trialVec.push_back(posibilities[indexes[l][j]][tmp[l][j]]);
+                  sum += posibilities[indexes[j][l]][trial[k][l]].cohorts.size();
+                  trialVec.push_back(posibilities[indexes[j][l]][trial[k][l]]);
+
                 }
+
               if(sum == cohorts && enrollment::testEnrolement(trialVec,cohorts))
                 ret.push_back(trialVec);
+
             }
         }
     }

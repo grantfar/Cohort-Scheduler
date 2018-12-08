@@ -7,10 +7,11 @@ class enrollment
 {
 
 public:
-  enrollment(courseSection* enrolledIn, vector<vector<int>>cohorts);
+  enrollment(courseSection* enrolledIn, vector<int>cohorts);
   courseSection* enrolledIn;
   vector<int> cohorts;
-  static bool enrollment::testEnrolement(vector<enrollment>,int count);
+  static bool testEnrolement(vector<enrollment>,int count);
+  static vector<enrollment> genEnrollments(courseSection* enrolledIn ,vector<vector<int>> indexes);
 };
 
 #endif // ENROLLMENT_H

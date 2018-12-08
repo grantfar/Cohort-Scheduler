@@ -1,6 +1,6 @@
 #include "courseSection.h"
 #include <string>
-
+#include <vector>
 using namespace std;
 
   void courseSection::setDays(string days){
@@ -32,6 +32,20 @@ using namespace std;
     setDays(Days);
   }
 
+  bool courseSection::compareTimes(courseSection a, courseSection b)
+  {
+    return a.getStartTime() < b.getStartTime();
+  }
+
+  int courseSection::getStartTime()
+  {
+    return this->StartTime;
+  }
+
+  int courseSection::getEndTime()
+  {
+    return this->EndTime;
+  }
   bool courseSection::operator <(courseSection toCompare)
   {
     return getCompareString().compare(toCompare.getCompareString()) < 0;
@@ -53,9 +67,58 @@ using namespace std;
     return this->ClassSize;
   }
 
+  bool courseSection::overlaps( courseSection c)
+  {
+    return this->sameDays(c) && ((this->StartTime <= c.getStartTime() && this->EndTime >= c.getStartTime() ) || (this->StartTime >= c.getStartTime() && this->EndTime <= c.getStartTime()));
+  }
+
+  bool* courseSection::getDays()
+  {
+    return this->Days;
+  }
+
+  bool courseSection::sameDays( courseSection c)
+  {
+    for(int i = 0; i<5; i++)
+      {
+        for(int i = 0; i<5; i++)
+          {
+            if(this->Days[i] && c.getDays()[i])
+              {
+                return true;
+              }
+          }
+      }
+    return false;
+  }
+
+  string courseSection::getDaysString()
+  {
+    return this->DaysString;
+  }
   string courseSection::getCompareString(){
     string compareString = "";
     compareString += this->Course + this->Section;
     return compareString;
   }
+
+  vector<vector<courseSection*>> courseSection::generateConflicts(vector<courseSection> *coursesNeeded)
+  {
+    vector<vector<courseSection*>> ret;
+    for(int i = 0 ; i< coursesNeeded->size(); i++)
+      {
+        for(int j = 0 ; j< coursesNeeded->size(); j++)
+          {
+            if(i != j && (*coursesNeeded)[i].overlaps((*coursesNeeded)[j]))
+              {
+                vector<courseSection*> tmp;
+                tmp.push_back( &(*coursesNeeded)[i]);
+                tmp.push_back( &(*coursesNeeded)[j]);
+                ret.push_back(tmp);
+              }
+          }
+      }
+    return ret;
+  }
+
 

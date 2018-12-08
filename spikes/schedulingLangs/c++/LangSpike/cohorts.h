@@ -3,6 +3,7 @@
 #include <string>
 #include "cohortrequirements.h"
 #include <vector>
+#include "enrollment.h"
 using namespace std;
 
 typedef struct course
@@ -10,6 +11,7 @@ typedef struct course
   string name;
   vector<cohortRequirements> neededby;
   vector<int> index;
+  vector<vector<enrollment>> trialIndexes;
 } course;
 
 class cohorts
