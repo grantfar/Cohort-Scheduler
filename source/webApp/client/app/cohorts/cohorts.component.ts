@@ -21,7 +21,7 @@ export class CohortsComponent implements OnInit {
   cohortName = new FormControl('', Validators.required);
   class = new FormControl('', Validators.required);
   required = new FormControl('', Validators.required);
-  sections;
+  sections = new FormControl('');
 
   constructor(private cohortService: CohortService,
               private formBuilder: FormBuilder,
