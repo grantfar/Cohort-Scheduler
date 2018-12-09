@@ -1,0 +1,8 @@
+rankFunctions = moreThan2Stacked/stackRank.o
+
+build: $(rankFunctions) rank.cpp rankFunctions.cpp
+    g++ rank.cpp rankFunctions.cpp $(rankFunctions) -o rank.o
+
+
+moreThan2Stacked/stackRank.o: stackRank.cpp stackRank.hpp
+    cd moreThan2Stacked | make
