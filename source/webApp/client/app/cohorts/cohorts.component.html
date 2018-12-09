@@ -67,13 +67,13 @@
   <div class="card-body">
     <form class="form-inline" [formGroup]="addCohortForm" (ngSubmit)="addCohort()">
       <input class="form-control mr-2" type="text" name="cohortName"
-              placeholder="Cohort" required>
+              formControlName="cohortName" placeholder="Cohort" required>
       <input class="form-control mr-2" type="text" name="class"
-              placeholder="Class" min="0" required>
+              formControlName="class" placeholder="Class" min="0" required>
       <input class="form-control mr-2" type="number" name="required"
-              placeholder="Seats Required" step="1" min="0" required>
+              formControlName="required" placeholder="Seats Required" step="1" min="0" required>
       <input class="form-control mr-2" type="text" name="sections"
-              placeholder="Allowed Sections">
+              formControlName="sections" placeholder="Sections Allowed">
       <button class="btn btn-primary" type="submit" [disabled]="!addCohortForm.valid">
         <i class="fa fa-plus"></i> Add
       </button>
