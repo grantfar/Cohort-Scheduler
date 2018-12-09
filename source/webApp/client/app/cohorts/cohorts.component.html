@@ -66,8 +66,8 @@
   <h4 class="card-header">Add new cohort</h4>
   <div class="card-body">
     <form class="form-inline" [formGroup]="addCohortForm" (ngSubmit)="addCohort()">
-      <input class="form-control mr-2" type="text" name="cohortName"
-              formControlName="cohortName" placeholder="Cohort" required>
+      <input class="form-control mr-2" type="text" name="cohort"
+              formControlName="cohort" placeholder="Cohort" required>
       <input class="form-control mr-2" type="text" name="class"
               formControlName="class" placeholder="Class" min="0" required>
       <input class="form-control mr-2" type="number" name="required"
