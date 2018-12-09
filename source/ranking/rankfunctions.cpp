@@ -1,12 +1,14 @@
 #include "rank.hpp"
-#include "moreThan2Stacked/stackRank.hpp"
+#include "moreClassesInDay/stackRank.hpp"
 
 
 void rankFunctions()
 {
     rank::Functions.push_back(
         rankFunction{
-            "To Many Classes In one Day",*stackRank
+            "Too Many Classes In one day",*stackRank
         }
     );
+
+    
 }
