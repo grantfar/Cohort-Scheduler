@@ -1,0 +1,53 @@
+<app-loading [condition]="isLoading"></app-loading>
+
+<app-toast [message]="toast.message"></app-toast>
+
+<div class="card mb-3" *ngIf="!isLoading">
+  <h4 class="card-header">Current schedules ({{schedules.length}})</h4>
+  <div class="card-body">
+    <table class="table table-bordered">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Schedule Name</th>
+          <th scope="col">Date</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody *ngIf="schedules.length === 0">
+        <tr>
+          <td colspan="4">There are no schedules in the database. Run a new schedule below.</td>
+        </tr>  
+      </tbody>
+      <tbody>
+        <tr *ngFor="let schedule of schedules">
+          <td>{{schedule.name}}</td>
+          <td>{{schedule.date}}</td>
+          <td>
+            <button class="btn btn-sm btn-primary" (click)="view(schedule)">
+              <i class="fa fa-pencil"></i>View
+            </button> 
+            <button class="btn btn-sm btn-danger ml-1" (click)="deleteSchedule(schedule)">
+              <i class="fa fa-trash"></i> Delete
+            </button>
+          </td>
+        </tr>  
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card">
+  <h4 class="card-header">Run New Schedule</h4>
+  <div class="card-body">
+    <form class="form-inline" [formGroup]="runScheduleForm" (ngSubmit)="runSchedule()">
+      <input class="form-control mr-3" type="text" name="name"
+              formControlName="name" placeholder="Schedule Name" required>
+      <input class="form-control mr-3" type="number" name="count" step="1"
+              formControlName="count" placeholder="Number of schedules to generate" required>
+      <input class="form-control mr-2" type="file" accept=".csv" name="file" [(ngModel)]="file" placeholder="Class List File">
+      <button class="btn btn-primary" type="submit" [disabled]="!runScheduleForm.valid">
+        <i class="fa fa-plus"></i> Run
+      </button>
+    </form>
+  </div>
+</div>
