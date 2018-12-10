@@ -20,6 +20,8 @@ import { LogoutComponent } from './logout/logout.component';
 import { AccountComponent } from './account/account.component';
 import { AdminComponent } from './admin/admin.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SchedulingComponent } from './scheduling/scheduling.component';
+import { SchedulingService } from './services/scheduling.service';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -35,7 +37,8 @@ export function tokenGetter() {
     LogoutComponent,
     AccountComponent,
     AdminComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SchedulingComponent
   ],
   imports: [
     AppRoutingModule,
@@ -52,7 +55,8 @@ export function tokenGetter() {
     AuthGuardLogin,
     AuthGuardAdmin,
     CohortService,
-    UserService
+    UserService,
+    SchedulingService
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
