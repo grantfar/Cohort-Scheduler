@@ -1,7 +1,10 @@
 <app-loading [condition]="isLoading"></app-loading>
 
 <app-toast [message]="toast.message"></app-toast> 
-
+   <!-- get/assignments will give all schedules for all cohorts
+      window.location will give full address of query string
+      filter out records where the schedule name doesn't match the paramter/
+      group assignments.-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,24 +14,30 @@
 <body>
     <h3 id = "pageHeader">View Schedules</h3> 
     <hr>
- <div class = "card-body">      
-  <table class="table table-bordered"> 
-      <thead>
-            <th scope="col">Cohort</th>
-            <th scope="col">Classes</th> 
-        </thead>
-            <tbody *ngIf="cohorts.length === 0">
-                <tr>
-                      <td colspan="4">There are no cohorts in the DB.</td>
-                </tr>  
-            </tbody>
-      <tbody>
-      <tr>
-            <td>{{cohort.cohort}}</td>
-            <td>{{cohort.class}}</td>
-      </tr>
-    </tbody>
-  </table>
+ <div >  
+    <div>
+        <h4>Schedules Generated</h4> 
+        
+        <div>
+                <table class="table table-bordered"> 
+                    <thead *ngIf="cohorts.length === 0">
+                        <tr>
+                            <td colspan="4">There are no cohorts in the DB.</td>
+                        </tr>  
+                    </thead>
+                    <thead *ngFor="let cohort of cohorts" class = "card-body">
+                        {{cohort.cohort}}
+                    </thead>     
+                        <tbody>
+                        <tr *ngFor="let cohort of cohorts"> 
+                            <td>{{cohort.class}}</td>
+                        </tr> 
+                    </tbody>
+                    </table>
+        </div>
+    
+        
+    </div>
     
 </div> 
 </body>
