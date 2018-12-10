@@ -11,7 +11,7 @@ function setRoutes(app) {
     var assignmentCtrl = new assignment_1.default();
     var cohortCtrl = new cohort_1.default();
     var userCtrl = new user_1.default();
-    // Cohorts
+    // Cohorts localhost:3000/cohorts
     router.route('/cohorts').get(cohortCtrl.getAll);
     router.route('/cohorts/count').get(cohortCtrl.count);
     router.route('/cohort').post(cohortCtrl.insert);
@@ -32,7 +32,7 @@ function setRoutes(app) {
     router.route('/schedule').post(scheduleCtrl.insert);
     router.route('/schedule/:id').get(scheduleCtrl.get);
     router.route('/schedule/:id').delete(scheduleCtrl.delete);
-    //assignment handling
+    //assignment handling POST:localhost:3000/assignment
     router.route('/assignments').get(assignmentCtrl.getAll);
     router.route('/assignments/count').get(assignmentCtrl.count);
     router.route('/assignment').post(assignmentCtrl.insert);

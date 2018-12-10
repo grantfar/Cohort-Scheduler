@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var mongoose = require("mongoose");
 var assignmentSchema = new mongoose.Schema({
+    schedule: String,
     cohort: String,
     class: String,
     sect: String,
