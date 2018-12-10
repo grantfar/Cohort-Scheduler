@@ -1,2 +1,3 @@
 #include "../../dataClasses/schedule.hpp"
-int stackRank(schedule* s);
+
+int afterTime(schedule *s);

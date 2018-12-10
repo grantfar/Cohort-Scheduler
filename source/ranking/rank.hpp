@@ -1,6 +1,6 @@
 #include <string>
 #include <vector>
-#include "../defenitions/schedule.hpp"
+#include "../dataClasses/schedule.hpp"
 #ifndef RANK
 #define RANK
 typedef struct rankFunction{
@@ -12,8 +12,8 @@ class rank
 {
     public:
     static std::vector<rankFunction> Functions;
-    static int rankSchedules(schedule *);
-    static void setRankFunctions(std::vector<rankFunction> f);
+    static int rankSchedule(schedule *);
+    static void initRank();
 };
 
 #endif
