@@ -1,0 +1,38 @@
+<app-loading [condition]="isLoading"></app-loading>
+
+<app-toast [message]="toast.message"></app-toast> 
+
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="scheduleView.componenet.scss">
+        <title>View Schedules</title>
+</head>
+<body>
+    <h3 id = "pageHeader">View Schedules</h3> 
+    <hr>
+ <div class = "card-body">      
+  <table class="table table-bordered"> 
+      <thead>
+            <th scope="col">Cohort</th>
+            <th scope="col">Classes</th> 
+        </thead>
+            <tbody *ngIf="cohorts.length === 0">
+                <tr>
+                      <td colspan="4">There are no cohorts in the DB.</td>
+                </tr>  
+            </tbody>
+      <tbody>
+      <tr>
+            <td>{{cohort.cohort}}</td>
+            <td>{{cohort.class}}</td>
+      </tr>
+    </tbody>
+  </table>
+    
+</div> 
+</body>
+</html>
+
+
+
