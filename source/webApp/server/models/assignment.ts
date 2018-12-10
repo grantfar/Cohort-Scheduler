@@ -1,6 +1,7 @@
 import * as mongoose from 'mongoose';
 
 const assignmentSchema = new mongoose.Schema({
+  schedule:String,
   cohort: String,
   class: String,
   sect: String,
