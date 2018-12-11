@@ -1,6 +1,6 @@
 #include <string>
 #include <vector>
-#include "../dataClasses/schedule.hpp"
+#include "schedule.hpp"
 #ifndef RANK
 #define RANK
 typedef struct rankFunction{

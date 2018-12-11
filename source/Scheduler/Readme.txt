@@ -1,0 +1,1 @@
+Scheduler is the part of the project that generates schedules and ranks them
