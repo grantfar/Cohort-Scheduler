@@ -1,5 +1,6 @@
 #include "rank.hpp"
-int rank::rankSchedules(schedule* s)
+#include "rankFunctions.hpp"
+int rank::rankSchedule(schedule* s)
 {
     int rankVal = 0;
     for(int i = 0; i < rank::Functions.size(); i++)
@@ -7,4 +8,9 @@ int rank::rankSchedules(schedule* s)
         rankVal += rank::Functions[i].function(s);
     }
     return rankVal;
+}
+
+void rank::initRank()
+{
+    initRankFunctions();
 }
