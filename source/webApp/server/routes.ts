@@ -14,7 +14,7 @@ export default function setRoutes(app) {
   const cohortCtrl = new CohortCtrl();
   const userCtrl = new UserCtrl();
 
-  // Cohorts
+  // Cohorts localhost:3000/cohorts
   router.route('/cohorts').get(cohortCtrl.getAll);
   router.route('/cohorts/count').get(cohortCtrl.count);
   router.route('/cohort').post(cohortCtrl.insert);
@@ -38,7 +38,7 @@ export default function setRoutes(app) {
   router.route('/schedule/:id').get(scheduleCtrl.get);
   router.route('/schedule/:id').delete(scheduleCtrl.delete);
 
-  //assignment handling
+  //assignment handling POST:localhost:3000/assignment
   router.route('/assignments').get(assignmentCtrl.getAll);
   router.route('/assignments/count').get(assignmentCtrl.count);
   router.route('/assignment').post(assignmentCtrl.insert);

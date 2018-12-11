@@ -1,4 +1,4 @@
-export class Schedule {
+export class Assignment {
   _id?: string;
   schedule?:string;
   cohort?: string;

@@ -43,10 +43,7 @@ export class SchedulingComponent implements OnInit {
   }
 
   runSchedule() {
-    let params = new HttpParams().set('file', this.file)
-      .append('name',this.runScheduleForm.controls['name'].value)
-      .append('count', this.runScheduleForm.controls['count'].value);
-    this.schedulingService.runScheduling(params).subscribe(
+    this.schedulingService.runScheduling(this.file, this.runScheduleForm.controls['name'].value, this.runScheduleForm.controls['count'].value).subscribe(
       res => {
         this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
       },

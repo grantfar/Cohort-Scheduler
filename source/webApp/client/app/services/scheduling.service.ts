@@ -17,8 +17,13 @@ export class SchedulingService {
     return this.http.get<number>('/api/schedules/count');
   }
 
-  runScheduling(param : HttpParams) {
-    return this.http.post('TODO - specify url for cpp server', param);
+  runScheduling(csvFile : File, scheduleName: string, scheduleCount: string) {
+    let data = {
+      file: csvFile,
+      name: name,
+      count: scheduleCount
+    };
+    return this.http.post('TODO - specify url for cpp server', data);
   }
 
   getSchedule(schedule: Schedule): Observable<Schedule> {
