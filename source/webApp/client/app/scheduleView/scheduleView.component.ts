@@ -5,37 +5,39 @@ import { CohortService } from '../services/cohort.service';
 import { ToastComponent } from '../shared/toast/toast.component';
 import { Cohort } from '../shared/models/cohort.model'; 
 import { ScheduleViewService } from '../services/scheduleView.service';
+import { Schedule } from '../shared/models/schedule.model';
+
 
 @Component({
   selector: 'app-cohorts',
   templateUrl: './scheduleView.component.html',
-  styleUrls: ['./scheduleView.service.scss']
-})
+  styleUrls: ['./scheduleView.component.scss']
+}) 
+
 export class ScheduleViewComponent implements OnInit {
 
     cohort = new Cohort();
-    cohorts: Cohort[] = [];
+    cohorts: Cohort[] = []; 
+    schedules: Schedule[] = [];
     jsonString: string = "";
   
+
     
 
   constructor(private scheduleView: ScheduleViewService,
               ) { }
 
   ngOnInit() {
-    this.getCohorts();
-    this.addCohortForm = this.formBuilder.group({
-      cohort: this.cohortName,
-      class: this.class,
-    });
+   this.getCohorts(); 
+  
+
+
   }
 
   getCohorts() {
-    this.cohortService.getCohorts().subscribe(
-      data => this.cohorts = data,
-      error => console.log(error),
-      () => this.isLoading = false
-    );
+  
+      
+  
   }
 
 }

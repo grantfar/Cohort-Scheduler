@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs'; 
-import { Cohort } from '../shared/models/scheduleView.model'; 
+import { Cohort } from '../shared/models/cohort.model'; 
 
 
 @Injectable
@@ -14,7 +14,7 @@ export class ScheduleViewService {
         return this.http.get<Cohort[]>('/api/cohorts');
     } 
 
-     countCohorts(): Observable<number> {
+    countCohorts(): Observable<number> {
     return this.http.get<number>('/api/cohorts/count');
     }
 
