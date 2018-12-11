@@ -1,0 +1,22 @@
+Credit:
+This folder contains a web application based on an open source (MIT License)
+framework written by Davide Violante, found here: https://github.com/DavideViolante/Angular-Full-Stack
+Any files written or edited by this team will be marked with our licensing, 
+all others belong to the above author and are used with permission.
+
+Set-up:
+Before running this web application, be sure to install Node.js:
+https://nodejs.org/en/
+and MongoDB:
+https://www.mongodb.com/download-center/community
+
+Running:
+To run this web application type "make compile && make run" in the command line.
+It is recommended that you do this in a UNIX based environment (Linux or OSX)
+
+Testing:
+This web application can be tested with the command "make test".
+All server side test failures will be output to the command line.
+If you would like to test the client side scripts in this web application, you can do so with
+the command "npm run test" when running on a desktop or laptop (not a server). You will then
+need to open your browser to "localhost:9876/" when prompted and press the debug button.
