@@ -10,6 +10,6 @@ public:
     bool OnDay(int dayNum);
     int getStartTime();
     int getEndTime();
-
+    
     static bool sortingCriteria(courseSection* a, courseSection* b);
 };

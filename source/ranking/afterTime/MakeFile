@@ -1,0 +1,4 @@
+g++Flags = -std="c++17" -Wall -Werror
+
+build: afterTime.cpp afterTime.hpp
+	g++ (g++Flags) -c afterTime.cpp -o afterTime.o
