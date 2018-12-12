@@ -11,7 +11,7 @@
 <head>
     <link rel="stylesheet" href="scheduleView.componenet.scss">
     <title>View Schedules</title>
-</head>
+</head> 
 
 <body>
     <h3 id="pageHeader">View Schedules</h3>
@@ -27,11 +27,11 @@
                             <td colspan="4">There are no cohorts in the DB.</td>
                         </tr>
                     </thead>
-                    <thead *ngFor="let cohort of cohorts" class="card-body">
+                    <thead *ngFor="let cohort of cohorts" class="card-head">
                         {{cohort.cohort}}
                     </thead>
                     <tbody>
-                        <tr *ngFor="let schedule of schedules">
+                        <tr *ngFor="let schedule of schedules" class = "card-body">
                             <td>{{cohort.class}}</td>
                         </tr>
                     </tbody>
