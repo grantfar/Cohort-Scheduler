@@ -1,0 +1,47 @@
+<app-loading [condition]="isLoading"></app-loading>
+
+<app-toast [message]="toast.message"></app-toast>
+<!-- get/assignments will give all schedules for all cohorts
+      window.location will give full address of query string
+      filter out records where the schedule name doesn't match the paramter/
+      group assignments.-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="scheduleView.componenet.scss">
+    <title>View Schedules</title>
+</head> 
+
+<body>
+    <h3 id="pageHeader">View Schedules</h3>
+    <hr>
+    <div>
+        <div>
+            <h4>Schedules Generated</h4>
+
+            <div>
+                <table class="table table-bordered">
+                    <thead *ngIf="cohorts.length === 0">
+                        <tr>
+                            <td colspan="4">There are no cohorts in the DB.</td>
+                        </tr>
+                    </thead>
+                    <thead *ngFor="let cohort of cohorts" class="card-head">
+                        {{cohort.cohort}}
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let schedule of schedules" class = "card-body">
+                            <td>{{cohort.class}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
