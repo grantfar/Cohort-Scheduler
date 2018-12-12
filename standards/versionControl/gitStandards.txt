@@ -1,0 +1,13 @@
+The main repository is owned by Alex Markules and can be found at: https://github.com/amarkules1/CohortProject
+
+Cloning the repository:
+To get your own version of this project you can either download it from the above link, or by cloning the repository.
+To clone the repository, run the command:
+git clone https://github.com/amarkules1/QuadSolver.git 
+from the command line.
+
+Changing the repository:
+In order to change the repository, fork your own branch from master and commit your changes to that branch.
+You will then need to create a pull request to the master branch, do not do this unless all Unit and functional tests pass (to run the tests see standards/testing)
+If all tests pass, your changes will be reviewed by the development team and committed to master.
+
