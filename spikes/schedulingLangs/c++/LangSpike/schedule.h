@@ -1,3 +1,7 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
 #ifndef SCHEDULE_H
 #define SCHEDULE_H
 #include "cohortrequirements.h"

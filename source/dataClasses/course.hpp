@@ -4,7 +4,10 @@
 #include <string>
 #include <vector>
 #include "courseSection.hpp"
-#include "cohort.hpp"
+
+
+class cohort;
+
 class course{
 private:
     std::string name;

@@ -7,10 +7,12 @@
 #include "course.hpp"
 
 class cohort{
-    private:
+private:
     std::string name;
-    std::array<course*,10> requiredClasses;
+    std::array<course *,10> requiredClasses;
     std::array<int,10> seatsRequired;
     schedule* tentitiveSchedule;
+public:
+    cohort();
 };
 #endif

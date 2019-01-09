@@ -1,3 +1,8 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
+
 This is the folder for ranking functions.
 
 each ranking function is registered in rankFunctions.cpp and the makefile. 

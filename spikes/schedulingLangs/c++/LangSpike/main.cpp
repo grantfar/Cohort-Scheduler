@@ -1,3 +1,7 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
 #include <iostream>
 #include <cstdlib>
 #include <string>
@@ -12,12 +16,11 @@
 #include "permutation.h"
 #include "schedule.h"
 #include "enrollment.h"
-#include "getwd.h"
 using namespace std;
 
 allSections readInAllSections(){
   ifstream classes;
-  classes.open("/home/grant/Programming/Spikes/C++Spike/LanguageSpike/courseList.csv");
+  classes.open("courseList.csv");
   if(!classes.is_open()){
       cerr << "broken" << endl;
     }
@@ -61,7 +64,7 @@ cohorts readInAllCohorts()
   char line[1024];
   stringstream formatting;
   ifstream classes;
-  classes.open("/home/grant/Programming/Spikes/C++Spike/LanguageSpike/cohortReqs.csv");
+  classes.open("cohortReqs.csv");
   classes.getline(line,1024);
   classes.getline(line,1024,',');
   formatting.clear();
@@ -119,10 +122,9 @@ int main(int argc, char* argv[])
     }
   fullScheduleIndexes = indexCombos(lengths);
 
- ofstream fileout;
- fileout.open("results.txt");
+// ofstream fileout;
+// fileout.open("results.txt");
 
- cerr << getexepath() << fileout.is_open();
   for(int i = 0; i < fullScheduleIndexes.size();i++){
       Schedule s;
       for(int j = 0; j < fullScheduleIndexes[0].size(); j++)
@@ -130,12 +132,12 @@ int main(int argc, char* argv[])
            s.addRequirements(coursesRequired[j].trialIndexes[fullScheduleIndexes[i][j]],coursesRequired[j].neededby);
         }
 
-          fileout << s.toString() << endl << endl;
+//          fileout << s.toString() << endl << endl;
 
       if(i % 1000 == 0)
         {
           cout << i << "/" << fullScheduleIndexes.size() << endl;
         }
     }
-  fileout.close();
+//  fileout.close();
 }

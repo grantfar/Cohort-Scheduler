@@ -1,3 +1,8 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
+
 #ifndef COHORTREQUIREMENTS_H
 #define COHORTREQUIREMENTS_H
 
