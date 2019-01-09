@@ -1,2 +1,0 @@
-the purpose of this spike is to test the difference the selected programming language makes on the performance of a brute force algorithm.
-all versions shall atempt to create all possible schedules given the input files courseList.csv and cohortReqs.csv
