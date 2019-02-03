@@ -1,8 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var tslib_1 = require("tslib");
-var cohort_1 = require("../models/cohort");
-var base_1 = require("./base");
+import { Injectable } from '@angular/core';
+import { HttpClient, HttpParams } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
+import { Assignment } from '../shared/models/assignment.model';
+
 /*
 MIT License
 
@@ -26,14 +27,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-var CohortCtrl = /** @class */ (function (_super) {
-    tslib_1.__extends(CohortCtrl, _super);
-    function CohortCtrl() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.model = cohort_1.default;
-        return _this;
-    }
-    return CohortCtrl;
-}(base_1.default));
-exports.default = CohortCtrl;
-//# sourceMappingURL=cohort.js.map
+
+@Injectable()
+export class AssignmentService {
+
+  constructor(private http: HttpClient) { }
+
+  getAssignments(id:string): Observable<Assignment[]> {
+    return this.http.get<Assignment[]>('/api/assignments');
+    
+  }
+}

@@ -1,8 +1,10 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var tslib_1 = require("tslib");
-var cohort_1 = require("../models/cohort");
-var base_1 = require("./base");
+import { TestBed, async } from '@angular/core/testing';
+import { SchedulingComponent } from './scheduling.component';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import {HttpParams} from '@angular/common/http';
+import { SchedulingService } from '../services/scheduling.service';
+import { ToastComponent } from '../shared/toast/toast.component';
+
 /*
 MIT License
 
@@ -26,14 +28,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-var CohortCtrl = /** @class */ (function (_super) {
-    tslib_1.__extends(CohortCtrl, _super);
-    function CohortCtrl() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.model = cohort_1.default;
-        return _this;
-    }
-    return CohortCtrl;
-}(base_1.default));
-exports.default = CohortCtrl;
-//# sourceMappingURL=cohort.js.map
+
+
+describe('Component: Scheduling', () => {
+  it('should create an instance', () => {
+  	let serv: SchedulingService;
+  	let form: FormBuilder;
+  	let toast: ToastComponent
+    let component = new SchedulingComponent(serv, form, toast);
+    expect(component).toBeTruthy();
+  });
+});

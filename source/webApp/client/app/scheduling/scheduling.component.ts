@@ -60,11 +60,15 @@ export class SchedulingComponent implements OnInit {
   }
 
   getSchedules() {
-    this.schedulingService.getSchedules().subscribe(
+    /*this.schedulingService.getSchedules().subscribe(
       data => this.schedules = data,
       error => console.log(error),
       () => this.isLoading = false
-    );
+    );*/
+    this.schedules = [{
+      name: "Fall 18 v1",
+      date: new Date()
+    }];
   }
 
   runSchedule() {

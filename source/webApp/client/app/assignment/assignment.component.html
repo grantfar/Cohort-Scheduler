@@ -1,0 +1,36 @@
+<app-loading [condition]="isLoading"></app-loading>
+
+<app-toast [message]="toast.message"></app-toast>
+
+<div class="card mb-3" *ngIf="!isLoading">
+  <h4 class="card-header">Assignments</h4>
+  <div class="card-body">
+    <table class="table table-bordered">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Cohort</th>
+          <th scope="col">Class</th>
+          <th scope="col">Section</th>
+          <th scope="col">Days</th>
+          <th scope="col">Time</th>
+          <th scope="col">Campus</th>
+        </tr>
+      </thead>
+      <tbody *ngIf="assignments.length === 0">
+        <tr>
+          <td colspan="4">There are no assignments in the schedule yet.</td>
+        </tr>  
+      </tbody>
+      <tbody>
+        <tr *ngFor="let assignment of assignments">
+          <td>{{assignment.cohort}}</td>
+          <td>{{assignment.class}}</td>
+          <td>{{assignment.sect}}</td>
+          <td>{{assignment.days}}</td>
+          <td>{{assignment.time}}</td>
+          <td>{{assignment.campus}}</td>
+        </tr>  
+      </tbody>
+    </table>
+  </div>
+</div>
