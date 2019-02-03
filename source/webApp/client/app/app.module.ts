@@ -22,6 +22,8 @@ import { AdminComponent } from './admin/admin.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SchedulingComponent } from './scheduling/scheduling.component';
 import { SchedulingService } from './services/scheduling.service';
+import { AssignmentService } from './services/assignment.service';
+import { AssignmentComponent } from './assignment/assignment.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -38,7 +40,8 @@ export function tokenGetter() {
     AccountComponent,
     AdminComponent,
     NotFoundComponent,
-    SchedulingComponent
+    SchedulingComponent,
+    AssignmentComponent
   ],
   imports: [
     AppRoutingModule,
@@ -56,7 +59,8 @@ export function tokenGetter() {
     AuthGuardAdmin,
     CohortService,
     UserService,
-    SchedulingService
+    SchedulingService,
+    AssignmentService
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]

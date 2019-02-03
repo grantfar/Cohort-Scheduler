@@ -14,6 +14,7 @@ import { AccountComponent } from './account/account.component';
 import { AdminComponent } from './admin/admin.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SchedulingComponent} from './scheduling/scheduling.component';
+import { AssignmentComponent } from './assignment/assignment.component';
 /*
 MIT License
 

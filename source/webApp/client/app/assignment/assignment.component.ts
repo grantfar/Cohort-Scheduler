@@ -52,12 +52,85 @@ export class AssignmentComponent implements OnInit {
   }
 
   getAssignments() {
-    let id = "Fall 18 v1";
+    /*let id = "Fall 18 v1";
     this.assignmentService.getAssignments(id).subscribe(
       data => this.assignments = data,
       error => console.log(error),
       () => this.isLoading = false
-    );
+    );*/
+
+    this.assignments = [{
+      cohort: "BIOS1",
+      class: "BIO1600",
+      sect: "105",
+      days: "TR",
+      time: "10:00 - 11:40",
+      campus: "M",
+      ct: "18"
+    },
+    {
+      cohort: "BIOS1",
+      class: "MATH1110",
+      sect: "F09",
+      days: "MWF",
+      time: "9:00 - 9:50",
+      campus: "P",
+      ct: "18"
+    },
+    {
+      cohort: "BIOS1",
+      class: "ENGL1050",
+      sect: "F03",
+      days: "MTRF",
+      time: "12:00 - 12:50",
+      campus: "M",
+      ct:"18"
+    },
+    {
+      cohort: "ENV1",
+      class: "GEOS1300",
+      sect: "100",
+      days: "MTRF",
+      time: "15:00 - 15:50",
+      campus: "M",
+      ct:"18"
+    },
+    {
+      cohort: "ENV1",
+      class: "ENGL1050",
+      sect: "110",
+      days:"MW",
+      time: "10:00 - 11:40",
+      campus: "M",
+      ct: "18"
+    },
+    {
+      cohort:"ENV1",
+      class: "MATH1110",
+      sect:"150",
+      days: "TR",
+      time: "9:00 - 10:40",
+      campus:"P",
+      ct: "6"
+    },
+    {
+      cohort:"ENV1",
+      class: "MATH1180",
+      sect:"120",
+      days: "TR",
+      time: "9:00 - 10:40",
+      campus:"P",
+      ct: "6"
+    },
+    {
+      cohort:"ENV1",
+      class: "MATH1220",
+      sect:"108",
+      days: "MTRF",
+      time: "14:00 - 14:50",
+      campus:"M",
+      ct: "6"
+    }]
   }
 
   getParam(param:string){
