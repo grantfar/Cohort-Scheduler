@@ -60,19 +60,17 @@ export class SchedulingComponent implements OnInit {
   }
 
   getSchedules() {
-    /*this.schedulingService.getSchedules().subscribe(
+      this.schedulingService.getSchedules().subscribe(
       data => this.schedules = data,
       error => console.log(error),
       () => this.isLoading = false
-    );*/
-    this.schedules = [{
-      name: "Fall 18 v1",
-      date: new Date()
-    }];
+    );
   }
 
   runSchedule() {
-    this.schedulingService.runScheduling(this.file, this.runScheduleForm.controls['name'].value, this.runScheduleForm.controls['count'].value).subscribe(
+    let name:string = this.runScheduleForm.controls['name'].value;
+    name.replace(/\s+/g, '_');
+    this.schedulingService.runScheduling(this.file, name, this.runScheduleForm.controls['count'].value).subscribe(
       res => {
         this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
       },
@@ -82,7 +80,7 @@ export class SchedulingComponent implements OnInit {
 
   view(schedule: Schedule) {
     //redirect will happen here
-    window.location.href = "/assignments?sch=Fall18v1";
+    window.location.href = "/assignments?sch="+schedule.name;
   }
 
   deleteSchedule(schedule: Schedule) {

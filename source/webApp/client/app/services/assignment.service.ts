@@ -34,7 +34,6 @@ export class AssignmentService {
   constructor(private http: HttpClient) { }
 
   getAssignments(id:string): Observable<Assignment[]> {
-    return this.http.get<Assignment[]>('/api/assignments');
-    
+    return this.http.get<Assignment[]>('/api/assignments/'+id);
   }
 }
