@@ -49,7 +49,7 @@ export class SchedulingService {
       count: scheduleCount,
       reqs: reqs
     };
-    return this.http.post('TODO - specify url for java server', data);
+    return this.http.post('localhost:3096/api/start', data);
   }
 
   getSchedule(schedule: Schedule): Observable<Schedule> {
