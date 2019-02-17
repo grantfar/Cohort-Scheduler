@@ -4,6 +4,8 @@ import {HttpParams} from '@angular/common/http';
 import { SchedulingService } from '../services/scheduling.service';
 import { ToastComponent } from '../shared/toast/toast.component';
 import { Schedule } from '../shared/models/schedule.model';
+import { CohortService } from '../services/cohort.service';
+import { Cohort } from '../shared/models/cohort.model';
 
 /*
 MIT License
@@ -41,6 +43,8 @@ export class SchedulingComponent implements OnInit {
   schedules: Schedule[] = [];
   isLoading = true;
   isEditing = false;
+  reqs: Cohort[] = [];
+
 
   runScheduleForm: FormGroup;
   name = new FormControl('', Validators.required);
@@ -48,15 +52,25 @@ export class SchedulingComponent implements OnInit {
   file:File = null;
 
   constructor(private schedulingService: SchedulingService,
+              private cohortService: CohortService,
               private formBuilder: FormBuilder,
               public toast: ToastComponent) { }
 
   ngOnInit() {
     this.getSchedules();
+    this.getCohorts();
     this.runScheduleForm = this.formBuilder.group({
       name: this.name,
       count: this.count
     });
+  }
+
+  getCohorts() {
+    this.cohortService.getCohorts().subscribe(
+      data => this.reqs = data,
+      error => console.log(error),
+      () => this.isLoading = false
+    );
   }
 
   getSchedules() {
@@ -70,7 +84,7 @@ export class SchedulingComponent implements OnInit {
   runSchedule() {
     let name:string = this.runScheduleForm.controls['name'].value;
     name.replace(/\s+/g, '_');
-    this.schedulingService.runScheduling(this.file, name, this.runScheduleForm.controls['count'].value).subscribe(
+    this.schedulingService.runScheduling(this.file, name, this.runScheduleForm.controls['count'].value, this.reqs).subscribe(
       res => {
         this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
       },
