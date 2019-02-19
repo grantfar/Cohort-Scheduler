@@ -31,6 +31,24 @@ var AssignmentCtrl = /** @class */ (function (_super) {
     function AssignmentCtrl() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.model = assignment_1.default;
+        _this.getByName = function (req, res) { return tslib_1.__awaiter(_this, void 0, void 0, function () {
+            var docs, err_1;
+            return tslib_1.__generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        return [4 /*yield*/, this.model.find({ schedule: req.name })];
+                    case 1:
+                        docs = _a.sent();
+                        res.status(200).json(docs);
+                        return [3 /*break*/, 3];
+                    case 2:
+                        err_1 = _a.sent();
+                        return [2 /*return*/, res.status(400).json({ error: err_1.message })];
+                    case 3: return [2 /*return*/];
+                }
+            });
+        }); };
         return _this;
     }
     return AssignmentCtrl;
