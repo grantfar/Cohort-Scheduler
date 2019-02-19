@@ -27,7 +27,8 @@
           <td>{{assignment.class}}</td>
           <td>{{assignment.sect}}</td>
           <td>{{assignment.days}}</td>
-          <td>{{assignment.time}}</td>
+          <td *ngIf="assignment.endTime">{{assignment.startTime}} - {{assignment.endTime}}</td>
+          <td *ngIf="assignment.endTime == null">{{assignment.startTime}}</td>
           <td>{{assignment.campus}}</td>
         </tr>  
       </tbody>

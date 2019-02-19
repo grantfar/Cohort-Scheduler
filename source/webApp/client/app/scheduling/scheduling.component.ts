@@ -74,11 +74,15 @@ export class SchedulingComponent implements OnInit {
   }
 
   getSchedules() {
-      this.schedulingService.getSchedules().subscribe(
+      /*this.schedulingService.getSchedules().subscribe(
       data => this.schedules = data,
       error => console.log(error),
       () => this.isLoading = false
-    );
+    );*/
+    this.schedules = [{
+      name: "Fall_19_1",
+      date: "2-18-19"
+    }]
   }
 
   runSchedule() {
@@ -94,7 +98,8 @@ export class SchedulingComponent implements OnInit {
 
   view(schedule: Schedule) {
     //redirect will happen here
-    window.location.href = "/assignments?sch="+schedule.name;
+    //window.location.href = "/assignments?sch="+schedule.name;
+    window.location.href = "/assignments";
   }
 
   deleteSchedule(schedule: Schedule) {
