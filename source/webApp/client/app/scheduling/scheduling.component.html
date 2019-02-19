@@ -43,7 +43,7 @@
       <input class="form-control mr-3" type="text" name="name"
               formControlName="name" placeholder="Schedule Name" required>
       <input class="form-control mr-3" type="number" name="count" step="1"
-              formControlName="count" placeholder="Number of schedules to generate" required>
+              formControlName="count" placeholder="Number to Generate" required>
       <input class="form-control mr-2" type="file" accept=".csv" name="file" [(ngModel)]="file" placeholder="Class List File">
       <button class="btn btn-primary" type="submit" [disabled]="!runScheduleForm.valid">
         <i class="fa fa-plus"></i> Run
