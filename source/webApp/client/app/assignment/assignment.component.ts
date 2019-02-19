@@ -34,7 +34,7 @@ SOFTWARE.
 @Component({
   selector: 'app-assignment',
   templateUrl: './assignment.component.html',
-  styleUrls: ['./scheduling.component.scss']
+  styleUrls: ['./assignment.component.scss']
 })
 export class AssignmentComponent implements OnInit {
 
