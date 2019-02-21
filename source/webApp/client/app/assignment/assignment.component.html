@@ -2,8 +2,8 @@
 
 <app-toast [message]="toast.message"></app-toast>
 
-<div class="card mb-3" *ngIf="!isLoading">
-  <h4 class="card-header">Assignments</h4>
+<div class="card mb-3" *ngIf="!isLoading" *ngFor="let ag of assignmentGroups">
+  <h4 class="card-header">Assignments for {{ag.cohortName}}</h4>
   <div class="card-body">
     <table class="table table-bordered">
       <thead class="thead-light">
@@ -22,7 +22,7 @@
         </tr>  
       </tbody>
       <tbody>
-        <tr *ngFor="let assignment of assignments">
+        <tr *ngFor="let assignment of ag.assignments">
           <td>{{assignment.cohort}}</td>
           <td>{{assignment.class}}</td>
           <td>{{assignment.sect}}</td>

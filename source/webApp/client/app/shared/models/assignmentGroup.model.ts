@@ -1,3 +1,5 @@
+import { Assignment } from "./assignment.model";
+
 /*
 MIT License
 
@@ -22,15 +24,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-export class Assignment {
-  _id?: string;
-  schedule?:string;
-  cohort?: string;
-  class?: string;
-  sect?: string;
-  startTime?: string;
-  endTime?:string;
-  days?: string;
-  seats?:number;
-  campus?:string;
+export class AssignmentGroup{
+    cohortName?:string = "";
+    assignments?:Assignment[] = [];
+    
 }
