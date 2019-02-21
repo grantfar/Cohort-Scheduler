@@ -60,8 +60,7 @@ export class SchedulingComponent implements OnInit {
     this.getSchedules();
     this.getCohorts();
     this.runScheduleForm = this.formBuilder.group({
-      name: this.name,
-      count: this.count
+      name: this.name
     });
   }
 
@@ -74,21 +73,17 @@ export class SchedulingComponent implements OnInit {
   }
 
   getSchedules() {
-      /*this.schedulingService.getSchedules().subscribe(
+      this.schedulingService.getSchedules().subscribe(
       data => this.schedules = data,
       error => console.log(error),
       () => this.isLoading = false
-    );*/
-    this.schedules = [{
-      name: "Fall_19_1",
-      date: "2-18-19"
-    }]
+    );
   }
 
   runSchedule() {
     let name:string = this.runScheduleForm.controls['name'].value;
     name.replace(/\s+/g, '_');
-    this.schedulingService.runScheduling(this.file, name, this.runScheduleForm.controls['count'].value, this.reqs).subscribe(
+    this.schedulingService.runScheduling(this.file, name, this.reqs).subscribe(
       res => {
         this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
       },
