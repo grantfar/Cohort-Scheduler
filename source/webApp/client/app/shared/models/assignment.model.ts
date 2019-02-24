@@ -32,4 +32,5 @@ export class Assignment {
   endTime?:string;
   days?: string;
   seats?:number;
+  campus?:string;
 }

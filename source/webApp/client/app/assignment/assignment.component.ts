@@ -49,6 +49,7 @@ export class AssignmentComponent implements OnInit {
   ngOnInit() {
     //this.assignmentId = this.getParam("id");
     this.getAssignments();
+    this.isLoading = false;
   }
 
   getAssignments() {
