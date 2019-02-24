@@ -61,6 +61,7 @@ function setRoutes(app) {
     router.route('/assignment').post(assignmentCtrl.insert);
     router.route('/assignment/:id').get(assignmentCtrl.get);
     router.route('/assignment/:id').delete(assignmentCtrl.delete);
+    router.route('/assignments/:name').get(assignmentCtrl.getByName);
     // Apply the routes to our application with the prefix /api
     app.use('/api', router);
 }

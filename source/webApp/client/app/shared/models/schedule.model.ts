@@ -26,5 +26,5 @@ SOFTWARE.
 export class Schedule {
   _id?: string;
   name?: string;
-  date?: Date;
+  date?: string;
 }
