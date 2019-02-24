@@ -33,4 +33,7 @@ export class Assignment {
   days?: string;
   seats?:number;
   campus?:string;
+  crn?:string;
+  room?:string;
+
 }

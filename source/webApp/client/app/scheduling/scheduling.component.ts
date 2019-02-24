@@ -93,8 +93,7 @@ export class SchedulingComponent implements OnInit {
 
   view(schedule: Schedule) {
     //redirect will happen here
-    //window.location.href = "/assignments?sch="+schedule.name;
-    window.location.href = "/assignments";
+    window.location.href = "/assignments?sch="+schedule.name;
   }
 
   deleteSchedule(schedule: Schedule) {
