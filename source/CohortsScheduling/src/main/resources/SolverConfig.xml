@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+	<solutionClass>CohortsSolverData.CohortSolution</solutionClass>
+	<entityClass>CohortDataClasses.CohortSectionAssignment</entityClass>
+	<scoreDirectorFactory>
+    	<easyScoreCalculatorClass>CohortScoring.cohortScoring</easyScoreCalculatorClass>
+  	</scoreDirectorFactory>
+  <termination>
+    <secondsSpentLimit>120</secondsSpentLimit>
+  </termination>
+  <randomSeed>12</randomSeed>
+  <localSearch>
+  	<changeMoveSelector/>
+  	<termination><!-- Solver termination -->
+      <secondsSpentLimit>120</secondsSpentLimit>
+  	</termination>
+  	<acceptor>
+  		<simulatedAnnealingStartingTemperature>4hard/20soft</simulatedAnnealingStartingTemperature>
+  	</acceptor>
+  	<forager>
+  		<acceptedCountLimit>3</acceptedCountLimit>
+  	</forager>
+  </localSearch>
+  
+</solver>
