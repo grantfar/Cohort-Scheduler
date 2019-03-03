@@ -32,7 +32,9 @@ var assignmentSchema = new mongoose.Schema({
     startTime: String,
     endTime: String,
     days: String,
-    seats: Number
+    seats: Number,
+    crn: String,
+    room: String
 });
 var Assignment = mongoose.model('Assignment', assignmentSchema);
 exports.default = Assignment;
