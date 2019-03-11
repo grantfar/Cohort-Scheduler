@@ -3,7 +3,7 @@
 <app-toast [message]="toast.message"></app-toast>
 
 <div class="card mb-3" *ngIf="!isLoading">
-  <h4 class="card-header">Current cohorts ({{cohorts.length}})</h4>
+  <h4 class="card-header">Current Cohort Requirements ({{cohorts.length}})</h4>
   <div class="card-body">
     <table class="table table-bordered">
       <thead class="thead-light">
@@ -63,7 +63,7 @@
 </div>
 
 <div class="card" *ngIf="!isEditing">
-  <h4 class="card-header">Add new cohort</h4>
+  <h4 class="card-header">Add new cohort requirement</h4>
   <div class="card-body">
     <form class="form-inline" [formGroup]="addCohortForm" (ngSubmit)="addCohort()">
       <input class="form-control mr-2" type="text" name="cohort"

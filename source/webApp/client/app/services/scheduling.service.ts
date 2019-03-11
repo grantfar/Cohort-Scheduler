@@ -3,6 +3,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { Schedule } from '../shared/models/schedule.model';
+import { Cohort } from '../shared/models/cohort.model';
 
 /*
 MIT License
@@ -41,13 +42,13 @@ export class SchedulingService {
     return this.http.get<number>('/api/schedules/count');
   }
 
-  runScheduling(csvFile : File, scheduleName: string, scheduleCount: string) {
+  runScheduling(csvFile : File, scheduleName: string, reqs: Cohort[]) {
     let data = {
       file: csvFile,
       name: name,
-      count: scheduleCount
+      reqs: reqs
     };
-    return this.http.post('TODO - specify url for cpp server', data);
+    return this.http.post('localhost:3096/api/start', data);
   }
 
   getSchedule(schedule: Schedule): Observable<Schedule> {

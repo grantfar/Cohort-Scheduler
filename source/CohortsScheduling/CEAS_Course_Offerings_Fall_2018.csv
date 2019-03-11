@@ -1,0 +1,727 @@
+﻿Campus,Course ID,CRN,Section,Title,Link,Schedule Type,Start Date,Meeting Days,Meeting Time,Building,Room,Primary Instructor Last Name,Cap
+Main,CCE1001,43093,110,Introduction to Eng Design,,Lecture,8/29/18,W,17:30 - 20:00,Elson S. Floyd Hall,D0204,Wilcox,60
+Main,CCE2360,40006,500,Geomatics,L1,Lecture,8/29/18,R,17:30 - 19:10,Elson S. Floyd Hall,D0212,Bayha,40
+Main,CCE2360,40842,540,Geomatics,B1,Lab or Discussion,8/29/18,T,13:00 - 15:45,Elson S. Floyd Hall,C0112,Bayha,13
+Main,CCE2360,40843,545,Geomatics,B1,Lab or Discussion,8/29/18,F,14:30 - 17:15,Elson S. Floyd Hall,C0112,Bayha,13
+Main,CCE3350,43550,100,Water Resources Engineering,,Lecture,8/29/18,TR,08:30 - 09:45,Elson S. Floyd Hall,C0141,Hains,30
+Main,CCE3360,40844,500,Soil Mechanics,L1,Lecture,8/29/18,MW,09:30 - 10:20,Elson S. Floyd Hall,D0201,Attanayake,45
+Main,CCE3360,40845,545,Soil Mechanics,B1,Lab or Discussion,8/29/18,R,16:00 - 18:45,Elson S. Floyd Hall,G0205,Attanayake,15
+Main,CCE3360,42122,550,Soil Mechanics,B1,Lab or Discussion,8/29/18,F,08:30 - 11:15,Elson S. Floyd Hall,G0205,Attanayake,15
+Main,CCE4300,43263,500,Traffic Design,L1,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,D0210,Burdick,40
+Main,CCE4300,42275,540,Traffic Design,B1,Lab or Discussion,8/29/18,M,10:30 - 13:20,Elson S. Floyd Hall,C0228,Burdick,20
+Main,CCE4300,42276,545,Traffic Design,B1,Lab or Discussion,8/29/18,F,11:30 - 14:20,Elson S. Floyd Hall,C0228,Burdick,20
+Main,CCE4310,40008,100,Const Planning And Scheduling,,Lecture,8/29/18,TR,14:30 - 15:45,Elson S. Floyd Hall,C0122,Hains,36
+Main,CCE4360,40015,100,Const Est/Bidding/Cost Cntrl,,Lecture,8/29/18,T,16:00 - 18:25,Elson S. Floyd Hall,D0212,Khan,40
+Main,CCE4400,40016,100,Intro To Structural Design,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,D0212,Shao,40
+Main,CCE4561,43267,100,Found & Earth Ret Struc Desig,,Lecture,8/29/18,TR,13:00 - 14:15,Elson S. Floyd Hall,D0212,Attanayake,40
+Main,CCE4830,43513,100,Project Design And Control,,Lecture,8/29/18,M,13:30 - 14:20,Elson S. Floyd Hall,C0124,Hains,36
+Main,CCE4850,43092,100,Senior Project,,Lecture,8/29/18,MWF,14:30 - 15:20,Elson S. Floyd Hall,C0123,Hains,30
+Main,CCE4990,40021,100,Independent Studies,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CCE5400,45653,100,Transportation Planning,,Lecture/Lab/Discussion,8/29/18,W,15:30 - 18:00,Elson S. Floyd Hall,G0209,Kwigizile,18
+Main,CCE6020,44336,100,Modeling Anal Civil Eng Appl,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,D0202,Aktan,38
+Main,CCE6310,45654,100,Design&anal Constr Operations,,Lecture,8/29/18,M,18:30 - 21:00,Elson S. Floyd Hall,C0123,Liu,40
+Main,CCE6460,45655,100,Earthquake Engineering,,Lecture,8/29/18,M,15:00 - 17:20,Elson S. Floyd Hall,D0212,Shao,36
+Main,CCE6520,45656,100,Prestressed Concrete Design,,Lecture/Lab/Discussion,8/29/18,TR,13:00 - 14:15,Elson S. Floyd Hall,C0123,Aktan,40
+Main,CCE6540,45779,100,Traffic Safety Engineering,,Lecture/Lab/Discussion,8/29/18,R,18:30 - 21:00,Elson S. Floyd Hall,C0123,Kwigizile,40
+Main,CCE6850,41997,100,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CCE6850,41998,105,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,Abudayyeh,5
+Main,CCE6850,41999,110,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,Aktan,5
+Main,CCE6850,42000,115,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,Attanayake,5
+Main,CCE6850,42001,120,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,Kwigizile,5
+Main,CCE6850,42002,125,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,Oh,5
+Main,CCE6850,42116,130,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,Shao,5
+Main,CCE6850,42225,135,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,Hains,5
+Main,CCE6850,44790,140,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,Hu,5
+Main,CCE6850,44791,145,Advanced Design Project,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CCE6960,45486,110,Engineering Research Design,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,F0210,Abudayyeh,20
+Main,CCE7000,40025,100,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Abudayyeh,5
+Main,CCE7000,40026,105,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Aktan,5
+Main,CCE7000,40029,110,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Attanayake,5
+Main,CCE7000,40030,115,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Hains,5
+Main,CCE7000,40031,120,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Hu,5
+Main,CCE7000,41287,125,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Kwigizile,5
+Main,CCE7000,42117,130,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Oh,5
+Main,CCE7000,42226,135,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Shao,5
+Main,CCE7000,44670,140,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CCE7000,44671,145,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CCE7100,40032,100,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Abudayyeh,5
+Main,CCE7100,40033,105,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Aktan,5
+Main,CCE7100,40034,110,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Attanayake,5
+Main,CCE7100,40035,115,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Hains,5
+Main,CCE7100,40036,120,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Hu,5
+Main,CCE7100,41289,125,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Kwigizile,5
+Main,CCE7100,42118,130,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Oh,5
+Main,CCE7100,42227,135,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Shao,5
+Main,CCE7100,44793,140,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Toutanji,5
+Main,CCE7100,44794,145,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Liu,5
+Main,CCE7100,44795,150,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CCE7300,44337,100,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Aktan,5
+Main,CCE7300,44338,105,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Attanayake,5
+Main,CCE7300,44339,110,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Hains,5
+Main,CCE7300,44340,115,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Hu,5
+Main,CCE7300,44341,120,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Kwigizile,5
+Main,CCE7300,44342,125,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Oh,5
+Main,CCE7300,44343,130,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Shao,5
+Main,CCE7300,44344,135,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Toutanji,5
+Main,CCE7300,44567,140,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Abudayyeh,5
+Main,CS1021,41895,500,Intro Engr Comp I: Sprdsheet,L1,Lecture,8/29/18,MW,16:30 - 17:20,Elson S. Floyd Hall,D0109,Mohammed,150
+Main,CS1021,40817,540,Intro Engr Comp I: Sprdsheet,B1,Lab or Discussion,8/29/18,T,10:30 - 12:20,Elson S. Floyd Hall,C0229,Chang,28
+Main,CS1021,40818,545,Intro Engr Comp I: Sprdsheet,B1,Lab or Discussion,8/29/18,W,13:30 - 15:20,Elson S. Floyd Hall,C0229,Al Shaikhli,28
+Main,CS1021,41896,550,Intro Engr Comp I: Sprdsheet,B1,Lab or Discussion,8/29/18,T,17:30 - 19:20,Elson S. Floyd Hall,C0229,Chang,28
+Main,CS1021,41897,555,Intro Engr Comp I: Sprdsheet,B1,Lab or Discussion,8/29/18,R,17:30 - 19:20,Elson S. Floyd Hall,C0229,Al Shaikhli,28
+Main,CS1022,41898,500,Intro Engr Comp II: Math Soft,L1,Lecture,8/29/18,MW,16:30 - 17:20,Elson S. Floyd Hall,D0109,Mohammed,80
+Main,CS1022,40858,540,Intro Engr Comp II: Math Soft,B1,Lab or Discussion,8/29/18,T,10:30 - 12:20,Elson S. Floyd Hall,C0229,Chang,28
+Main,CS1022,40862,545,Intro Engr Comp II: Math Soft,B1,Lab or Discussion,8/29/18,W,13:30 - 15:20,Elson S. Floyd Hall,C0229,Al Shaikhli,28
+Main,CS1022,41899,550,Intro Engr Comp II: Math Soft,B1,Lab or Discussion,8/29/18,T,17:30 - 19:20,Elson S. Floyd Hall,C0229,Chang,28
+Main,CS1022,41900,555,Intro Engr Comp II: Math Soft,B1,Lab or Discussion,8/29/18,R,17:30 - 19:20,Elson S. Floyd Hall,C0229,Al Shaikhli,28
+Main,CS1023,41901,500,Intro Engr Comp III: Comp Prog,L1,Lecture,8/29/18,MW,16:30 - 17:20,Elson S. Floyd Hall,D0109,Mohammed,150
+Main,CS1023,40871,540,Intro Engr Comp III: Comp Prog,B1,Lab or Discussion,8/29/18,T,10:30 - 12:20,Elson S. Floyd Hall,C0229,Chang,28
+Main,CS1023,40872,545,Intro Engr Comp III: Comp Prog,B1,Lab or Discussion,8/29/18,W,13:30 - 15:20,Elson S. Floyd Hall,C0229,Al Shaikhli,28
+Main,CS1023,41902,550,Intro Engr Comp III: Comp Prog,B1,Lab or Discussion,8/29/18,T,17:30 - 19:20,Elson S. Floyd Hall,C0229,Chang,28
+Main,CS1023,41903,555,Intro Engr Comp III: Comp Prog,B1,Lab or Discussion,8/29/18,R,17:30 - 19:20,Elson S. Floyd Hall,C0229,Al Shaikhli,28
+Main,CS1110,41904,526,Computer Science I,L1,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,D0109,Kaminski,129
+Main,CS1110,40246,545,Computer Science I,B1,Lab or Discussion,8/29/18,W,10:30 - 12:20,Elson S. Floyd Hall,C0224,Kaminski,26
+Main,CS1110,40247,550,Computer Science I,B1,Lab or Discussion,8/29/18,W,12:30 - 14:20,Elson S. Floyd Hall,C0224,Kaminski,26
+Main,CS1110,40248,555,Computer Science I,B1,Lab or Discussion,8/29/18,T,16:30 - 18:20,Elson S. Floyd Hall,C0224,Kaminski,26
+Main,CS1110,42087,560,Computer Science I,B1,Lab or Discussion,8/29/18,W,14:30 - 16:20,Elson S. Floyd Hall,C0224,Kaminski,25
+Main,CS1110,42437,565,Computer Science I,B1,Lab or Discussion,8/29/18,R,09:30 - 11:20,Elson S. Floyd Hall,C0224,Kaminski,26
+Main,CS1120,40256,500,Computer Science II,L1,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,D0115,Olagbemi,40
+Main,CS1120,46290,505,Computer Science II,L1,Lecture,8/29/18,TR,17:30 - 18:45,Elson S. Floyd Hall,C0136,Olagbemi,40
+Main,CS1120,40257,540,Computer Science II,B1,Lab or Discussion,8/29/18,W,08:30 - 10:20,Elson S. Floyd Hall,C0224,Li,26
+Main,CS1120,40258,545,Computer Science II,B1,Lab or Discussion,8/29/18,W,16:30 - 18:20,Elson S. Floyd Hall,C0224,Li,26
+Main,CS1120,46009,550,Computer Science II,B1,Lab or Discussion,8/29/18,W,10:30 - 12:20,Elson S. Floyd Hall,C0227,Olagbemi,24
+Main,CS1200,43518,100,Prog in C for Engineers,,Lecture,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,D0204,Bae,40
+Main,CS1200,46292,105,Prog in C for Engineers,,Lecture,8/29/18,MW,18:30 - 19:45,Elson S. Floyd Hall,C0124,Guo,40
+Main,CS1310,45321,100,Foundations of Computer Sci,,Lecture,8/29/18,MW,09:30 - 11:10,Elson S. Floyd Hall,C0123,Gifford,25
+Main,CS1310,44770,105,Foundations of Computer Sci,,Lecture,8/29/18,TR,16:30 - 18:10,Elson S. Floyd Hall,D0210,Trenary,25
+Main,CS2000,46705,100,Python Programming,,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,C0141,Al-Mawee,25
+Main,CS2230,40280,100,Comp Org&assemb Lang,,Lecture,8/29/18,TR,13:00 - 14:15,Elson S. Floyd Hall,C0141,MacCreery,30
+Main,CS2230,42545,105,Comp Org&assemb Lang,,Lecture,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,C0136,MacCreery,30
+Main,CS3100,44397,100,Store Retrieve Process BigData,,Lecture,8/29/18,MW,16:00 - 17:15,Elson S. Floyd Hall,C0123,Kapenga,30
+Main,CS3240,44478,100,Systems Programming Concepts,,Lecture,8/29/18,TR,13:00 - 14:15,Elson S. Floyd Hall,D0202,Guo,30
+Main,CS3240,45590,105,Systems Programming Concepts,,Lecture,8/29/18,MW,14:30 - 15:45,Elson S. Floyd Hall,D0208,Guo,30
+Main,CS3310,40281,100,Data And File Structures,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,D0115,Gupta,35
+Main,CS3310,46291,105,Data And File Structures,,Lecture,8/29/18,TR,13:00 - 14:15,Elson S. Floyd Hall,C0136,Shen,30
+Main,CS3500,44214,100,Intro to Web Technologies,,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,D0210,Hong,36
+Main,CS3500,46293,105,Intro to Web Technologies,,Lecture,8/29/18,MWF,13:30 - 14:20,Elson S. Floyd Hall,C0122,Hong,36
+Main,CS4120,42440,100,Professional Field Exp,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Carr,5
+Main,CS4310,40314,100,Dsgn & Analysis Of Algorithms,,Lecture,8/29/18,TR,13:00 - 14:15,Elson S. Floyd Hall,D0210,Gupta,36
+Main,CS4430,43331,100,Database Mgmt Systems,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,D0201,Yang,35
+Main,CS4540,40315,100,Operating Systems,,Lecture,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,C0122,Gharaibeh,36
+Main,CS4900,43332,100,Soft Sys Dev I: Reqmts & Dsgn,,Lecture,8/29/18,MW,10:30 - 12:10,Elson S. Floyd Hall,C0124,Kapenga,32
+Main,CS4910,41915,100,Soft Sys Dev Ii: Impl & Test,,Lecture/Lab/Discussion,8/29/18,M,18:30 - 20:10,Elson S. Floyd Hall,D0201,Kapenga,42
+Main,CS4990,40282,100,Undgrd Rscrh In Computer Sci,,Independent Study,8/29/18,,,Contact Dept for Location,0,Hardin,3
+Main,CS4990,40283,105,Undgrd Rscrh In Computer Sci,,Independent Study,8/29/18,,,Contact Dept for Location,0,,3
+Main,CS5260,44530,100,Parallel Computations,,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,D0204,Bae,24
+Main,CS5310,44231,100,Algorithms,,Lecture,8/29/18,MW,12:30 - 14:10,Elson S. Floyd Hall,D0202,Dedoncker,32
+Main,CS5430,44068,100,Database Systems,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,D0201,Yang,11
+Main,CS5550,44069,100,Computer Networks,,Lecture,8/29/18,TR,18:30 - 19:45,Elson S. Floyd Hall,D0202,Bhattacharjee,30
+Main,CS5700,46142,100,Computer Security & Info Assur,,Lecture/Lab/Discussion,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,C0141,Lilien,32
+Main,CS5800,43519,100,Theory Foundations,,Lecture,8/29/18,MW,10:30 - 12:10,Elson S. Floyd Hall,D0206,Dedoncker,32
+Main,CS5810,46692,100,Compiler Dsgn&implem,,Lecture,8/29/18,MW,16:00 - 17:15,Elson S. Floyd Hall,C0141,Carr,30
+Main,CS5950,44592,105,Capture the Flag,,Lecture,8/29/18,F,14:00 - 14:50,Kohrman Hall,2217,MacCreery,20
+Main,CS5990,41783,110,Independent Study-CS,,Independent Study,8/29/18,,,Contact Dept for Location,0,Carr,1
+Main,CS5990,41784,115,Independent Study-CS,,Independent Study,8/29/18,,,Contact Dept for Location,0,Yang,10
+Main,CS5990,41785,120,Independent Study-CS,,Independent Study,8/29/18,,,Contact Dept for Location,0,Shen,10
+Main,CS6030,43745,100,Information Retrieval,,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,D0205,Fong,32
+Main,CS6030,46145,105,Store Retrieve Process BigData,,Lecture,8/29/18,MW,16:00 - 17:15,Elson S. Floyd Hall,C0123,Kapenga,10
+Main,CS6550,46693,100,Adv Operating System,,Lecture,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,C0141,Yang,30
+Main,CS6600,45755,100,Software Engineering,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,C0208,Shen,24
+Main,CS6910,46144,100,Trust & Privacy in Computing,,Seminar or Studio,8/29/18,TR,13:00 - 14:15,Elson S. Floyd Hall,D0205,Lilien,32
+Main,CS6970,40321,100,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Bae,5
+Main,CS6970,42039,105,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS6970,40322,110,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS6970,40323,115,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS6970,40324,120,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS6970,40325,125,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS6970,40326,130,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS6970,40327,135,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS6970,40328,140,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS6970,40329,145,Masters Project,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS7000,40331,100,Masters Thesis,,Independent Study,8/29/18,,,Contact Dept for Location,0,Gupta,5
+Main,CS7000,40332,105,Masters Thesis,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS7000,40334,110,Masters Thesis,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS7000,42100,115,Masters Thesis,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS7000,42101,120,Masters Thesis,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS7100,40335,100,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Carr,5
+Main,CS7100,40336,105,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Yang,5
+Main,CS7100,41786,110,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Bae,5
+Main,CS7100,41787,115,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,Fong,5
+Main,CS7100,41788,120,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS7100,42099,125,Independent Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,5
+Main,CS7120,44778,100,Prof Field Exper,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Carr,5
+Main,CS7300,40338,100,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Lilien,10
+Main,CS7300,41789,105,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Abdel-Qader,10
+Main,CS7300,41790,110,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Dedoncker,10
+Main,CS7300,41791,115,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Carr,10
+Main,CS7300,41808,120,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Al-Fuqaha,10
+Main,CS7300,41809,125,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Saeed,10
+Main,CS7300,41810,130,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Yang,10
+Main,CS7300,41811,135,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Gupta,10
+Main,CS7300,44712,140,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,Fong,10
+Main,CS7300,44713,145,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7300,44714,150,Doctoral Dissertation,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7350,40340,100,Graduate Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7350,40341,105,Graduate Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7350,40342,110,Graduate Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7350,40343,115,Graduate Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7350,42096,120,Graduate Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7350,42097,125,Graduate Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7350,42102,130,Graduate Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+Main,CS7350,42103,135,Graduate Research,,Independent Study,8/29/18,,,Contact Dept for Location,0,,10
+WMU - Online Education,CS5710,45424,950,Network Security Fundamentals,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Johnson,26
+WMU - Online Education,CS6730,46060,950,Installation Hardening,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Johnson,26
+WMU - Online Education,CS6740,46061,950,Wireless Ethical Hacking,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Johnson,26
+Main,ECE2100,41162,500,Circuit Analysis,L1,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,D0109,Miller,126
+Main,ECE2100,41163,540,Circuit Analysis,B1,Lab or Discussion,8/29/18,T,08:30 - 11:10,Elson S. Floyd Hall,B0215,Miller,18
+Main,ECE2100,42733,542,Circuit Analysis,B1,Lab or Discussion,8/29/18,R,08:30 - 11:10,Elson S. Floyd Hall,B0215,Miller,18
+Main,ECE2100,41165,560,Circuit Analysis,B1,Lab or Discussion,8/29/18,T,14:30 - 17:10,Elson S. Floyd Hall,B0215,Miller,18
+Main,ECE2100,41166,565,Circuit Analysis,B1,Lab or Discussion,8/29/18,R,18:30 - 21:10,Elson S. Floyd Hall,B0215,Miller,18
+Main,ECE2100,41167,590,Circuit Analysis,B1,Lab or Discussion,8/29/18,M,18:30 - 21:10,Elson S. Floyd Hall,B0215,Miller,18
+Main,ECE2100,44656,595,Circuit Analysis,B1,Lab or Discussion,8/29/18,W,18:30 - 21:10,Elson S. Floyd Hall,B0215,Miller,18
+Main,ECE2100,45536,596,Circuit Analysis,B1,Lab or Discussion,8/29/18,T,18:30 - 21:10,Elson S. Floyd Hall,B0215,Miller,18
+Main,ECE2110,41168,500,Mach/Electrn Circuit,L1,Lecture,8/29/18,TR,14:30 - 15:20,Elson S. Floyd Hall,D0212,Makin,32
+Main,ECE2110,41169,545,Mach/Electrn Circuit,B1,Lab or Discussion,8/29/18,R,11:30 - 14:10,Elson S. Floyd Hall,B0212,Makin,16
+Main,ECE2110,41170,555,Mach/Electrn Circuit,B1,Lab or Discussion,8/29/18,W,18:30 - 21:10,Elson S. Floyd Hall,B0212,Makin,16
+Main,ECE2210,41171,500,Electronics I,L1,Lecture,8/29/18,MWF,08:30 - 09:20,Elson S. Floyd Hall,D0212,Durbin,40
+Main,ECE2210,45601,540,Electronics I,B1,Lab or Discussion,8/29/18,W,18:30 - 21:10,Elson S. Floyd Hall,B0216,Durbin,20
+Main,ECE2210,41172,545,Electronics I,B1,Lab or Discussion,8/29/18,T,14:30 - 17:10,Elson S. Floyd Hall,B0216,Durbin,20
+Main,ECE2500,41174,500,Digital Logic,L1,Lecture,8/29/18,TR,08:30 - 09:20,Elson S. Floyd Hall,D0109,Johnson,86
+Main,ECE2500,42864,544,Digital Logic,B1,Lab or Discussion,8/29/18,T,09:30 - 12:10,Elson S. Floyd Hall,B0213,Johnson,18
+Main,ECE2500,41177,560,Digital Logic,B1,Lab or Discussion,8/29/18,W,15:30 - 18:10,Elson S. Floyd Hall,B0213,Johnson,20
+Main,ECE2500,42215,565,Digital Logic,B1,Lab or Discussion,8/29/18,R,15:30 - 18:10,Elson S. Floyd Hall,B0213,Johnson,18
+Main,ECE2500,41178,570,Digital Logic,B1,Lab or Discussion,8/29/18,T,18:30 - 21:10,Elson S. Floyd Hall,B0213,Johnson,20
+Main,ECE2500,41179,575,Digital Logic,B1,Lab or Discussion,8/29/18,W,18:30 - 21:10,Elson S. Floyd Hall,B0213,Johnson,20
+Main,ECE2500,45537,585,Digital Logic,B1,Lab or Discussion,8/29/18,R,18:30 - 21:10,Elson S. Floyd Hall,B0213,Johnson,18
+Main,ECE2510,41180,500,Intro To Microprocessors,L1,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,D0212,Narakathu,40
+Main,ECE2510,41983,555,Intro To Microprocessors,B1,Lab or Discussion,8/29/18,T,08:30 - 11:10,Elson S. Floyd Hall,B0214,Narakathu,20
+Main,ECE2510,41181,560,Intro To Microprocessors,B1,Lab or Discussion,8/29/18,R,14:30 - 17:10,Elson S. Floyd Hall,B0214,Narakathu,20
+Main,ECE2990,42186,100,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,Bazuin,3
+Main,ECE2990,42187,105,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,Bazuin,3
+Main,ECE2990,42188,110,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,Bazuin,3
+Main,ECE2990,43470,115,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,Bazuin,5
+Main,ECE3100,41182,100,Network Analysis,,Lecture,8/29/18,MWF,10:30 - 11:20,Elson S. Floyd Hall,D0212,Abdel-Qader,40
+Main,ECE3300,41183,500,Electrical Machinery,L1,Lecture,8/29/18,MWF,13:30 - 14:20,Elson S. Floyd Hall,D0212,Asumadu,36
+Main,ECE3300,42507,540,Electrical Machinery,B1,Lab or Discussion,8/29/18,T,08:30 - 11:10,Elson S. Floyd Hall,B0212,Asumadu,18
+Main,ECE3300,41184,545,Electrical Machinery,B1,Lab or Discussion,8/29/18,T,14:30 - 17:10,Elson S. Floyd Hall,B0212,Asumadu,18
+Main,ECE3510,41185,100,Engineering Of Rt Systems,,Lecture,8/29/18,MWF,14:30 - 15:20,Elson S. Floyd Hall,C0124,Tanner,20
+Main,ECE3610,41187,100,Electromagnet Fields,,Lecture,8/29/18,MW,11:30 - 12:20,Elson S. Floyd Hall,C0229,Johnson,28
+Main,ECE3610,41187,100,Electromagnet Fields,,Lecture,8/29/18,TR,11:30 - 12:20,Elson S. Floyd Hall,C0141,Johnson,28
+Main,ECE3710,41188,100,Linear Systems,,Lecture,8/29/18,MWF,08:30 - 09:20,Elson S. Floyd Hall,C0122,Gejji,35
+Main,ECE3800,41189,100,Prob Sig & Sys Analysis,,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,D0210,Sanda,35
+Main,ECE4200,41196,100,Power Electronics,,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,D0115,Asumadu,28
+Main,ECE4500,42734,100,Digital Electronics,,Lecture/Lab/Discussion,8/29/18,T,18:30 - 21:00,Elson S. Floyd Hall,B0210,Grantner,6
+Main,ECE4500,42734,100,Digital Electronics,,Lecture/Lab/Discussion,8/29/18,MWF,13:30 - 14:20,Elson S. Floyd Hall,C0141,Grantner,6
+Main,ECE4525,46294,100,Digital Design,,Lecture,8/29/18,MWF,11:30 - 12:20,Elson S. Floyd Hall,D0210,Grantner,15
+Main,ECE4525,46294,100,Digital Design,,Lecture,8/29/18,W,18:30 - 21:10,Elson S. Floyd Hall,B0210,Grantner,15
+Main,ECE4600,41238,100,Communications Syst,,Lecture,8/29/18,MWF,10:30 - 11:20,Elson S. Floyd Hall,D0201,Gejji,30
+Main,ECE4810,43018,100,Electr/Computer Engrg Desgn I,,Lecture,8/29/18,W,16:30 - 17:50,Elson S. Floyd Hall,C0124,Gomez,35
+Main,ECE4810,43018,100,Electr/Computer Engrg Desgn I,,Lecture,8/29/18,M,16:30 - 17:20,Elson S. Floyd Hall,C0124,Gomez,35
+Main,ECE4810,43018,100,Electr/Computer Engrg Desgn I,,Lecture,8/29/18,F,16:30 - 17:20,Elson S. Floyd Hall,C0124,Gomez,35
+Main,ECE4820,41250,100,Elect/Computer Engrg Desgn II,,Lecture/Lab/Discussion,8/29/18,F,16:30 - 19:00,Elson S. Floyd Hall,C0122,Litynski,35
+Main,ECE4900,40013,100,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ECE4900,40012,105,Independent Research,,Independent Study,8/29/18,,,,,Miller,3
+Main,ECE4900,40371,110,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ECE4900,40014,115,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ECE4950,45378,100,Topics in Elec Eng-semi device,,Seminar or Studio,8/29/18,TR,14:30 - 15:45,Elson S. Floyd Hall,C0123,Durbin,27
+Main,ECE4950,46479,105,Topics in EE: Intro to MEMS,,Seminar or Studio,8/29/18,R,13:00 - 15:30,Elson S. Floyd Hall,D0201,Atashbar,10
+Main,ECE5200,42483,100,Power Electronics,,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,D0115,Asumadu,28
+Main,ECE5450,44500,100,Intro to Micro Electro Mech Sy,,Lecture,8/29/18,R,13:00 - 15:30,Elson S. Floyd Hall,D0201,Atashbar,34
+Main,ECE5540,43779,105,Digital Electronics,,Lecture/Lab/Discussion,8/29/18,T,18:30 - 21:00,Elson S. Floyd Hall,B0210,Grantner,12
+Main,ECE5540,43779,105,Digital Electronics,,Lecture/Lab/Discussion,8/29/18,MWF,13:30 - 14:20,Elson S. Floyd Hall,C0141,Grantner,12
+Main,ECE5580,44564,100,Computer Architecture,,Lecture,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,B0211,Sawalha,19
+Main,ECE5640,42484,100,Communication Systems,,Lecture,8/29/18,MWF,10:30 - 11:20,Elson S. Floyd Hall,D0201,Gejji,18
+Main,ECE5710,42272,100,State Space Control Systems,,Lecture,8/29/18,MWF,15:30 - 16:20,Elson S. Floyd Hall,C0124,Tanner,20
+Main,ECE5730,46694,100,Fndations of Neural Networks,,Lecture,8/29/18,TR,11:30 - 13:00,Elson S. Floyd Hall,C0228,Miller,10
+Main,ECE5950,45170,100,Intro Adv Topics,,Lecture,8/29/18,TR,14:30 - 15:45,Elson S. Floyd Hall,C0123,Durbin,9
+Main,ECE5950,46288,105,Intro Adv Topics-Digital Dsgn.,,Lecture,8/29/18,W,18:30 - 21:10,Elson S. Floyd Hall,B0210,Grantner,5
+Main,ECE5950,46288,105,Intro Adv Topics-Digital Dsgn.,,Lecture,8/29/18,MWF,11:30 - 12:20,Elson S. Floyd Hall,D0210,Grantner,5
+Main,ECE5950,46389,110,Intro Adv Topics-HV Eng.,,Lecture,8/29/18,TR,09:00 - 10:15,Elson S. Floyd Hall,D0206,Gomez,25
+Main,ECE6360,46218,100,Appl Optics & System Design,,Lecture,8/29/18,M,18:30 - 21:10,Elson S. Floyd Hall,C0122,Litynski,16
+Main,ECE6410,42273,100,Adv Electronic Instrumentation,,Lecture,8/29/18,R,18:30 - 21:00,Elson S. Floyd Hall,C0122,Atashbar,25
+Main,ECE6560,46282,100,Multirate Signal Processing,,Lecture,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,F0210,Bazuin,20
+Main,ECE6570,43668,100,Biomedical Signal Processing,,Lecture,8/29/18,MWF,12:30 - 13:20,Elson S. Floyd Hall,C0141,Abdel-Qader,30
+Main,ECE6710,42274,100,Optimal Control,,Lecture,8/29/18,W,16:00 - 18:30,Elson S. Floyd Hall,D0212,Gejji,25
+Main,ECE6730,46283,100,Advanced Neural Networks,,Lecture,8/29/18,TR,11:30 - 12:20,Elson S. Floyd Hall,C0228,Miller,10
+Main,ECE6970,41257,100,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,Elson S. Floyd Hall,D0210,Atashbar,3
+Main,ECE6970,41258,105,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,,,Durbin,3
+Main,ECE6970,41259,110,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,,,Gomez,3
+Main,ECE6970,41260,115,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,,,Grantner,3
+Main,ECE6970,41261,120,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,,,Abdel-Qader,3
+Main,ECE6970,41262,125,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,,,,3
+Main,ECE6970,41813,130,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,,,,3
+Main,ECE6970,41814,135,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,,,,3
+Main,ECE6970,41815,140,Problems-El/Computer Enginrg,,Independent Study,8/29/18,,,,,,3
+Main,ECE6990,42156,100,Practical Training,,Supervision or Practicum,8/29/18,,,,,,3
+Main,ECE6990,42157,105,Practical Training,,Supervision or Practicum,8/29/18,,,,,,3
+Main,ECE6990,42158,110,Practical Training,,Supervision or Practicum,8/29/18,,,,,,3
+Main,ECE7000,41263,100,Master Thesis,,Independent Study,8/29/18,,,,,Abdel-Qader,1
+Main,ECE7000,41267,105,Master Thesis,,Independent Study,8/29/18,,,,,Atashbar,1
+Main,ECE7000,41268,110,Master Thesis,,Independent Study,8/29/18,,,,,Sawalha,1
+Main,ECE7000,41269,115,Master Thesis,,Independent Study,8/29/18,,,,,,1
+Main,ECE7000,41270,120,Master Thesis,,Independent Study,8/29/18,,,,,,1
+Main,ECE7000,42850,125,Master Thesis,,Independent Study,8/29/18,,,,,,3
+Main,ECE7000,42851,130,Master Thesis,,Independent Study,8/29/18,,,,,,3
+Main,ECE7000,44311,135,Master Thesis,,Independent Study,8/29/18,,,,,,1
+Main,ECE7100,41617,100,Independent Research,,Independent Study,8/29/18,,,,,Asumadu,3
+Main,ECE7100,41618,105,Independent Research,,Independent Study,8/29/18,,,,,Atashbar,3
+Main,ECE7100,41619,110,Independent Research,,Independent Study,8/29/18,,,,,Gomez,3
+Main,ECE7100,43865,115,Independent Research,,Independent Study,8/29/18,,,,,,3
+Main,ECE7100,44325,120,Independent Research,,Independent Study,8/29/18,,,,,,3
+Main,ECE7100,44737,125,Independent Research,,Independent Study,8/29/18,,,,,,3
+Main,ECE7300,41271,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Abdel-Qader,1
+Main,ECE7300,41272,105,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Gomez,1
+Main,ECE7300,41908,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Sawalha,3
+Main,ECE7300,42202,115,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Grantner,2
+Main,ECE7300,42203,120,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Asumadu,2
+Main,ECE7300,42204,125,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Durbin,2
+Main,ECE7300,44310,130,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Atashbar,3
+Main,ECE7300,44323,135,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Miller,3
+Main,EDMM1220,43894,100,Automobile in Society,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,D0109,Vandepolder,60
+Main,EDMM1420,43890,500,Engineering Graphics,L1,Lecture,8/29/18,MW,12:30 - 13:20,Elson S. Floyd Hall,D0109,Urdarevik,120
+Main,EDMM1420,43892,505,Engineering Graphics,L1,Lecture,8/29/18,MW,15:30 - 16:20,Elson S. Floyd Hall,D0109,Urdarevik,100
+Main,EDMM1420,43897,510,Engineering Graphics,L1,Lecture,8/29/18,T,18:30 - 20:20,Elson S. Floyd Hall,D0109,Urdarevik,100
+Main,EDMM1420,43891,540,Engineering Graphics,B1,Lab or Discussion,8/29/18,T,08:30 - 11:20,Elson S. Floyd Hall,C0226,Urdarevik,24
+Main,EDMM1420,43893,542,Engineering Graphics,B1,Lab or Discussion,8/29/18,T,12:30 - 15:20,Elson S. Floyd Hall,C0219,Urdarevik,24
+Main,EDMM1420,43901,543,Engineering Graphics-HC,B1,Lab or Discussion,8/29/18,T,15:30 - 18:20,Elson S. Floyd Hall,C0219,Urdarevik,24
+Main,EDMM1420,43911,546,Engineering Graphics,B1,Lab or Discussion,8/29/18,W,12:30 - 15:20,Elson S. Floyd Hall,C0228,Urdarevik,24
+Main,EDMM1420,43914,548,Engineering Graphics,B1,Lab or Discussion,8/29/18,F,15:30 - 18:20,Elson S. Floyd Hall,C0227,Urdarevik,24
+Main,EDMM1420,43916,550,Engineering Graphics,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Elson S. Floyd Hall,C0219,Urdarevik,24
+Main,EDMM1420,43917,552,Engineering Graphics,B1,Lab or Discussion,8/29/18,M,18:30 - 21:20,Elson S. Floyd Hall,C0228,Urdarevik,24
+Main,EDMM1420,43918,554,Engineering Graphics,B1,Lab or Discussion,8/29/18,W,08:30 - 11:20,Elson S. Floyd Hall,C0226,Urdarevik,24
+Main,EDMM1420,43919,556,Engineering Graphics,B1,Lab or Discussion,8/29/18,R,18:30 - 21:20,Elson S. Floyd Hall,C0224,Urdarevik,24
+Main,EDMM1420,43920,558,Engineering Graphics,B1,Lab or Discussion,8/29/18,R,12:30 - 15:20,Elson S. Floyd Hall,C0219,Urdarevik,24
+Main,EDMM1420,43921,560,Engineering Graphics,B1,Lab or Discussion,8/29/18,R,12:30 - 15:20,Elson S. Floyd Hall,C0228,Urdarevik,24
+Main,EDMM1420,43922,562,Engineering Graphics,B1,Lab or Discussion,8/29/18,R,15:30 - 18:20,Elson S. Floyd Hall,C0219,Urdarevik,24
+Main,EDMM1420,43923,564,Engineering Graphics,B1,Lab or Discussion,8/29/18,F,08:30 - 11:20,Elson S. Floyd Hall,C0227,Urdarevik,24
+Main,EDMM1420,43924,566,Engineering Graphics,B1,Lab or Discussion,8/29/18,F,12:30 - 15:20,Elson S. Floyd Hall,C0227,Urdarevik,24
+Main,EDMM1420,43925,567,Engineering Graphics,B1,Lab or Discussion,8/29/18,W,18:30 - 21:20,Elson S. Floyd Hall,C0228,Urdarevik,24
+Main,EDMM1420,45432,568,Engineering Graphics,B1,Lab or Discussion,8/29/18,M,15:30 - 18:20,Elson S. Floyd Hall,C0227,Urdarevik,24
+Main,EDMM1430,43926,500,Product Design Fundamentals,L1,Lecture,8/29/18,T,12:30 - 14:10,Elson S. Floyd Hall,C0124,Middleton,36
+Main,EDMM1430,43928,540,Product Design Fundamentals,B1,Lab or Discussion,8/29/18,R,11:30 - 14:20,Elson S. Floyd Hall,G0211,Middleton,18
+Main,EDMM1430,43930,545,Product Design Fundamentals,B1,Lab or Discussion,8/29/18,R,14:30 - 17:20,Elson S. Floyd Hall,G0211,Middleton,18
+Main,EDMM1500,43931,100,Intro Manufacturing,,Lecture,8/29/18,MW,17:30 - 18:45,Elson S. Floyd Hall,D0109,Engelmann,100
+Main,EDMM1501,44151,100,Processes and Materials in Mfg,,Lab or Discussion,8/29/18,R,15:30 - 18:20,Elson S. Floyd Hall,G0113,Konkel,15
+Main,EDMM1501,44152,105,Processes and Materials in Mfg,,Lab or Discussion,8/29/18,T,18:30 - 21:20,Elson S. Floyd Hall,G0113,Konkel,15
+Main,EDMM1501,44153,110,Processes and Materials in Mfg,,Lab or Discussion,8/29/18,W,14:30 - 17:20,Elson S. Floyd Hall,F0115,Konkel,15
+Main,EDMM2001,43935,500,Applied Electricity/Electronic,L1,Lecture,8/29/18,M,18:30 - 19:20,Elson S. Floyd Hall,D0212,Barnes,40
+Main,EDMM2001,43936,540,Applied Electricity/Electronic,B1,Lab or Discussion,8/29/18,M,19:30 - 21:50,Elson S. Floyd Hall,E0121,Barnes,20
+Main,EDMM2001,43936,540,Applied Electricity/Electronic,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Elson S. Floyd Hall,B0216,Barnes,20
+Main,EDMM2001,45982,550,Applied Electricity/Electronic,B1,Lab or Discussion,8/29/18,M,19:30 - 21:50,Elson S. Floyd Hall,D0212,Barnes,20
+Main,EDMM2001,45982,550,Applied Electricity/Electronic,B1,Lab or Discussion,8/29/18,R,18:30 - 21:20,Elson S. Floyd Hall,B0216,Barnes,20
+Main,EDMM2220,43937,500,Mobile Energy Sources & Lubric,L1,Lecture,8/29/18,MW,10:30 - 11:20,Elson S. Floyd Hall,G0113,Vandepolder,15
+Main,EDMM2220,43938,540,Mobile Energy Sources & Lubric,B1,Lab or Discussion,8/29/18,T,13:30 - 16:20,Elson S. Floyd Hall,G0113,Vandepolder,15
+Main,EDMM2460,43952,500,Computer Aided Design,L1,Lecture,8/29/18,MW,17:30 - 18:20,Elson S. Floyd Hall,C0123,Rodriguez,40
+Main,EDMM2460,43953,540,Computer Aided Design,B1,Lab or Discussion,8/29/18,T,14:30 - 17:20,Elson S. Floyd Hall,C0226,Rodriguez,20
+Main,EDMM2460,43954,555,Computer Aided Design,B1,Lab or Discussion,8/29/18,F,15:30 - 18:20,Elson S. Floyd Hall,C0228,Rodriguez,20
+Main,EDMM2500,43962,500,Plastic Prop/Process,L1,Lecture,8/29/18,WF,11:30 - 12:20,Elson S. Floyd Hall,C0122,Engelmann,36
+Main,EDMM2500,43966,540,Plastic Prop/Process,B1,Lab or Discussion,8/29/18,W,18:30 - 21:20,Elson S. Floyd Hall,E0101,Schmidt,18
+Main,EDMM2500,43967,545,Plastic Prop/Process,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Elson S. Floyd Hall,E0101,Schmidt,18
+Main,EDMM2540,43968,500,Machining Processes,L1,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,D0206,Ikonomov,30
+Main,EDMM2540,43970,540,Machining Processes,B1,Lab or Discussion,8/29/18,R,08:30 - 11:20,Elson S. Floyd Hall,F0115,Ikonomov,15
+Main,EDMM2540,43971,555,Machining Processes,B1,Lab or Discussion,8/29/18,W,11:30 - 14:20,Elson S. Floyd Hall,F0115,Ikonomov,15
+Main,EDMM2560,44537,500,Properties of Materials,L1,Lecture,8/29/18,MW,12:30 - 13:20,Elson S. Floyd Hall,C0136,Licavoli,40
+Main,EDMM2560,44544,540,Properties of Materials,B1,Lab or Discussion,8/29/18,F,12:30 - 15:20,Elson S. Floyd Hall,E0121,Licavoli,20
+Main,EDMM2560,44838,550,Properties of Materials,B1,Lab or Discussion,8/29/18,W,08:30 - 11:20,Elson S. Floyd Hall,E0121,Licavoli,20
+Main,EDMM2810,43972,100,Statics/Strngth Matl,,Lecture,8/29/18,TR,16:30 - 18:10,Elson S. Floyd Hall,C0123,Choudhury,24
+Main,EDMM2830,43973,500,Thermodynamics,L1,Lecture,8/29/18,F,12:00 - 12:50,Elson S. Floyd Hall,C0124,Choudhury,20
+Main,EDMM2830,43990,540,Thermodynamics,B1,Lab or Discussion,8/29/18,T,08:30 - 11:20,Elson S. Floyd Hall,C0124,Choudhury,20
+Main,EDMM2990,43992,100,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,Patten,20
+Main,EDMM3020,43993,100,Engrg Teams: Theory & Practice,,Lecture,8/29/18,TR,14:30 - 15:45,Elson S. Floyd Hall,D0202,Place,18
+Main,EDMM3050,43994,100,Work Analysis,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,D0210,Hammond,24
+Main,EDMM3150,43995,100,Work Analysis/Design Lab,,Lab or Discussion,8/29/18,R,18:30 - 21:20,Elson S. Floyd Hall,D0210,Hammond,24
+Main,EDMM3200,43996,100,Engineering Cost Analysis,,Lecture,8/29/18,WF,10:30 - 11:20,Elson S. Floyd Hall,C0229,Gupta,26
+Main,EDMM3260,43999,100,Operations Plant/Cont,,Lecture,8/29/18,W,18:30 - 21:20,Elson S. Floyd Hall,C0226,Gupta,26
+Main,EDMM3280,44000,105,Quality Assur/Cont,,Lecture,8/29/18,W,11:30 - 12:40,Elson S. Floyd Hall,D0208,Meade,36
+Main,EDMM3280,45291,110,Quality Assur/Cont,,Lecture,8/29/18,W,13:00 - 14:10,Elson S. Floyd Hall,D0208,Meade,36
+Main,EDMM3480,44001,500,Designing For Production,L1,Lecture,8/29/18,MW,14:30 - 15:20,Elson S. Floyd Hall,D0201,Keil,48
+Main,EDMM3480,44002,540,Designing For Production,B1,Lab or Discussion,8/29/18,W,18:30 - 21:20,Elson S. Floyd Hall,C0229,Keil,24
+Main,EDMM3480,44003,545,Designing For Production,B1,Lab or Discussion,8/29/18,R,15:30 - 18:20,Elson S. Floyd Hall,C0228,Keil,24
+Main,EDMM3520,44004,500,Metal Casting,L1,Lecture,8/29/18,R,10:30 - 12:20,Elson S. Floyd Hall,E0121,Ramrattan,18
+Main,EDMM3520,44005,540,Metal Casting,B1,Lab or Discussion,8/29/18,R,12:30 - 15:20,Elson S. Floyd Hall,E0121,Ramrattan,18
+Main,EDMM3540,44006,500,Metrology,L1,Lecture,8/29/18,MW,15:30 - 16:20,Elson S. Floyd Hall,D0201,Ikonomov,45
+Main,EDMM3540,44007,540,Metrology,B1,Lab or Discussion,8/29/18,M,18:30 - 21:20,Elson S. Floyd Hall,F0106,Gay,15
+Main,EDMM3540,44008,545,Metrology,B1,Lab or Discussion,8/29/18,R,18:30 - 21:20,Elson S. Floyd Hall,F0106,Gay,15
+Main,EDMM3540,44009,550,Metrology,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Elson S. Floyd Hall,F0106,Gay,15
+Main,EDMM3840,44010,500,Fluid Mechanics & Hydraulics,L1,Lecture,8/29/18,W,16:30 - 18:10,Elson S. Floyd Hall,E0121,Choudhury,18
+Main,EDMM3840,44011,540,Fluid Mechanics & Hydraulics,B1,Lab or Discussion,8/29/18,F,08:30 - 11:20,Elson S. Floyd Hall,E0121,Choudhury,18
+Main,EDMM4120,44013,100,Industrial Systems Mgmt,,Lecture,8/29/18,TR,08:30 - 09:45,Elson S. Floyd Hall,D0210,Mallak,24
+Main,EDMM4480,44016,500,Computer-Aided Analysis,L1,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,C0229,Rodriguez,20
+Main,EDMM4480,44017,540,Computer-Aided Analysis,B1,Lab or Discussion,8/29/18,T,08:30 - 11:20,Elson S. Floyd Hall,C0219,Rodriguez,20
+Main,EDMM4490,44018,500,Adv Product & System Design,L1,Lecture,8/29/18,MW,13:30 - 14:20,Elson S. Floyd Hall,C0227,Rodriguez,20
+Main,EDMM4490,44019,540,Adv Product & System Design,B1,Lab or Discussion,8/29/18,M,18:30 - 21:20,Elson S. Floyd Hall,C0227,Rodriguez,20
+Main,EDMM4540,44020,500,Fabrication  Assembly  Finishing,L1,Lecture,8/29/18,T,08:30 - 10:20,Elson S. Floyd Hall,G0113,Konkel,18
+Main,EDMM4540,44022,540,Fabrication  Assembly  Finishing,B1,Lab or Discussion,8/29/18,T,10:30 - 13:20,Elson S. Floyd Hall,G0113,Hall,18
+Main,EDMM4560,46165,500,Process Testing/Measurement,L1,Lecture,8/29/18,R,08:30 - 10:20,Elson S. Floyd Hall,E0121,Ramrattan,15
+Main,EDMM4560,46166,540,Process Testing/Measurement,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Elson S. Floyd Hall,E0121,Ramrattan,15
+Main,EDMM4580,44024,500,Manuf Sys Integ,L1,Lecture,8/29/18,MW,09:30 - 10:20,Elson S. Floyd Hall,C0228,Ikonomov,18
+Main,EDMM4580,44026,540,Manuf Sys Integ,B1,Lab or Discussion,8/29/18,T,15:30 - 18:20,Elson S. Floyd Hall,C0228,Ikonomov,18
+Main,EDMM4870,44028,100,Mfg Productivity Tec,,Lecture,8/29/18,W,18:30 - 21:00,Elson S. Floyd Hall,D0212,Bidassie,24
+Main,EDMM4880,44029,100,Applied Process Rengrg,,Lecture,8/29/18,F,16:00 - 18:30,Elson S. Floyd Hall,D0202,Lyth,24
+Main,EDMM4900,44030,100,Ind Research & Devel,,Independent Study,8/29/18,,,,,,5
+Main,EDMM4910,44033,100,Multidisciplinary Sr Proposal,,Lecture,8/29/18,R,16:30 - 18:10,Elson S. Floyd Hall,D0201,Aller,50
+Main,EDMM4920,44034,100,Multidisciplinary Sr Project,,Seminar or Studio,8/29/18,M,16:30 - 18:10,Elson S. Floyd Hall,D0201,Aller,50
+Main,EDMM4930,44036,100,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Greene,5
+Main,EDMM4930,44037,110,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Rodriguez,5
+Main,EDMM4930,44039,120,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Rodriguez,5
+Main,EDMM4930,44040,150,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Mallak,5
+Main,EDMM4930,44042,200,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Lyth,5
+Main,EDMM4930,44044,250,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Middleton,5
+Main,EDMM4930,44045,300,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Middleton,5
+Main,EDMM4930,44049,320,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Ramrattan,5
+Main,EDMM4930,44047,350,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,Konkel,5
+Main,EDMM4930,44050,400,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,,5
+Main,EDMM4930,44051,410,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,,5
+Main,EDMM4930,44052,420,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,,5
+Main,EDMM4930,44053,430,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,,5
+Main,EDMM4930,44054,440,Multidisc Sr Pjct Cnslt,,Supervision or Practicum,8/29/18,T,11:30 - 14:20,Elson S. Floyd Hall,D0201,,3
+Main,EDMM4950,44012,100,Spec Topics Engr Tech,,Independent Study,8/29/18,,,,,,3
+Main,EDMM4950,44021,105,Spec Topics Engr Tech,,Independent Study,8/29/18,,,,,,3
+Main,EDMM4980,44023,100,Readings in Engr Tech,,Independent Study,8/29/18,,,,,,3
+Main,EDMM4990,44025,100,Studies in Engr Tech,,Independent Study,8/29/18,,,,,,3
+Main,EDMM4990,44027,105,Studies in Engr Tech,,Independent Study,8/29/18,,,,,,3
+Main,EDMM6450,44839,100,Design For Manufacturability,,Lecture,8/29/18,M,19:00 - 21:50,Elson S. Floyd Hall,C0229,Keil,15
+Main,EDMM6560,46174,100,Matl Selection And Processing,,Lecture,8/29/18,R,19:00 - 21:50,Elson S. Floyd Hall,E0121,Ramrattan,15
+Main,EDMM6570,44031,100,Studies in Manufacturing,,Independent Study,8/29/18,,,,,Engelmann,5
+Main,EDMM6570,44032,105,Studies in Manufacturing,,Independent Study,8/29/18,,,,,,5
+Main,EDMM6570,44035,110,Studies in Manufacturing,,Independent Study,8/29/18,,,,,,3
+Main,EDMM6570,44038,115,Studies in Manufacturing,,Independent Study,8/29/18,,,,,,3
+Main,EDMM6570,44041,120,Studies in Manufacturing,,Independent Study,8/29/18,,,,,,3
+Main,EDMM6570,44043,125,Studies in Manufacturing,,Independent Study,8/29/18,,,,,,5
+Main,EDMM6970,44055,105,Prob In Manufacturing,,Independent Study,8/29/18,,,,,,5
+Main,EDMM6990,44046,100,Practical Training,,Supervision or Practicum,8/29/18,,,,,,5
+Main,EDMM6990,44048,105,Practical Training,,Supervision or Practicum,8/29/18,,,,,,5
+Main,EDMM7000,44735,100,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,EDMM7000,44876,110,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+WMU - Online Education,EDMM4020,46482,950,Engineering Leadership,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Mallak,24
+Main,ENGR1001,43451,100,Intro To Engineering Design,,Lecture/Lab/Discussion,8/29/18,M,14:30 - 17:00,Elson S. Floyd Hall,D0205,Butt,30
+Main,ENGR1002,44484,110,Intro to Engineering Analyses,,Lecture/Lab/Discussion,8/29/18,M,14:30 - 17:00,Elson S. Floyd Hall,D0115,Tsang,50
+Main,ENGR1002,44485,115,Intro to Engineering Analyses,,Lecture/Lab/Discussion,8/29/18,T,13:30 - 16:00,Elson S. Floyd Hall,D0115,Tsang,55
+Main,ENGR2100,46465,100,First-Year CEAS Experience,,Lecture,8/29/18,MW,12:30 - 13:20,Elson S. Floyd Hall,E0121,Grice,25
+Main,ENGR2100,45401,110,First-Year CEAS Experience,,Lecture,8/29/18,TR,11:30 - 12:20,Elson S. Floyd Hall,C0124,Beauchamp,30
+Main,ENGR2100,45402,115,First-Year CEAS Experience,,Lecture,8/29/18,MW,11:30 - 12:20,Elson S. Floyd Hall,D0212,Gross,30
+Main,ENGR2100,45403,120,First-Year CEAS Experience,,Lecture,8/29/18,MW,12:30 - 13:20,Elson S. Floyd Hall,D0212,Yaeger,30
+Main,ENGR2100,45404,125,First-Year CEAS Experience,,Lecture,8/29/18,TR,12:30 - 13:20,Elson S. Floyd Hall,D0206,Manninen,30
+Main,ENGR2980,42485,100,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,,5
+Main,ENGR2990,42253,100,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,,5
+Main,ENGR3980,42486,100,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,,5
+Main,ENGR3990,42487,100,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,,5
+Main,ENGR4950,43800,100,Women & Leadership in CEAS,,Lab or Discussion,8/29/18,M,17:00 - 17:50,Elson S. Floyd Hall,D0208,Grice,50
+Main,ENGR7300,43311,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Ramrattan,5
+Main,ENGR7300,43312,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,ENGR7300,43313,115,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,ENGR7300,43314,120,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,ENGR7300,43315,125,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,EM5050,45283,100,Cont Improvement In Operation,,Lecture,8/29/18,R,19:00 - 21:50,Elson S. Floyd Hall,D0204,Gupta,28
+Main,EM5080,46250,100,Advanced Quality Management,,Lecture,8/29/18,W,19:00 - 21:50,Elson S. Floyd Hall,D0208,Lyth,28
+Main,EM6140,44842,100,Project Management,,Lecture,8/29/18,T,19:00 - 21:50,Elson S. Floyd Hall,D0201,Aller,28
+Main,EM6570,46746,100,Studies in Eng Management,,Independent Study,8/29/18,,,,,Lyth,5
+Main,EM6570,46747,105,Studies in Eng Management,,Independent Study,8/29/18,,,,,,5
+Main,EM6990,44685,100,Pract Train in Eng Management,,Supervision or Practicum,8/29/18,,,,,Lyth,5
+Main,EM6990,44916,110,Pract Train in Eng Management,,Supervision or Practicum,8/29/18,,,,,,5
+Main,IEE1020,43895,100,Tech Communication,,Lecture,8/29/18,MWF,10:30 - 11:20,Elson S. Floyd Hall,C0122,Randall,20
+Main,IEE1020,43896,105,Tech Communication,,Lecture,8/29/18,TR,08:30 - 09:45,Elson S. Floyd Hall,C0122,Balke,20
+Main,IEE1020,43898,110,Tech Communication-HC,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,C0122,Chapman,20
+Main,IEE1020,43899,115,Tech Communication,,Lecture,8/29/18,MWF,11:30 - 12:20,Elson S. Floyd Hall,E0121,Chapman,20
+Main,IEE1020,43900,120,Tech Communication,,Lecture,8/29/18,MWF,12:30 - 13:20,Elson S. Floyd Hall,C0122,Place,20
+Main,IEE1020,43902,125,Tech Communication-HC,,Lecture,8/29/18,TR,11:00 - 12:15,Kohrman Hall,2250,Palmer,20
+Main,IEE1020,43903,130,Tech Communication,,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,C0122,Place,20
+Main,IEE1020,43904,135,Tech Communication,,Lecture,8/29/18,MWF,10:30 - 11:20,Elson S. Floyd Hall,C0141,Chapman,20
+Main,IEE1020,43905,140,Tech Communication,,Lecture,8/29/18,MWF,15:30 - 16:20,Elson S. Floyd Hall,E0121,Randall,20
+Main,IEE1020,43906,145,Tech Communication,,Lecture,8/29/18,TR,12:30 - 13:45,Kohrman Hall,2250,Balke,20
+Main,IEE1020,43907,150,Tech Communication,,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,C0122,Place,20
+Main,IEE1020,43908,155,Tech Communication-HC,,Lecture,8/29/18,TR,14:30 - 15:45,Elson S. Floyd Hall,D0210,Swartz,20
+Main,IEE1020,43910,165,Tech Communication,,Lecture,8/29/18,TR,10:00 - 11:15,Elson S. Floyd Hall,D0202,Balke,20
+Main,IEE1020,43912,170,Tech Communication,,Lecture,8/29/18,MWF,14:30 - 15:20,Elson S. Floyd Hall,C0122,Randall,20
+Main,IEE1020,43913,175,Tech Communication-HC,,Lecture,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,E0121,Hagen,20
+Main,IEE1020,46477,180,Tech Communication,,Lecture,8/29/18,TR,17:30 - 18:45,Kohrman Hall,2215,Quada,20
+Main,IEE2610,43915,500,Engr Statistics,L1,Lecture,8/29/18,MW,13:30 - 14:20,Elson S. Floyd Hall,D0109,Burns,115
+Main,IEE2610,43927,505,Engr Statistics,L1,Lecture,8/29/18,MW,10:30 - 11:20,Elson S. Floyd Hall,D0109,Burns,115
+Main,IEE2610,43929,540,Engr Statistics,B1,Lab or Discussion,8/29/18,W,15:30 - 18:20,Elson S. Floyd Hall,C0229,Burns,25
+Main,IEE2610,43932,545,Engr Statistics,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Elson S. Floyd Hall,C0224,Burns,25
+Main,IEE2610,43933,550,Engr Statistics,B1,Lab or Discussion,8/29/18,R,18:30 - 21:20,Elson S. Floyd Hall,C0227,Burns,24
+Main,IEE2610,43939,555,Engr Statistics,B1,Lab or Discussion,8/29/18,T,08:30 - 11:20,Elson S. Floyd Hall,C0227,Burns,24
+Main,IEE2610,43940,560,Engr Statistics,B1,Lab or Discussion,8/29/18,M,18:30 - 21:20,Elson S. Floyd Hall,C0226,Burns,25
+Main,IEE2610,43941,565,Engr Statistics,B1,Lab or Discussion,8/29/18,T,12:30 - 15:20,Elson S. Floyd Hall,C0229,Burns,25
+Main,IEE2610,43942,570,Engr Statistics,B1,Lab or Discussion,8/29/18,R,11:30 - 14:20,Elson S. Floyd Hall,C0229,Burns,25
+Main,IEE2610,43943,575,Engr Statistics,B1,Lab or Discussion,8/29/18,R,14:30 - 17:20,Elson S. Floyd Hall,C0229,Burns,25
+Main,IEE2610,44693,580,Engr Statistics,B1,Lab or Discussion,8/29/18,W,18:30 - 21:20,Elson S. Floyd Hall,C0224,Burns,24
+Main,IEE2990,44211,100,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,Patten,20
+Main,IEE3010,43944,500,IEE II: Product Service Design,L1,Lecture,8/29/18,W,12:30 - 14:20,Elson S. Floyd Hall,D0210,Fredericks,24
+Main,IEE3010,44545,540,IEE II: Product Service Design,B1,Lab or Discussion,8/29/18,F,12:30 - 15:20,Elson S. Floyd Hall,D0210,Fredericks,24
+Main,IEE3090,43945,100,Engrg Econ For Mech Engrg,,Lecture,8/29/18,MW,09:30 - 10:20,Elson S. Floyd Hall,C0136,Greene,30
+Main,IEE3090,45284,105,Engrg Econ For Mech Engrg,,Lecture,8/29/18,MW,12:30 - 13:20,Elson S. Floyd Hall,D0204,Greene,30
+Main,IEE3100,43946,100,Engineering Economy,,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,C0124,White,24
+Main,IEE3100,43947,105,Engineering Economy,,Lecture,8/29/18,MWF,12:30 - 13:20,Elson S. Floyd Hall,C0123,White,24
+Main,IEE3160,43948,100,Report Preparation,,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,D0202,Chapman,18
+Main,IEE3160,43949,105,Report Preparation,,Lecture,8/29/18,W,18:30 - 21:00,Elson S. Floyd Hall,C0136,Swartz,18
+Main,IEE3160,46704,110,Report Preparation,,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,C0226,Swartz,18
+Main,IEE4010,43950,100,IEE III: Facilities Plan Logis,,Lecture,8/29/18,MWF,10:30 - 11:20,Elson S. Floyd Hall,C0219,Houshyar,24
+Main,IEE4160,43956,500,Operations Control in Industry,L1,Lecture,8/29/18,MWF,11:30 - 12:20,Elson S. Floyd Hall,C0123,White,24
+Main,IEE4160,43957,540,Operations Control in Industry,B1,Lab or Discussion,8/29/18,M,14:30 - 17:20,Elson S. Floyd Hall,C0228,White,24
+Main,IEE4190,43958,100,IE Senior Design,,Lecture/Lab/Discussion,8/29/18,T,14:30 - 17:20,Elson S. Floyd Hall,D0206,Hammond,20
+Main,IEE4990,44711,100,Studies - Engineering,,Independent Study,8/29/18,,,,,,5
+Main,IEE5170,46681,100,Applied Data Mining for Engrs,,Lecture,8/29/18,T,19:00 - 21:50,Elson S. Floyd Hall,C0226,Wells,28
+Main,IEE5570,46251,110,Entrepreneurial Engineering,,Seminar or Studio,8/29/18,W,16:00 - 18:50,Elson S. Floyd Hall,D0208,Patten,20
+Main,IEE6060,44464,100,Cap Budget Cost Analysis,,Lecture,8/29/18,W,19:00 - 21:50,Elson S. Floyd Hall,D0201,White,28
+Main,IEE6420,43960,100,Ergo & Occupa Biomec,,Lecture,8/29/18,M,19:00 - 21:50,Elson S. Floyd Hall,C0136,Fredericks,28
+Main,IEE6570,44681,100,Studies-Indust Eng,,Independent Study,8/29/18,,,,,Gupta,5
+Main,IEE6570,44734,105,Studies-Indust Eng,,Independent Study,8/29/18,,,,,,5
+Main,IEE6830,43961,100,Thesis Proposal,,Supervision or Practicum,8/29/18,,,,,Houshyar,3
+Main,IEE6830,43963,105,Thesis Proposal,,Supervision or Practicum,8/29/18,,,,,,3
+Main,IEE6970,43964,100,Problems in Industrial Engr,,Independent Study,8/29/18,,,,,,5
+Main,IEE6980,43965,100,Readings in Industrial Engr,,Independent Study,8/29/18,,,,,,3
+Main,IEE6990,44682,100,Practical Training,,Supervision or Practicum,8/29/18,,,,,Houshyar,5
+Main,IEE6990,43969,110,Practical Training,,Supervision or Practicum,8/29/18,,,,,Wells,5
+Main,IEE6990,44683,115,Practical Training,,Supervision or Practicum,8/29/18,,,,,Gupta,5
+Main,IEE7000,43974,100,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,IEE7000,43975,105,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,IEE7000,43976,110,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,IEE7000,43977,115,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,IEE7120,43978,100,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,5
+Main,IEE7120,43979,105,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,5
+Main,IEE7250,46248,100,Doctoral Research Seminar,,Seminar or Studio,8/29/18,T,16:00 - 18:50,Elson S. Floyd Hall,D0201,Greene,20
+Main,IEE7300,43980,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Wells,5
+Main,IEE7300,43981,105,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Butt,5
+Main,IEE7300,43982,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Houshyar,5
+Main,IEE7300,43983,115,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Greene,5
+Main,IEE7300,43984,120,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Fredericks,5
+Main,IEE7300,43985,125,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Gupta,5
+Main,IEE7300,43986,130,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Meade,1
+Main,IEE7300,43987,135,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,IEE7300,43988,140,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,IEE7300,43989,145,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,IEE7300,43991,150,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+WMU - Grand Rapids - Beltline,EM6120,46163,GA,Production/Operations Mgmt,,Lecture,8/29/18,R,18:00 - 21:20,Grand Rapids Beltline,2010,Lyth,30
+WMU - Grand Rapids - Beltline,IEE5010,46164,GA,Survey of IE Topics,,Lecture,8/29/18,W,18:00 - 21:20,Grand Rapids Beltline,2010,Houshyar,30
+WMU - Grand Rapids - Beltline,IEE5160,46168,GA,Des Exper & Reg Analysis,,Lecture,8/29/18,M,18:00 - 21:20,Grand Rapids Beltline,3001,Wells,30
+WMU - Grand Rapids - Beltline,IEE6110,46167,GA,Determstc Methods in Op Rsch,,Lecture,8/29/18,T,18:00 - 21:20,Grand Rapids Beltline,2010,Houshyar,30
+Main,AE2610,43529,500,Intro to Aerospace Engineering,L1,Lecture,8/29/18,MW,16:30 - 17:20,Elson S. Floyd Hall,D0210,Gustafson,36
+Main,AE2610,43530,545,Intro to Aerospace Engineering,B1,Lab or Discussion,8/29/18,M,17:30 - 20:20,Elson S. Floyd Hall,D0210,Gustafson,20
+Main,AE2610,43531,550,Intro to Aerospace Engineering,B1,Lab or Discussion,8/29/18,W,17:30 - 20:20,Elson S. Floyd Hall,D0210,Gustafson,20
+Main,AE3610,43348,100,Aerodynamics I,,Lecture,8/29/18,F,14:30 - 17:20,Elson S. Floyd Hall,D0109,Liu,10
+Main,AE3610,43348,100,Aerodynamics I,,Lecture,8/29/18,R,08:30 - 11:20,Contact Dept for Location,0,Liu,10
+Main,AE3610,44863,110,Aerodynamics I,,Lecture,8/29/18,R,11:30 - 14:20,Contact Dept for Location,0,Liu,10
+Main,AE3610,44863,110,Aerodynamics I,,Lecture,8/29/18,F,14:30 - 17:20,Elson S. Floyd Hall,D0109,Liu,10
+Main,AE3610,45422,120,Aerodynamics I,,Lecture,8/29/18,R,14:30 - 17:20,Contact Dept for Location,0,Liu,10
+Main,AE3610,45422,120,Aerodynamics I,,Lecture,8/29/18,F,14:30 - 17:20,Elson S. Floyd Hall,D0109,Liu,10
+Main,AE4600,43349,100,Aircraft Stability and Control,,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,D0204,Ro,35
+Main,AE4630,43350,100,Aerospace Structural Design,,Lecture,8/29/18,TR,14:30 - 15:45,Elson S. Floyd Hall,D0109,Gustafson,76
+Main,AE4660,43351,100,Aerospace Propulsion I,,Lecture,8/29/18,R,18:00 - 21:00,Elson S. Floyd Hall,D0115,Liou,35
+Main,AE4990,43478,100,Independent Study,,Independent Study,8/29/18,,,Contact Dept for Location,0,Naghshineh,2
+Main,AE4990,43479,105,Independent Study,,Independent Study,8/29/18,,,Contact Dept for Location,0,Naghshineh,2
+Main,AE5200,46217,100,Advanced Aerodynamics,,Lecture,8/29/18,M,19:00 - 21:20,Elson S. Floyd Hall,D0204,Liu,20
+Main,AE7000,45178,100,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Hudson,2
+Main,AE7000,45179,110,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Gustafson,2
+Main,AE7000,45180,120,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Meyer,2
+Main,AE7000,45181,130,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Lemmer,2
+Main,AE7000,45182,140,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Ro,2
+Main,AE7000,45183,150,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Liu,2
+Main,AE7000,45184,160,Master's Thesis,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Liou,2
+Main,ME2320,40816,100,Thermodynamics I,,Lecture,8/29/18,TR,17:30 - 18:45,Elson S. Floyd Hall,D0204,Lemmer,30
+Main,ME2320,40821,105,Thermodynamics I,,Lecture,8/29/18,MW,14:30 - 15:20,Elson S. Floyd Hall,D0109,Merati,60
+Main,ME2320,40821,105,Thermodynamics I,,Lecture,8/29/18,TR,09:30 - 11:00,Elson S. Floyd Hall,D0204,Merati,60
+Main,ME2320,46111,110,Thermodynamics I,,Lecture,8/29/18,TR,17:30 - 18:45,Elson S. Floyd Hall,D0205,Shrestha,30
+Main,ME2500,40814,100,Materials Science - Engineers,,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,D0109,Ari-Gur,12
+Main,ME2500,40814,100,Materials Science - Engineers,,Lecture,8/29/18,M,10:00 - 13:00,Elson S. Floyd Hall,A0121,Ari-Gur,12
+Main,ME2500,46232,105,Materials Science - Engineers,,Lecture,8/29/18,T,13:00 - 16:00,Elson S. Floyd Hall,A0121,Ari-Gur,12
+Main,ME2500,46232,105,Materials Science - Engineers,,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,D0109,Ari-Gur,12
+Main,ME2500,46233,110,Materials Science - Engineers,,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,D0109,Ari-Gur,12
+Main,ME2500,46233,110,Materials Science - Engineers,,Lecture,8/29/18,F,08:30 - 11:30,Elson S. Floyd Hall,A0121,Ari-Gur,12
+Main,ME2500,46234,115,Materials Science - Engineers,,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,D0109,Ari-Gur,12
+Main,ME2500,46234,115,Materials Science - Engineers,,Lecture,8/29/18,F,16:00 - 19:00,Elson S. Floyd Hall,A0121,Ari-Gur,12
+Main,ME2500,46226,120,Materials Science - Engineers,,Lecture,8/29/18,M,13:00 - 15:50,Elson S. Floyd Hall,A0121,Ari-Gur,12
+Main,ME2500,46226,120,Materials Science - Engineers,,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,D0109,Ari-Gur,12
+Main,ME2560,40822,100,Statics,,Lecture,8/29/18,M,09:30 - 12:20,Elson S. Floyd Hall,C0227,Hu,48
+Main,ME2560,40822,100,Statics,,Lecture,8/29/18,MW,08:30 - 09:20,Elson S. Floyd Hall,D0208,Hu,48
+Main,ME2560,43424,110,Statics,,Lecture,8/29/18,W,15:30 - 18:20,Elson S. Floyd Hall,C0228,Hu,48
+Main,ME2560,43424,110,Statics,,Lecture,8/29/18,MW,14:30 - 15:20,Elson S. Floyd Hall,D0204,Hu,48
+Main,ME2560,40823,120,Statics,,Lecture,8/29/18,TR,16:30 - 17:45,Elson S. Floyd Hall,D0109,Montefort Sanchez,48
+Main,ME2570,43449,100,Mechanics Of Materials,,Lecture,8/29/18,MWF,11:30 - 12:20,Elson S. Floyd Hall,D0115,Montefort Sanchez,75
+Main,ME2570,42723,105,Mechanics Of Materials,,Lecture,8/29/18,T,11:30 - 14:00,Elson S. Floyd Hall,C0224,Hu,48
+Main,ME2570,42723,105,Mechanics Of Materials,,Lecture,8/29/18,MW,13:30 - 14:20,Elson S. Floyd Hall,D0204,Hu,48
+Main,ME2580,40826,100,Dynamics,,Lecture,8/29/18,MWF,08:30 - 09:20,Elson S. Floyd Hall,D0204,Hudson,50
+Main,ME2580,41986,105,Dynamics,,Lecture,8/29/18,TR,16:00 - 17:15,Elson S. Floyd Hall,D0208,Ari-Gur,50
+Main,ME2615,43270,100,Intro to Mech Engineering,,Lecture,8/29/18,MW,16:00 - 17:20,Elson S. Floyd Hall,D0204,Ari-Gur,35
+Main,ME2615,45902,110,Intro to Mech Engineering,,Lecture,8/29/18,MWF,08:30 - 09:20,Elson S. Floyd Hall,D0201,Cavalli,40
+Main,ME3350,42914,500,Instrumentation,L1,Lecture,8/29/18,MW,11:30 - 12:20,Elson S. Floyd Hall,D0204,Ghantasala,60
+Main,ME3350,42915,540,Instrumentation,B1,Lab or Discussion,8/29/18,F,14:30 - 17:20,Elson S. Floyd Hall,F0206,Ghantasala,24
+Main,ME3350,42916,545,Instrumentation,B1,Lab or Discussion,8/29/18,R,09:30 - 12:20,Elson S. Floyd Hall,F0206,Ghantasala,24
+Main,ME3350,43798,550,Instrumentation,B1,Lab or Discussion,8/29/18,R,13:00 - 15:50,Elson S. Floyd Hall,F0206,Ghantasala,24
+Main,ME3560,40827,100,Fluid Mechanics,,Lecture,8/29/18,TR,14:00 - 15:15,Elson S. Floyd Hall,D0208,Merati,44
+Main,ME3560,43450,105,Fluid Mechanics,,Lecture,8/29/18,MW,12:30 - 13:45,Elson S. Floyd Hall,D0201,Montefort Sanchez,35
+Main,ME3580,40828,100,Mechanism Analysis,,Lecture,8/29/18,TR,17:30 - 18:45,Elson S. Floyd Hall,D0208,Asher,50
+Main,ME3600,40829,100,Control Systems,,Lecture,8/29/18,MWF,13:30 - 14:20,Elson S. Floyd Hall,D0115,Hudson,60
+Main,ME3620,40830,100,Theory Of Eng Exper,,Lecture,8/29/18,MWF,10:30 - 11:20,Elson S. Floyd Hall,D0115,Cho,60
+Main,ME3650,40848,500,Machine Design I,L1,Lecture,8/29/18,MF,10:30 - 11:20,Elson S. Floyd Hall,D0204,Meyer,50
+Main,ME3650,40867,540,Machine Design I,B1,Lab or Discussion,8/29/18,M,12:30 - 15:15,Elson S. Floyd Hall,C0229,Meyer,28
+Main,ME3650,40868,545,Machine Design I,B1,Lab or Discussion,8/29/18,F,12:30 - 15:15,Elson S. Floyd Hall,C0229,Meyer,28
+Main,ME3650,45421,550,Machine Design I,B1,Lab or Discussion,8/29/18,F,15:30 - 18:15,Elson S. Floyd Hall,C0229,Meyer,20
+Main,ME3670,42081,500,Internal Combustion Engines I,L1,Lecture,8/29/18,TR,09:00 - 09:45,Elson S. Floyd Hall,D0208,MacDonald,30
+Main,ME3670,40869,540,Internal Combustion Engines I,B1,Lab or Discussion,8/29/18,T,10:30 - 13:20,Elson S. Floyd Hall,D0208,MacDonald,15
+Main,ME3670,40870,550,Internal Combustion Engines I,B1,Lab or Discussion,8/29/18,R,10:30 - 13:20,Elson S. Floyd Hall,D0208,MacDonald,15
+Main,ME3990,42397,100,Cooperative Education,,Supervision or Practicum,8/29/18,,,,,Naghshineh,6
+Main,ME4310,40835,100,Heat Transfer,,Lecture,8/29/18,TR,11:30 - 12:45,Elson S. Floyd Hall,C0136,Lemmer,41
+Main,ME4320,40836,100,Thermodynamics II,,Lecture,8/29/18,MWF,08:30 - 09:20,Elson S. Floyd Hall,D0115,Cho,80
+Main,ME4330,45277,100,Envr Sys Design Bldg,,Lecture,8/29/18,MW,17:30 - 18:45,Elson S. Floyd Hall,C0141,Lee,25
+Main,ME4390,40849,500,Design Of Thermal Systems,L1,Lecture,8/29/18,MW,16:30 - 17:20,Elson S. Floyd Hall,D0202,Lee,36
+Main,ME4390,40873,540,Design Of Thermal Systems,B1,Lab or Discussion,8/29/18,T,14:30 - 17:20,Elson S. Floyd Hall,C0227,Lee,18
+Main,ME4390,40874,545,Design Of Thermal Systems,B1,Lab or Discussion,8/29/18,R,14:30 - 17:20,Elson S. Floyd Hall,C0227,Lee,18
+Main,ME4530,46147,100,Machine Design II,,Lecture/Lab/Discussion,8/29/18,F,15:30 - 18:20,Elson S. Floyd Hall,C0224,Ari-Gur,24
+Main,ME4530,46147,100,Machine Design II,,Lecture/Lab/Discussion,8/29/18,MF,14:30 - 15:20,Elson S. Floyd Hall,D0206,Ari-Gur,24
+Main,ME4570,41625,500,Experimental Solid Mechanics,L1,Lecture,8/29/18,MW,13:30 - 14:20,Elson S. Floyd Hall,C0123,Kujawski,36
+Main,ME4570,41627,540,Experimental Solid Mechanics,B1,Lab or Discussion,8/29/18,T,10:00 - 12:50,Elson S. Floyd Hall,C0123,Kujawski,12
+Main,ME4570,41626,550,Experimental Solid Mechanics,B1,Lab or Discussion,8/29/18,R,10:00 - 12:50,Elson S. Floyd Hall,C0123,Kujawski,12
+Main,ME4570,46263,560,Experimental Solid Mechanics,B1,Lab or Discussion,8/29/18,M,16:00 - 18:50,Elson S. Floyd Hall,F0115,Kujawski,12
+Main,ME4700,43112,100,Vehicle Structural Design,,Lecture,8/29/18,MW,09:30 - 10:45,Elson S. Floyd Hall,D0202,Hathaway,35
+Main,ME4790,42764,100,Mech/Aerospace Proj Planning,,Lecture,8/29/18,T,13:30 - 14:20,Elson S. Floyd Hall,D0109,Shrestha,83
+Main,ME4800,40831,100,Mech/Aerospace Engr Proj,,Lecture/Lab/Discussion,8/29/18,M,11:30 - 12:20,Elson S. Floyd Hall,D0208,Shrestha,40
+Main,ME4950,46788,100,Materials Science-Engineers,,Seminar or Studio,8/29/18,,,,,,3
+Main,ME4990,40841,100,Independent Studies,,Independent Study,8/29/18,,,,,Naghshineh,5
+Main,ME4990,42217,110,Independent Studies,,Independent Study,8/29/18,,,,,Naghshineh,6
+Main,ME5390,44094,100,Advanced Thermal Design,,Lecture,8/29/18,R,19:00 - 21:30,Elson S. Floyd Hall,D0206,Lee,20
+Main,ME5500,46225,100,Modern Engineered Materials,,Lecture,8/29/18,T,16:00 - 18:50,Elson S. Floyd Hall,F0115,Ari-Gur,20
+Main,ME5530,45903,100,Adv Product Enginerg,,Lecture,8/29/18,W,16:00 - 18:50,Elson S. Floyd Hall,C0122,Vukorpa,20
+Main,ME5580,46114,100,Mechanical Vibration,,Lecture,8/29/18,R,16:00 - 18:50,Elson S. Floyd Hall,D0206,Naghshineh,20
+Main,ME5690,46224,100,Fatigue & Fracture,,Lecture,8/29/18,R,16:00 - 18:20,Elson S. Floyd Hall,F0115,Kujawski,20
+Main,ME5950,44866,100,Intro Analy of Elast Plts,,Lecture,8/29/18,W,19:00 - 21:20,Elson S. Floyd Hall,D0206,Kim,10
+Main,ME5950,46149,105,Advanced Control Systems,,Lecture,8/29/18,T,19:00 - 21:20,Elson S. Floyd Hall,D0204,Ro,10
+Main,ME5990,42398,100,Practical Training,,Supervision or Practicum,8/29/18,,,,,Ghantasala,6
+Main,ME6330,46148,100,Adv Control Systems,,Lecture,8/29/18,T,19:00 - 21:20,Elson S. Floyd Hall,D0204,Ro,10
+Main,ME6350,46113,100,Introduction To Turbulence,,Lecture,8/29/18,T,16:00 - 18:50,Elson S. Floyd Hall,C0124,Liou,20
+Main,ME6360,46327,100,App Optics & System Design,,Lecture,8/29/18,M,18:30 - 21:10,Elson S. Floyd Hall,C0122,Litynski,25
+Main,ME6551,46223,100,Precision Mach. & Micro Mfr,,Lecture,8/29/18,M,19:00 - 21:20,Elson S. Floyd Hall,C0141,Ghantasala,20
+Main,ME6710,45187,100,Adv Heat Transfer I,,Lecture,8/29/18,M,16:00 - 18:50,Elson S. Floyd Hall,D0206,Cho,20
+Main,ME6950,44257,100,Intro Analy of Elast Plts,,Lecture,8/29/18,W,19:00 - 21:20,Elson S. Floyd Hall,D0206,Kim,10
+Main,ME6970,41655,100,Problms In Mech Engr,,Independent Study,8/29/18,,,,,Ghantasala,6
+Main,ME6970,41656,110,Problms In Mech Engr,,Independent Study,8/29/18,,,,,Ari-Gur,6
+Main,ME6990,42399,100,Practical Training,,Supervision or Practicum,8/29/18,,,,,Ghantasala,6
+Main,ME7000,41657,100,Masters Thesis,,Independent Study,8/29/18,,,,,Gustafson,6
+Main,ME7000,46408,105,Masters Thesis,,Independent Study,8/29/18,,,,,Montefort Sanchez,6
+Main,ME7000,41659,110,Masters Thesis,,Independent Study,8/29/18,,,,,Meyer,6
+Main,ME7000,41775,120,Masters Thesis,,Independent Study,8/29/18,,,,,Ghantasala,6
+Main,ME7000,41658,130,Masters Thesis,,Independent Study,8/29/18,,,,,Hudson,6
+Main,ME7000,41774,140,Masters Thesis,,Independent Study,8/29/18,,,,,Shrestha,6
+Main,ME7000,42882,150,Masters Thesis,,Independent Study,8/29/18,,,,,Lee,6
+Main,ME7000,42883,160,Masters Thesis,,Independent Study,8/29/18,,,,,Hansford,6
+Main,ME7000,42884,170,Masters Thesis,,Independent Study,8/29/18,,,,,Liu,6
+Main,ME7000,44726,180,Masters Thesis,,Independent Study,8/29/18,,,,,,6
+Main,ME7000,44733,190,Masters Thesis,,Independent Study,8/29/18,,,,,Naghshineh,6
+Main,ME7000,44736,195,Masters Thesis,,Independent Study,8/29/18,,,,,Ro,6
+Main,ME7100,41660,100,Independent Research,,Independent Study,8/29/18,,,,,Lemmer,6
+Main,ME7100,41661,110,Independent Research,,Independent Study,8/29/18,,,,,Liu,6
+Main,ME7100,42889,120,Independent Research,,Independent Study,8/29/18,,,,,Ari-Gur,6
+Main,ME7100,44304,130,Independent Research,,Independent Study,8/29/18,,,,,Hansford,6
+Main,ME7100,44725,140,Independent Research,,Independent Study,8/29/18,,,,,,6
+Main,ME7300,41662,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Shrestha,6
+Main,ME7300,46475,105,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Liou,6
+Main,ME7300,41663,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Kujawski,6
+Main,ME7300,46476,115,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Merati,6
+Main,ME7300,43245,120,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Hansford,6
+Main,ME7300,43495,130,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Liu,6
+Main,ME7300,43496,140,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Gustafson,6
+Main,ME7300,43839,150,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Patten,6
+Main,ME7300,43840,160,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Lemmer,6
+Main,ME7300,43842,170,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Hudson,6
+Main,ME7300,43843,180,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Ari-Gur,6
+Main,ME7350,43466,100,Graduate Research,,Independent Study,8/29/18,,,,,Merati,6
+Main,ME7350,43467,110,Graduate Research,,Independent Study,8/29/18,,,,,Merati,6
+Main,ME7350,43468,120,Graduate Research,,Independent Study,8/29/18,,,,,Naghshineh,6
+Main,ME7350,45611,130,Graduate Research,,Independent Study,8/29/18,,,,,Naghshineh,6
+Main,ME7350,45612,140,Graduate Research,,Independent Study,8/29/18,,,,,Liu,6
+Main,CHEG1010,40244,500,Intro To Chemical Engineering,L1,Lecture,8/29/18,MW,08:00 - 08:50,Sangren Hall,1710,Abubakr,70
+Main,CHEG1010,40245,540,Intro To Chemical Engineering,B1,Lab or Discussion,8/29/18,W,14:30 - 17:20,Elson S. Floyd Hall,D0115,Abubakr,70
+Main,CHEG1810,43700,100,Intro. to CHE Computation,,Lecture,8/29/18,M,18:00 - 21:20,Elson S. Floyd Hall,D0208,Yang,48
+Main,CHEG2611,44121,100,Environmental Engineering I,,Lecture,8/29/18,MW,18:30 - 19:45,Elson S. Floyd Hall,D0115,Mondala,70
+Main,CHEG2810,41265,105,Data Acquisition And Handling,,Lab or Discussion,8/29/18,R,14:30 - 17:20,Elson S. Floyd Hall,C0124,Yang,36
+Main,CHEG2960,44189,500,Material And Energy Balances,L1,Lecture,8/29/18,MWF,08:30 - 09:20,Elson S. Floyd Hall,D0202,Aravamuthan,38
+Main,CHEG2960,44190,540,Material And Energy Balances,B1,Lab or Discussion,8/29/18,W,14:30 - 16:20,Elson S. Floyd Hall,D0202,Aravamuthan,38
+Main,CHEG3110,41596,500,Unit Operations-I(fluid Flow),L1,Lecture,8/29/18,TR,08:30 - 09:20,Elson S. Floyd Hall,D0115,Young,80
+Main,CHEG3110,41597,540,Unit Operations-I(fluid Flow),B1,Lab or Discussion,8/29/18,F,14:30 - 17:00,Elson S. Floyd Hall,D0115,Young,80
+Main,CHEG3200,40249,100,Chem Engr Thermodynamics,,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,D0208,Kline,65
+Main,CHEG3810,40250,100,Comptr Mod&simu--Chem Process,,Lab or Discussion,8/29/18,M,14:30 - 17:20,Elson S. Floyd Hall,C0226,Kline,24
+Main,CHEG3810,42135,105,Comptr Mod&simu--Chem Process,,Lab or Discussion,8/29/18,W,14:30 - 17:20,Elson S. Floyd Hall,C0226,Kline,24
+Main,CHEG4100,40251,100,Chemical Reaction Engineering,,Lecture,8/29/18,MWF,11:30 - 12:20,Elson S. Floyd Hall,C0136,Young,64
+Main,CHEG4440,40252,100,Energy Management Engineering,,Lecture,8/29/18,R,08:30 - 11:00,Elson S. Floyd Hall,C0124,Edwards,32
+Main,CHEG4600,43056,500,Plant Economics & Proj Design,L1,Lecture,8/29/18,MW,10:30 - 11:20,Elson S. Floyd Hall,D0208,Springstead,60
+Main,CHEG4600,42360,540,Plant Economics & Proj Design,B1,Lab or Discussion,8/29/18,F,14:30 - 17:20,Elson S. Floyd Hall,D0208,Springstead,60
+Main,CHEG4810,44224,100,Unit Op Lab: Fluid/Heat/Mass,,Lab or Discussion,8/29/18,T,10:00 - 16:10,Elson S. Floyd Hall,A0120,Young,15
+Main,CHEG4810,44225,105,Unit Op Lab: Fluid/Heat/Mass,,Lab or Discussion,8/29/18,T,10:00 - 16:10,Elson S. Floyd Hall,A0120,Young,15
+Main,CHEG4811,43476,100,Unit Op Lab: Fluid & Heat,,Lab or Discussion,8/29/18,T,10:00 - 16:10,Elson S. Floyd Hall,A0120,Young,5
+Main,CHEG4811,44203,105,Unit Op Lab: Fluid & Heat,,Lab or Discussion,8/29/18,T,10:00 - 16:10,Elson S. Floyd Hall,A0120,Young,5
+Main,CHEG4830,40253,100,Process Control I,,Lecture/Lab/Discussion,8/29/18,W,15:00 - 17:30,Elson S. Floyd Hall,C0136,Wu,60
+Main,CHEG4830,40253,100,Process Control I,,Lecture/Lab/Discussion,8/29/18,MWF,13:30 - 14:20,Elson S. Floyd Hall,C0136,Wu,60
+Main,CHEG4870,46808,100,Senior Design Project,,Supervision or Practicum,8/29/18,R,14:30 - 17:20,Elson S. Floyd Hall,A0213,Abubakr,10
+Main,CHEG4870,46808,100,Senior Design Project,,Supervision or Practicum,8/29/18,MW,17:30 - 18:20,Elson S. Floyd Hall,D0202,Abubakr,10
+Main,CHEG4990,40254,100,Independent Studies,,Independent Study,8/29/18,,,,,,5
+Main,CHEG4990,43844,110,Independent Studies,,Independent Study,8/29/18,,,,,,5
+Main,CHEG5100,46122,100,Medical Biomolec Engr Concepts,,Lecture,8/29/18,TR,16:30 - 17:50,Elson S. Floyd Hall,D0115,Springstead,30
+Main,CHEG6100,46121,100,Chemical Eng Thermodynamics,,Lecture,8/29/18,MW,16:00 - 17:15,Elson S. Floyd Hall,G0113,Ago,15
+Main,CHEG7000,43438,100,Master's Thesis,,Independent Study,8/29/18,,,,,Yang,5
+Main,CHEG7000,43439,105,Master's Thesis,,Independent Study,8/29/18,,,,,Qi,5
+Main,CHEG7000,43440,110,Master's Thesis,,Independent Study,8/29/18,,,,,Mondala,5
+Main,CHEG7000,43802,115,Master's Thesis,,Independent Study,8/29/18,,,,,Springstead,5
+Main,CHEG7000,43864,120,Master's Thesis,,Independent Study,8/29/18,,,,,Young,5
+Main,CHEG7000,44232,125,Master's Thesis,,Independent Study,8/29/18,,,,,Wu,5
+Main,CHEG7100,44523,100,Independent Research,,Independent Study,8/29/18,,,,,Wu,10
+Main,CHEG7100,45470,105,Independent Research,,Independent Study,8/29/18,,,,,Yang,0
+Main,CHEG7100,46417,110,Independent Research,,Independent Study,8/29/18,,,,,Springstead,5
+Main,CHEG7100,46467,115,Independent Research,,Independent Study,8/29/18,,,,,Qi,5
+Main,CHEG7300,44524,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Qi,10
+Main,CHEG7300,45394,105,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,10
+Main,CHP3100,44615,100,Work Experience/Co-Op,,Supervision or Practicum,8/29/18,T,10:30 - 11:20,Elson S. Floyd Hall,B0211,Abubakr,1
+Main,CHP3100,46336,105,Work Experience/Co-Op,,Supervision or Practicum,8/29/18,T,09:30 - 10:20,Elson S. Floyd Hall,B0211,Abubakr,5
+Main,GPS1500,42706,500,Intro Graphic & Printing Sci,L1,Lecture,8/29/18,TR,09:30 - 10:45,Chemistry Bldg,1720,Lemon,160
+Main,GPS1500,42707,540,Intro Graphic & Printing Sci,B1,Lab or Discussion,8/29/18,R,14:30 - 17:20,Elson S. Floyd Hall,C0220,Lemon,30
+Main,GPS1500,42708,545,Intro Graphic & Printing Sci,B1,Lab or Discussion,8/29/18,R,18:30 - 21:20,Elson S. Floyd Hall,C0220,Lemon,40
+Main,GPS1500,42709,550,Intro Graphic & Printing Sci,B1,Lab or Discussion,8/29/18,T,14:30 - 17:20,Elson S. Floyd Hall,C0220,Lemon,40
+Main,GPS1500,42710,555,Intro Graphic & Printing Sci,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Elson S. Floyd Hall,C0220,Lemon,40
+Main,GPS1500,45333,560,Intro Graphic&Printing Sci-HC,B1,Lab or Discussion,8/29/18,R,14:30 - 17:20,Elson S. Floyd Hall,C0220,Lemon,10
+Main,GPS2510,42715,500,Multimedia Pub. & Design,L1,Lecture,8/29/18,WF,13:30 - 14:20,Elson S. Floyd Hall,C0220,Fleming,30
+Main,GPS2510,42716,540,Multimedia Pub. & Design,B1,Lab or Discussion,8/29/18,W,14:30 - 17:20,Elson S. Floyd Hall,C0220,Fleming,30
+Main,GPS3570,42719,500,Color Management,L1,Lecture,8/29/18,T,13:30 - 15:20,Elson S. Floyd Hall,A0213,Pekarovicova,16
+Main,GPS3570,42720,540,Color Management,B1,Lab or Discussion,8/29/18,T,08:30 - 11:20,Elson S. Floyd Hall,C0220,Pekarovicova,16
+Main,GPS3590,44298,105,Rotogravure,,Lecture/Lab/Discussion,8/29/18,M,10:00 - 12:50,Elson S. Floyd Hall,A0120,Pekarovicova,15
+Main,GPS3590,44298,105,Rotogravure,,Lecture/Lab/Discussion,8/29/18,MWF,08:30 - 09:20,Elson S. Floyd Hall,A0120,Pekarovicova,15
+Main,GPS4580,42721,500,Digital Printing and Workflow,L1,Lecture,8/29/18,WF,09:30 - 10:20,Elson S. Floyd Hall,C0220,Fleming,20
+Main,GPS4580,42722,540,Digital Printing and Workflow,B1,Lab or Discussion,8/29/18,W,10:30 - 13:20,Elson S. Floyd Hall,C0220,Fleming,20
+Main,GPS4620,42718,100,Print Estimating,,Lecture/Lab/Discussion,8/29/18,TR,11:30 - 13:20,Elson S. Floyd Hall,C0220,Lemon,20
+Main,GPS4630,42717,100,Finishing and Converting,,Lecture/Lab/Discussion,8/29/18,W,14:30 - 17:20,Elson S. Floyd Hall,C0111,Lemon,20
+Main,GPS4630,42717,100,Finishing and Converting,,Lecture/Lab/Discussion,8/29/18,MW,13:30 - 14:20,Elson S. Floyd Hall,C0111,Lemon,20
+Main,GPS6210,46137,500,Nonimpact Printing,L1,Lecture,8/29/18,WF,08:30 - 09:20,Elson S. Floyd Hall,C0220,Fleming,15
+Main,GPS6210,46138,540,Nonimpact Printing,B1,Lab or Discussion,8/29/18,F,10:30 - 13:00,Elson S. Floyd Hall,C0220,Fleming,15
+Main,PAPR1000,40003,500,Intro Pulp/Papr Mfg,L1,Lecture,8/29/18,MW,10:00 - 10:50,Sangren Hall,1320,Li,30
+Main,PAPR1000,42139,557,Intro Pulp/Papr Mfg,B1,Lab or Discussion,8/29/18,W,14:30 - 17:20,Elson S. Floyd Hall,D0206,Stoops,30
+Main,PAPR2550,43042,500,Paper Physics Fundamentals,L1,Lecture,8/29/18,MWF,13:30 - 14:20,Elson S. Floyd Hall,D0206,Pekarovic,24
+Main,PAPR2550,44065,555,Paper Physics Fundamentals,B1,Lab or Discussion,8/29/18,M,18:30 - 21:20,Elson S. Floyd Hall,A0120,Stoops,16
+Main,PAPR3030,44295,505,Pulping and Bleaching,L1,Lecture,8/29/18,MWF,09:30 - 10:20,Elson S. Floyd Hall,D0212,Aravamuthan,16
+Main,PAPR3030,44296,555,Pulping and Bleaching,B1,Lab or Discussion,8/29/18,M,15:30 - 18:20,Elson S. Floyd Hall,A0213,Stoops,16
+Main,PAPR4400,44237,100,Seminar,,Seminar or Studio,8/29/18,T,17:30 - 18:20,Elson S. Floyd Hall,A0120,Abubakr,12
+Main,PAPR4600,46339,500,Plant Economics & Proj Design,L1,Lecture,8/29/18,MW,10:30 - 11:20,Elson S. Floyd Hall,D0208,Springstead,60
+Main,PAPR4600,46340,545,Plant Economics & Proj Design,B1,Lab or Discussion,8/29/18,F,14:30 - 17:20,Elson S. Floyd Hall,D0208,Springstead,60
+Main,PAPR4850,40198,110,Research Design,,Supervision or Practicum,8/29/18,R,17:30 - 18:20,Elson S. Floyd Hall,C0141,Aravamuthan,15
+Main,PAPR4990,40199,100,Independent Studies,,Independent Study,8/29/18,,,,,Stoops,5
+Main,PAPR5000,45377,105,Introduction to Papermaking,,Lecture/Lab/Discussion,8/29/18,W,14:30 - 17:20,Elson S. Floyd Hall,A0213,Li,5
+Main,PAPR5501,46120,100,Advanced Paper Processes,,Lecture,8/29/18,R,15:00 - 17:30,Elson S. Floyd Hall,A0120,Li,15
+Main,PAPR6950,45396,100,Grad Topics Papr/Prt,,Lecture,8/29/18,M,12:30 - 13:20,Elson S. Floyd Hall,C0220,Fleming,5
+Main,PAPR6990,44525,100,Pilot Plant Research,,Lab or Discussion,8/29/18,,,,,Stoops,1
+Main,PAPR7000,40570,100,Masters Thesis,,Independent Study,8/29/18,,,,,Fleming,5
+Main,PAPR7000,40571,105,Masters Thesis,,Independent Study,8/29/18,,,,,Pekarovicova,5
+Main,PAPR7000,40572,110,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,PAPR7000,40573,115,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,PAPR7000,40574,120,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,PAPR7000,42601,125,Masters Thesis,,Independent Study,8/29/18,,,,,,5
+Main,PAPR7100,42482,100,Independent Research,,Independent Study,8/29/18,,,,,Li,5
+Main,PAPR7100,43873,105,Independent Research,,Independent Study,8/29/18,,,,,Yang,5
+Main,PAPR7100,44209,110,Independent Research,,Independent Study,8/29/18,,,,,Fleming,5
+Main,PAPR7100,44210,115,Independent Research,,Independent Study,8/29/18,,,,,,5
+Main,PAPR7120,40200,100,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,5
+Main,PAPR7131,43845,100,Teaching Practicum Observation,,Supervision or Practicum,8/29/18,,,,,Aravamuthan,5
+Main,PAPR7131,46745,105,Teaching Practicum Observation,,Supervision or Practicum,8/29/18,,,,,Lemon,5
+Main,PAPR7132,44702,100,Teaching in the Discipline,,Supervision or Practicum,8/29/18,,,,,,5
+Main,PAPR7300,40201,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Fleming,10
+Main,PAPR7300,42602,105,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Pekarovicova,5
+Main,PAPR7300,43041,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Li,5
+Main,PAPR7300,43805,115,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,PAPR7300,44301,120,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+WMU - Online Education,GPS1570,42798,950,Imaging Systems,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Pekarovicova,20

@@ -1,0 +1,1067 @@
+Campus,Course ID,CRN,Section,Title,Link,Schedule Type,Start Date,Meeting Days,Meeting Time,Building,Room,Primary Instructor Last Name,Cap
+Main,BIOS1050,40424,150,Environmental Biology,,Lecture,8/29/18,TR,11:00 - 12:15,Wood Hall,1001,Ide,220
+Main,BIOS1100,40394,100,Biological Sciences Lab,,Lab or Discussion,8/29/18,M,11:30 - 14:20,Wood Hall,1107,Quakenbush,24
+Main,BIOS1100,40395,110,Biological Sciences Lab,,Lab or Discussion,8/29/18,M,11:30 - 14:20,Wood Hall,2411,Whitacre,24
+Main,BIOS1100,40396,120,Biological Sciences Lab,,Lab or Discussion,8/29/18,M,15:00 - 17:50,Wood Hall,1107,Jackson,24
+Main,BIOS1100,40399,130,Biological Sciences Lab,,Lab or Discussion,8/29/18,M,15:00 - 17:50,Wood Hall,2411,Kelley,24
+Main,BIOS1100,40401,140,Biological Sciences Lab,,Lab or Discussion,8/29/18,M,18:30 - 21:20,Wood Hall,1107,Jackson,24
+Main,BIOS1100,40402,150,Biological Sciences Lab,,Lab or Discussion,8/29/18,M,18:30 - 21:20,Wood Hall,2411,Thompson,24
+Main,BIOS1100,40403,160,Biological Sciences Lab,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Wood Hall,1107,Nienhaus,24
+Main,BIOS1100,40405,170,Biological Sciences Lab,,Lab or Discussion,8/29/18,T,11:30 - 14:20,Wood Hall,1107,Jackson,24
+Main,BIOS1100,40408,190,Biological Sciences Lab,,Lab or Discussion,8/29/18,T,15:00 - 17:50,Wood Hall,1107,Jackson,24
+Main,BIOS1100,40411,210,Biological Sciences Lab,,Lab or Discussion,8/29/18,T,18:30 - 21:20,Wood Hall,1107,Marshall,24
+Main,BIOS1100,40415,230,Biological Sciences Lab,,Lab or Discussion,8/29/18,W,08:00 - 10:50,Wood Hall,1107,Jackson,24
+Main,BIOS1100,40416,240,Biological Sciences Lab,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Wood Hall,2411,Thompson,24
+Main,BIOS1100,40417,250,Biological Sciences Lab,,Lab or Discussion,8/29/18,W,11:30 - 14:20,Wood Hall,1107,Quakenbush,24
+Main,BIOS1100,40419,270,Biological Sciences Lab,,Lab or Discussion,8/29/18,W,15:00 - 17:50,Wood Hall,1107,Nienhaus,24
+Main,BIOS1100,40420,H01,Biological Sciences Lab - HC,,Lab or Discussion,8/29/18,W,18:30 - 21:20,Wood Hall,1107,Marshall,24
+Main,BIOS1120,40425,110,Principles Of Biology,,Lecture,8/29/18,TR,14:00 - 15:15,Chemistry Bldg,1720,Coulter,250
+Main,BIOS1120,40427,120,Principles Of Biology,,Lecture,8/29/18,MWF,09:00 - 09:50,Wood Hall,1301,Rudge,250
+Main,BIOS1120,40426,H01,Principles Of Biology - HC,,Lecture,8/29/18,MW,14:00 - 15:15,Sangren Hall,4735,Coulter,24
+Main,BIOS1600,43562,100,Biological Form and Function,,Lecture,8/29/18,MW,15:30 - 16:45,Wood Hall,1301,McCullough,300
+Main,BIOS1610,43574,500,Molecular and Cellular Biology,L1,Lecture,8/29/18,MW,14:00 - 15:15,Wood Hall,1718,Geiser,72
+Main,BIOS1610,45168,510,Molecular and Cellular Biology,L1,Lecture,8/29/18,TR,11:00 - 12:15,Wood Hall,1710,Geiser,72
+Main,BIOS1610,43575,540,Molecular and Cellular Biology,B1,Lab or Discussion,8/29/18,M,08:00 - 10:50,Wood Hall,2415,Almuhanna,23
+Main,BIOS1610,43577,545,Molecular and Cellular Biology,B1,Lab or Discussion,8/29/18,M,12:00 - 14:50,Wood Hall,2415,Satyanarayan,23
+Main,BIOS1610,43580,560,Molecular and Cellular Biology,B1,Lab or Discussion,8/29/18,T,11:30 - 14:20,Wood Hall,2415,Almuhanna,24
+Main,BIOS1610,43585,565,Molecular and Cellular Biology,B1,Lab or Discussion,8/29/18,T,15:00 - 17:50,Wood Hall,2415,Ojha,24
+Main,BIOS1610,43586,570,Molecular and Cellular Biology,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Wood Hall,2415,Ojha,24
+Main,BIOS1610,43587,575,Molecular and Cellular Biology,B1,Lab or Discussion,8/29/18,W,08:00 - 10:50,Wood Hall,2415,White,24
+Main,BIOS1610,43588,580,Molecular and Cellular Biology,B1,Lab or Discussion,8/29/18,W,12:00 - 14:50,Wood Hall,2415,White,24
+Main,BIOS1610,43589,585,Molecular and Cellular Biology,B1,Lab or Discussion,8/29/18,W,18:00 - 20:50,Wood Hall,2415,Von Kannon,24
+Main,BIOS1610,43576,H01,Molecular & Cellular Bio-HC,L1,Lecture,8/29/18,TR,14:00 - 15:15,Wood Hall,1718,Geiser,48
+Main,BIOS1610,43579,H02,Molecular & Cellular Bio -HC,B1,Lab or Discussion,8/29/18,T,08:00 - 10:50,Wood Hall,2415,Van Huizen,24
+Main,BIOS1610,43590,H03,Molecular & Cell Bio - HC,B1,Lab or Discussion,8/29/18,R,08:00 - 10:50,Wood Hall,2415,Satyanarayan,24
+Main,BIOS1620,43594,500,Ecology and Evolution,L1,Lecture,8/29/18,MWF,11:00 - 11:50,Wood Hall,1001,Gill,180
+Main,BIOS1620,43595,540,Ecology and Evolution,B1,Lab or Discussion,8/29/18,T,09:00 - 11:50,Wood Hall,2404,Frazier,20
+Main,BIOS1620,43596,545,Ecology and Evolution,B1,Lab or Discussion,8/29/18,T,13:00 - 15:50,Wood Hall,2404,Janik,20
+Main,BIOS1620,43597,550,Ecology and Evolution,B1,Lab or Discussion,8/29/18,T,18:00 - 20:50,Wood Hall,2404,Sblendorio,20
+Main,BIOS1620,43598,555,Ecology and Evolution,B1,Lab or Discussion,8/29/18,W,13:00 - 15:50,Wood Hall,2404,Eiseman,20
+Main,BIOS1620,43599,560,Ecology and Evolution,B1,Lab or Discussion,8/29/18,W,18:00 - 20:50,Wood Hall,2404,Eiseman,20
+Main,BIOS1620,43600,565,Ecology and Evolution,B1,Lab or Discussion,8/29/18,R,09:00 - 11:50,Wood Hall,2404,Hopkins,20
+Main,BIOS1620,43601,570,Ecology and Evolution,B1,Lab or Discussion,8/29/18,R,13:00 - 15:50,Wood Hall,2404,Hopkins,20
+Main,BIOS1620,43602,575,Ecology and Evolution,B1,Lab or Discussion,8/29/18,M,18:00 - 20:50,Wood Hall,2404,Frazier,20
+Main,BIOS1620,43603,580,Ecology and Evolution,B1,Lab or Discussion,8/29/18,M,13:00 - 15:50,Wood Hall,2404,Foster,20
+Main,BIOS1700,42629,M81,Life Science for Non-Majors,,Lecture/Lab/Discussion,8/29/18,MW,09:00 - 11:20,Wood Hall,1414,Sankey,24
+Main,BIOS1700,43159,M82,Life Science for Non-Majors,,Lecture/Lab/Discussion,8/29/18,MW,17:30 - 19:50,Wood Hall,1414,Pawl,24
+Main,BIOS1700,42630,M83,Life Science for Non-Majors,,Lecture/Lab/Discussion,8/29/18,MW,13:00 - 15:20,Wood Hall,1414,Wenger,24
+Main,BIOS1910,40493,500,Intro To Human Biol & Anatomy,L1,Lecture,8/29/18,MWF,13:00 - 13:50,Wood Hall,1301,Groves,144
+Main,BIOS1910,40494,540,Intro To Human Biol & Anatomy,B1,Lab or Discussion,8/29/18,R,14:00 - 16:50,Wood Hall,2412,Kalata,24
+Main,BIOS1910,40495,545,Intro To Human Biol & Anatomy,B1,Lab or Discussion,8/29/18,R,17:00 - 19:50,Wood Hall,2412,Kalata,24
+Main,BIOS1910,40496,550,Intro To Human Biol & Anatomy,B1,Lab or Discussion,8/29/18,F,08:00 - 10:50,Wood Hall,2412,Cintron-Colon,24
+Main,BIOS1910,40497,555,Intro To Human Biol & Anatomy,B1,Lab or Discussion,8/29/18,F,14:00 - 16:50,Wood Hall,2412,Ray,24
+Main,BIOS1910,45419,560,Intro To Human Biol & Anatomy,B1,Lab or Discussion,8/29/18,R,14:00 - 16:50,Wood Hall,2411,VanGyseghem,24
+Main,BIOS1910,45499,565,Intro To Human Biol & Anatomy,B1,Lab or Discussion,8/29/18,R,17:00 - 19:50,Wood Hall,2411,VanGyseghem,24
+Main,BIOS2020,40498,500,General Botany,L1,Lecture,8/29/18,TR,11:00 - 12:15,Wood Hall,2708,Barkman,40
+Main,BIOS2020,40499,540,General Botany,B1,Lab or Discussion,8/29/18,M,12:00 - 14:50,Wood Hall,1127,Dubs,20
+Main,BIOS2020,40500,545,General Botany,B1,Lab or Discussion,8/29/18,M,15:30 - 18:20,Wood Hall,1127,Dubs,20
+Main,BIOS2110,40501,500,Human Anatomy,L1,Lecture,8/29/18,MWF,11:00 - 11:50,Wood Hall,1301,Eng,240
+Main,BIOS2110,40502,540,Human Anatomy,B1,Lab or Discussion,8/29/18,M,08:00 - 10:50,Wood Hall,2412,Eng,24
+Main,BIOS2110,40503,545,Human Anatomy,B1,Lab or Discussion,8/29/18,M,13:00 - 15:50,Wood Hall,2412,Lam,24
+Main,BIOS2110,40504,550,Human Anatomy,B1,Lab or Discussion,8/29/18,M,18:30 - 21:20,Wood Hall,2412,Ali,24
+Main,BIOS2110,40505,555,Human Anatomy,B1,Lab or Discussion,8/29/18,T,08:00 - 10:50,Wood Hall,2412,Scheib,24
+Main,BIOS2110,40506,560,Human Anatomy,B1,Lab or Discussion,8/29/18,T,13:00 - 15:50,Wood Hall,2412,Eng,23
+Main,BIOS2110,40507,565,Human Anatomy,B1,Lab or Discussion,8/29/18,T,18:30 - 21:20,Wood Hall,2412,Eng,24
+Main,BIOS2110,40508,570,Human Anatomy,B1,Lab or Discussion,8/29/18,W,08:00 - 10:50,Wood Hall,2412,Eng,24
+Main,BIOS2110,40509,575,Human Anatomy,B1,Lab or Discussion,8/29/18,W,13:00 - 15:50,Wood Hall,2412,Lam,24
+Main,BIOS2110,40511,580,Human Anatomy,B1,Lab or Discussion,8/29/18,W,18:30 - 21:20,Wood Hall,2412,Ali,24
+Main,BIOS2110,40513,585,Human Anatomy,B1,Lab or Discussion,8/29/18,R,08:00 - 10:50,Wood Hall,2412,Cintron-Colon,24
+Main,BIOS2300,40514,100,Cell Biology,,Lecture,8/29/18,MW,14:00 - 15:15,Wood Hall,1001,Lu,100
+Main,BIOS2320,40515,500,Micro Infec Diseases,L1,Lecture,8/29/18,MWF,12:00 - 12:50,Wood Hall,1301,VanEnk,108
+Main,BIOS2320,40518,540,Micro Infec Diseases,B1,Lab or Discussion,8/29/18,MW,10:00 - 11:50,Chemistry Bldg,3860,Almeida Alves,18
+Main,BIOS2320,42057,545,Micro Infec Diseases,B1,Lab or Discussion,8/29/18,MW,13:00 - 14:50,Chemistry Bldg,3860,VanEnk,18
+Main,BIOS2320,40519,550,Micro Infec Diseases,B1,Lab or Discussion,8/29/18,MW,13:00 - 14:50,Chemistry Bldg,3802,Burtchett,18
+Main,BIOS2320,42488,555,Micro Infec Diseases,B1,Lab or Discussion,8/29/18,MW,10:00 - 11:50,Chemistry Bldg,3802,Burtchett,18
+Main,BIOS2320,40520,560,Micro Infec Diseases,B1,Lab or Discussion,8/29/18,MW,15:00 - 16:50,Chemistry Bldg,3860,VanEnk,18
+Main,BIOS2320,40521,565,Micro Infec Diseases,B1,Lab or Discussion,8/29/18,MW,18:00 - 19:50,Chemistry Bldg,3860,Almeida Alves,18
+Main,BIOS2400,40522,500,Human Physiology,L1,Lecture,8/29/18,TR,11:00 - 12:15,Knauss Hall,2452,McCullough,216
+Main,BIOS2400,40523,540,Human Physiology,B1,Lab or Discussion,8/29/18,W,08:00 - 10:50,Wood Hall,1308,Stanton,24
+Main,BIOS2400,40524,545,Human Physiology,B1,Lab or Discussion,8/29/18,W,11:00 - 13:50,Wood Hall,1308,Monaco,24
+Main,BIOS2400,42040,550,Human Physiology,B1,Lab or Discussion,8/29/18,W,14:30 - 17:20,Wood Hall,1308,Kana,24
+Main,BIOS2400,40525,555,Human Physiology,B1,Lab or Discussion,8/29/18,W,18:00 - 20:50,Wood Hall,1308,Kana,24
+Main,BIOS2400,40526,560,Human Physiology,B1,Lab or Discussion,8/29/18,R,08:00 - 10:50,Wood Hall,1308,Kinsey,24
+Main,BIOS2400,40527,565,Human Physiology,B1,Lab or Discussion,8/29/18,R,13:00 - 15:50,Wood Hall,1308,Stanton,24
+Main,BIOS2400,40528,570,Human Physiology,B1,Lab or Discussion,8/29/18,R,18:00 - 20:50,Wood Hall,1308,Kinsey,24
+Main,BIOS2400,40529,575,Human Physiology,B1,Lab or Discussion,8/29/18,F,09:00 - 11:50,Wood Hall,1308,Monaco,24
+Main,BIOS2400,40530,580,Human Physiology,B1,Lab or Discussion,8/29/18,F,13:00 - 15:50,Wood Hall,1308,Lian,24
+Main,BIOS2500,40531,500,General Genetics,L1,Lecture,8/29/18,TR,09:30 - 10:45,Wood Hall,1301,Yao,145
+Main,BIOS2500,44507,540,General Genetics,B1,Lab or Discussion,8/29/18,T,16:00 - 16:50,Sangren Hall,3140,Petrachkova,35
+Main,BIOS2500,44508,545,General Genetics,B1,Lab or Discussion,8/29/18,M,16:00 - 16:50,Wood Hall,1728,Petrachkova,35
+Main,BIOS2500,44509,550,General Genetics,B1,Lab or Discussion,8/29/18,M,10:00 - 10:50,Wood Hall,2708,Petrachkova,35
+Main,BIOS2500,44510,560,General Genetics,B1,Lab or Discussion,8/29/18,W,11:00 - 11:50,Wood Hall,2722,Petrachkova,35
+Main,BIOS2600,46201,100,Intro To Developmental Biology,,Lecture,8/29/18,TR,14:00 - 15:15,Sangren Hall,2130,Kane,10
+Main,BIOS2700,40532,M85,Everyday Biology: Cells,,Lecture/Lab/Discussion,8/29/18,TR,13:00 - 15:20,Wood Hall,1127,Dai,24
+Main,BIOS3000,43074,100,Evolution,,Lecture,8/29/18,MWF,11:00 - 11:50,Wood Hall,2708,Karowe,25
+Main,BIOS3010,40533,500,Ecology,L1,Lecture,8/29/18,MW,10:00 - 11:40,Wood Hall,1718,Malcolm,60
+Main,BIOS3010,40534,545,Ecology,B1,Lab or Discussion,8/29/18,R,13:00 - 16:50,Wood Hall,1106,Ng,20
+Main,BIOS3010,40535,550,Ecology,B1,Lab or Discussion,8/29/18,F,08:00 - 11:50,Wood Hall,1106,Smith,20
+Main,BIOS3010,40536,555,Ecology,B1,Lab or Discussion,8/29/18,F,13:00 - 16:50,Wood Hall,1106,Ng,20
+Main,BIOS3120,40538,500,Microbiology,L1,Lecture,8/29/18,TR,11:00 - 12:15,Sangren Hall,2710,Docherty,64
+Main,BIOS3120,40539,540,Microbiology,B1,Lab or Discussion,8/29/18,TR,09:00 - 10:50,Chemistry Bldg,3802,Spring,16
+Main,BIOS3120,40540,545,Microbiology,B1,Lab or Discussion,8/29/18,TR,13:30 - 15:20,Chemistry Bldg,3802,Walser,16
+Main,BIOS3120,40541,550,Microbiology,B1,Lab or Discussion,8/29/18,TR,16:00 - 17:50,Chemistry Bldg,3802,Spring,16
+Main,BIOS3120,40542,555,Microbiology,B1,Lab or Discussion,8/29/18,TR,18:00 - 19:50,Chemistry Bldg,3802,Walser,16
+Main,BIOS3500,40599,500,Human Physiology-Maj,L1,Lecture,8/29/18,MW,14:00 - 15:50,Sangren Hall,1740,Linn,72
+Main,BIOS3500,40600,540,Human Physiology-Maj,B1,Lab or Discussion,8/29/18,M,18:00 - 20:50,Wood Hall,1308,Paris,18
+Main,BIOS3500,40603,545,Human Physiology-Maj,B1,Lab or Discussion,8/29/18,T,09:00 - 11:50,Wood Hall,1308,Ketchum,18
+Main,BIOS3500,40604,550,Human Physiology-Maj,B1,Lab or Discussion,8/29/18,T,13:00 - 15:50,Wood Hall,1308,Ketchum,18
+Main,BIOS3500,40605,555,Human Physiology-Maj,B1,Lab or Discussion,8/29/18,T,18:00 - 20:50,Wood Hall,1308,Paris,18
+Main,BIOS4980,40883,120,Readings In Bios,,Independent Study,8/29/18,,,,,Duncan,5
+Main,BIOS4980,40884,130,Readings In Bios,,Independent Study,8/29/18,,,,,,5
+Main,BIOS4980,40885,140,Readings In Bios,,Independent Study,8/29/18,,,,,,5
+Main,BIOS4980,40886,150,Readings In Bios,,Independent Study,8/29/18,,,,,,5
+Main,BIOS4980,42891,160,Readings In Bios,,Independent Study,8/29/18,,,,,,5
+Main,BIOS4980,42892,170,Readings In Bios,,Independent Study,8/29/18,,,,,,5
+Main,BIOS4990,40887,100,Ind Research In Bios,,Independent Study,8/29/18,,,,,Duncan,5
+Main,BIOS4990,40889,110,Ind Research In Bios,,Independent Study,8/29/18,,,,,Gill,5
+Main,BIOS4990,40890,120,Ind Research In Bios,,Independent Study,8/29/18,,,,,Eversole,5
+Main,BIOS4990,40891,130,Ind Research In Bios,,Independent Study,8/29/18,,,,,Barkman,5
+Main,BIOS4990,40892,140,Ind Research In Bios,,Independent Study,8/29/18,,,,,Kane,5
+Main,BIOS4990,40893,150,Ind Research In Bios,,Independent Study,8/29/18,,,,,Bloom,5
+Main,BIOS4990,40894,160,Ind Research In Bios,,Independent Study,8/29/18,,,,,Beaver,5
+Main,BIOS4990,40895,170,Ind Research In Bios,,Independent Study,8/29/18,,,,,McCullough,5
+Main,BIOS4990,41832,180,Ind Research In Bios,,Independent Study,8/29/18,,,,,Kohler,5
+Main,BIOS4990,42893,190,Ind Research In Bios,,Independent Study,8/29/18,,,,,Bertman,5
+Main,BIOS4990,42894,200,Ind Research In Bios,,Independent Study,8/29/18,,,,,Spitsbergen,5
+Main,BIOS4990,43247,210,Ind Research In Bios,,Independent Study,8/29/18,,,,,Stapleton,5
+Main,BIOS4990,43248,220,Ind Research In Bios,,Independent Study,8/29/18,,,,,Spitsbergen,5
+Main,BIOS4990,43249,230,Ind Research In Bios,,Independent Study,8/29/18,,,,,Docherty,5
+Main,BIOS4990,43250,240,Ind Research In Bios,,Independent Study,8/29/18,,,,,,5
+Main,BIOS5265,43671,100,Proteins as Biol Machines,,Lecture,8/29/18,TR,15:30 - 16:45,Sangren Hall,1740,Tripp,20
+Main,BIOS5360,40847,100,Immunology,,Lecture,8/29/18,TR,18:00 - 19:40,Wood Hall,2902,Essani,20
+Main,BIOS5440,45354,100,Global Change Ecology,,Lecture,8/29/18,MW,17:00 - 18:15,Wood Hall,2708,Karowe,12
+Main,BIOS5535,44522,100,Freshwater Ecology,,Lecture/Lab/Discussion,8/29/18,MW,13:00 - 13:50,Wood Hall,1120,Kohler,20
+Main,BIOS5535,44522,100,Freshwater Ecology,,Lecture/Lab/Discussion,8/29/18,M,14:00 - 18:00,Wood Hall,1120,Kohler,20
+Main,BIOS5590,43055,100,Neurobiology,,Lecture,8/29/18,MW,10:00 - 11:50,Wood Hall,2902,Jellies,22
+Main,BIOS5740,46202,100,Developmental Biology,,Lecture/Lab/Discussion,8/29/18,TR,14:00 - 15:15,Wood Hall,2722,Kane,10
+Main,BIOS5970,45330,100,Vaccinology,,Lecture,8/29/18,,,Online and Face-to-Face,CLASS,Eversole,20
+Main,BIOS5970,45330,100,Vaccinology,,Lecture,8/29/18,M,14:00 - 16:30,Sangren Hall,4520,Eversole,20
+Main,BIOS5970,46203,105,Microbial Pathogenesis,,Lecture,8/29/18,TR,11:00 - 12:15,Sangren Hall,2120,Rossbach,20
+Main,BIOS5970,46812,110,Cell Culture Models,,Lecture,8/29/18,,,,,Linn,1
+Main,BIOS6010,40896,100,Special Investigations,,Independent Study,8/29/18,,,,,Hoppe,10
+Main,BIOS6010,40897,110,Special Investigations,,Independent Study,8/29/18,,,,,Bloom,5
+Main,BIOS6010,40898,120,Special Investigations,,Independent Study,8/29/18,,,,,Docherty,5
+Main,BIOS6010,40899,130,Special Investigations,,Independent Study,8/29/18,,,,,Lu,5
+Main,BIOS6010,40900,140,Special Investigations,,Independent Study,8/29/18,,,,,Spitsbergen,5
+Main,BIOS6010,40901,150,Special Investigations,,Independent Study,8/29/18,,,,,Rossbach,5
+Main,BIOS6010,40902,160,Special Investigations,,Independent Study,8/29/18,,,,,Beane,5
+Main,BIOS6010,40903,170,Special Investigations,,Independent Study,8/29/18,,,,,Gill,5
+Main,BIOS6010,44289,180,Special Investigations,,Independent Study,8/29/18,,,,,Vonhof,5
+Main,BIOS6010,44290,190,Special Investigations,,Independent Study,8/29/18,,,,,Duncan,5
+Main,BIOS6010,44299,200,Special Investigations,,Independent Study,8/29/18,,,,,Yao,5
+Main,BIOS6010,44300,210,Special Investigations,,Independent Study,8/29/18,,,,,Byrd,5
+Main,BIOS6050,41643,100,Biological Science Colloquium,,Seminar or Studio,8/29/18,F,15:30 - 16:30,Wood Hall,1710,Beane,30
+Main,BIOS6110,43330,100,Eukaryotic Cell Biology,,Lecture,8/29/18,MW,15:30 - 16:45,Wood Hall,2708,Hoppe,25
+Main,BIOS6979,44205,100,Seminars in Biology,,Seminar or Studio,8/29/18,M,12:30 - 13:45,Sangren Hall,4310,Kane,14
+Main,BIOS6990,41198,100,Laboratory Rotations,,Independent Study,8/29/18,,,,,,5
+Main,BIOS6990,41199,110,Laboratory Rotations,,Independent Study,8/29/18,,,,,,5
+Main,BIOS6990,41200,120,Laboratory Rotations,,Independent Study,8/29/18,,,,,,5
+Main,BIOS6990,41201,130,Laboratory Rotations,,Independent Study,8/29/18,,,,,,5
+Main,BIOS6990,41202,140,Laboratory Rotations,,Independent Study,8/29/18,,,,,,5
+Main,BIOS6990,41203,150,Laboratory Rotations,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7000,41204,100,Master's Thesis,,Independent Study,8/29/18,,,,,Lu,5
+Main,BIOS7000,41205,110,Master's Thesis,,Independent Study,8/29/18,,,,,Bloom,5
+Main,BIOS7000,41206,120,Master's Thesis,,Independent Study,8/29/18,,,,,Tripp,5
+Main,BIOS7000,41207,130,Master's Thesis,,Independent Study,8/29/18,,,,,Gill,5
+Main,BIOS7000,41208,140,Master's Thesis,,Independent Study,8/29/18,,,,,Ide,5
+Main,BIOS7000,41209,150,Master's Thesis,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7000,41210,160,Master's Thesis,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7000,41211,170,Master's Thesis,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7000,42213,180,Master's Thesis,,Independent Study,8/29/18,,,,,,2
+Main,BIOS7000,42214,190,Master's Thesis,,Independent Study,8/29/18,,,,,,2
+Main,BIOS7000,42612,200,Master's Thesis,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7000,42895,210,Master's Thesis,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7000,42896,220,Master's Thesis,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7000,42897,230,Master's Thesis,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7100,41212,100,Independent Research,,Independent Study,8/29/18,,,,,Duncan,5
+Main,BIOS7100,41213,110,Independent Research,,Independent Study,8/29/18,,,,,Rossbach,5
+Main,BIOS7100,41214,120,Independent Research,,Independent Study,8/29/18,,,,,Spitsbergen,5
+Main,BIOS7100,41215,130,Independent Research,,Independent Study,8/29/18,,,,,Gill,5
+Main,BIOS7100,41216,140,Independent Research,,Independent Study,8/29/18,,,,,Malcolm,5
+Main,BIOS7100,41217,150,Independent Research,,Independent Study,8/29/18,,,,,Bloom,5
+Main,BIOS7100,41218,160,Independent Research,,Independent Study,8/29/18,,,,,Kohler,5
+Main,BIOS7100,41219,170,Independent Research,,Independent Study,8/29/18,,,,,Essani,5
+Main,BIOS7100,41220,180,Independent Research,,Independent Study,8/29/18,,,,,Barkman,5
+Main,BIOS7100,41221,190,Independent Research,,Independent Study,8/29/18,,,,,Docherty,5
+Main,BIOS7100,42430,200,Independent Research,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7100,42431,210,Independent Research,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7100,42432,220,Independent Research,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7100,42433,230,Independent Research,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7120,41222,100,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,5
+Main,BIOS7120,41223,110,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,5
+Main,BIOS7120,41224,120,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,5
+Main,BIOS7120,41225,130,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,5
+Main,BIOS7300,41227,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Jellies,5
+Main,BIOS7300,41228,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Lu,5
+Main,BIOS7300,41229,120,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Beane,5
+Main,BIOS7300,41230,130,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Spitsbergen,5
+Main,BIOS7300,41231,140,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Gill,5
+Main,BIOS7300,41232,150,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Essani,5
+Main,BIOS7300,41233,160,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Rossbach,5
+Main,BIOS7300,41234,170,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Linn,5
+Main,BIOS7300,41235,180,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Stapleton,5
+Main,BIOS7300,41236,190,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7300,42434,200,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7300,42435,210,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7300,42436,220,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7300,42898,230,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7300,42899,240,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7300,42900,250,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7350,41237,100,Graduate Research,,Independent Study,8/29/18,,,,,Byrd,5
+Main,BIOS7350,41239,110,Graduate Research,,Independent Study,8/29/18,,,,,Spitsbergen,5
+Main,BIOS7350,41240,120,Graduate Research,,Independent Study,8/29/18,,,,,Hoppe,5
+Main,BIOS7350,41241,130,Graduate Research,,Independent Study,8/29/18,,,,,Kane,5
+Main,BIOS7350,41243,140,Graduate Research,,Independent Study,8/29/18,,,,,Bloom,5
+Main,BIOS7350,41244,150,Graduate Research,,Independent Study,8/29/18,,,,,Duncan,5
+Main,BIOS7350,41245,160,Graduate Research,,Independent Study,8/29/18,,,,,Beane,5
+Main,BIOS7350,41246,170,Graduate Research,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7350,41247,180,Graduate Research,,Independent Study,8/29/18,,,,,,5
+Main,BIOS7350,41248,190,Graduate Research,,Independent Study,8/29/18,,,,,,5
+WMU - Online Education,BIOS1980,43412,950,Human Form and Function,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Var,25
+WMU - Online Education,BIOS5970,44568,950,Toxicology,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Spitsbergen,20
+WMU - Traverse City,BIOS5970,45688,TA,Wetland Ecology,,Lecture,8/29/18,F,09:00 - 17:00,,,Bloom,25
+WMU - Traverse City,BIOS5970,45688,TA,Wetland Ecology,,Lecture,8/29/18,,,,,Bloom,25
+Main,CHEM1000,42038,100,Intro-Genl Chemistry,,Lecture,8/29/18,MWF,10:00 - 10:50,Chemistry Bldg,1220,Miller,25
+Main,CHEM1100,40579,103,General Chemistry I,,Lecture,8/29/18,TR,11:00 - 12:15,Chemistry Bldg,1720,Sinn,235
+Main,CHEM1100,40582,110,General Chemistry I,,Lecture,8/29/18,MWF,12:00 - 12:50,Chemistry Bldg,1720,Guzinski,195
+Main,CHEM1100,43107,H01,General Chemistry I - HC,,Lecture,8/29/18,MWF,12:00 - 12:50,Chemistry Bldg,1220,Schreiber,50
+Main,CHEM1100,44469,H02,General Chemistry I - HC,,Lecture,8/29/18,TR,11:00 - 12:15,Chemistry Bldg,1260,Mo,30
+Main,CHEM1100,40581,HEN,General Chemistry I - HC,,Lecture,8/29/18,MWF,11:00 - 11:50,Chemistry Bldg,1220,Schreiber,40
+Main,CHEM1110,40759,E13,General Chemistry Lab I,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,2271,Onyango,24
+Main,CHEM1110,40747,E16,General Chemistry Lab I,,Lab or Discussion,8/29/18,W,08:00 - 10:50,Chemistry Bldg,2271,Ribble,24
+Main,CHEM1110,44140,E18,General Chemistry Lab I,,Lab or Discussion,8/29/18,F,14:00 - 16:50,Chemistry Bldg,2851,Sinn,24
+Main,CHEM1110,40767,E20,General Chemistry Lab I,,Lab or Discussion,8/29/18,W,14:00 - 16:50,Chemistry Bldg,2831,Onyango,24
+Main,CHEM1110,40750,E22,General Chemistry Lab I,,Lab or Discussion,8/29/18,R,08:00 - 10:50,Chemistry Bldg,2831,Sinn,24
+Main,CHEM1110,40772,E25,General Chemistry Lab I,,Lab or Discussion,8/29/18,R,14:00 - 16:50,Chemistry Bldg,2271,Abuhagr,24
+Main,CHEM1110,40773,E26,General Chemistry Lab I,,Lab or Discussion,8/29/18,R,08:00 - 10:50,Chemistry Bldg,2271,Abohajar,24
+Main,CHEM1110,40753,F11,General Chemistry Lab I,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Chemistry Bldg,2271,Sinn,24
+Main,CHEM1110,40751,F12,General Chemistry Lab I,,Lab or Discussion,8/29/18,F,14:00 - 16:50,Chemistry Bldg,2831,Yuan,24
+Main,CHEM1110,40746,F15,General Chemistry Lab I,,Lab or Discussion,8/29/18,R,14:00 - 16:50,Chemistry Bldg,2851,Ji,24
+Main,CHEM1110,40748,F17,General Chemistry Lab I,,Lab or Discussion,8/29/18,W,08:00 - 10:50,Chemistry Bldg,2851,Kok,24
+Main,CHEM1110,40745,F18,General Chemistry Lab I,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Chemistry Bldg,2831,Saeed,24
+Main,CHEM1110,40768,F21,General Chemistry Lab I,,Lab or Discussion,8/29/18,W,14:00 - 16:50,Chemistry Bldg,2271,Ribble,24
+Main,CHEM1110,40752,F23,General Chemistry Lab I,,Lab or Discussion,8/29/18,R,08:00 - 10:50,Chemistry Bldg,2851,Ji,24
+Main,CHEM1110,44660,F24,General Chemistry Lab I,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,2851,Kok,24
+Main,CHEM1110,45415,F25,General Chemistry Lab I,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,1871,Abuhagr,24
+Main,CHEM1110,45860,H11,General Chemistry Lab I - HC,,Lab or Discussion,8/29/18,W,14:00 - 16:50,Chemistry Bldg,2851,Sinn,24
+Main,CHEM1110,40775,H12,General Chemistry Lab I - HC,,Lab or Discussion,8/29/18,W,08:00 - 10:50,Chemistry Bldg,2831,Sinn,24
+Main,CHEM1110,40754,H13,General Chemistry Lab I- HC,,Lab or Discussion,8/29/18,F,08:00 - 10:50,Chemistry Bldg,2831,Yuan,24
+Main,CHEM1110,40769,HE1,General Chemistry Lab I - HC,,Lab or Discussion,8/29/18,F,08:00 - 10:50,Chemistry Bldg,2271,Abohajar,24
+Main,CHEM1110,40757,HE3,General Chemistry Lab I - HC,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,2831,Saeed,24
+Main,CHEM1110,45861,HE5,General Chemistry Lab I - HC,,Lab or Discussion,8/29/18,F,08:00 - 10:50,Chemistry Bldg,2851,Jawor,24
+Main,CHEM1110,44193,HE9,General Chemistry Lab I - HC,,Lab or Discussion,8/29/18,R,14:00 - 16:30,Chemistry Bldg,2831,Albalawi,24
+Main,CHEM1120,40776,100,General Chemistry II,,Lecture,8/29/18,MWF,09:00 - 09:50,Chemistry Bldg,1720,Mezei,200
+Main,CHEM1120,44309,H10,General Chemistry II - HC,,Lecture,8/29/18,MWF,09:00 - 09:50,Chemistry Bldg,1220,Schreiber,46
+Main,CHEM1130,42863,100,General Chemistry Lab II,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Chemistry Bldg,1871,Bottoms,24
+Main,CHEM1130,40781,102,General Chemistry Lab II,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,1831,Nathan,24
+Main,CHEM1130,41691,103,General Chemistry Lab II,,Lab or Discussion,8/29/18,R,14:00 - 16:50,Chemistry Bldg,1831,Samarakoon Arachchilage,24
+Main,CHEM1130,40782,201,General Chemistry Lab II,,Lab or Discussion,8/29/18,W,14:00 - 16:50,Chemistry Bldg,1831,Ehimegbe,24
+Main,CHEM1130,42888,300,General Chemistry Lab II,,Lab or Discussion,8/29/18,F,14:00 - 16:50,Chemistry Bldg,1831,Kok,24
+Main,CHEM1130,40779,301,General Chemistry Lab II,,Lab or Discussion,8/29/18,R,08:00 - 10:50,Chemistry Bldg,1831,Samarakoon Arachchilage,24
+Main,CHEM1130,40778,H01,General Chemistry Lab II - HC,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Chemistry Bldg,1831,Nathan,24
+Main,CHEM1130,44472,H13,General Chemistry Lab II - HC,,Lab or Discussion,8/29/18,F,14:00 - 16:50,Chemistry Bldg,1871,Sinn,22
+Main,CHEM1510,40783,100,Chem For Health Prof I,,Lecture,8/29/18,MWF,11:00 - 11:50,Chemistry Bldg,1720,Mack,210
+Main,CHEM1520,45540,100,Chem For Health Prof I Lab,,Lab or Discussion,8/29/18,F,08:00 - 10:50,Chemistry Bldg,3831,Mack,24
+Main,CHEM1520,45541,105,Chem For Health Prof I Lab,,Lab or Discussion,8/29/18,F,14:00 - 16:50,Chemistry Bldg,3831,Mack,24
+Main,CHEM1520,40787,160,Chem For Health Prof I Lab,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Chemistry Bldg,3831,Mack,24
+Main,CHEM1520,40788,161,Chem For Health Prof I Lab,,Lab or Discussion,8/29/18,R,08:00 - 10:50,Chemistry Bldg,3831,Mack,24
+Main,CHEM1520,40789,162,Chem For Health Prof I Lab,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,3831,Mack,24
+Main,CHEM1520,40791,163,Chem For Health Prof I Lab,,Lab or Discussion,8/29/18,R,14:00 - 16:50,Chemistry Bldg,3831,Mack,24
+Main,CHEM1520,42088,164,Chem For Health Prof I Lab,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,3871,Mack,24
+Main,CHEM1530,43148,100,Chem For Health Prof. II,,Lecture,8/29/18,MWF,14:00 - 14:50,Chemistry Bldg,1260,Mack,80
+Main,CHEM1540,43149,100,Chem Health Prof II Lab,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Chemistry Bldg,3871,Mack,24
+Main,CHEM1540,43150,101,Chem Health Prof II Lab,,Lab or Discussion,8/29/18,R,14:00 - 16:50,Chemistry Bldg,3871,Mack,24
+Main,CHEM1540,43151,103,Chem Health Prof II Lab,,Lab or Discussion,8/29/18,R,08:00 - 10:50,Chemistry Bldg,3871,Mack,24
+Main,CHEM1850,43160,100,Chemistry Freshman Seminar,,Seminar or Studio,8/29/18,M,14:00 - 14:50,Chemistry Bldg,1220,Schoffers,35
+Main,CHEM2250,41019,100,Quantitative Analysis,,Lecture,8/29/18,TR,14:00 - 15:15,Chemistry Bldg,1260,Venter,30
+Main,CHEM2260,41598,105,Quantitative Analysis Lab,,Lab or Discussion,8/29/18,WF,14:00 - 16:50,Chemistry Bldg,2211,Maser,24
+Main,CHEM2800,42506,M86,Active Chemistry,,Lecture/Lab/Discussion,8/29/18,MW,09:00 - 11:20,Wood Hall,1413,Stephens,24
+Main,CHEM2800,46212,M88,Active Chemistry,,Lecture/Lab/Discussion,8/29/18,MW,13:00 - 15:20,Wood Hall,1413,Pleasants,24
+Main,CHEM3550,41020,100,Intro Biochemistry,,Lecture,8/29/18,MWF,12:00 - 12:50,Wood Hall,1001,Huffman,150
+Main,CHEM3560,42867,100,Intro Biochemistry Lab,,Lab or Discussion,8/29/18,W,08:00 - 10:50,Chemistry Bldg,3831,Onyango,24
+Main,CHEM3560,41021,101,Intro Biochemistry Lab,,Lab or Discussion,8/29/18,W,08:00 - 10:50,Chemistry Bldg,3871,Jawor,24
+Main,CHEM3560,41025,102,Intro Biochemistry Lab,,Lab or Discussion,8/29/18,W,14:00 - 16:50,Chemistry Bldg,3871,Jawor,24
+Main,CHEM3560,41023,103,Intro Biochemistry Lab,,Lab or Discussion,8/29/18,F,08:00 - 10:50,Chemistry Bldg,3871,Javanshad,24
+Main,CHEM3560,41026,104,Intro Biochemistry Lab,,Lab or Discussion,8/29/18,F,14:00 - 16:50,Chemistry Bldg,3871,Javanshad,24
+Main,CHEM3750,41027,100,Organic Chemistry I,,Lecture,8/29/18,MWF,13:00 - 13:50,Chemistry Bldg,1720,Bertman,175
+Main,CHEM3760,41030,100,Organic Chemistry Lab I,,Lab or Discussion,8/29/18,T,08:00 - 10:50,Chemistry Bldg,3211,Van Meter,22
+Main,CHEM3760,41032,101,Organic Chemistry Lab I,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,3211,Van Meter,22
+Main,CHEM3760,41031,102,Organic Chemistry Lab I,,Lab or Discussion,8/29/18,W,08:00 - 10:50,Chemistry Bldg,3211,Fowler,22
+Main,CHEM3760,41033,104,Organic Chemistry Lab I,,Lab or Discussion,8/29/18,W,14:00 - 16:50,Chemistry Bldg,3211,Fowler,22
+Main,CHEM3760,41035,105,Organic Chemistry Lab I,,Lab or Discussion,8/29/18,F,14:00 - 16:50,Chemistry Bldg,3211,Ehimegbe,22
+Main,CHEM3760,42082,106,Organic Chemistry Lab I,,Lab or Discussion,8/29/18,R,14:00 - 16:50,Chemistry Bldg,3211,Ehimegbe,22
+Main,CHEM3760,43238,110,Organic Chemistry Lab I,,Lab or Discussion,8/29/18,R,14:00 - 16:50,Chemistry Bldg,3271,Guzinski,22
+Main,CHEM3770,41036,100,Organic Chemistry II,,Lecture,8/29/18,MWF,10:00 - 10:50,Chemistry Bldg,1260,Schoffers,50
+Main,CHEM3780,44291,100,Organic Chemistry Lab II,,Lab or Discussion,8/29/18,R,08:00 - 10:50,Chemistry Bldg,3211,Kothari,22
+Main,CHEM3780,41041,101,Organic Chemistry Lab II,,Lab or Discussion,8/29/18,T,14:00 - 16:50,Chemistry Bldg,3271,Kothari,22
+Main,CHEM3780,42037,110,Organic Chemistry Lab II,,Lab or Discussion,8/29/18,F,14:00 - 16:50,Chemistry Bldg,3271,Schoffers,22
+Main,CHEM4300,41042,100,Physical Chemistry I,,Lecture,8/29/18,MWF,11:00 - 11:50,Chemistry Bldg,1260,Mo,91
+Main,CHEM4360,41043,100,Phys Chem Laboratory I,,Lab or Discussion,8/29/18,T,08:00 - 11:50,Chemistry Bldg,1860,Miller,8
+Main,CHEM4370,41044,100,Physical Chemistry Lab II,,Lab or Discussion,8/29/18,T,08:00 - 11:50,Chemistry Bldg,1840,Miller,5
+Main,CHEM4950,41054,100,Co-Op/Internship,,Independent Study,8/29/18,,,,,Bertman,5
+Main,CHEM5090,44192,100,Topics In Chemistry-Mass Spec.,,Seminar or Studio,8/29/18,MW,12:00 - 13:15,Wood Hall,2902,Venter,5
+Main,CHEM5200,42779,500,Instrumental Methods,L1,Lecture,8/29/18,TR,12:30 - 13:45,Chemistry Bldg,1260,Guda,15
+Main,CHEM5200,43352,540,Instrumental Methods,B1,Lab or Discussion,8/29/18,M,08:00 - 11:50,Chemistry Bldg,2260,Guda,5
+Main,CHEM5200,43353,545,Instrumental Methods,B1,Lab or Discussion,8/29/18,T,08:00 - 11:50,Chemistry Bldg,2260,Guda,12
+Main,CHEM5500,41048,100,Biochemistry I,,Lecture,8/29/18,M,18:00 - 20:30,Chemistry Bldg,1260,Teske,30
+Main,CHEM5510,41049,100,Biochemistry I Lab,,Lab or Discussion,8/29/18,W,13:00 - 16:50,Chemistry Bldg,3831,Teske,15
+Main,CHEM5980,46817,100,Readings In Chemistry,,Independent Study,8/29/18,,,,,Huffman,1
+Main,CHEM5990,41075,100,Indep Study In Chem,,Independent Study,8/29/18,,,,,Mo,5
+Main,CHEM5990,41074,102,Indep Study In Chem,,Independent Study,8/29/18,,,,,Obare,5
+Main,CHEM5990,43246,105,Indep Study In Chem,,Independent Study,8/29/18,,,,,Huffman,5
+Main,CHEM6090,42036,103,Advanced Chem Topics,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:15,Wood Hall,1215,Venter,12
+Main,CHEM6350,45677,100,Chemical Kinetics,,Lecture,8/29/18,MW,17:00 - 18:15,Chemistry Bldg,1880,Miller,6
+Main,CHEM6900,45593,100,Special Investigations In Chem,,Independent Study,8/29/18,,,,,Grunert,5
+Main,CHEM6900,41078,102,Special Investigations In Chem,,Independent Study,8/29/18,,,,,Miller,5
+Main,CHEM6900,44307,103,Special Investigations In Chem,,Independent Study,8/29/18,,,,,Venter,5
+Main,CHEM6900,41079,104,Special Investigations In Chem,,Independent Study,8/29/18,,,,,Mezei,5
+Main,CHEM6900,45594,105,Special Investigations In Chem,,Independent Study,8/29/18,,,,,Sinn,5
+Main,CHEM6900,44274,300,Special Investigations In Chem,,Independent Study,8/29/18,,,,,Schoffers,5
+Main,CHEM7000,41082,100,Masters Thesis,,Independent Study,8/29/18,,,,,Grunert,5
+Main,CHEM7000,41084,102,Masters Thesis,,Independent Study,8/29/18,,,,,Sinn,5
+Main,CHEM7300,41090,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Venter,5
+Main,CHEM7300,41091,102,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Obare,5
+Main,CHEM7300,41092,104,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Guda,5
+Main,CHEM7300,44313,105,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Schoffers,5
+Main,CHEM7300,41093,106,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Sinn,5
+Main,CHEM7300,41095,108,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Stapleton,5
+Main,ENGL1000,42241,110,The Writing Process,,Lab or Discussion,8/29/18,TR,08:00 - 09:40,Dunbar Hall,4207,Pierce,20
+Main,ENGL1000,42243,120,The Writing Process,,Lab or Discussion,8/29/18,MW,10:00 - 11:40,Dunbar Hall,4207,Morgan,20
+Main,ENGL1000,45500,125,The Writing Process,,Lab or Discussion,8/29/18,TR,12:00 - 13:40,Dunbar Hall,4207,Hains,20
+Main,ENGL1000,45501,130,The Writing Process,,Lab or Discussion,8/29/18,TR,14:00 - 15:40,Dunbar Hall,4209,Ballard,20
+Main,ENGL1000,42246,140,The Writing Process,,Lab or Discussion,8/29/18,MW,12:00 - 13:40,Dunbar Hall,4207,Foley,20
+Main,ENGL1000,42250,165,The Writing Process,,Lab or Discussion,8/29/18,MW,14:00 - 15:40,Dunbar Hall,4207,Morgan,20
+Main,ENGL1000,42251,170,The Writing Process,,Lab or Discussion,8/29/18,TR,16:00 - 17:40,Dunbar Hall,4210,Aiken,20
+Main,ENGL1000,44993,175,The Writing Process,,Lab or Discussion,8/29/18,TR,10:00 - 11:40,Dunbar Hall,4207,Pierce,20
+Main,ENGL1000,42244,F01,The Writing Process,,Lab or Discussion,8/29/18,MW,10:00 - 11:40,Dunbar Hall,4209,Foley,20
+Main,ENGL1000,42245,F02,The Writing Process,,Lab or Discussion,8/29/18,TR,10:00 - 11:40,Dunbar Hall,4209,Hains,20
+Main,ENGL1000,42248,F03,The Writing Process,,Lab or Discussion,8/29/18,MW,12:00 - 13:40,Dunbar Hall,4209,Duke,20
+Main,ENGL1000,42252,F04,The Writing Process,,Lab or Discussion,8/29/18,TR,14:00 - 15:40,Dunbar Hall,4207,Di Pierro,20
+Main,ENGL1050,44999,100,Thought & Writing,,Lecture,8/29/18,MW,08:00 - 09:40,Brown Hall,3037,Palmer,21
+Main,ENGL1050,40689,105,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,08:00 - 09:40,Dunbar Hall,4203,Conde,21
+Main,ENGL1050,40715,110,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,08:00 - 09:40,Dunbar Hall,4205,Williams-Morales,21
+Main,ENGL1050,45000,115,Thought & Writing,,Lecture,8/29/18,MW,08:00 - 09:40,Brown Hall,3045,Mitchell,21
+Main,ENGL1050,40705,120,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:40,Dunbar Hall,4203,Voss,21
+Main,ENGL1050,40703,125,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,08:00 - 09:40,Dunbar Hall,4203,Xaver,21
+Main,ENGL1050,40691,130,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,08:00 - 09:40,Dunbar Hall,4205,Windy,21
+Main,ENGL1050,40690,135,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,08:00 - 09:40,Dunbar Hall,4208,Goodhart,21
+Main,ENGL1050,44996,140,Thought & Writing,,Lecture,8/29/18,TR,08:00 - 09:40,Brown Hall,3037,Buchanan,21
+Main,ENGL1050,40698,145,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Dunbar Hall,4203,Isaiah,21
+Main,ENGL1050,40694,150,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Dunbar Hall,4205,Turner,21
+Main,ENGL1050,44998,155,Thought & Writing,,Lecture,8/29/18,TR,08:00 - 09:40,Brown Hall,3045,Bauman,21
+Main,ENGL1050,40693,165,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,10:00 - 11:40,Dunbar Hall,4203,Roth,21
+Main,ENGL1050,40695,170,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,10:00 - 11:40,Dunbar Hall,4208,Trude,21
+Main,ENGL1050,40707,185,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:40,Dunbar Hall,4205,Frostic,21
+Main,ENGL1050,40711,190,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,18:00 - 19:40,Dunbar Hall,4203,Ringle-Barrett,21
+Main,ENGL1050,40713,195,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Dunbar Hall,4203,Nickerson,21
+Main,ENGL1050,40714,200,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Brown Hall,3037,Buchanan,21
+Main,ENGL1050,43081,205,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:40,Dunbar Hall,4203,Robbins,21
+Main,ENGL1050,40722,210,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:40,Dunbar Hall,4205,Frostic,21
+Main,ENGL1050,40717,225,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,14:00 - 15:40,Dunbar Hall,4203,Nickerson,21
+Main,ENGL1050,40724,235,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,14:00 - 15:40,Dunbar Hall,4205,Lishman,21
+Main,ENGL1050,40725,240,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,16:00 - 17:40,Dunbar Hall,4203,Galaviz,21
+Main,ENGL1050,40726,245,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,16:00 - 17:40,Dunbar Hall,4205,Robbins,21
+Main,ENGL1050,40727,250,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,16:00 - 17:40,Dunbar Hall,4208,Coash,21
+Main,ENGL1050,40696,255,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,16:00 - 17:40,Dunbar Hall,4210,Voss,21
+Main,ENGL1050,45001,260,Thought & Writing,,Lecture,8/29/18,MW,16:00 - 17:40,Dunbar Hall,4212,Ringle-Barrett,21
+Main,ENGL1050,40704,265,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Dunbar Hall,4203,Baker,21
+Main,ENGL1050,40718,270,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Dunbar Hall,4205,Thomas,21
+Main,ENGL1050,40706,275,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Dunbar Hall,4208,Greendonner,21
+Main,ENGL1050,40728,280,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Dunbar Hall,4209,Galaviz,21
+Main,ENGL1050,40729,285,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,18:00 - 19:40,Dunbar Hall,4205,Ruppert,21
+Main,ENGL1050,40730,290,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,18:00 - 19:40,Dunbar Hall,4208,Coash,21
+Main,ENGL1050,40731,300,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,18:00 - 19:40,Dunbar Hall,4210,Gibson,21
+Main,ENGL1050,40732,310,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,18:00 - 19:40,Dunbar Hall,4203,Ririe-Kurz,21
+Main,ENGL1050,40733,315,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,18:00 - 19:40,Dunbar Hall,4205,Thomas,21
+Main,ENGL1050,43464,340,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Dunbar Hall,4208,Trude,21
+Main,ENGL1050,43788,345,Thought & Writing,,Lecture,8/29/18,,,,,Bush,12
+Main,ENGL1050,43789,350,Thought & Writing,,Lecture,8/29/18,,,,,Redding,12
+Main,ENGL1050,44741,355,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,,,,,Lishman,12
+Main,ENGL1050,40712,AS1,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Dunbar Hall,4210,Stewart,21
+Main,ENGL1050,40719,AS2,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:40,Dunbar Hall,4210,Ruppert,21
+Main,ENGL1050,40721,AS3,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,14:00 - 15:40,Dunbar Hall,4208,Conrad,21
+Main,ENGL1050,41985,AS4,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:40,Dunbar Hall,4208,Chan,21
+Main,ENGL1050,42847,AS5,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,08:00 - 09:40,Dunbar Hall,4208,Mason,21
+Main,ENGL1050,40692,AS6,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,08:00 - 09:40,Dunbar Hall,4210,Ringle-Barrett,21
+Main,ENGL1050,40697,AS7,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Dunbar Hall,4210,Palmer,21
+Main,ENGL1050,40702,AS8,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,10:00 - 11:40,Dunbar Hall,2208,Coty O'neil,42
+Main,ENGL1050,43079,B10,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,F,10:00 - 13:20,Dunbar Hall,4210,Cook,21
+Main,ENGL1050,43082,B20,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,14:00 - 15:40,Dunbar Hall,4210,Spinner,21
+Main,ENGL1050,43083,B25,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Dunbar Hall,4212,Wayman,21
+Main,ENGL1050,43084,B35,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,18:00 - 19:40,Dunbar Hall,4209,Copija,21
+Main,ENGL1050,43085,B40,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Dunbar Hall,4201,Elsworth,21
+Main,ENGL1050,40699,F03,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,08:00 - 09:40,Dunbar Hall,4212,Dekker,21
+Main,ENGL1050,40700,F05,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Dunbar Hall,4212,Smith,21
+Main,ENGL1050,40701,F07,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,10:00 - 11:40,Dunbar Hall,4212,Dekker,21
+Main,ENGL1050,40709,F08,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:40,Dunbar Hall,4210,Ruppert,21
+Main,ENGL1050,40710,F09,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,14:00 - 15:40,Dunbar Hall,4212,Weatherford,21
+Main,ENGL1050,40708,F10,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:40,Dunbar Hall,4212,Jakubas,21
+Main,ENGL1050,40720,F13,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:40,Dunbar Hall,4212,Jakubas,21
+Main,ENGL1050,40716,F17,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Dunbar Hall,4212,Evory,21
+Main,ENGL1050,42178,H10,Thought & Writing - HC,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Sangren Hall,3310,Selznick,21
+Main,ENGL1050,42862,H15,Thought & Writing - HC,,Lecture/Lab/Discussion,8/29/18,TR,10:00 - 11:40,Dunbar Hall,4210,Atkinson,21
+Main,ENGL1050,40723,H20,Thought & Writing - HC,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:40,Brown Hall,3045,Redding,21
+Main,ENGL1100,40734,110,Literary Interp,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Sangren Hall,4560,Ftacek,22
+Main,ENGL1100,40736,125,Literary Interp,,Lecture/Lab/Discussion,8/29/18,MW,16:00 - 17:40,Brown Hall,3017,Webb,22
+Main,ENGL1100,40737,130,Literary Interp,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:40,Brown Hall,3030,Wolfer,22
+Main,ENGL1100,43767,135,Literary Interp,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Brown Hall,4030,Thomas,22
+Main,ENGL1100,40738,170,Literary Interp,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:40,Brown Hall,2021,Meeusen,22
+Main,ENGL1100,44160,175,Literary Interp,,Lecture/Lab/Discussion,8/29/18,TR,10:00 - 11:40,Dunbar Hall,2210,McCarthy,22
+Main,ENGL1100,40735,H10,Literary Interp - HC,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Lee Honors College,1022,Saillant,22
+Main,ENGL1120,42313,100,Literary Classics,,Lecture,8/29/18,MW,10:00 - 11:40,Sangren Hall,2110,Klekar,27
+Main,ENGL2100,40797,105,Film Interpretation,,Lecture,8/29/18,TR,18:00 - 21:15,Brown Hall,1025,Ludwig,60
+Main,ENGL2100,41641,500,Film Interpretation,L1,Lecture,8/29/18,MW,15:30 - 16:45,Knauss Hall,3512,McKittrick,200
+Main,ENGL2100,40796,540,Film Interpretation,B1,Lab or Discussion,8/29/18,M,18:30 - 21:00,Brown Hall,1025,McKittrick,100
+Main,ENGL2100,40795,550,Film Interpretation,B1,Lab or Discussion,8/29/18,T,18:30 - 21:00,Brown Hall,1028,McKittrick,100
+Main,ENGL2110,41919,100,Folklore and Mythology,,Lecture/Lab/Discussion,8/29/18,T,12:00 - 13:40,Sangren Hall,2110,Mirzeler,40
+Main,ENGL2110,41919,100,Folklore and Mythology,,Lecture/Lab/Discussion,8/29/18,,,Online and Face-to-Face,CLASS,Mirzeler,40
+Main,ENGL2220,40798,105,Lit & Culture Of The U.S.,,Lecture,8/29/18,TR,12:00 - 13:40,Sangren Hall,3510,Joslin,27
+Main,ENGL2230,46195,100,African American Literature,,Lecture,8/29/18,MW,12:00 - 13:40,Brown Hall,2037,McKittrick,27
+Main,ENGL2230,41924,105,African American Literature,,Lecture,8/29/18,TR,14:00 - 15:40,Brown Hall,4010,Saillant,27
+Main,ENGL2520,40799,105,Shakespeare,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Brown Hall,3037,Dupuis,27
+Main,ENGL2660,40800,105,Writing-Fict/Poetry,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Dunbar Hall,2203,Collard,16
+Main,ENGL2660,40803,120,Writing-Fict/Poetry,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:40,Dunbar Hall,2203,Atkins,16
+Main,ENGL2660,40801,130,Writing-Fict/Poetry,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Dunbar Hall,2203,Harris,16
+Main,ENGL2660,40802,135,Writing-Fict/Poetry,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Brown Hall,2045,Kammin,16
+Main,ENGL2790,44163,100,Intro to English Education,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:15,Brown Hall,3037,Bush,22
+Main,ENGL3050,40927,100,Intro to Professional  Writing,,Lecture/Lab/Discussion,8/29/18,TR,12:00 - 13:40,Brown Hall,1045,Thralls,20
+Main,ENGL3050,41925,105,Intro to Professional  Writing,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Brown Hall,1045,Thralls,20
+Main,ENGL3060,43095,100,Rhetoric Writing and Culture, ,Lecture,8/29/18,MW,14:00 - 15:15,Brown Hall,1045,Selznick,20
+Main,ENGL3070,46196,100,Literature In Our Lives,,Lecture,8/29/18,TR,09:30 - 10:45,Brown Hall,3030,Bradburn,27
+Main,ENGL3120,44161,100,Western World Lit,,Lecture,8/29/18,MW,14:00 - 15:15,Dunbar Hall,3203,Egan,27
+Main,ENGL3150,46197,100,English Bible As Lit,,Lecture,8/29/18,MW,14:00 - 15:15,Brown Hall,4035,Larson,27
+Main,ENGL3160,43547,100,Storytellers,,Lecture,8/29/18,,,,,Mirzeler,40
+Main,ENGL3160,43547,100,Storytellers,,Lecture,8/29/18,T,14:00 - 15:15,Sangren Hall,2720,Mirzeler,40
+Main,ENGL3200,42046,100,American Literature I,,Lecture,8/29/18,TR,14:00 - 15:15,Brown Hall,4025,Masten,27
+Main,ENGL3300,44233,115,British Literature I,,Lecture,8/29/18,TR,12:30 - 13:45,Brown Hall,3003,Tiffany,27
+Main,ENGL3310,40962,100,British Literature II,,Lecture,8/29/18,MW,14:00 - 15:15,Brown Hall,4025,Klekar,27
+Main,ENGL3660,40973,100,Advanced Fictn Wrtng,,Seminar or Studio,8/29/18,TR,11:00 - 12:15,Dunbar Hall,2205,Berry,16
+Main,ENGL3660,40972,105,Advanced Fictn Wrtng,,Seminar or Studio,8/29/18,M,14:00 - 16:20,Brown Hall,4048,Nissen,16
+Main,ENGL3670,40978,100,Advancd Poetry Wrtng,,Seminar or Studio,8/29/18,T,16:00 - 18:20,Dunbar Hall,2209,Olivares,16
+Main,ENGL3680,40987,100,Playwriting,,Seminar or Studio,8/29/18,W,16:00 - 18:20,Brown Hall,3002,Rafferty,16
+Main,ENGL3690,43955,105,Writing: Elementary School,,Lecture/Lab/Discussion,8/29/18,T,18:30 - 21:50,Brown Hall,3037,Van Egmond,20
+Main,ENGL3690,40998,115,Writing: Elementary School,,Lecture/Lab/Discussion,8/29/18,W,18:30 - 21:50,Brown Hall,3037,Klee,20
+Main,ENGL3700,41758,105,Writing Creative Non-Fiction,,Lecture/Lab/Discussion,8/29/18,,,,,Katrovas,16
+Main,ENGL3700,41758,105,Writing Creative Non-Fiction,,Lecture/Lab/Discussion,8/29/18,F,18:30 - 21:00,Brown Hall,2048,Katrovas,16
+Main,ENGL3710,40999,100,Structures/Mdrn/Engl,,Lecture,8/29/18,TR,14:00 - 15:40,Brown Hall,3045,Johnston,24
+Main,ENGL3720,41000,100,Devel Modern English,,Lecture,8/29/18,MW,10:00 - 11:40,Brown Hall,3045,Minnick,24
+Main,ENGL3770,44165,105,Lang In Multilingual Classrm,,Lecture/Lab/Discussion,8/29/18,W,18:30 - 21:00,Brown Hall,3045,Vocke,24
+Main,ENGL3820,45975,100,Lit For The Young Child,,Lecture,8/29/18,W,18:30 - 21:50,Brown Hall,4030,Rypma,27
+Main,ENGL3820,45976,105,Lit For The Young Child,,Lecture,8/29/18,TR,10:00 - 11:40,Brown Hall,4030,Rypma,27
+Main,ENGL3830,43175,120,Lit/Intermediate Reader,,Lecture,8/29/18,MW,10:00 - 11:40,Brown Hall,4030,Meeusen,27
+Main,ENGL3840,41001,100,Adolescent Literature,,Lecture,8/29/18,TR,14:00 - 15:15,Brown Hall,4030,Rypma,27
+Main,ENGL4060,43512,105,Multimodal Composing,,Lecture,8/29/18,MW,15:30 - 16:45,Brown Hall,1045,Selznick,18
+Main,ENGL4080,44119,100,Visual Rhetorics,,Lecture,8/29/18,TR,15:30 - 16:45,Brown Hall,3002,Gigante,18
+Main,ENGL4090,45977,100,Writing in the Sciences,,Lecture,8/29/18,TR,14:00 - 15:15,Brown Hall,3037,Gigante,18
+Main,ENGL4150,45978,100,Lit Theory and Criticism,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:40,Brown Hall,4002,Kuchta,25
+Main,ENGL4160,44429,100,Women In Literature,,Lecture/Lab/Discussion,8/29/18,TR,16:00 - 17:40,Brown Hall,3010,Salisbury,25
+Main,ENGL4420,46198,100,Studies In Drama,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 15:40,Brown Hall,4045,Dupuis,20
+Main,ENGL4440,44166,100,Studies In The Novel,,Lecture/Lab/Discussion,8/29/18,MW,10:00 - 11:40,Sangren Hall,4130,Larson,20
+Main,ENGL4520,41620,100,Shakespeare Seminar,,Seminar or Studio,8/29/18,TR,10:00 - 11:40,Sangren Hall,4530,Tiffany,16
+Main,ENGL4720,41927,100,Language Variation Amer Engl,,Lecture,8/29/18,TR,10:00 - 11:40,Brown Hall,3045,Johnston,24
+Main,ENGL4800,41299,100,Tch Lit In Sec Schls,,Lecture/Lab/Discussion,8/29/18,MW,16:00 - 17:40,Brown Hall,3037,Vocke,24
+Main,ENGL4950,41300,100,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,Eimers,1
+Main,ENGL4950,41301,105,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4950,41302,110,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4950,41303,115,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4950,41304,120,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4950,41305,125,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4950,41306,130,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4950,41307,135,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4950,41308,140,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4950,41309,145,Internship/Field Wrk,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL4970,45164,100,Read&Resist Sexual Violence,,Seminar or Studio,8/29/18,T,14:00 - 16:20,Dunbar Hall,3207,Nagle,10
+Main,ENGL4970,46038,105,Cultural Studies and Climate,,Seminar or Studio,8/29/18,MW,12:30 - 13:45,Brown Hall,3037,Webb,15
+Main,ENGL5300,45979,100,Medieval Literature,,Lecture/Lab/Discussion,8/29/18,W,16:00 - 18:20,Brown Hall,3048,Salisbury,15
+Main,ENGL5660,40977,100,CW Workshop - Fiction,,Seminar or Studio,8/29/18,,,,,Katrovas,15
+Main,ENGL5660,40977,100,CW Workshop - Fiction,,Seminar or Studio,8/29/18,R,14:00 - 17:20,Brown Hall,4037,Katrovas,15
+Main,ENGL5670,46295,105,CW Workshop - Poetry,,Seminar or Studio,8/29/18,M,18:30 - 21:50,Brown Hall,2045,Hinrichsen,15
+Main,ENGL5680,42744,100,CW Workshop - Playwriting,,Seminar or Studio,8/29/18,M,14:00 - 17:20,Sangren Hall,1720,Feffer,15
+Main,ENGL5970,44434,100,Contemp. Novels of S. Asia,,Lecture/Lab/Discussion,8/29/18,M,16:00 - 18:20,Brown Hall,3002,Kuchta,15
+Main,ENGL5970,46040,105,Avant Garde in Theatre,,Lecture/Lab/Discussion,8/29/18,M,18:30 - 21:00,Brown Hall,2021,Feffer,15
+Main,ENGL5970,46268,110,Intro to Library & InfoScience,,Lecture/Lab/Discussion,8/29/18,R,14:00 - 15:15,Brown Hall,2045,Tarbox,15
+Main,ENGL5970,46268,110,Intro to Library & InfoScience,,Lecture/Lab/Discussion,8/29/18,,,Online and Face-to-Face,CLASS,Tarbox,15
+Main,ENGL5970,46633,115,CAS Grad Teaching Practicum,,Lecture/Lab/Discussion,8/29/18,F,13:00 - 15:00,Brown Hall,3045,Tarbox,15
+Main,ENGL5970,46633,115,CAS Grad Teaching Practicum,,Lecture/Lab/Discussion,8/29/18,,,,,Tarbox,15
+Main,ENGL5980,41310,100,Readings In English,,Independent Study,8/29/18,,,,,Gogan,1
+Main,ENGL5980,41311,105,Readings In English,,Independent Study,8/29/18,,,,,Bush,1
+Main,ENGL5980,41312,110,Readings In English,,Independent Study,8/29/18,,,,,Katrovas,1
+Main,ENGL5980,41313,115,Readings In English,,Independent Study,8/29/18,,,,,,1
+Main,ENGL5980,41314,120,Readings In English,,Independent Study,8/29/18,,,,,,1
+Main,ENGL5980,41315,125,Readings In English,,Independent Study,8/29/18,,,,,,1
+Main,ENGL5980,41316,130,Readings In English,,Independent Study,8/29/18,,,,,,1
+Main,ENGL5980,41317,135,Readings In English,,Independent Study,8/29/18,,,,,,1
+Main,ENGL5980,41318,140,Readings In English,,Independent Study,8/29/18,,,,,,1
+Main,ENGL5980,41319,145,Readings In English,,Independent Study,8/29/18,,,,,,1
+Main,ENGL5980,42596,150,Readings In English,,Independent Study,8/29/18,,,,,,1
+Main,ENGL6100,45296,105,Literature of WW I,,Seminar or Studio,8/29/18,T,18:30 - 21:00,Brown Hall,4035,Slawinski,12
+Main,ENGL6150,46039,100,Literary Criticism,,Seminar or Studio,8/29/18,W,18:30 - 21:00,Brown Hall,2021,Nagle,12
+Main,ENGL6660,42142,100,Graduate Workshop: Fiction,,Seminar or Studio,8/29/18,F,14:00 - 16:20,Brown Hall,1048,Nissen,12
+Main,ENGL6690,43853,100,Methods Tchg College Writing,,Seminar or Studio,8/29/18,T,16:00 - 18:20,Brown Hall,2048,Gogan,12
+Main,ENGL6760,45980,100,Old English,,Seminar or Studio,8/29/18,R,16:00 - 18:20,Brown Hall,2048,Schulman,12
+Main,ENGL6990,41347,100,M. F. A. Project,,Independent Study,8/29/18,,,,,Eimers,1
+Main,ENGL6990,41348,105,M. F. A. Project,,Independent Study,8/29/18,,,,,,1
+Main,ENGL6990,41349,110,M. F. A. Project,,Independent Study,8/29/18,,,,,Nissen,1
+Main,ENGL6990,41350,115,M. F. A. Project,,Independent Study,8/29/18,,,,,,1
+Main,ENGL6990,41351,120,M. F. A. Project,,Independent Study,8/29/18,,,,,,1
+Main,ENGL6990,41352,125,M. F. A. Project,,Independent Study,8/29/18,,,,,,1
+Main,ENGL6990,41353,130,M. F. A. Project,,Independent Study,8/29/18,,,,,,1
+Main,ENGL6990,41354,135,M. F. A. Project,,Independent Study,8/29/18,,,,,,1
+Main,ENGL6990,41355,140,M. F. A. Project,,Independent Study,8/29/18,,,,,,1
+Main,ENGL6990,41356,145,M. F. A. Project,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7000,42877,100,Masters Thesis,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7100,41320,100,Independent Research,,Independent Study,8/29/18,,,,,Bradburn,1
+Main,ENGL7100,41321,105,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7100,41322,110,Independent Research,,Independent Study,8/29/18,,,,,Salisbury,1
+Main,ENGL7100,41323,115,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7100,41324,120,Independent Research,,Independent Study,8/29/18,,,,,Eimers,1
+Main,ENGL7100,41325,125,Independent Research,,Independent Study,8/29/18,,,,,Nissen,1
+Main,ENGL7100,41326,130,Independent Research,,Independent Study,8/29/18,,,,,Klekar,1
+Main,ENGL7100,41327,135,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7100,41328,140,Independent Research,,Independent Study,8/29/18,,,,,Vocke,1
+Main,ENGL7100,41329,145,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7100,41824,150,Independent Research,,Independent Study,8/29/18,,,,,Bush,1
+Main,ENGL7100,41825,155,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7100,41826,160,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7110,41330,100,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7110,41331,105,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7110,41332,110,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7110,41333,115,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7110,41334,120,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7110,41335,125,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,Salisbury,1
+Main,ENGL7110,41336,130,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7110,41337,135,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,Slawinski,1
+Main,ENGL7110,41338,140,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7110,41339,145,Rdgs Doctoral Specializtn,,Independent Study,8/29/18,,,,,Larson,1
+Main,ENGL7120,41770,100,Professional Field Experience,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL7130,41647,100,Practicum In Teaching,,Supervision or Practicum,8/29/18,,,,,Klekar,1
+Main,ENGL7130,41648,105,Practicum In Teaching,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL7130,41649,110,Practicum In Teaching,,Supervision or Practicum,8/29/18,,,,,Salisbury,1
+Main,ENGL7130,41650,115,Practicum In Teaching,,Supervision or Practicum,8/29/18,,,,,,1
+Main,ENGL7130,42216,120,Practicum In Teaching,,Supervision or Practicum,8/29/18,,,,,Saillant,1
+Main,ENGL7300,41340,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Schulman,1
+Main,ENGL7300,41341,105,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7300,41342,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Eimers,1
+Main,ENGL7300,41343,115,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7300,41344,120,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Slawinski,1
+Main,ENGL7300,41345,125,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7300,41346,130,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Saillant,1
+Main,ENGL7300,41651,135,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7300,41652,140,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Nissen,1
+Main,ENGL7300,41653,145,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7300,41654,150,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Salisbury,1
+Main,ENGL7300,41780,155,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7300,41781,160,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,1
+Main,ENGL7300,41782,165,Doctoral Dissertation,,Independent Study,8/29/18,,,,,,1
+WMU - Online Education,ENGL1050,42329,950,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Michaels-Dillon,21
+WMU - Online Education,ENGL1050,43090,951,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Michaels-Dillon,21
+WMU - Online Education,ENGL1050,43785,952,Thought & Writing,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Borgman,21
+Main,CORP3030,42403,100,Planning Inquiry,,Lecture/Lab/Discussion,8/29/18,MW,12:00 - 13:40,Wood Hall,2708,He,5
+Main,CORP4120,43791,100,Professional Practice,,Supervision or Practicum,8/29/18,,,Contact Dept for Location,0,Ofori-Amoah,5
+Main,GEOG1000,40564,105,World Ecology Prblms,,Lecture,8/29/18,MW,12:00 - 13:40,Wood Hall,1710,Gutowsky,80
+Main,GEOG1000,43446,110,World Ecology Prblms,,Lecture,8/29/18,MW,10:00 - 11:50,Wood Hall,1710,Zhu,80
+Main,GEOG1000,40637,115,World Ecology Prblms,,Lecture,8/29/18,TR,17:00 - 18:40,Wood Hall,1718,Wesel,80
+Main,GEOG1020,44538,100,Wld Geog-Media/Maps,,Lecture,8/29/18,TR,15:30 - 16:45,Wood Hall,2708,Stoltman,45
+Main,GEOG1020,40638,105,Wld Geog-Media/Maps,,Lecture,8/29/18,TR,12:30 - 13:45,Wood Hall,1718,Stoltman,80
+Main,GEOG1050,44207,100,Physical Geography,,Lecture/Lab/Discussion,8/29/18,W,17:30 - 21:40,Wood Hall,2129,Ellis,20
+Main,GEOG1050,40761,500,Physical Geography,L1,Lecture,8/29/18,TR,09:30 - 10:45,Chemistry Bldg,1260,Dechano-Cook,120
+Main,GEOG1050,40946,540,Physical Geography,B1,Lab or Discussion,8/29/18,T,16:00 - 17:50,Wood Hall,2214,Dechano-Cook,20
+Main,GEOG1050,40947,545,Physical Geography,B1,Lab or Discussion,8/29/18,T,14:00 - 15:50,Wood Hall,2214,Dechano-Cook,20
+Main,GEOG1050,40949,550,Physical Geography,B1,Lab or Discussion,8/29/18,T,12:00 - 13:50,Wood Hall,2214,Dechano-Cook,20
+Main,GEOG1050,40952,555,Physical Geography,B1,Lab or Discussion,8/29/18,W,10:00 - 11:50,Wood Hall,2214,Dechano-Cook,20
+Main,GEOG1050,41917,570,Physical Geography,B1,Lab or Discussion,8/29/18,W,12:00 - 13:50,Wood Hall,2214,Dechano-Cook,20
+Main,GEOG1050,41918,575,Physical Geography,B1,Lab or Discussion,8/29/18,W,14:00 - 15:50,Wood Hall,2214,Dechano-Cook,20
+Main,GEOG1050,40939,600,Physical Geography,L2,Lecture,8/29/18,MW,15:30 - 16:45,Chemistry Bldg,1720,Dechano-Cook,120
+Main,GEOG1050,40763,642,Physical Geography,B2,Lab or Discussion,8/29/18,T,10:00 - 11:50,Wood Hall,2215,Dechano-Cook,20
+Main,GEOG1050,40766,645,Physical Geography,B2,Lab or Discussion,8/29/18,T,12:00 - 13:50,Wood Hall,2215,Dechano-Cook,20
+Main,GEOG1050,40770,650,Physical Geography,B2,Lab or Discussion,8/29/18,T,14:00 - 15:50,Wood Hall,2215,Dechano-Cook,20
+Main,GEOG1050,40771,660,Physical Geography,B2,Lab or Discussion,8/29/18,T,16:00 - 17:50,Wood Hall,2215,Dechano-Cook,20
+Main,GEOG1050,40774,665,Physical Geography,B2,Lab or Discussion,8/29/18,W,10:00 - 11:50,Wood Hall,2215,Dechano-Cook,20
+Main,GEOG1050,41914,670,Physical Geography,B2,Lab or Discussion,8/29/18,W,12:00 - 13:50,Wood Hall,2215,Dechano-Cook,20
+Main,GEOG1900,46235,M26,Expl Earth Sci: The Atmosphere,,Lecture/Lab/Discussion,8/29/18,MW,14:00 - 16:20,Wood Hall,1405,Ellis,24
+Main,GEOG1900,43088,M80,Expl Earth Sci: The Atmosphere,,Lecture/Lab/Discussion,8/29/18,MW,11:00 - 13:20,Wood Hall,1405,Ellis,24
+Main,GEOG1900,40642,M87,Expl Earth Sci: The Atmosphere,,Lecture/Lab/Discussion,8/29/18,MW,08:00 - 10:20,Wood Hall,1405,Brenneman,24
+Main,GEOG2050,40646,100,Human Geography,,Lecture,8/29/18,TR,09:30 - 10:45,Wood Hall,2119,Padilla,80
+Main,GEOG2250,40967,500,Intr Meteor & Climat,L1,Lecture,8/29/18,TR,11:00 - 12:15,Wood Hall,1301,Meng,80
+Main,GEOG2250,40971,540,Intr Meteor & Climat,B1,Lab or Discussion,8/29/18,T,13:00 - 14:50,Wood Hall,2210,Meng,20
+Main,GEOG2250,41094,545,Intr Meteor & Climat,B1,Lab or Discussion,8/29/18,W,12:00 - 13:50,Wood Hall,2210,Meng,20
+Main,GEOG2250,41099,550,Intr Meteor & Climat,B1,Lab or Discussion,8/29/18,W,14:00 - 15:50,Wood Hall,2210,Meng,20
+Main,GEOG2250,41910,560,Intr Meteor & Climat,B1,Lab or Discussion,8/29/18,R,13:00 - 14:50,Wood Hall,2210,Meng,20
+Main,GEOG2560,46335,100,Intro to Urb Reg & Env Plann,,Lecture,8/29/18,MW,13:00 - 14:15,Wood Hall,2119,Yang,50
+Main,GEOG2650,42522,100,Intro Geospatial Technologies,,Lecture/Lab/Discussion,8/29/18,M,18:30 - 21:00,Wood Hall,2708,Mathews,48
+Main,GEOG3010,42518,500,Fundamentals of GIS,L1,Lecture,8/29/18,W,16:00 - 19:20,Wood Hall,1710,Baker,46
+Main,GEOG3010,42519,540,Fundamentals of GIS,B1,Lab or Discussion,8/29/18,T,14:00 - 15:50,Wood Hall,2109,Baker,16
+Main,GEOG3010,42520,545,Fundamentals of GIS,B1,Lab or Discussion,8/29/18,M,16:00 - 17:50,Wood Hall,2109,Baker,10
+Main,GEOG3010,42521,550,Fundamentals of GIS,B1,Lab or Discussion,8/29/18,T,12:00 - 13:50,Wood Hall,2109,Baker,20
+Main,GEOG3030,40658,100,Geographic Inquiry,,Lecture,8/29/18,MW,12:00 - 13:40,Wood Hall,2708,He,30
+Main,GEOG3100,42267,100,Introduction To Tourism,,Lecture/Lab/Discussion,8/29/18,M,10:00 - 12:00,Wood Hall,1728,Yang,50
+Main,GEOG3110,40660,100,Geog Of Michigan,,Lecture,8/29/18,W,09:00 - 11:30,Wood Hall,2119,Gutowsky,55
+Main,GEOG3200,44493,100,Culinary Tourism,,Lecture/Lab/Discussion,8/29/18,TR,09:30 - 10:45,Wood Hall,1728,Hallett,55
+Main,GEOG3500,40659,100,Conserv/Environ Mgmt,,Lecture,8/29/18,M,18:30 - 21:00,Wood Hall,1728,He,40
+Main,GEOG3810,40648,100,South America,,Lecture,8/29/18,T,16:00 - 18:30,Wood Hall,2722,Padilla,48
+Main,GEOG3820,42055,100,Mexico & Caribbean,,Lecture,8/29/18,TR,14:00 - 15:15,Wood Hall,1728,Padilla,55
+Main,GEOG3820,44609,110,Mexico & Caribbean,,Lecture,8/29/18,R,16:00 - 18:30,Wood Hall,1728,Padilla,50
+Main,GEOG3900,44186,100,China Japan And Korea,,Lecture,8/29/18,MW,14:00 - 15:15,Wood Hall,2708,Veeck,48
+Main,GEOG4080,42268,100,Tourism Marketing,,Lecture/Lab/Discussion,8/29/18,TR,14:00 - 15:15,Wood Hall,2708,Hallett,20
+Main,GEOG4120,43144,100,Professional Practice,,Independent Study,8/29/18,,,,,Hallett,2
+Main,GEOG4120,43145,105,Professional Practice,,Independent Study,8/29/18,,,Contact Dept for Location,0,Ofori-Amoah,2
+Main,GEOG4120,43146,110,Professional Practice,,Independent Study,8/29/18,,,,,Yang,2
+Main,GEOG4240,44202,100,Biogeography,,Lecture/Lab/Discussion,8/29/18,T,18:00 - 20:30,Wood Hall,2210,Fuller,13
+Main,GEOG4685,46204,100,Internet GIS,,Lecture,8/29/18,TR,09:30 - 10:45,Wood Hall,2107,Zhu,20
+Main,GEOG5010,41621,500,Introduction To GIS,L1,Lecture,8/29/18,W,16:00 - 19:20,Wood Hall,1710,Baker,12
+Main,GEOG5010,41622,540,Introduction To GIS,B1,Lab or Discussion,8/29/18,M,16:00 - 17:50,Wood Hall,2109,Baker,6
+Main,GEOG5010,43208,550,Introduction To GIS,B1,Lab or Discussion,8/29/18,T,14:00 - 15:50,Wood Hall,2109,Baker,6
+Main,GEOG5710,43607,100,Intro Com Dev & Planning,,Lecture/Lab/Discussion,8/29/18,MW,13:00 - 14:15,Wood Hall,2119,Yang,10
+Main,GEOG5820,40662,500,Remote Sensing Of Env,L1,Lecture,8/29/18,M,15:00 - 17:30,Wood Hall,2902,Mathews,20
+Main,GEOG5820,41907,545,Remote Sensing Of Env,B1,Lab or Discussion,8/29/18,T,16:00 - 17:50,Wood Hall,2902,Mathews,20
+Main,GEOG5970,40672,100,Independent Study,,Independent Study,8/29/18,,,,,Dechano-Cook,5
+Main,GEOG5970,40673,105,Independent Study,,Independent Study,8/29/18,,,,,Hallett,5
+Main,GEOG6240,44256,100,Seminar in Biogeography,,Seminar or Studio,8/29/18,T,18:00 - 20:30,Wood Hall,2708,Fuller,5
+Main,GEOG6610,43078,100,Geographic Research,,Lecture/Lab/Discussion,8/29/18,M,18:00 - 20:30,Wood Hall,2902,Veeck,20
+Main,GEOG6620,42774,100,History & Phil of Geography,,Seminar or Studio,8/29/18,R,18:00 - 20:30,Wood Hall,1215,Ofori-Amoah,15
+Main,GEOG6650,40663,100,Seminar In Geography,,Seminar or Studio,8/29/18,,,,,Ofori-Amoah,3
+Main,GEOG6650,40664,105,Seminar In Geography,,Seminar or Studio,8/29/18,,,,,Ofori-Amoah,3
+Main,GEOG6650,40665,110,Seminar In Geography,,Seminar or Studio,8/29/18,,,,,Dechano-Cook,3
+Main,GEOG6685,46205,100,GIS and Internet Applications,,Lecture,8/29/18,TR,09:30 - 10:45,Wood Hall,2107,Zhu,20
+Main,GEOG6720,44707,100,Community Analysis & Plan Tech,,Lecture/Lab/Discussion,8/29/18,T,12:30 - 15:00,Wood Hall,2902,Ofori-Amoah,10
+Main,GEOG6820,45369,100,Advanced Remote Sensing,,Seminar or Studio,8/29/18,W,16:00 - 18:30,Dunbar Hall,4201,Mathews,25
+Main,GEOG7000,40674,100,Masters Thesis,,Independent Study,8/29/18,,,,,Ofori-Amoah,5
+Main,GEOG7000,40675,105,Masters Thesis,,Independent Study,8/29/18,,,,,Veeck,5
+Main,GEOG7000,40676,110,Masters Thesis,,Independent Study,8/29/18,,,,,Emerson,5
+Main,GEOG7000,40677,115,Masters Thesis,,Independent Study,8/29/18,,,,,Zhu,5
+Main,GEOG7000,40678,120,Masters Thesis,,Independent Study,8/29/18,,,,,Meng,5
+Main,GEOG7000,40681,125,Masters Thesis,,Independent Study,8/29/18,,,,,Hallett,5
+Main,GEOG7000,42390,130,Masters Thesis,,Independent Study,8/29/18,,,,,Baker,1
+Main,GEOG7000,42391,135,Masters Thesis,,Independent Study,8/29/18,,,,,Dechano-Cook,1
+Main,GEOG7000,42392,140,Masters Thesis,,Independent Study,8/29/18,,,Contact Dept for Location,0,Lemberg,1
+Main,GEOG7000,42393,145,Masters Thesis,,Independent Study,8/29/18,,,,,Yang,1
+Main,GEOG7000,45370,150,Masters Thesis,,Independent Study,8/29/18,,,,,Padilla,2
+Main,GEOG7000,45371,155,Masters Thesis,,Independent Study,8/29/18,,,,,He,2
+Main,GEOG7100,40679,100,Independent Research,,Independent Study,8/29/18,,,,,Ofori-Amoah,5
+Main,GEOG7100,40680,105,Independent Research,,Independent Study,8/29/18,,,,,Veeck,5
+Main,GEOG7120,40683,100,Professional Field Experience,,Supervision or Practicum,8/29/18,,,,,Ofori-Amoah,5
+Main,GEOG7120,40685,105,Professional Field Experience,,Supervision or Practicum,8/29/18,,,,,Ofori-Amoah,5
+WMU - Online Education,GEOG1000,43763,950,World Ecology Prblms,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Wesel,30
+WMU - Online Education,GEOG1050,46310,950,Physical Geography,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Dechano-Cook,25
+WMU - Online Education,GEOG2250,46316,950,Intr Meteor & Climat,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Meng,25
+Main,GEOS1000,40354,500,Dynamic Earth,L1,Lecture,8/29/18,TR,12:30 - 13:45,Wood Hall,1301,Gillespie,140
+Main,GEOS1000,40671,545,Dynamic Earth,B1,Lab or Discussion,8/29/18,T,14:00 - 15:50,Wood Hall,1008,Izadi,20
+Main,GEOS1000,42261,550,Dynamic Earth,B1,Lab or Discussion,8/29/18,W,09:00 - 10:50,Wood Hall,1214,Romero,20
+Main,GEOS1000,42262,555,Dynamic Earth,B1,Lab or Discussion,8/29/18,W,10:00 - 11:50,Wood Hall,1008,Wayt,20
+Main,GEOS1000,40668,560,Dynamic Earth,B1,Lab or Discussion,8/29/18,W,11:00 - 12:50,Wood Hall,1214,Rose,20
+Main,GEOS1000,40670,565,Dynamic Earth,B1,Lab or Discussion,8/29/18,W,12:00 - 13:50,Wood Hall,1008,Izadi,20
+Main,GEOS1000,41873,570,Dynamic Earth,B1,Lab or Discussion,8/29/18,W,14:00 - 15:50,Wood Hall,1214,Wayt,20
+Main,GEOS1000,40667,580,Dynamic Earth,B1,Lab or Discussion,8/29/18,R,14:00 - 15:50,Wood Hall,1008,Rose,20
+Main,GEOS1200,46341,500,Climate Change Geol Perspectiv,L1,Lecture,8/29/18,MW,13:00 - 13:50,Rood Hall,1122,Hampton,30
+Main,GEOS1200,46342,540,Climate Change Geol Perspectiv,B1,Lab or Discussion,8/29/18,M,14:00 - 14:50,Rood Hall,1122,Akara,15
+Main,GEOS1200,46343,560,Climate Change Geol Perspectiv,B1,Lab or Discussion,8/29/18,W,12:00 - 12:50,Rood Hall,1122,Akara,15
+Main,GEOS1290,40688,190,Physical Geology Lab,,Lab or Discussion,8/29/18,,,,,,1
+Main,GEOS1300,42077,600,Physical Geology,L1,Lecture,8/29/18,MWF,13:00 - 13:50,Rood Hall,1118,Kehew,88
+Main,GEOS1300,42263,640,Physical Geology,B1,Lab or Discussion,8/29/18,M,11:00 - 12:50,Wood Hall,1206,Haag,19
+Main,GEOS1300,40686,645,Physical Geology,B1,Lab or Discussion,8/29/18,M,14:00 - 15:50,Wood Hall,1206,Dvorak,18
+Main,GEOS1300,40687,650,Physical Geology,B1,Lab or Discussion,8/29/18,W,10:00 - 11:50,Wood Hall,1206,Haag,19
+Main,GEOS1300,42078,660,Physical Geology,B1,Lab or Discussion,8/29/18,W,14:00 - 15:50,Wood Hall,1206,Dvorak,18
+Main,GEOS1300,44830,670,Physical Geology,B1,Lab or Discussion,8/29/18,R,12:00 - 13:50,Wood Hall,1206,Sataer,18
+Main,GEOS2320,42141,300,Int Earth System Studies,,Lecture,8/29/18,F,14:00 - 15:15,Rood Hall,1122,Krishnamurthy,35
+Main,GEOS2900,46206,M82,Earth Systems: Issues & Appl,,Lecture,8/29/18,TR,10:00 - 12:20,Wood Hall,1405,Cockrell,24
+Main,GEOS3120,40312,350,Geol Natl Pks/Monumt,,Lecture,8/29/18,T,14:00 - 16:30,Wood Hall,1001,Caruthers,210
+Main,GEOS3220,40684,410,Ocean Systems,,Lecture,8/29/18,TR,09:30 - 10:45,Rood Hall,1118,Gillespie,88
+Main,GEOS3350,42765,500,Mineralogy,L1,Lecture,8/29/18,MWF,14:00 - 14:50,Rood Hall,1120,Thakurta,18
+Main,GEOS3350,42766,550,Mineralogy,B1,Lab or Discussion,8/29/18,T,14:00 - 15:50,Rood Hall,1120,Rupp,18
+Main,GEOS4340,40296,470,Probs In Geology,,Independent Study,8/29/18,,,,,Thakurta,1
+Main,GEOS4340,40303,475,Probs In Geology,,Independent Study,8/29/18,,,,,Kehew,1
+Main,GEOS4340,40304,480,Probs In Geology,,Independent Study,8/29/18,,,,,,1
+Main,GEOS4340,40305,485,Probs In Geology,,Independent Study,8/29/18,,,,,,1
+Main,GEOS4350,42767,500,Sedimentation & Stratigraphy,L1,Lecture,8/29/18,MWF,10:00 - 10:50,Rood Hall,1120,Kaczmarek,30
+Main,GEOS4350,42769,550,Sedimentation & Stratigraphy,B1,Lab or Discussion,8/29/18,T,09:30 - 12:20,Rood Hall,1120,Manche,30
+Main,GEOS5020,40306,100,Probs Geol/Earth Sci,,Lecture/Lab/Discussion,8/29/18,,,,,Thakurta,1
+Main,GEOS5020,40307,102,Probs Geol/Earth Sci,,Lecture/Lab/Discussion,8/29/18,,,,,Petcovic,1
+Main,GEOS5020,40308,104,Probs Geol/Earth Sci,,Lecture/Lab/Discussion,8/29/18,,,,,Kaczmarek,1
+Main,GEOS5020,40309,106,Probs Geol/Earth Sci,,Lecture/Lab/Discussion,8/29/18,,,,,Krishnamurthy,1
+Main,GEOS5020,44306,110,Probs Geol/Earth Sci,,Lecture/Lab/Discussion,8/29/18,,,,,,1
+Main,GEOS5020,44319,115,Probs Geol/Earth Sci,,Lecture/Lab/Discussion,8/29/18,,,,,,1
+Main,GEOS5090,45820,120,Surface Water Hydrology,,Lecture/Lab/Discussion,8/29/18,TR,14:00 - 15:15,Rood Hall,1122,Hampton,25
+Main,GEOS5360,45821,121,Glacial Geology,,Lecture,8/29/18,TR,15:30 - 16:45,Rood Hall,1192,Kehew,20
+Main,GEOS5600,42768,500,Intro Geophysics,L1,Lecture,8/29/18,MW,09:00 - 09:50,Rood Hall,1120,Sauck,30
+Main,GEOS5600,45598,540,Intro Geophysics,B1,Lab or Discussion,8/29/18,T,15:30 - 18:00,Rood Hall,1107,Abdelmohsen,15
+Main,GEOS5600,43510,545,Intro Geophysics,B1,Lab or Discussion,8/29/18,R,13:00 - 15:30,Rood Hall,1120,Abdelmohsen,15
+Main,GEOS5610,45810,122,Reflection Seismology,,Lecture/Lab/Discussion,8/29/18,F,10:00 - 12:30,Rood Hall,1192,Sauck,15
+Main,GEOS5610,45810,122,Reflection Seismology,,Lecture/Lab/Discussion,8/29/18,MW,11:00 - 11:50,Rood Hall,1192,Sauck,15
+Main,GEOS6340,41644,100,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,Kaczmarek,1
+Main,GEOS6340,41645,105,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,Sultan,1
+Main,GEOS6340,41646,110,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,,1
+Main,GEOS6340,42190,111,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,,1
+Main,GEOS6340,42209,112,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,,1
+Main,GEOS6340,42885,115,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,,1
+Main,GEOS6340,44320,120,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,,1
+Main,GEOS6340,44318,125,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,,1
+Main,GEOS6340,44321,130,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,,1
+Main,GEOS6340,44331,135,Research in Geol/Earth Science,,Independent Study,8/29/18,,,,,,1
+Main,GEOS6500,40344,100,Topics in Geol/Earth Sci,,Lecture,8/29/18,,,,,,1
+Main,GEOS6500,40345,102,Topics in Geol/Earth Sci,,Lecture,8/29/18,,,,,,1
+Main,GEOS6500,40346,104,Topics in Geol/Earth Sci,,Lecture,8/29/18,,,,,,1
+Main,GEOS6500,40347,106,Topics in Geol/Earth Sci,,Lecture,8/29/18,,,,,,1
+Main,GEOS6550,45823,120,Quantitative Basin Analysis,,Lecture,8/29/18,TR,12:30 - 13:45,Rood Hall,1107,Kominz,10
+Main,GEOS6560,45857,125,Clastic Depositional Systems,,Lecture,8/29/18,MW,14:00 - 15:15,Rood Hall,1107,Voice,10
+Main,GEOS7000,40355,100,Masters Thesis,,Independent Study,8/29/18,,,,,Sauck,1
+Main,GEOS7000,40356,102,Masters Thesis,,Independent Study,8/29/18,,,,,Kominz,1
+Main,GEOS7000,40357,104,Masters Thesis,,Independent Study,8/29/18,,,,,Reeves,1
+Main,GEOS7000,40358,106,Masters Thesis,,Independent Study,8/29/18,,,,,Hampton,1
+Main,GEOS7000,40359,108,Masters Thesis,,Independent Study,8/29/18,,,,,Thakurta,1
+Main,GEOS7000,40360,110,Masters Thesis,,Independent Study,8/29/18,,,,,Kaczmarek,1
+Main,GEOS7000,40361,112,Masters Thesis,,Independent Study,8/29/18,,,,,Kehew,1
+Main,GEOS7000,41776,114,Masters Thesis,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7000,41777,116,Masters Thesis,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7000,41806,118,Masters Thesis,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7000,41807,120,Masters Thesis,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7100,40398,100,Independent Research,,Independent Study,8/29/18,,,,,Sultan,1
+Main,GEOS7100,40400,102,Independent Research,,Independent Study,8/29/18,,,,,Hampton,1
+Main,GEOS7100,40404,104,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7100,40406,106,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7100,42423,107,Independent Research,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7120,40407,100,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,1
+Main,GEOS7120,40409,102,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,1
+Main,GEOS7120,40410,104,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,1
+Main,GEOS7120,40412,106,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,,1
+Main,GEOS7300,40421,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Koretsky,1
+Main,GEOS7300,40422,102,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Kaczmarek,1
+Main,GEOS7300,40423,104,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Sultan,1
+Main,GEOS7300,40428,106,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Sauck,1
+Main,GEOS7300,40430,108,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Krishnamurthy,1
+Main,GEOS7300,40431,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Kominz,1
+Main,GEOS7350,40436,100,Graduate Research,,Independent Study,8/29/18,,,,,Sultan,1
+Main,GEOS7350,40437,105,Graduate Research,,Independent Study,8/29/18,,,,,Kaczmarek,1
+Main,GEOS7350,40438,110,Graduate Research,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7350,40439,115,Graduate Research,,Independent Study,8/29/18,,,,,,1
+Main,GEOS7350,40440,120,Graduate Research,,Independent Study,8/29/18,,,,,,1
+WMU - Online Education,GEOS1000,43783,950,Dynamic Earth,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Haas,250
+WMU - Online Education,GEOS1050,45438,950,Dinosaurs,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Voice,150
+WMU - Online Education,GEOS3120,42337,950,Geol Natl Pks/Monumt,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Alexander,50
+WMU - Online Education,GEOS3120,42338,951,Geol Natl Pks/Monumt,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Alexander,50
+WMU - Online Education,GEOS3220,43220,950,Ocean Systems,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Caruthers,180
+WMU - Online Education,GEOS5060,44613,950,Introduction To Soils,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Cassidy,30
+WMU - Online Education,GEOS5090,44626,950,Surface Water Hydrology,,Lecture/Lab/Discussion,8/29/18,,,Online - Semester Course,CLASS,Hampton,30
+WMU - Online Education,GEOS5140,46352,950,Isotope Hydrology,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Krishnamurthy,30
+WMU - Online Education,GEOS6000,44843,950,Hydrogeochemistry,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Cassidy,30
+Main,MATH1090,44057,100,Pre-Algebra,,Lecture,8/29/18,MWF,08:00 - 08:50,Sangren Hall,4120,Nic,30
+Main,MATH1090,44058,105,Pre-Algebra,,Lecture,8/29/18,MWF,08:00 - 08:50,Sangren Hall,1310,Wilburn,30
+Main,MATH1090,44060,125,Pre-Algebra,,Lecture,8/29/18,MWF,09:00 - 09:50,Sangren Hall,1310,Jones,30
+Main,MATH1090,44642,127,Pre-Algebra,,Lecture,8/29/18,MWF,10:00 - 10:50,Sangren Hall,4310,Kohler,30
+Main,MATH1090,40288,130,Pre-Algebra,,Lecture,8/29/18,MWF,10:00 - 10:50,Sangren Hall,4120,Nic,30
+Main,MATH1090,44061,135,Pre-Algebra,,Lecture,8/29/18,MWF,10:00 - 10:50,Sangren Hall,1310,Wilburn,30
+Main,MATH1090,43069,145,Pre-Algebra,,Lecture,8/29/18,MWF,11:00 - 11:50,Sangren Hall,1320,Kohler,30
+Main,MATH1090,43260,150,Pre-Algebra,,Lecture,8/29/18,MWF,11:00 - 11:50,Sangren Hall,1310,Wilburn,30
+Main,MATH1090,44063,155,Pre-Algebra,,Lecture,8/29/18,MWF,11:00 - 11:50,Sangren Hall,4120,Nic,30
+Main,MATH1100,46470,01P,Algebra I,,Lecture,8/29/18,MTWRF,09:00 - 09:50,Rood Hall,3307,Lutz,25
+Main,MATH1100,46471,02P,Algebra I,,Lecture,8/29/18,MTWRF,10:00 - 10:50,Rood Hall,3307,Lutz,25
+Main,MATH1100,42622,100,Algebra I,,Lecture,8/29/18,MWF,08:00 - 08:50,Sangren Hall,3110,Talanda-Fisher,35
+Main,MATH1100,41928,105,Algebra I,,Lecture,8/29/18,MWF,09:00 - 09:50,Sangren Hall,3510,Kingsley,35
+Main,MATH1100,43261,106,Algebra I,,Lecture,8/29/18,MWF,09:00 - 09:50,Sangren Hall,3140,Weiss,35
+Main,MATH1100,40294,107,Algebra I,,Lecture,8/29/18,TR,09:30 - 10:45,Sangren Hall,4520,Strom,35
+Main,MATH1100,42059,110,Algebra I,,Lecture,8/29/18,MWF,10:00 - 10:50,Sangren Hall,3140,Kempf,35
+Main,MATH1100,45327,115,Algebra I,,Lecture,8/29/18,MWF,10:00 - 10:50,Sangren Hall,3130,Witt,35
+Main,MATH1100,40290,130,Algebra I,,Lecture,8/29/18,MWF,11:00 - 11:50,Sangren Hall,3130,Witt,35
+Main,MATH1100,40293,140,Algebra I,,Lecture,8/29/18,TR,11:00 - 12:15,Rood Hall,3395,Cushman,35
+Main,MATH1100,40291,160,Algebra I,,Lecture,8/29/18,MWF,12:00 - 12:50,Sangren Hall,3510,Talanda-Fisher,35
+Main,MATH1100,40292,165,Algebra I,,Lecture,8/29/18,MWF,12:00 - 12:50,Sangren Hall,3140,Kempf,35
+Main,MATH1100,42223,170,Algebra I,,Lecture,8/29/18,MWF,13:00 - 13:50,Sangren Hall,4530,Kingsley,35
+Main,MATH1100,42224,175,Algebra I,,Lecture,8/29/18,MWF,13:00 - 13:50,Sangren Hall,4510,Weiss,35
+Main,MATH1100,40295,195,Algebra I,,Lecture,8/29/18,TR,17:00 - 18:15,Rood Hall,3393,Stevens,35
+Main,MATH1100,44696,200,Algebra I,,Lecture,8/29/18,TR,17:00 - 18:15,Rood Hall,2271,Kesler,35
+Main,MATH1100,45513,205,Algebra I,,Lecture,8/29/18,TR,17:00 - 18:15,Rood Hall,3395,Lu,35
+Main,MATH1100,42623,215,Algebra I,,Lecture,8/29/18,TR,18:30 - 19:45,Rood Hall,2271,Kesler,35
+Main,MATH1100,45352,220,Algebra I,,Lecture,8/29/18,TR,18:30 - 19:45,Rood Hall,3395,Lu,35
+Main,MATH1110,43378,100,Algebra II,,Lecture,8/29/18,MWF,08:00 - 08:50,Rood Hall,3395,Chan,35
+Main,MATH1110,40297,102,Algebra II,,Lecture,8/29/18,MWF,09:00 - 09:50,Sangren Hall,3130,Shatnawi,35
+Main,MATH1110,45710,104,Algebra II,,Lecture,8/29/18,MWF,09:00 - 09:50,Sangren Hall,4705,Dharwadkar,35
+Main,MATH1110,40298,105,Algebra II,,Lecture,8/29/18,MWF,09:00 - 09:50,Sangren Hall,4735,Dewasurendra,35
+Main,MATH1110,44064,110,Algebra II,,Lecture,8/29/18,MWF,10:00 - 10:50,Sangren Hall,3110,Dharwadkar,35
+Main,MATH1110,40299,115,Algebra II,,Lecture,8/29/18,MWF,11:00 - 11:50,Sangren Hall,4705,Dewasurendra,40
+Main,MATH1110,43379,125,Algebra II,,Lecture,8/29/18,MWF,12:00 - 12:50,Sangren Hall,1320,Hallas,40
+Main,MATH1110,40301,130,Algebra II,,Lecture,8/29/18,TR,12:30 - 13:45,Rood Hall,2271,Bremiller,35
+Main,MATH1110,42162,140,Algebra II,,Lecture,8/29/18,MWF,13:00 - 13:50,Sangren Hall,3520,Chan,35
+Main,MATH1110,40300,155,Algebra II,,Lecture,8/29/18,TR,14:00 - 15:15,Sangren Hall,4725,Bremiller,35
+Main,MATH1110,44201,160,Algebra II,,Lecture,8/29/18,TR,15:30 - 16:45,Rood Hall,3395,Laing,35
+Main,MATH1110,42212,170,Algebra II,,Lecture,8/29/18,TR,17:00 - 18:15,Rood Hall,3391,Laing,35
+Main,MATH1110,42060,190,Algebra II,,Lecture,8/29/18,TR,18:30 - 19:45,Rood Hall,3391,Laing,35
+Main,MATH1140,40320,500,Excursions In Mathematics,L1,Lecture,8/29/18,MW,14:00 - 14:50,Chemistry Bldg,1720,Garza-Kling,250
+Main,MATH1140,44821,545,Excursions In Mathematics,B1,Lab or Discussion,8/29/18,F,09:00 - 09:50,Rood Hall,2271,Abu Ghalyoun,25
+Main,MATH1140,40337,555,Excursions In Mathematics,B1,Lab or Discussion,8/29/18,F,10:00 - 10:50,Rood Hall,2271,Abu Ghalyoun,25
+Main,MATH1140,44067,566,Excursions In Mathematics,B1,Lab or Discussion,8/29/18,F,11:00 - 11:50,Rood Hall,2271,Hegedus-Wimsatt,25
+Main,MATH1140,40339,570,Excursions In Mathematics,B1,Lab or Discussion,8/29/18,F,12:00 - 12:50,Rood Hall,2271,Abu Ghalyoun,25
+Main,MATH1140,43526,590,Excursions In Mathematics,B1,Lab or Discussion,8/29/18,F,14:00 - 14:50,Rood Hall,2271,Hegedus-Wimsatt,25
+Main,MATH1160,45230,100,Finite Math/Applic,,Lecture,8/29/18,MWF,15:00 - 15:50,Rood Hall,2271,Schreiner,40
+Main,MATH1160,40348,500,Finite Math/Applic,L1,Lecture,8/29/18,MW,11:00 - 11:50,Knauss Hall,3502,Schreiner,270
+Main,MATH1160,40349,540,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,08:00 - 08:50,Rood Hall,2275,Meyer,30
+Main,MATH1160,44536,545,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,09:00 - 09:50,Rood Hall,2275,Meyer,30
+Main,MATH1160,40350,550,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,09:00 - 09:50,Schneider Hall,1350,Vazifedan,30
+Main,MATH1160,40351,555,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,10:00 - 10:50,Schneider Hall,1350,Vazifedan,30
+Main,MATH1160,44070,560,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,10:00 - 10:50,Rood Hall,2275,Meyer,30
+Main,MATH1160,40352,565,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,12:00 - 12:50,Rood Hall,2275,Culver,30
+Main,MATH1160,44071,566,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,12:00 - 12:50,Schneider Hall,1160,Vazifedan,30
+Main,MATH1160,40353,570,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,13:00 - 13:50,Rood Hall,2275,Culver,30
+Main,MATH1160,41979,580,Finite Math/Applic,B1,Lab or Discussion,8/29/18,F,14:00 - 14:50,Rood Hall,2275,Culver,30
+Main,MATH1160,45231,600,Finite Math/Applic,L2,Lecture,8/29/18,MW,13:00 - 13:50,Rood Hall,1104,Schreiner,180
+Main,MATH1160,45232,640,Finite Math/Applic,B2,Lab or Discussion,8/29/18,F,08:00 - 08:50,Rood Hall,2271,Broe,30
+Main,MATH1160,45233,645,Finite Math/Applic,B2,Lab or Discussion,8/29/18,F,09:00 - 09:50,Rood Hall,3395,Mosallam,30
+Main,MATH1160,45235,655,Finite Math/Applic,B2,Lab or Discussion,8/29/18,F,10:00 - 10:50,Rood Hall,1118,Mosallam,30
+Main,MATH1160,45237,665,Finite Math/Applic,B2,Lab or Discussion,8/29/18,F,12:00 - 12:50,Rood Hall,1118,Broe,30
+Main,MATH1160,45239,675,Finite Math/Applic,B2,Lab or Discussion,8/29/18,F,13:00 - 13:50,Rood Hall,2271,Mosallam,30
+Main,MATH1160,45240,680,Finite Math/Applic,B2,Lab or Discussion,8/29/18,F,14:00 - 14:50,Schneider Hall,1160,Broe,30
+Main,MATH1180,45713,100,Precalculus Math,,Lecture,8/29/18,MTRF,08:00 - 08:50,Rood Hall,3391,Zhu,35
+Main,MATH1180,45714,110,Precalculus Math,,Lecture,8/29/18,MTRF,10:00 - 10:50,Sangren Hall,4705,Garza-Kling,40
+Main,MATH1180,45715,115,Precalculus Math,,Lecture,8/29/18,MTRF,11:00 - 11:50,Rood Hall,3391,Hernandez,35
+Main,MATH1180,45717,125,Precalculus Math,,Lecture,8/29/18,MTRF,13:00 - 13:50,Sangren Hall,4715,Hernandez,35
+Main,MATH1180,45718,130,Precalculus Math,,Lecture,8/29/18,MTRF,14:00 - 14:50,Rood Hall,1118,Pence,40
+Main,MATH1180,45719,160,Precalculus Math,,Lecture,8/29/18,MTWR,18:00 - 18:50,Rood Hall,3309,Hollister,40
+Main,MATH1220,42624,100,Calculus I,,Lecture,8/29/18,MTRF,08:00 - 08:50,Rood Hall,3393,Strom,40
+Main,MATH1220,40633,110,Calculus I,,Lecture,8/29/18,MTRF,10:00 - 10:50,Rood Hall,3391,Mingus,35
+Main,MATH1220,42163,120,Calculus I,,Lecture,8/29/18,MTRF,13:00 - 13:50,Sangren Hall,4725,Koelling,40
+Main,MATH1220,43266,125,Calculus I - HC,,Lecture,8/29/18,MTRF,13:00 - 13:50,Schneider Hall,1350,Strom,25
+Main,MATH1220,40634,130,Calculus I,,Lecture,8/29/18,MTRF,14:00 - 14:50,Sangren Hall,2730,Stodola,40
+Main,MATH1230,42625,100,Calculus II,,Lecture,8/29/18,MTRF,08:00 - 08:50,Rood Hall,3309,Dudek,40
+Main,MATH1230,43211,105,Calculus II,,Lecture,8/29/18,MTRF,09:00 - 09:50,Rood Hall,3309,Dudek,40
+Main,MATH1230,41931,106,Calculus II,,Lecture,8/29/18,MTRF,10:00 - 10:50,Rood Hall,3393,Briggs,41
+Main,MATH1230,40635,120,Calculus II,,Lecture,8/29/18,MTRF,13:00 - 13:50,Rood Hall,3309,Zhu,40
+Main,MATH1230,43527,125,Calculus II,,Lecture,8/29/18,MTRF,14:00 - 14:50,Rood Hall,3309,Martino,40
+Main,MATH1450,40636,100,Disc Math Structures,,Lecture,8/29/18,MWF,09:00 - 09:50,Sangren Hall,3110,Olejniczak,35
+Main,MATH1500,45827,105,Number Concpts Elem/Mid Tchr,,Lecture,8/29/18,TR,10:00 - 11:40,Rood Hall,2271,Grant,30
+Main,MATH1500,45828,125,Number Concpts Elem/Mid Tchr,,Lecture,8/29/18,TR,14:00 - 15:40,Rood Hall,2271,Grant,30
+Main,MATH1510,40442,115,Geom Elem/Mid Sch Tchr,,Lecture,8/29/18,MW,14:00 - 15:40,Rood Hall,2275,Lo,30
+Main,MATH1510,44089,120,Geom Elem/Mid Sch Tchr,,Lecture,8/29/18,TR,14:00 - 15:40,Rood Hall,2275,Strom,30
+Main,MATH1700,41392,100,Calculus I, Sci & Engineering,Lecture,8/29/18,MTRF,09:00 - 09:50,Rood Hall,3393,Bennett,40
+Main,MATH1700,41402,105,Calculus I, Sci & Engineering,Lecture,8/29/18,MTRF,14:00 - 14:50,Rood Hall,3391,Ealy,35
+Main,MATH1700,43477,108,Calculus I, Sci & Eng HC,Lecture,8/29/18,MTRF,13:00 - 13:50,Rood Hall,3391,Hodge,25
+Main,MATH1710,41933,110,Calculus II, Sci & Engineering,Lecture,8/29/18,MTRF,12:00 - 12:50,Rood Hall,3393,Briggs,40
+Main,MATH2000,40449,500,Calculus With Applic,L1,Lecture,8/29/18,TR,08:00 - 09:15,Rood Hall,1104,Briggs,180
+Main,MATH2000,42061,545,Calculus With Applic,B1,Lab or Discussion,8/29/18,W,10:00 - 10:50,Rood Hall,3309,Wyatt,30
+Main,MATH2000,40451,550,Calculus With Applic,B1,Lab or Discussion,8/29/18,W,11:00 - 11:50,Rood Hall,3309,Lietzau,30
+Main,MATH2000,40452,555,Calculus With Applic,B1,Lab or Discussion,8/29/18,W,12:00 - 12:50,Rood Hall,3309,Lietzau,30
+Main,MATH2000,40453,560,Calculus With Applic,B1,Lab or Discussion,8/29/18,W,13:00 - 13:50,Rood Hall,3309,Wyatt,30
+Main,MATH2000,40455,565,Calculus With Applic,B1,Lab or Discussion,8/29/18,W,14:00 - 14:50,Rood Hall,3309,Wyatt,30
+Main,MATH2000,42181,575,Calculus With Applic,B1,Lab or Discussion,8/29/18,W,15:00 - 15:50,Rood Hall,3309,Lietzau,30
+Main,MATH2300,40456,100,Elem Linear Algebra,,Lecture,8/29/18,MTRF,11:00 - 11:50,Rood Hall,3393,Richter,40
+Main,MATH2650,42921,100,Prob&stat Elem/Mid Sch Tchr,,Lecture,8/29/18,MW,10:00 - 11:40,Rood Hall,2275,Kim,30
+Main,MATH2650,44352,120,Prob&stat Elem/Mid Sch Tchr,,Lecture,8/29/18,TR,14:00 - 15:40,Sangren Hall,1310,Browning,30
+Main,MATH2720,42626,107,Multivariate Calc/Matrices,,Lecture,8/29/18,MTRF,10:00 - 10:50,Rood Hall,3309,Ealy,42
+Main,MATH2720,44674,109,Multivariate Calc/Matrices,,Lecture,8/29/18,MTRF,10:00 - 10:50,Rood Hall,3395,Freudenburg,35
+Main,MATH2720,41423,110,Multivariate Calc/Matrices,,Lecture,8/29/18,MTRF,12:00 - 12:50,Rood Hall,3309,Freudenburg,40
+Main,MATH2720,42627,115,Multivariate Calc/Matrices,,Lecture,8/29/18,MTRF,14:00 - 14:50,Rood Hall,3393,Mackey,40
+Main,MATH2720,41426,125,Multivariate Calc/Matrices,,Lecture,8/29/18,MW,16:00 - 17:40,Rood Hall,3309,Wood,40
+Main,MATH3140,42208,110,Mathematical Proofs,,Lecture,8/29/18,MWF,11:00 - 11:50,Rood Hall,3395,Zhang,24
+Main,MATH3300,40457,100,Modern Algebra I,,Lecture,8/29/18,MTRF,11:00 - 11:50,Sangren Hall,3510,Abdelghany,25
+Main,MATH3400,42270,100,Fund Concepts Geom,,Lecture,8/29/18,TR,12:30 - 13:45,Sangren Hall,3310,Mingus,20
+Main,MATH3500,40443,100,Tching Mid Sch Math,,Lecture,8/29/18,TR,09:00 - 10:40,Sangren Hall,1310,Levin,15
+Main,MATH3520,42160,105,Teaching Elem School Math,,Lecture,8/29/18,TR,09:30 - 10:45,Rood Hall,2209,Kline,17
+Main,MATH3520,42271,115,Teaching Elem School Math,,Lecture,8/29/18,TR,12:30 - 13:45,Rood Hall,2209,Kline,17
+Main,MATH3520,44803,120,Teaching Elem School Math,,Lecture,8/29/18,MW,14:00 - 15:15,Rood Hall,2209,Kim,16
+Main,MATH3740,41432,102,Differential Eqns/Linear Alg,,Lecture,8/29/18,MTRF,09:00 - 09:50,Rood Hall,3391,Hodge,35
+Main,MATH3740,41435,105,Differential Eqns/Linear Alg,,Lecture,8/29/18,MTRF,13:00 - 13:50,Rood Hall,3393,Martino,40
+Main,MATH3740,42628,110,Differential Eqns/Linear Alg,,Lecture,8/29/18,MTRF,14:00 - 14:50,Rood Hall,3395,Paul,35
+Main,MATH3740,42468,125,Differential Eqns/Linear Alg,,Lecture,8/29/18,MTRF,15:00 - 15:50,Rood Hall,3391,Pence,35
+Main,MATH4020,45733,100,Math Modeling,,Lecture,8/29/18,MWF,10:00 - 10:50,Sangren Hall,3510,Koelling,25
+Main,MATH4400,40458,100,Graphs & Math Models,,Lecture,8/29/18,MWF,12:00 - 12:50,Rood Hall,3395,Bennett,25
+Main,MATH4500,45830,100,Tching Secondary School Math,,Lecture,8/29/18,TR,11:00 - 12:15,Rood Hall,2209,Davis,20
+Main,MATH5070,40459,100,Numerical Analysis I,,Lecture,8/29/18,MWF,11:00 - 11:50,Rood Hall,3307,Treiman,25
+Main,MATH5100,41438,100,Applied Matrix Algebra,,Lecture,8/29/18,MW,15:30 - 16:45,Rood Hall,3307,Paul,20
+Main,MATH5300,42031,100,Linear Algebra,,Lecture,8/29/18,MW,15:30 - 16:45,Rood Hall,3307,Paul,20
+Main,MATH5501,45829,100,Tchg of Middle School Math,,Lecture,8/29/18,TR,09:00 - 10:40,Sangren Hall,1310,Levin,20
+Main,MATH5531,45831,100,Num Sys & Prop Reason MG Tchrs,,Lecture,8/29/18,MW,10:00 - 11:40,Rood Hall,2209,Lo,20
+Main,MATH5550,45832,100,Concepts of Calc for MG Tchrs,,Lecture,8/29/18,MW,16:00 - 17:40,Rood Hall,2209,Browning,20
+Main,MATH5700,42032,100,Advanced Calculus I,,Lecture,8/29/18,MTRF,08:00 - 08:50,Rood Hall,3307,Treiman,25
+Main,MATH5720,40471,100,Vector Calc & Complx Variables,,Lecture,8/29/18,MTRF,13:00 - 13:50,Rood Hall,3307,Mackey,20
+Main,MATH5990,41936,100,Indp Study In Math,,Independent Study,8/29/18,,,,,,1
+Main,MATH5990,41937,105,Indp Study In Math,,Independent Study,8/29/18,,,,,,2
+Main,MATH5990,43173,110,Indp Study In Math,,Independent Study,8/29/18,,,,,,2
+Main,MATH5990,43174,115,Indp Study In Math,,Independent Study,8/29/18,,,,,,2
+Main,MATH6250,45741,100,Differential Topology,,Lecture,8/29/18,MW,12:00 - 13:15,Rood Hall,2275,Wood,25
+Main,MATH6300,45740,100,Abstract Algebra I,,Lecture,8/29/18,MW,14:00 - 15:15,Rood Hall,3307,Richter,25
+Main,MATH6400,45745,100,Graph Theory I,,Lecture,8/29/18,MTRF,10:00 - 10:50,Everette Tower,6620,Zhang,25
+Main,MATH6540,45833,100,Topics - Sec Sch Math Curr,,Seminar or Studio,8/29/18,W,17:30 - 20:00,Rood Hall,3391,Davis,15
+Main,MATH6580,46112,100,Psy Of Learning Mathematics,,Lecture,8/29/18,R,14:00 - 16:30,Everette Tower,4403,Levin,15
+Main,MATH6780,45746,100,Intro to Functional Analysis,,Lecture,8/29/18,MWF,09:00 - 09:50,Everette Tower,6620,Pence,25
+Main,MATH6880,40472,100,Research Tools In Math Sci,,Supervision or Practicum,8/29/18,,,,,Zhang,5
+Main,MATH6900,42083,100,Seminar In Applied Math,,Supervision or Practicum,8/29/18,F,11:00 - 11:50,Rood Hall,2209,Treiman,10
+Main,MATH6920,43426,105,Seminar In Topology,,Supervision or Practicum,8/29/18,R,13:00 - 13:50,,,Strom,10
+Main,MATH6930,42084,100,Seminar In Algebra,,Supervision or Practicum,8/29/18,M,15:00 - 15:50,Rood Hall,2211,Ealy,10
+Main,MATH6940,43235,105,Seminar In Graph Theory,,Supervision or Practicum,8/29/18,R,14:00 - 14:50,Everette Tower,6625,Bennett,10
+Main,MATH6950,45834,100,Seminar In Math Ed,,Supervision or Practicum,8/29/18,T,11:00 - 12:15,Contact Dept for Location,0,Levin,15
+Main,MATH6970,42085,100,Seminar In Analysis,,Supervision or Practicum,8/29/18,F,11:00 - 11:50,Sangren Hall,4130,Treiman,10
+Main,MATH6990,41942,100,Affine Algebraic Geometry,,Independent Study,8/29/18,,,,,,5
+Main,MATH6990,41943,105,Graph Labellings 1,,Independent Study,8/29/18,,,,,Zhang,3
+Main,MATH6990,40473,110,Reading & Research,,Independent Study,8/29/18,,,,,Bennett,3
+Main,MATH6990,42107,115,Reading & Research,,Independent Study,8/29/18,,,,,Zhang,3
+Main,MATH6990,42389,120,Studies in Profinite Groups,,Independent Study,8/29/18,,,,,Ealy,3
+Main,MATH6990,42551,125,Readings in Learning Theory,,Independent Study,8/29/18,,,,,Levin,3
+Main,MATH6990,42552,130,Reading & Research,,Independent Study,8/29/18,,,,,Browning,2
+Main,MATH6990,42553,135,Reading & Research,,Independent Study,8/29/18,,,,,Lo,1
+Main,MATH6990,42554,140,Reading & Research,,Independent Study,8/29/18,,,,,Zhang,3
+Main,MATH6990,42611,145,Chromatics Graph Theory,,Independent Study,8/29/18,,,,,Zhang,1
+Main,MATH6990,44708,150,Mathematical Modeling I,,Independent Study,8/29/18,,,,,Koelling,1
+Main,MATH6990,44709,155,Multi-Stage Stochast Prog,,Independent Study,8/29/18,,,,,Ledyaev,1
+Main,MATH6990,44710,160,Reading & Research,,Independent Study,8/29/18,,,,,,1
+Main,MATH6990,44715,165,Reading & Research,,Independent Study,8/29/18,,,,,,1
+Main,MATH6990,44716,170,Reading & Research,,Independent Study,8/29/18,,,,,,1
+Main,MATH6990,44717,175,Reading & Research,,Independent Study,8/29/18,,,,,,1
+Main,MATH7120,41941,100,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,Mingus,2
+Main,MATH7300,41940,100,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Zhang,3
+Main,MATH7300,41939,105,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Zhang,3
+Main,MATH7300,40474,110,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Ziebarth,3
+Main,MATH7300,42094,115,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Zhang,3
+Main,MATH7300,46459,120,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Zhu,1
+Main,MATH7300,42870,125,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Wood,2
+Main,MATH7300,42871,130,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Levin,2
+Main,MATH7300,42872,135,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Freudenburg,2
+Main,MATH7300,42873,140,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Mackey,2
+Main,MATH7300,43497,145,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,Strom,2
+Main,MATH7300,43498,150,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,,2
+Main,MATH7300,43499,155,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,,2
+Main,MATH7300,43500,160,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,,2
+Main,MATH7300,45604,165,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,,1
+Main,MATH7300,45605,170,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,,1
+Main,MATH7300,46458,175,Doctoral Dissertation,,Supervision or Practicum,8/29/18,,,,,,1
+Main,MATH7350,41938,100,Grad Research-Doctoral,,Supervision or Practicum,8/29/18,,,,,Richter,3
+Main,MATH7350,46649,110,Grad Research-Doctoral,,Supervision or Practicum,8/29/18,,,,,Zhang,1
+Main,PHYS1030,43295,100,Sky And Solar System Lab,,Lab or Discussion,8/29/18,R,13:00 - 14:50,Rood Hall,2240,Jayathissa,24
+Main,PHYS1030,43297,105,Sky And Solar System Lab,,Lab or Discussion,8/29/18,R,15:00 - 16:50,Rood Hall,2240,Jayathissa,24
+Main,PHYS1030,43296,110,Sky And Solar System Lab,,Lab or Discussion,8/29/18,W,13:00 - 14:50,Rood Hall,2240,Vaghefi Esfidani,24
+Main,PHYS1030,40156,115,Sky And Solar System Lab,,Lab or Discussion,8/29/18,T,15:00 - 16:50,Rood Hall,2240,Vaghefi Esfidani,24
+Main,PHYS1040,40157,100,Intro To Sky And Solar System,,Lecture,8/29/18,TR,11:00 - 12:15,Rood Hall,1104,Paulius,120
+Main,PHYS1070,40158,100,Elementary Physics,,Lecture,8/29/18,MTWR,10:00 - 10:50,Rood Hall,1104,Balachandran,125
+Main,PHYS1070,40158,100,Elementary Physics,,Lecture,8/29/18,R,17:00 - 17:50,Rood Hall,1104,Balachandran,125
+Main,PHYS1080,40159,105,Elementary Phys Lab,,Lab or Discussion,8/29/18,T,08:00 - 09:50,Rood Hall,2246,Barger,24
+Main,PHYS1080,40160,110,Elementary Phys Lab,,Lab or Discussion,8/29/18,W,08:00 - 09:50,Rood Hall,2246,Medlock,24
+Main,PHYS1080,40162,115,Elementary Phys Lab,,Lab or Discussion,8/29/18,R,08:00 - 09:50,Rood Hall,2246,Hlatshwayo,24
+Main,PHYS1080,40163,125,Elementary Phys Lab,,Lab or Discussion,8/29/18,W,14:00 - 15:50,Rood Hall,2246,Hlatshwayo,24
+Main,PHYS1080,40161,130,Elementary Phys Lab,,Lab or Discussion,8/29/18,T,15:00 - 16:50,Rood Hall,2246,Barger,24
+Main,PHYS1130,40164,100,General Physics I,,Lecture,8/29/18,MTWRF,09:00 - 09:50,Rood Hall,1110,Ryan,75
+Main,PHYS1130,40165,105,General Physics I,,Lecture,8/29/18,MTWRF,15:00 - 15:50,Rood Hall,1110,Ryan,75
+Main,PHYS1140,40167,115,General Phys I Lab,,Lab or Discussion,8/29/18,R,13:00 - 14:50,Rood Hall,2202,Cook,24
+Main,PHYS1140,40168,120,General Phys I Lab,,Lab or Discussion,8/29/18,T,13:00 - 14:50,Rood Hall,2202,Usman,24
+Main,PHYS1140,40169,125,General Phys I Lab,,Lab or Discussion,8/29/18,W,13:00 - 14:50,Rood Hall,2202,Fiaz,24
+Main,PHYS1140,43534,130,General Phys I Lab,,Lab or Discussion,8/29/18,T,16:00 - 17:50,Rood Hall,2202,Usman,24
+Main,PHYS1140,40166,135,General Phys I Lab,,Lab or Discussion,8/29/18,W,16:00 - 17:50,Rood Hall,2202,Fiaz,24
+Main,PHYS1150,40170,100,General Physics II,,Lecture,8/29/18,MTWRF,14:00 - 14:50,Rood Hall,1110,Hoffmann,75
+Main,PHYS1160,40172,105,General Phys II Lab,,Lab or Discussion,8/29/18,R,11:00 - 12:50,Rood Hall,2204,Cook,24
+Main,PHYS1160,40173,110,General Phys II Lab,,Lab or Discussion,8/29/18,T,15:00 - 16:50,Rood Hall,2204,Iqbal,24
+Main,PHYS1160,40171,115,General Phys II Lab,,Lab or Discussion,8/29/18,W,15:00 - 16:50,Rood Hall,2204,Shabani Nezhad Navrood,24
+Main,PHYS1800,43104,M85,Physics: Inquiry and Insights,,Lab or Discussion,8/29/18,TR,13:00 - 15:20,Wood Hall,1413,Khan,24
+Main,PHYS1800,43158,M86,Physics: Inquiry and Insights,,Lab or Discussion,8/29/18,TR,09:00 - 11:20,Wood Hall,1413,Khan,24
+Main,PHYS1905,44499,100,The Universe of Physics,,Seminar or Studio,8/29/18,F,15:00 - 15:50,Rood Hall,3395,Famiano,35
+Main,PHYS2050,44403,100,University Physics I,,Lecture,8/29/18,MWF,09:00 - 09:50,Rood Hall,1104,Famiano,75
+Main,PHYS2050,44403,100,University Physics I,,Lecture,8/29/18,T,18:00 - 18:50,Rood Hall,1104,Famiano,75
+Main,PHYS2050,44404,105,University Physics I,,Lecture,8/29/18,MWF,11:00 - 11:50,Rood Hall,1104,Famiano,75
+Main,PHYS2050,44404,105,University Physics I,,Lecture,8/29/18,T,18:00 - 18:50,Rood Hall,1104,Famiano,75
+Main,PHYS2050,44405,110,University Physics I,,Lecture,8/29/18,MWF,14:00 - 14:50,Rood Hall,1104,Gorczyca,75
+Main,PHYS2050,44405,110,University Physics I,,Lecture,8/29/18,T,18:00 - 18:50,Rood Hall,1110,Gorczyca,75
+Main,PHYS2060,40375,100,University Physics I Lab,,Lab or Discussion,8/29/18,T,08:00 - 09:50,Rood Hall,2250,Leitzke,24
+Main,PHYS2060,42739,105,University Physics I Lab,,Lab or Discussion,8/29/18,R,10:00 - 11:50,Rood Hall,2250,Guerin,24
+Main,PHYS2060,40376,110,University Physics I Lab,,Lab or Discussion,8/29/18,T,12:00 - 13:50,Rood Hall,2250,Guerin,24
+Main,PHYS2060,40377,115,University Physics I Lab,,Lab or Discussion,8/29/18,W,12:00 - 13:50,Rood Hall,2250,Leitzke,24
+Main,PHYS2060,40378,120,University Physics I Lab,,Lab or Discussion,8/29/18,R,12:00 - 13:50,Rood Hall,2250,Sachmpazidi,24
+Main,PHYS2060,40379,125,University Physics I Lab,,Lab or Discussion,8/29/18,T,15:00 - 16:50,Rood Hall,2250,Bhatt,24
+Main,PHYS2060,40380,130,University Physics I Lab,,Lab or Discussion,8/29/18,W,15:00 - 16:50,Rood Hall,2250,Medlock,24
+Main,PHYS2060,43089,135,University Physics I Lab,,Lab or Discussion,8/29/18,R,15:00 - 16:50,Rood Hall,2250,Bhatt,24
+Main,PHYS2070,42108,100,University Physics II,,Lecture,8/29/18,MTWR,11:00 - 11:50,Rood Hall,1110,Mcgurn,75
+Main,PHYS2070,42108,100,University Physics II,,Lecture,8/29/18,R,19:30 - 20:20,Rood Hall,1110,Mcgurn,75
+Main,PHYS2070,42109,105,University Physics II,,Lecture,8/29/18,MTWR,13:00 - 13:50,Rood Hall,1110,Rosenthal,75
+Main,PHYS2070,42109,105,University Physics II,,Lecture,8/29/18,R,19:30 - 20:20,Rood Hall,1104,Rosenthal,75
+Main,PHYS2080,40382,100,University Physics II Lab,,Lab or Discussion,8/29/18,T,08:00 - 09:50,Rood Hall,2248,Weerarathne,24
+Main,PHYS2080,40384,105,University Physics II Lab,,Lab or Discussion,8/29/18,R,08:00 - 09:50,Rood Hall,2248,Kauchha,24
+Main,PHYS2080,40383,110,University Physics II Lab,,Lab or Discussion,8/29/18,W,09:00 - 10:50,Rood Hall,2248,Niraula,24
+Main,PHYS2080,40386,115,University Physics II Lab,,Lab or Discussion,8/29/18,W,14:00 - 15:50,Rood Hall,2248,Niraula,24
+Main,PHYS2080,40385,120,University Physics II Lab,,Lab or Discussion,8/29/18,T,16:00 - 17:50,Rood Hall,2248,Weerarathne,24
+Main,PHYS2080,40387,125,University Physics II Lab,,Lab or Discussion,8/29/18,R,16:00 - 17:50,Rood Hall,2248,Kauchha,24
+Main,PHYS2500,44491,100,Waves and Optics,,Lecture/Lab/Discussion,8/29/18,TR,13:00 - 14:30,Rood Hall,2242,Schuster,18
+Main,PHYS2500,44491,100,Waves and Optics,,Lecture/Lab/Discussion,8/29/18,M,13:00 - 13:50,Rood Hall,2242,Schuster,18
+Main,PHYS3090,40388,100,Intro Modern Physics,,Lecture,8/29/18,MTRF,12:00 - 12:50,Rood Hall,3391,Gorczyca,35
+Main,PHYS3100,40389,100,Intro Modern Physics Lab,,Lab or Discussion,8/29/18,T,09:00 - 11:50,Rood Hall,2208,Sadaula,15
+Main,PHYS3100,40390,110,Intro Modern Physics Lab,,Lab or Discussion,8/29/18,W,15:00 - 17:50,Rood Hall,2208,Sadaula,15
+Main,PHYS3300,40475,100,Thermodynamics,,Lecture,8/29/18,TR,15:30 - 16:45,Rood Hall,2209,Paulius,16
+Main,PHYS4220,45965,100,Teaching & Learning of Physics,,Lecture/Lab/Discussion,8/29/18,T,16:00 - 19:20,Rood Hall,2242,Mirakovits,18
+Main,PHYS4220,45965,100,Teaching & Learning of Physics,,Lecture/Lab/Discussion,8/29/18,F,16:00 - 17:40,Rood Hall,2242,Mirakovits,18
+Main,PHYS4400,45961,100,Electromagnetism,,Lecture,8/29/18,MTRF,13:00 - 13:50,Rood Hall,2211,Burns,16
+Main,PHYS4600,45960,100,Quantum Mechanics,,Lecture,8/29/18,MWF,11:00 - 11:50,Rood Hall,2211,Bautista,16
+Main,PHYS4980,40477,105,Special Problems,,Independent Study,8/29/18,,,,,Bautista,1
+Main,PHYS4980,43868,110,Special Problems,,Independent Study,8/29/18,,,,,,1
+Main,PHYS5980,40478,105,Selected Topics,,Independent Study,8/29/18,,,,,Burns,1
+Main,PHYS5980,40479,115,Selected Topics,,Independent Study,8/29/18,,,,,Famiano,1
+Main,PHYS6010,43514,100,Intro to Current Physics Rsch,,Lab or Discussion,8/29/18,,,,,,1
+Main,PHYS6010,43869,105,Intro to Current Physics Rsch,,Lab or Discussion,8/29/18,,,,,,1
+Main,PHYS6150,40480,100,Mathematical Physics,,Lecture,8/29/18,MWF,09:00 - 09:50,Rood Hall,2211,Mcgurn,10
+Main,PHYS6200,44492,100,Computational Physics,,Lecture,8/29/18,MF,15:00 - 15:50,Rood Hall,2240,Rosenthal,10
+Main,PHYS6230,41291,100,Quantum Mechanics II,,Lecture,8/29/18,TR,10:00 - 11:15,Rood Hall,2211,Litvinova,10
+Main,PHYS6300,40481,100,Classical Mechanics,,Lecture,8/29/18,MWF,10:00 - 10:50,Rood Hall,2211,Rosenthal,10
+Main,PHYS6630,41297,100,Electricity & Magnetism II,,Lecture,8/29/18,TR,14:00 - 15:15,Rood Hall,2211,Chung,10
+Main,PHYS6800,46695,100,Research In Atomic Physics,,Supervision or Practicum,8/29/18,,,,,Bautista,1
+Main,PHYS6810,43516,100,Research In Nuclear Physics,,Supervision or Practicum,8/29/18,,,,,Litvinova,1
+Main,PHYS6810,44641,105,Research In Nuclear Physics,,Supervision or Practicum,8/29/18,,,,,Famiano,1
+Main,PHYS6810,45966,110,Research In Nuclear Physics,,Supervision or Practicum,8/29/18,,,,,,2
+Main,PHYS6820,43517,100,Research In Condensed Matter,,Supervision or Practicum,8/29/18,,,,,Burns,1
+Main,PHYS6820,44132,105,Research In Condensed Matter,,Supervision or Practicum,8/29/18,,,,,Chung,1
+Main,PHYS7000,40482,100,Masters Thesis,,Independent Study,8/29/18,,,,,Schuster,1
+Main,PHYS7300,40483,100,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Kayani,4
+Main,PHYS7300,40484,105,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Famiano,1
+Main,PHYS7300,40485,110,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Litvinova,1
+Main,PHYS7300,40486,115,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Burns,1
+Main,PHYS7300,40487,120,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Guda,1
+Main,PHYS7300,40488,125,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Tanis,1
+Main,PHYS7300,42095,130,Doctoral Dissertation,,Independent Study,8/29/18,,,,,Chajecki,1
+Main,STAT1600,43420,100,Statistics And Data Analysis,,Lecture,8/29/18,TR,11:00 - 12:15,Sangren Hall,3130,Gu,35
+Main,STAT1600,41407,105,Statistics And Data Analysis,,Lecture,8/29/18,MW,14:00 - 15:15,Dunbar Hall,4202,Kapenga,35
+Main,STAT1600,42800,110,Statistics And Data Analysis,,Lecture,8/29/18,TR,09:30 - 10:45,Sangren Hall,3310,Vitancol,35
+Main,STAT1600,46084,115,Statistics And Data Analysis,,Lecture,8/29/18,TR,11:00 - 12:15,Rood Hall,1118,Oliver,35
+Main,STAT1600,42869,120,Statistics And Data Analysis,,Lecture,8/29/18,TR,12:30 - 13:45,Sangren Hall,1720,Yang,35
+Main,STAT1600,46085,125,Statistics And Data Analysis,,Lecture,8/29/18,TR,14:00 - 15:15,Sangren Hall,1720,Vitancol,35
+Main,STAT1600,45487,130,Statistics And Data Analysis,,Lecture,8/29/18,TR,12:30 - 13:45,Sangren Hall,2130,Talafha,35
+Main,STAT1600,46088,135,Statistics And Data Analysis,,Lecture,8/29/18,TR,09:30 - 10:45,Sangren Hall,2110,Desravines,35
+Main,STAT1600,45498,140,Statistics And Data Analysis,,Lecture,8/29/18,MW,14:00 - 15:15,Sangren Hall,2120,Quartey,35
+Main,STAT1600,46480,145,Statistics And Data Analysis,,Lecture,8/29/18,MW,17:00 - 18:15,Dunbar Hall,3204,Kapenga,35
+Main,STAT1600,46493,150,Statistics And Data Analysis,,Lecture,8/29/18,TR,14:00 - 15:15,Dunbar Hall,3216,Hall,35
+Main,STAT2160,43613,105,Business Statistics,,Lecture,8/29/18,MWF,09:00 - 09:50,Dunbar Hall,3202,Pettengill,33
+Main,STAT2160,41424,125,Business Statistics,,Lecture,8/29/18,MWF,08:00 - 08:50,Sangren Hall,1720,Andrews,33
+Main,STAT2160,41422,130,Business Statistics,,Lecture,8/29/18,MWF,09:00 - 09:50,Sangren Hall,1320,Andrews,33
+Main,STAT2160,42303,137,Business Statistics,,Lecture,8/29/18,MWF,10:00 - 10:50,Dunbar Hall,3208,Zhu,33
+Main,STAT2160,41428,160,Business Statistics,,Lecture,8/29/18,MWF,10:00 - 10:50,Dunbar Hall,3206,Murphy,33
+Main,STAT2160,42304,187,Business Statistics,,Lecture,8/29/18,MWF,12:00 - 12:50,Dunbar Hall,3206,Hwang,33
+Main,STAT2160,42305,188,Business Statistics,,Lecture,8/29/18,MWF,12:00 - 12:50,Dunbar Hall,3202,Hall,33
+Main,STAT2160,41433,195,Business Statistics,,Lecture,8/29/18,MWF,13:00 - 13:50,Dunbar Hall,3206,Hall,33
+Main,STAT2160,41436,215,Business Statistics,,Lecture,8/29/18,MWF,14:00 - 14:50,Sangren Hall,2720,Hwang,33
+Main,STAT2600,43675,100,Data Analysis Using R,,Lecture/Lab/Discussion,8/29/18,MW,16:00 - 17:40,Rood Hall,3396,Lee,35
+Main,STAT2600,43612,105,Data Analysis Using R,,Lecture,8/29/18,TR,12:00 - 13:40,Rood Hall,3396,Le,25
+Main,STAT3620,41442,100,Probability,,Lecture,8/29/18,TR,10:00 - 11:40,Sangren Hall,4560,Terpstra,30
+Main,STAT3640,43427,105,Foundations of Data Analysis,,Lecture,8/29/18,MW,12:30 - 13:45,Dunbar Hall,3208,Heun,30
+Main,STAT3660,45286,100,Data Analysis Biosciences-HC,,Lecture,8/29/18,TR,14:00 - 15:40,Dunbar Hall,2204,McKean,25
+Main,STAT3660,41445,105,Data Analysis for Biosciences,,Lecture,8/29/18,MW,16:00 - 17:40,Sangren Hall,2720,Palliyage,35
+Main,STAT3660,42852,110,Data Analysis for Biosciences,,Lecture,8/29/18,MW,18:00 - 19:40,Dunbar Hall,3206,Lang,35
+Main,STAT3660,42138,115,Data Analysis for Biosciences,,Lecture,8/29/18,MW,10:00 - 11:40,Dunbar Hall,3210,Billian,35
+Main,STAT3660,43416,120,Data Analysis for Biosciences,,Lecture,8/29/18,TR,10:00 - 11:40,Sangren Hall,2730,McKean,35
+Main,STAT3660,46086,125,Data Analysis for Biosciences,,Lecture,8/29/18,TR,14:00 - 15:40,Sangren Hall,2110,Billian,35
+Main,STAT3660,46087,130,Data Analysis for Biosciences,,Lecture,8/29/18,MW,10:00 - 11:40,Rood Hall,2271,Alcantara,35
+Main,STAT3660,46089,135,Data Analysis for Biosciences,,Lecture,8/29/18,MW,16:00 - 17:40,Rood Hall,2271,Lang,35
+Main,STAT4640,43415,100,Intro Statistical Computing,,Lecture,8/29/18,,,Online and Face-to-Face,CLASS,Onicescu,35
+Main,STAT4640,43415,100,Intro Statistical Computing,,Lecture,8/29/18,T,16:00 - 18:30,Rood Hall,3396,Onicescu,35
+Main,STAT5610,45285,100,Appl Multivariate Stat Methd,,Lecture,8/29/18,MWF,10:00 - 10:50,Sangren Hall,4735,Andrews,25
+Main,STAT5670,44557,100,Stat Design/Analysis Exper,,Lecture,8/29/18,TR,12:30 - 13:45,Rood Hall,2275,Terpstra,20
+Main,STAT5850,44158,100,Applied Data Mining,,Lecture,8/29/18,MW,14:00 - 15:15,Sangren Hall,1320,Lee,40
+Main,STAT5990,43244,100,Indp Study In Stat,,Independent Study,8/29/18,,,,,Lee,3
+Main,STAT6500,45287,100,Statistical Theory I,,Lecture,8/29/18,TR,16:00 - 17:40,Rood Hall,2275,Kang,25
+Main,STAT6620,41491,100,Applied Linear Models,,Lecture,8/29/18,TR,14:00 - 15:15,Sangren Hall,4735,Naranjo,30
+Main,STAT6630,46005,100,Linear Models,,Lecture,8/29/18,TR,14:00 - 15:15,Sangren Hall,1320,Mckean,20
+Main,STAT6800,41492,100,Sas Programming,,Lecture,8/29/18,M,17:30 - 20:00,Rood Hall,3396,Onicescu,25
+Main,STAT6800,41492,100,Sas Programming,,Lecture,8/29/18,,,,,Onicescu,25
+Main,STAT6800,41492,100,Sas Programming,,Lecture,8/29/18,M,17:30 - 20:00,,,Onicescu,25
+Main,STAT6910,43215,100,Practicum Stat Consulting,,Supervision or Practicum,8/29/18,,,,,Naranjo,5
+Main,STAT6980,43216,100,Stat Consult Internship,,Supervision or Practicum,8/29/18,,,,,Naranjo,5
+Main,STAT6990,42875,100,Reading & Research,,Independent Study,8/29/18,,,,,Naranjo,1
+Main,STAT7120,43232,100,Prof Field Exper,,Supervision or Practicum,8/29/18,,,,,Naranjo,1
+Main,STAT7250,43852,100,Doct Res Seminar,,Seminar or Studio,8/29/18,,,,,Naranjo,5
+Main,STAT7300,41631,100,Doctoral Dissertatn,,Independent Study,8/29/18,,,,,Lee,2
+Main,STAT7300,41993,104,Doctoral Dissertatn,,Independent Study,8/29/18,,,,,Mckean,2
+Main,STAT7300,42890,105,Doctoral Dissertatn,,Independent Study,8/29/18,,,,,Bugaj,1
+Main,STAT7300,43239,110,Doctoral Dissertatn,,Independent Study,8/29/18,,,,,Naranjo,2
+Main,STAT7300,43240,115,Doctoral Dissertatn,,Independent Study,8/29/18,,,,,Onicescu,2
+Main,STAT7300,43241,120,Doctoral Dissertatn,,Independent Study,8/29/18,,,,,Terpstra,2
+WMU - Online Education,STAT1600,42790,950,Statistics And Data Analysis,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Kapenga,70
+WMU - Online Education,STAT2160,42801,950,Business Statistics,,Lecture,8/29/18,,,Online - Semester Course,CLASS,Andrews,70
+WMU - Online Education,STAT3660,44221,950,Data Analysis for Biosciences,,Lecture,8/29/18,,,Online - Semester Course,CLASS,McKean,55
