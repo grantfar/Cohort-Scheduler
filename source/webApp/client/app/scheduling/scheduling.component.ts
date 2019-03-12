@@ -83,6 +83,10 @@ export class SchedulingComponent implements OnInit {
   runSchedule() {
     let name:string = this.runScheduleForm.controls['name'].value;
     name.replace(/\s+/g, '_');
+    let sched:Schedule = new Schedule();
+    sched.name = name;
+    sched.date = new Date().toString();
+    this.schedulingService.addSchedule(sched)
     this.schedulingService.runScheduling(this.file, name, this.reqs).subscribe(
       res => {
         this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
