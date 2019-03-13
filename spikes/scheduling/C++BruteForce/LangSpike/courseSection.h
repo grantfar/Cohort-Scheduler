@@ -1,3 +1,8 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
+
 #ifndef SECTION_H
 #define SECTION_H
 

@@ -1,3 +1,8 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
+
 #include "enrollment.h"
 using namespace std;
 enrollment::enrollment(courseSection* enrolledIn, vector<int>cohorts)

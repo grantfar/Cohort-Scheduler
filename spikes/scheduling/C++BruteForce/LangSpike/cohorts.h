@@ -1,3 +1,7 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
 #ifndef COHORTS_H
 #define COHORTS_H
 #include <string>

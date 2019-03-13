@@ -1,3 +1,8 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
+
 #ifndef ENROLLMENT_H
 #define ENROLLMENT_H
 #include "courseSection.h"
