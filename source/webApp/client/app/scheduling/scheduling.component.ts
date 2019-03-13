@@ -4,6 +4,8 @@ import {HttpParams} from '@angular/common/http';
 import { SchedulingService } from '../services/scheduling.service';
 import { ToastComponent } from '../shared/toast/toast.component';
 import { Schedule } from '../shared/models/schedule.model';
+import { CohortService } from '../services/cohort.service';
+import { Cohort } from '../shared/models/cohort.model';
 
 /*
 MIT License
@@ -41,6 +43,8 @@ export class SchedulingComponent implements OnInit {
   schedules: Schedule[] = [];
   isLoading = true;
   isEditing = false;
+  reqs: Cohort[] = [];
+
 
   runScheduleForm: FormGroup;
   name = new FormControl('', Validators.required);
@@ -48,19 +52,28 @@ export class SchedulingComponent implements OnInit {
   file:File = null;
 
   constructor(private schedulingService: SchedulingService,
+              private cohortService: CohortService,
               private formBuilder: FormBuilder,
               public toast: ToastComponent) { }
 
   ngOnInit() {
     this.getSchedules();
+    this.getCohorts();
     this.runScheduleForm = this.formBuilder.group({
-      name: this.name,
-      count: this.count
+      name: this.name
     });
   }
 
+  getCohorts() {
+    this.cohortService.getCohorts().subscribe(
+      data => this.reqs = data,
+      error => console.log(error),
+      () => this.isLoading = false
+    );
+  }
+
   getSchedules() {
-    this.schedulingService.getSchedules().subscribe(
+      this.schedulingService.getSchedules().subscribe(
       data => this.schedules = data,
       error => console.log(error),
       () => this.isLoading = false
@@ -68,7 +81,13 @@ export class SchedulingComponent implements OnInit {
   }
 
   runSchedule() {
-    this.schedulingService.runScheduling(this.file, this.runScheduleForm.controls['name'].value, this.runScheduleForm.controls['count'].value).subscribe(
+    let name:string = this.runScheduleForm.controls['name'].value;
+    name.replace(/\s+/g, '_');
+    let sched:Schedule = new Schedule();
+    sched.name = name;
+    sched.date = new Date().toString();
+    this.schedulingService.addSchedule(sched)
+    this.schedulingService.runScheduling(this.file, name, this.reqs).subscribe(
       res => {
         this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
       },
@@ -78,6 +97,7 @@ export class SchedulingComponent implements OnInit {
 
   view(schedule: Schedule) {
     //redirect will happen here
+    window.location.href = "/assignments?sch="+schedule.name;
   }
 
   deleteSchedule(schedule: Schedule) {

@@ -1,2 +1,5 @@
 .vscode
 .vscode/*
+source/webApp/node_modules/*
+source/webApp/npm/*
+
