@@ -10,8 +10,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
-
+import java.util.Iterator;
 import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -25,14 +26,15 @@ public class FileReader {
 	public FileReader() {
 
 	}
+
 	/**
 	 * 
 	 * @param fileName
 	 * @param courseList
 	 * @throws FileNotFoundException
-	 * @throws ParseException 
-	 * This method reads the class .csv file and stores 
-	 * its information in course objects for the solver to use
+	 * @throws ParseException
+	 *             This method reads the class .csv file and stores its information
+	 *             in course objects for the solver to use
 	 */
 	public static void readClassFile(String fileName, List<Course> courseList)
 			throws FileNotFoundException, ParseException {
@@ -128,16 +130,17 @@ public class FileReader {
 		scan.close();
 
 	}
+
 	/**
 	 * 
 	 * @param fileName
 	 * @return
-	 * @throws FileNotFoundException 
+	 * @throws FileNotFoundException
 	 * 
-	 * This method reads in a cohort.csv file and stores its 
-	 * information in cohort objects for the solver to use
+	 *             This method reads in a cohort.csv file and stores its information
+	 *             in cohort objects for the solver to use
 	 */
-	
+
 	public static List<Cohort> readCohortFile(String fileName) throws FileNotFoundException {
 		File file = new File(fileName);
 		Scanner scan = new Scanner(file);
@@ -172,7 +175,7 @@ public class FileReader {
 		scan.close();
 		return separateReqsIntoCohorts(requirements);
 	}
-	
+
 	/**
 	 * 
 	 * @param requirements
@@ -204,8 +207,8 @@ public class FileReader {
 	/**
 	 * 
 	 * @param field
-	 * @param section 
-	 *  method to parse and initialize start and end times
+	 * @param section
+	 *            method to parse and initialize start and end times
 	 */
 	private static void setTimes(String[] field, Section section) {
 		String[] tempTime = new String[2];
@@ -224,8 +227,6 @@ public class FileReader {
 		section.setEndTime(LocalTime.of(hour, minute));
 	}
 
-	
-
 	/**
 	 * 
 	 * @param fileName
@@ -233,93 +234,104 @@ public class FileReader {
 	 * @throws EncryptedDocumentException
 	 * @throws InvalidFormatException
 	 * @throws IOException
-	 * The following code will be for reading from a Microsoft Excel file, rather
-	 * than reading from a .csv file like the code above
-	 * Excel reading code used from
-	 * https://ww.callicoder.com/java-read-excel-file-apache-poi/ 
+	 *             The following code will be for reading from a Microsoft Excel
+	 *             file, rather than reading from a .csv file like the code above
+	 *             Excel reading code used from. Using a hash map, it is able to read in information 
+	 *             by column name rather than by column number.
+	 *             https://ww.callicoder.com/java-read-excel-file-apache-poi/
 	 */
-	public static void readCourseExcel(String fileName, List<Course> courseList)
+	public List<Section> readCourseExcel(String fileName)
 			throws EncryptedDocumentException, InvalidFormatException, IOException {
 
 		Workbook workbook = WorkbookFactory.create(new File(fileName));
-		Sheet sheet = workbook.getSheetAt(0);
+		Iterator<Sheet> sheetIterator = workbook.sheetIterator();
+
 		DataFormatter dataFormatter = new DataFormatter();
 		List<Section> sections = new ArrayList<Section>();
+		Sheet sheet = workbook.getSheetAt(0);
+		Iterator<Row> rowIterator = sheet.rowIterator();
 		Section section = new Section();
 
-		int rowNum = 0;
-		int colNum = 0;
+		Map<String, Integer> map = new HashMap<String, Integer>(); // Create map
+		Row row = sheet.getRow(0); // Get first row
 
-		for (Row row : sheet) {
-
-			rowNum++;
-
-			for (Cell cell : row) {
-
-				String cellValue = dataFormatter.formatCellValue(cell);
-
-				if (rowNum > 0) // to skip title row 
-					
-					switch (colNum) {
-
-					case 0: // do nothing
-						break;
-					case 1: // course name + section name
-						section.setName(cellValue);
-						break;
-					case 2: // crn
-						section.setCrn(Integer.parseInt(cellValue));
-						break;
-					case 3: // sections
-						section.setSectionId(cellValue);
-						break;
-					case 5: // link
-						section.setLink(cellValue);
-						break;
-					case 8: // days of week
-						section.setDaysOfWeek(cellValue);
-						break;
-					case 9: // time
-						try {
-							setExcelTimes(cellValue, section);
-						} catch (Exception e) {
-							section.setStartTime(null);
-							section.setEndTime(null);
-						}
-						break;
-					case 10: // building
-						section.setBuilding(cellValue);
-						break;
-					case 11: // room
-						section.setRoom(cellValue);
-						break;
-					case 12: // instructor
-						section.setInstructor(cellValue);
-						break;
-					case 13: // unit size
-						section.setSeats(Integer.parseInt(cellValue));
-						
-						break;
-					
-
-					}  
-				
-				sections.add(section);
-
-				colNum++;
-			}
-
+		short minColIx = row.getFirstCellNum(); // get the first column index for a row
+		short maxColIx = row.getLastCellNum(); // get the last column index for a row
+		for (short colIx = minColIx; colIx < maxColIx; colIx++) { // loop from first to last index
+			Cell cell = row.getCell(colIx); // get the cell
+			map.put(cell.getStringCellValue(), cell.getColumnIndex()); // add the cell contents (name of column) and
+																		// cell index to the map
 		}
 
-	} 
-	
-	public static List<Course> separateSectionsIntoCourses(List<Section> sections){
-		List <Course>  courseList = new ArrayList<Course>();
-		
-		Map<String, List<Section>> mapping = new HashMap<>(); 
-		
+		int col1 = map.get("Course ID");
+		int col2 = map.get("CRN");
+		int col3 = map.get("Section");
+		int col5 = map.get("Link");
+		int col6 = map.get("Meeting Days");
+		int col7 = map.get("Meeting Time");
+		int col8 = map.get("Building");
+		int col9 = map.get("Room");
+		int col10 = map.get("Cap");
+
+		rowIterator.next(); // skip first row
+		while (sheetIterator.hasNext()) {
+			while (rowIterator.hasNext()) {
+				Row dataRow = rowIterator.next();
+
+				Cell cell1 = dataRow.getCell(col1); // Get the cells for each of the indexes
+				Cell cell2 = dataRow.getCell(col2);
+				Cell cell3 = dataRow.getCell(col3);
+				Cell cell5 = dataRow.getCell(col5);
+				Cell cell6 = dataRow.getCell(col6);
+				Cell cell7 = dataRow.getCell(col7);
+				Cell cell8 = dataRow.getCell(col8);
+				Cell cell9 = dataRow.getCell(col9);
+				Cell cell10 = dataRow.getCell(col10);
+
+				String cellValue1 = dataFormatter.formatCellValue(cell1);
+				String cellValue2 = dataFormatter.formatCellValue(cell2);
+				String cellValue3 = dataFormatter.formatCellValue(cell3);
+				String cellValue5 = dataFormatter.formatCellValue(cell5);
+				String cellValue6 = dataFormatter.formatCellValue(cell6);
+				String cellValue7 = dataFormatter.formatCellValue(cell7);
+				String cellValue8 = dataFormatter.formatCellValue(cell8);
+				String cellValue9 = dataFormatter.formatCellValue(cell9);
+				String cellValue10 = dataFormatter.formatCellValue(cell10);
+
+				section.setName(cellValue1);
+				section.setCrn(Integer.parseInt(cellValue2));
+				section.setSectionId(cellValue3);
+				section.setLink(cellValue5);
+				section.setDaysOfWeek(cellValue6);
+				try {
+					setExcelTimes(cellValue7, section);
+				} catch (Exception e) {
+					section.setStartTime(null);
+					section.setEndTime(null);
+				}
+				section.setBuilding(cellValue8);
+				section.setRoom(cellValue9);
+				section.setSeats(Integer.parseInt(cellValue10));
+
+				sections.add(section);
+				section = new Section();
+
+			}
+			sheet = sheetIterator.next();
+		}
+
+		return sections;
+
+	}
+
+	public static List<Course> separateSectionsIntoCourses(List<Section> sections) {
+		List<Course> courseList = new ArrayList<Course>();
+
+		Map<String, List<Section>> mapping = new HashMap<>();
+
 		for (Section section : sections) {
 			if (mapping.containsKey(section.getName())) {
+
 				List<Section> temp = mapping.get(section.getName());
 				temp.add(section);
 				mapping.put(section.getName(), temp);
@@ -329,22 +341,23 @@ public class FileReader {
 				mapping.put(section.getName(), temp);
 			}
 		}
+
 		for (String cName : mapping.keySet()) {
 			Course course = new Course();
 			course.setSections(mapping.get(cName));
 			course.setName(cName);
 			courseList.add(course);
+
 		}
 
 		return courseList;
 	}
-	
-	
+
 	/**
 	 * 
 	 * @param cell
 	 * @param section
-	 * method to parse times from excel file, not .csv
+	 *            method to parse times from excel file, not .csv
 	 */
 	public static void setExcelTimes(String cell, Section section) {
 		String[] tempTime = new String[2];

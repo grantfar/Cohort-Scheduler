@@ -147,12 +147,11 @@ public class ScheduleController {
 		
 		//each course object should have a non empty list of sections and a name
 		//each section object should have all fields initialized
-		List<Course> courseList = new ArrayList<Course>(); 
 		try {
-		FileReader.readClassFile("CEAS_Course_Offerings_Fall_2018.csv", courseList);
-		FileReader.readClassFile("CAS-STEM_Course_Offerings_Fall_2018.csv", courseList);
+		FileReader f = new FileReader();
+		List<Section> sectionList = f.readCourseExcel(request.getFile().getName());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
-		
+		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
 		for(Course c:courseList) {
 			for(Section s:c.getSections())
 				s.setDayBool();

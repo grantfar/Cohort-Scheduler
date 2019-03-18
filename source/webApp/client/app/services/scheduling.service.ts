@@ -59,4 +59,7 @@ export class SchedulingService {
     return this.http.delete(`/api/schedule/${schedule._id}`, { responseType: 'text' });
   }
 
+  addSchedule(schedule:Schedule){
+    return this.http.post('/api/schedule',schedule);
+  }
 }
