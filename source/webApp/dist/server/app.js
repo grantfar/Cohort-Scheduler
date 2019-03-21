@@ -29,9 +29,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 var routes_1 = require("./routes");
+require('dotenv').config();
 var app = express();
 exports.app = app;
 dotenv.load({ path: '.env' });
+console.log(process.env.SECRET_TOKEN);
 app.set('port', (process.env.PORT || 3000));
 app.use('/', express.static(path.join(__dirname, '../public')));
 app.use(express.json());
