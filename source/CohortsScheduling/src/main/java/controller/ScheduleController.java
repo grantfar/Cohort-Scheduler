@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
+import java.io.FileOutputStream;
 import CohortDataClasses.ClassRequirement;
 import CohortDataClasses.Cohort;
 import CohortDataClasses.CohortSectionAssignment;
@@ -150,12 +150,14 @@ public class ScheduleController {
 		//each course object should have a non empty list of sections and a name
 		//each section object should have all fields initialized
 		try {
-		File temp = new File(request.getFile().getOriginalFilename());
+
+		File temp = File.createTempFile(request.getFile().getOriginalFilename(),".xlsx");
 		FileOutputStream fos = new FileOutputStream(temp);
 		fos.write(request.getFile().getBytes());
 		fos.close(); 
 
-		List<Section> sectionList = FileReader.readCourseExcel(temp.toPath().toString());
+		List<Section> sectionList = FileReader.readCourseExcel(temp.getPath);
+		List<Section> sectionList = f.readCourseExcel(temp.getPath());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
 		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
 
