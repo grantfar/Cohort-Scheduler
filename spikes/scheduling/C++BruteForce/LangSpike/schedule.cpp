@@ -1,3 +1,7 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
 #include "schedule.h"
 #include <algorithm>
 Schedule::Schedule()

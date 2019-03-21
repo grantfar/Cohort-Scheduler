@@ -1,5 +1,6 @@
 package controller;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -147,12 +148,19 @@ public class ScheduleController {
 		
 		//each course object should have a non empty list of sections and a name
 		//each section object should have all fields initialized
-		List<Course> courseList = new ArrayList<Course>(); 
 		try {
-		FileReader.readClassFile("CEAS_Course_Offerings_Fall_2018.csv", courseList);
-		FileReader.readClassFile("CAS-STEM_Course_Offerings_Fall_2018.csv", courseList);
+		FileReader f = new FileReader();
+		File temp = new File(request.getFile().getOriginalFilename());
+		FileOutputStream fos = new FileOutputStream(temp);
+		fos.write(request.getFile().getBytes());
+		fos.close(); 
+
+		List<Section> sectionList = f.readCourseExcel(temp.toPath());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
-		
+		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
+
+		temp.delete();
+
 		for(Course c:courseList) {
 			for(Section s:c.getSections())
 				s.setDayBool();

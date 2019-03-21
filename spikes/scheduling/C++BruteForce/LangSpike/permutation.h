@@ -1,3 +1,7 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
 #ifndef PERMUTATION_H
 #define PERMUTATION_H
 #include <vector>

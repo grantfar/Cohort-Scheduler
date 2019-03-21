@@ -1,7 +1,13 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Alex Markules, Jacob Kampf, Grant Farnsworth
+ **/
+
 #include <vector>
 #include "permutation.h"
 #include "cohorts.h"
 #include <list>
+#include <array>
 using namespace std;
 
 vector<vector<int>> permutation(int indexCount, int length){
