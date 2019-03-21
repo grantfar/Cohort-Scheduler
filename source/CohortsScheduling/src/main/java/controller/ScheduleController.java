@@ -1,5 +1,6 @@
 package controller;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -149,9 +150,17 @@ public class ScheduleController {
 		//each section object should have all fields initialized
 		try {
 		FileReader f = new FileReader();
-		List<Section> sectionList = f.readCourseExcel(request.getFile().getName());
+		File temp = new File(request.getFile().getOriginalFilename());
+		FileOutputStream fos = new FileOutputStream(temp);
+		fos.write(request.getFile().getBytes());
+		fos.close(); 
+
+		List<Section> sectionList = f.readCourseExcel(temp.toPath());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
 		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
+
+		temp.delete();
+
 		for(Course c:courseList) {
 			for(Section s:c.getSections())
 				s.setDayBool();
