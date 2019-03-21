@@ -24,12 +24,12 @@ public class HardScoringFunctions {
         return score;
     }
 
-    private static int calculateOverEnrolledScore(List<Course> courses) {
+    protected static int calculateOverEnrolledScore(List<Course> courses) {
 		int score = 0;
 		for(Course course:courses) {
 			for(Section s : course.getSections()) {
 				if(s.getEnrolled()>s.getSeats()) {
-					score -= (s.getEnrolled() - s.getSeats())/5;
+					score -= ((s.getEnrolled() + 4) - s.getSeats())/5;
 				}
 			}
 		}
