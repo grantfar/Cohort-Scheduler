@@ -6,6 +6,7 @@ import { ToastComponent } from '../shared/toast/toast.component';
 import { Schedule } from '../shared/models/schedule.model';
 import { CohortService } from '../services/cohort.service';
 import { Cohort } from '../shared/models/cohort.model';
+import schedule from '../../../server/models/schedule';
 
 /*
 MIT License
@@ -83,11 +84,20 @@ export class SchedulingComponent implements OnInit {
   runSchedule() {
     let name:string = this.scheduleName;
     name.replace(/\s+/g, '_');
-    let sched:Schedule = new Schedule();
+    let form:FormData = new FormData();
+    let sched:Schedule = new Schedule()
     sched.name = name;
     sched.date = new Date().toString();
-    this.schedulingService.addSchedule(sched)
-    this.schedulingService.runScheduling(this.file, name, this.reqs).subscribe(
+    this.schedulingService.addSchedule(sched).subscribe(
+      res=>{
+        //this.toast.setMessage('created schedule object', 'success');
+      }
+    );
+    form.append('file',this.file);
+    form.append('requirements', JSON.stringify(this.reqs));
+    form.append('name', name);
+    form.append('date', new Date().toString());
+    this.schedulingService.runScheduling(form).subscribe(
       res => {
         this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
       },

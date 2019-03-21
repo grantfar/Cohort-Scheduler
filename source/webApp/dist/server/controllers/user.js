@@ -4,6 +4,7 @@ var tslib_1 = require("tslib");
 var jwt = require("jsonwebtoken");
 var user_1 = require("../models/user");
 var base_1 = require("./base");
+require('dotenv').load();
 var UserCtrl = /** @class */ (function (_super) {
     tslib_1.__extends(UserCtrl, _super);
     function UserCtrl() {

@@ -42,21 +42,17 @@ export class SchedulingService {
     return this.http.get<number>('/api/schedules/count');
   }
 
-  runScheduling(csvFile : File, scheduleName: string, reqs: Cohort[]) {
-    let data = {
-      file: csvFile,
-      name: name,
-      reqs: reqs
-    };
-    return this.http.post('localhost:3096/api/start', data);
+  runScheduling(form:FormData) {
+    console.log(form);
+    return this.http.post('http://localhost:3096/api/start', form, {withCredentials: true});
   }
 
   getSchedule(schedule: Schedule): Observable<Schedule> {
-    return this.http.get<Schedule>(`/api/schedule/${schedule._id}`);
+    return this.http.get<Schedule>('/api/schedule/${schedule._id}');
   }
 
   deleteSchedule(schedule: Schedule): Observable<any> {
-    return this.http.delete(`/api/schedule/${schedule._id}`, { responseType: 'text' });
+    return this.http.delete('/api/schedule/${schedule._id}', { responseType: 'text' });
   }
 
   addSchedule(schedule:Schedule){

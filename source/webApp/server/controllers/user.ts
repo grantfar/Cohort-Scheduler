@@ -2,6 +2,7 @@ import * as jwt from 'jsonwebtoken';
 
 import User from '../models/user';
 import BaseCtrl from './base';
+require('dotenv').load();
 
 export default class UserCtrl extends BaseCtrl {
   model = User;
