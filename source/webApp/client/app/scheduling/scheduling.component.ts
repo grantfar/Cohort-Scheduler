@@ -44,7 +44,7 @@ export class SchedulingComponent implements OnInit {
   isLoading = true;
   isEditing = false;
   reqs: Cohort[] = [];
-
+  scheduleName:string;
 
   runScheduleForm: FormGroup;
   name = new FormControl('', Validators.required);
@@ -81,7 +81,7 @@ export class SchedulingComponent implements OnInit {
   }
 
   runSchedule() {
-    let name:string = this.runScheduleForm.controls['name'].value;
+    let name:string = this.scheduleName;
     name.replace(/\s+/g, '_');
     let sched:Schedule = new Schedule();
     sched.name = name;
