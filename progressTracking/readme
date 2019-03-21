@@ -1,8 +1,0 @@
-All tasks should be tracked and included in the subdirectory labeled "tasks".
-Each task should be in it's own file and should include the followig information:
-Name
-Description
-Estimated time
-Date to be completed
-Risk (1 = low risk, 5 = high risk)
-Owner
