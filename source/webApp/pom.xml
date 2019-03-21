@@ -81,8 +81,8 @@
 						<configuration>
 							<executable>npm</executable>
 							<arguments>
-								<argument>run</argument>
-								<argument>test</argument>
+								<argument>run-script</argument>
+								<argument>testbe</argument>
 								<argument>--</argument>
 								<argument>--skipTests=${maven.test.skip}</argument>
 							</arguments>

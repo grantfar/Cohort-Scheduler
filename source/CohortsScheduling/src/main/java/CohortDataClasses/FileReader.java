@@ -240,7 +240,7 @@ public class FileReader {
 	 *             by column name rather than by column number.
 	 *             https://ww.callicoder.com/java-read-excel-file-apache-poi/
 	 */
-	public List<Section> readCourseExcel(String fileName)
+	public static List<Section> readCourseExcel(String fileName)
 			throws EncryptedDocumentException, InvalidFormatException, IOException {
 
 		Workbook workbook = WorkbookFactory.create(new File(fileName));
