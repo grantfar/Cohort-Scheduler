@@ -43,7 +43,13 @@ export class SchedulingService {
   }
 
   runScheduling(form:FormData) {
-    let url = "http://"+window.location.hostname+":3096/api/start";
+    let url = "";
+    if(window.location.hostname == "localhost"){
+      url = "http://"+window.location.hostname+":3096/api/start";
+    }else{
+      url = "https://"+window.location.hostname+"/api/start";
+    }
+    
     return this.http.post(url, form, {withCredentials: true});
   }
 
