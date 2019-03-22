@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.io.FileOutputStream;
+import org.springframework.web.multipart.MultipartFile;
 import CohortDataClasses.ClassRequirement;
 import CohortDataClasses.Cohort;
 import CohortDataClasses.CohortSectionAssignment;
@@ -142,7 +143,7 @@ public class ScheduleController {
 	 * End Private helper methods
 	 * End Private helper methods
 	 */
-	public static String start(StartRequest request) {
+	public static String start(StartRequest request, MultipartFile file) {
 		if(optThread != null && optThread.isAlive()) {
 			return "Already running";
 		}
@@ -151,9 +152,9 @@ public class ScheduleController {
 		//each section object should have all fields initialized
 		try {
 
-		File temp = File.createTempFile(request.getFile().getOriginalFilename(),".xlsx");
+		File temp = File.createTempFile(file.getOriginalFilename(),".xlsx");
 		FileOutputStream fos = new FileOutputStream(temp);
-		fos.write(request.getFile().getBytes());
+		fos.write(file.getBytes());
 		fos.close(); 
 
 		List<Section> sectionList = FileReader.readCourseExcel(temp.getPath());
