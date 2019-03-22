@@ -94,7 +94,7 @@ export class SchedulingComponent implements OnInit {
       }
     );
     form.append('file',this.file);
-    form.append('requirements', JSON.stringify(this.reqs));
+    form.append('requirements', JSON.stringify(this.reformatCohorts()));
     form.append('name', name);
     form.append('date', new Date().toString());
     this.schedulingService.runScheduling(form).subscribe(
@@ -103,6 +103,19 @@ export class SchedulingComponent implements OnInit {
       },
       error => console.log(error)
     );
+  }
+
+  reformatCohorts():any[]{
+    let reformatted:any[] = [];
+    this.reqs.forEach(element=>{
+      reformatted.push({
+        cohort: element.cohort,
+        course: element.class,
+        sectionsAllowed: element.sections,
+        seatsNeeded: element.required
+      });
+    });
+    return reformatted;
   }
 
   view(schedule: Schedule) {
