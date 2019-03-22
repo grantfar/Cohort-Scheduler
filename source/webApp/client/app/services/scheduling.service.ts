@@ -43,8 +43,8 @@ export class SchedulingService {
   }
 
   runScheduling(form:FormData) {
-    console.log(form);
-    return this.http.post('http://localhost:3096/api/start', form, {withCredentials: true});
+    let url = "http://"+window.location.hostname+":3096/api/start";
+    return this.http.post(url, form, {withCredentials: true});
   }
 
   getSchedule(schedule: Schedule): Observable<Schedule> {
