@@ -26,7 +26,7 @@ SOFTWARE.
 */
 var scheduleSchema = new mongoose.Schema({
     name: String,
-    date: Date,
+    date: Date
 });
 var Schedule = mongoose.model('Schedule', scheduleSchema);
 exports.default = Schedule;

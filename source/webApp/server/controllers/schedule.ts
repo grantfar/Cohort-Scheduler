@@ -25,4 +25,5 @@ SOFTWARE.
 */
 export default class ScheduleCtrl extends BaseCtrl {
   model = Schedule;
+  
 }

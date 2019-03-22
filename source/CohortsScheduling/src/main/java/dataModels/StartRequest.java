@@ -4,7 +4,6 @@ import java.util.List;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.multipart.*;
 public class StartRequest {
-	private MultipartFile file;
 	private List<Requirement> requirements;
 	private int count;
 	private String name;
@@ -25,13 +24,6 @@ public class StartRequest {
 		this.count = count;
 	} 
 	
-	public MultipartFile getFile() {
-		return file;
-	}
-	
-	public void setFile(MultipartFile file) {
-		this.file = file;
-	}
 	
 	public StartRequest() {
 		count = 0;
@@ -43,11 +35,6 @@ public class StartRequest {
 	
 	public void setName(String name) {
 		this.name = name;
-	}
-	public StartRequest(List<Requirement> requirements,int count) {
-		this.count = count;
-//		this.file = file;
-		this.requirements = requirements;
 	}
 	
 }

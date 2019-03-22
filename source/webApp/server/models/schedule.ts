@@ -24,7 +24,7 @@ SOFTWARE.
 */
 const scheduleSchema = new mongoose.Schema({
   name: String,
-  date: Date,
+  date: Date
 });
 
 const Schedule = mongoose.model('Schedule', scheduleSchema);
