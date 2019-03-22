@@ -38,9 +38,11 @@ SOFTWARE.
 export class CohortsComponent implements OnInit {
 
   cohort = new Cohort();
-  cohorts: Cohort[] = [];
+  cohorts:Cohort[] = [];
   isLoading = true;
   isEditing = false;
+
+  cohortNames:string[] = [];
 
   addCohortForm: FormGroup;
   cohortName = new FormControl('', Validators.required);
@@ -64,7 +66,14 @@ export class CohortsComponent implements OnInit {
 
   getCohorts() {
     this.cohortService.getCohorts().subscribe(
-      data => this.cohorts = data,
+      data => {
+        this.cohorts = data;
+        this.cohorts.forEach(element => {
+          if(!this.cohortNames.includes(element.cohort)){
+            this.cohortNames.push(element.cohort);
+          }
+        });
+      },
       error => console.log(error),
       () => this.isLoading = false
     );
@@ -74,6 +83,12 @@ export class CohortsComponent implements OnInit {
     this.cohortService.addCohort(this.addCohortForm.value).subscribe(
       res => {
         this.cohorts.push(res);
+        this.cohortNames = [];
+        this.cohorts.forEach(element => {
+          if(!this.cohortNames.includes(element.cohort)){
+            this.cohortNames.push(element.cohort);
+          }
+        });
         this.addCohortForm.reset();
         this.toast.setMessage('item added successfully.', 'success');
       },

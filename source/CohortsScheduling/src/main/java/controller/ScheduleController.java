@@ -156,8 +156,7 @@ public class ScheduleController {
 		fos.write(request.getFile().getBytes());
 		fos.close(); 
 
-		List<Section> sectionList = FileReader.readCourseExcel(temp.getPath);
-		List<Section> sectionList = f.readCourseExcel(temp.getPath());
+		List<Section> sectionList = FileReader.readCourseExcel(temp.getPath());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
 		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
 
