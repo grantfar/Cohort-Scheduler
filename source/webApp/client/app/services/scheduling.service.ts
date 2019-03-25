@@ -43,8 +43,25 @@ export class SchedulingService {
   }
 
   runScheduling(form:FormData) {
-    console.log(form);
-    return this.http.post('http://localhost:3096/api/start', form, {withCredentials: true});
+    let url = "";
+    if(window.location.hostname == "localhost"){
+      url = "http://"+window.location.hostname+":3096/api/start";
+    }else{
+      url = "https://"+window.location.hostname+"/api/start";
+    }
+    
+    return this.http.post(url, form, {withCredentials: true});
+  }
+
+  sendFile(form:FormData) {
+    let url = "";
+    if(window.location.hostname == "localhost"){
+      url = "http://"+window.location.hostname+":3096/api/file";
+    }else{
+      url = "https://"+window.location.hostname+"/api/file";
+    }
+    
+    return this.http.post(url, form, {withCredentials: true});
   }
 
   getSchedule(schedule: Schedule): Observable<Schedule> {

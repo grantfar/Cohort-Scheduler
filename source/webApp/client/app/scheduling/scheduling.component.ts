@@ -82,9 +82,24 @@ export class SchedulingComponent implements OnInit {
   }
 
   runSchedule() {
+    let fileForm:FormData = new FormData();
+    fileForm.append('file', this.file);
+    this.schedulingService.sendFile(fileForm).subscribe(
+      res => {
+        this.toast.setMessage('File uploaded successfully.', 'success');
+        this.initScheduling();
+      },
+      error => this.toast.setMessage('File upload failed.', 'error')
+    );
+  }
+
+  initScheduling(){
     let name:string = this.scheduleName;
     name.replace(/\s+/g, '_');
     let form:FormData = new FormData();
+    form.append('requirements', JSON.stringify(this.reformatCohorts()));
+    form.append('name', name);
+    form.append('date', new Date().toString());
     let sched:Schedule = new Schedule()
     sched.name = name;
     sched.date = new Date().toString();
@@ -93,16 +108,27 @@ export class SchedulingComponent implements OnInit {
         //this.toast.setMessage('created schedule object', 'success');
       }
     );
-    form.append('file',this.file);
-    form.append('requirements', JSON.stringify(this.reqs));
-    form.append('name', name);
-    form.append('date', new Date().toString());
-    this.schedulingService.runScheduling(form).subscribe(
-      res => {
-        this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
-      },
-      error => console.log(error)
-    );
+    
+    this.schedulingService.runScheduling(form).subscribe(data =>{
+      if(data=="0"){
+        this.toast.setMessage('Failed to init schedule, file not found', 'error');
+      }else{
+        this.toast.setMessage('Scheduling initiated', 'success');
+      }
+    });
+  }
+
+  reformatCohorts():any[]{
+    let reformatted:any[] = [];
+    this.reqs.forEach(element=>{
+      reformatted.push({
+        cohort: element.cohort,
+        course: element.class,
+        sectionsAllowed: element.sections,
+        seatsNeeded: element.required
+      });
+    });
+    return reformatted;
   }
 
   view(schedule: Schedule) {
