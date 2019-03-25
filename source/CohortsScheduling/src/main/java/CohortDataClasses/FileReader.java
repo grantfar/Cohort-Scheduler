@@ -172,7 +172,8 @@ public class FileReader {
 		int col10 = map.get("Cap");
 
 		rowIterator.next(); // skip first row
-		while (sheetIterator.hasNext()) {
+		while (sheetIterator.hasNext()) { 
+			
 			while (rowIterator.hasNext()) {
 				Row dataRow = rowIterator.next();
 
@@ -215,7 +216,8 @@ public class FileReader {
 				section = new Section();
 
 			}
-			sheet = sheetIterator.next();
+			sheet = sheetIterator.next(); 
+			rowIterator = sheet.rowIterator();
 		}
 
 		return sections;
