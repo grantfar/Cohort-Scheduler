@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.Semaphore;
 import java.io.FileOutputStream;
 import org.springframework.web.multipart.MultipartFile;
 import CohortDataClasses.ClassRequirement;
@@ -23,10 +24,14 @@ public class ScheduleController {
 	private static boolean cohortCalcRunning;
 	private static ScheduleRunnable currentScheduler;
 	private static Thread optThread;
+	private static MultipartFile file;
+	private static Semaphore semaphore;
 	public static void init() {
 		cohortCalcRunning = false;
 		currentScheduler = null;
 		optThread = null;
+		file = null;
+		semaphore = new Semaphore(1);
 	}
 	
 	/*
@@ -143,16 +148,17 @@ public class ScheduleController {
 	 * End Private helper methods
 	 * End Private helper methods
 	 */
-	public static String start(StartRequest request, MultipartFile file) {
-		if(optThread != null && optThread.isAlive()) {
-			return "Already running";
-		}
-		
+	public static String start(StartRequest request) {
+		File temp = null;
 		//each course object should have a non empty list of sections and a name
 		//each section object should have all fields initialized
 		try {
-
-		File temp = File.createTempFile(file.getOriginalFilename(),".xlsx");
+			if(optThread != null && optThread.isAlive()) {
+				throw new Exception("Already running");
+			}
+			if(file == null)
+				throw new Exception("Upload File");
+		temp = File.createTempFile(file.getOriginalFilename(),".xlsx");
 		FileOutputStream fos = new FileOutputStream(temp);
 		fos.write(file.getBytes());
 		fos.close(); 
@@ -177,11 +183,32 @@ public class ScheduleController {
 		currentScheduler = new ScheduleRunnable(solutions, request.getName());
 		}
 		catch(Exception e) {
+			if(temp != null)
+				temp.delete();
+			file = null;
 			return "{ \"Status\" : \"Failed to start\", \"Error\" : \"" + e.getMessage() + "\"}";
 		}
 		optThread = new Thread(currentScheduler);
 		optThread.start();
+		file = null;
 		return "{ \"Status\" : \"Started\" }";
+	}
+	
+	public static String Upload(MultipartFile upload) {
+		try {
+			if(!semaphore.tryAcquire() || file != null)
+				throw new Exception("Only need to start upload once");
+			if(upload == null) {
+				throw new Exception("File not recieved");
+			}
+			file = upload;
+		}
+		catch(Exception e) {
+			semaphore.release();
+			return "\"Error\": \"" + e.getMessage() + "\"";
+		}
+		semaphore.release();
+		return "Uploaded";
 	}
 	
 	public static String status() {

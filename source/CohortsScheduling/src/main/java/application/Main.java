@@ -3,7 +3,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.multipart.MultipartResolver;
 import controller.ScheduleController;
 import CohortsSolverData.CohortSolution; 
 import CohortDataClasses.*;
@@ -13,11 +14,11 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-
 @SpringBootApplication
 @ComponentScan
 @EnableAutoConfiguration
 public class Main {
+	
 	public static void main(String[] args) {
 		ScheduleController.init();
 		SpringApplication.run(Main.class,args);
@@ -47,20 +48,4 @@ public class Main {
 		return cohorts;
 	}
 	
-	public static void addSolutionToDB(CohortSolution s) throws Exception {
-		CloseableHttpClient httpclient = HttpClients.createDefault();
-		try {
-			for(CohortSectionAssignment csa: s.getAssignments()) {
-				HttpPost post = new HttpPost("localhost:3000/assignment");
-				List<NameValuePair> params = new ArrayList<>();
-				//add params to list
-				CloseableHttpResponse response = httpclient.execute(post);
-				assert(response.getStatusLine().getStatusCode()==(200));
-			    
-			}
-			httpclient.close();
-		}finally {
-			httpclient.close();
-		}
-	}
 }
