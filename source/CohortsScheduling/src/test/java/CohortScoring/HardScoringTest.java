@@ -72,4 +72,6 @@ public class HardScoringTest {
 		int retVal = HardScoringFunctions.calculateOverEnrolledScore(arg);
 		assertTrue(retVal==0);
 	}
+	
+	
 }
