@@ -42,7 +42,7 @@
     <form class="form-inline">
       <input class="form-control mr-3" type="text" name="name"
                placeholder="Schedule Name" [(ngModel)]="scheduleName">
-      <input class="form-control mr-2" type="file" accept=".csv,.xlsx" name="file" [(ngModel)]="file" placeholder="Class List File">
+      <input class="form-control mr-2" type="file" accept=".csv,.xlsx" name="file" (change)="handleFileUpload($event.target.files)" placeholder="Class List File">
       <button class="btn btn-primary" (click)="runSchedule()">
         <i class="fa fa-plus"></i> Run
       </button>
