@@ -85,6 +85,19 @@ export class SchedulingComponent implements OnInit {
     let name:string = this.scheduleName;
     name.replace(/\s+/g, '_');
     let form:FormData = new FormData();
+    form.append('requirements', JSON.stringify(this.reformatCohorts()));
+    form.append('name', name);
+    form.append('date', new Date().toString());
+    this.schedulingService.runScheduling(form).subscribe(
+      res => {
+        this.toast.setMessage('File uploaded successfully.', 'success');
+        this.initScheduling();
+      },
+      error => this.toast.setMessage('File upload failed.', 'error')
+    );
+  }
+
+  initScheduling(){
     let sched:Schedule = new Schedule()
     sched.name = name;
     sched.date = new Date().toString();
@@ -101,16 +114,7 @@ export class SchedulingComponent implements OnInit {
       }else{
         this.toast.setMessage('File uploaded', 'success');
       }
-    })
-    form.append('requirements', JSON.stringify(this.reformatCohorts()));
-    form.append('name', name);
-    form.append('date', new Date().toString());
-    this.schedulingService.runScheduling(form).subscribe(
-      res => {
-        this.toast.setMessage('Scheduling initiated, check back in a few minutes.', 'success');
-      },
-      error => console.log(error)
-    );
+    });
   }
 
   reformatCohorts():any[]{
