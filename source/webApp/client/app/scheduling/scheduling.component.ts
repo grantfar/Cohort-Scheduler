@@ -93,7 +93,7 @@ export class SchedulingComponent implements OnInit {
     );
   }
   
-  handleFileInput(files: FileList) {
+  handleFileUpload(files: FileList) {
     this.file = files.item(0);
 }
 
