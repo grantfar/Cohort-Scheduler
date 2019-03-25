@@ -93,7 +93,15 @@ export class SchedulingComponent implements OnInit {
         //this.toast.setMessage('created schedule object', 'success');
       }
     );
-    form.append('file',this.file);
+    let fileForm:FormData = new FormData();
+    fileForm.append('file', this.file);
+    this.schedulingService.sendFile(fileForm).subscribe(data =>{
+      if(data=="0"){
+        this.toast.setMessage('Failed to upload file', 'error');
+      }else{
+        this.toast.setMessage('File uploaded', 'success');
+      }
+    })
     form.append('requirements', JSON.stringify(this.reformatCohorts()));
     form.append('name', name);
     form.append('date', new Date().toString());
