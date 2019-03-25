@@ -92,6 +92,10 @@ export class SchedulingComponent implements OnInit {
       error => this.toast.setMessage('File upload failed.', 'error')
     );
   }
+  
+  handleFileInput(files: FileList) {
+    this.file = files.item(0);
+}
 
   initScheduling(){
     let name:string = this.scheduleName;
