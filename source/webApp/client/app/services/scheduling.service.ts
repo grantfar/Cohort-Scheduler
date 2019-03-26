@@ -42,7 +42,7 @@ export class SchedulingService {
     return this.http.get<number>('/api/schedules/count');
   }
 
-  runScheduling(form:FormData) {
+  runScheduling(form) {
     let url = "";
     if(window.location.hostname == "localhost"){
       url = "http://"+window.location.hostname+":3096/api/start";
@@ -56,9 +56,9 @@ export class SchedulingService {
   sendFile(form:FormData) {
     let url = "";
     if(window.location.hostname == "localhost"){
-      url = "http://"+window.location.hostname+":3096/api/file";
+      url = "http://"+window.location.hostname+":3096/api/upload";
     }else{
-      url = "https://"+window.location.hostname+"/api/file";
+      url = "https://"+window.location.hostname+"/api/upload";
     }
     
     return this.http.post(url, form, {withCredentials: true});
@@ -69,7 +69,7 @@ export class SchedulingService {
   }
 
   deleteSchedule(schedule: Schedule): Observable<any> {
-    return this.http.delete('/api/schedule/${schedule._id}', { responseType: 'text' });
+    return this.http.delete('/api/schedule/'+schedule._id, { responseType: 'text' });
   }
 
   addSchedule(schedule:Schedule){

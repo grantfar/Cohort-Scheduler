@@ -138,10 +138,11 @@ public class FileReader {
 	 *             by column name rather than by column number.
 	 *             https://ww.callicoder.com/java-read-excel-file-apache-poi/
 	 */
-	public static List<Section> readCourseExcel(String fileName)
-			throws EncryptedDocumentException, InvalidFormatException, IOException {
+	public static List<Section> readCourseExcel(String fileName)throws Exception {
+		Workbook workbook = null;
+		try {
 
-		Workbook workbook = WorkbookFactory.create(new File(fileName));
+		workbook = WorkbookFactory.create(new File(fileName));
 		Iterator<Sheet> sheetIterator = workbook.sheetIterator();
 
 		DataFormatter dataFormatter = new DataFormatter();
@@ -153,14 +154,21 @@ public class FileReader {
 		Map<String, Integer> map = new HashMap<String, Integer>(); // Create map
 		Row row = sheet.getRow(0); // Get first row
 
-		short minColIx = row.getFirstCellNum(); // get the first column index for a row
-		short maxColIx = row.getLastCellNum(); // get the last column index for a row
-		for (short colIx = minColIx; colIx < maxColIx; colIx++) { // loop from first to last index
-			Cell cell = row.getCell(colIx); // get the cell
-			map.put(cell.getStringCellValue(), cell.getColumnIndex()); // add the cell contents (name of column) and
-																		// cell index to the map
+		
+		while(!map.containsKey("Course ID")) {
+			map = new HashMap<String, Integer>();
+			short minColIx = row.getFirstCellNum(); // get the first column index for a row
+			short maxColIx = row.getLastCellNum(); // get the last column index for a row
+			for (short colIx = minColIx; colIx < maxColIx; colIx++) { // loop from first to last index
+				Cell cell = row.getCell(colIx); // get the cell
+				map.put(cell.getStringCellValue(), cell.getColumnIndex()); // add the cell contents (name of column) and
+																			// cell index to the map
+			}
+			
+			row = rowIterator.next();
 		}
-
+		//if the first line does not contain one of these labels, an error occurs
+		//the loop should work unless there are only some fields missing
 		int col1 = map.get("Course ID");
 		int col2 = map.get("CRN");
 		int col3 = map.get("Section");
@@ -171,9 +179,13 @@ public class FileReader {
 		int col9 = map.get("Room");
 		int col10 = map.get("Cap");
 
+<<<<<<< HEAD
 		rowIterator.next(); // skip first row
 		while (sheetIterator.hasNext()) { 
 			
+=======
+		while (sheetIterator.hasNext()) {
+>>>>>>> upstream/master
 			while (rowIterator.hasNext()) {
 				Row dataRow = rowIterator.next();
 
@@ -198,6 +210,8 @@ public class FileReader {
 				String cellValue10 = dataFormatter.formatCellValue(cell10);
 
 				section.setName(cellValue1);
+				//the below line causes errors when there's lines of data after the table
+				//check that required fields are not empty befor assigning them to a section
 				section.setCrn(Integer.parseInt(cellValue2));
 				section.setSectionId(cellValue3);
 				section.setLink(cellValue5);
@@ -221,7 +235,10 @@ public class FileReader {
 		}
 
 		return sections;
-
+		}catch(Exception e) {
+			workbook.close();
+			throw e;
+		}
 	}
 
 	public static List<Course> separateSectionsIntoCourses(List<Section> sections) {

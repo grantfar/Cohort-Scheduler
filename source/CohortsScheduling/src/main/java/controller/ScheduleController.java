@@ -1,10 +1,13 @@
 package controller;
-
+import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.Semaphore;
 import java.io.FileOutputStream;
 import org.springframework.web.multipart.MultipartFile;
 import CohortDataClasses.ClassRequirement;
@@ -19,14 +22,17 @@ import dataModels.StartRequest;
 import runnable.ScheduleRunnable;
 
 public class ScheduleController {
-
+	
+	private static String filePath = "data.xlsx";
 	private static boolean cohortCalcRunning;
 	private static ScheduleRunnable currentScheduler;
 	private static Thread optThread;
+	private static Semaphore semaphore;
 	public static void init() {
 		cohortCalcRunning = false;
 		currentScheduler = null;
 		optThread = null;
+		semaphore = new Semaphore(1);
 	}
 	
 	/*
@@ -96,9 +102,14 @@ public class ScheduleController {
 			//Finds the course for every requirement
 			for(ClassRequirement req: coh.getRequirements()) {
 				int courseIndex = -1;
+				int labIndex = -1;
 				for(Course course: courses) {
 					if(req.getClassName().equals(course.getName())) {
-						courseIndex = courses.indexOf(course);
+						if(course.isLab()) {
+							labIndex = courses.indexOf(course);
+						}else {
+							courseIndex = courses.indexOf(course);
+						}
 					}
 				}
 				if(courseIndex<0) {
@@ -110,6 +121,14 @@ public class ScheduleController {
 				toAdd.setSectionCode(req.getSectionsAllowed());
 				toAdd.setSeatsNeeded(req.getSeatsNeeded());
 				csa.add(toAdd);
+				if(labIndex > 0) {
+					CohortSectionAssignment labToAdd = new CohortSectionAssignment();
+					labToAdd.setMyCohort(coh);
+					labToAdd.setMyCourse(courses.get(labIndex));
+					labToAdd.setSectionCode(req.getSectionsAllowed());
+					labToAdd.setSeatsNeeded(req.getSeatsNeeded());
+					csa.add(labToAdd);
+				}
 			}
 		}
 		for(int i = 0; i < count; i++) {
@@ -143,24 +162,25 @@ public class ScheduleController {
 	 * End Private helper methods
 	 * End Private helper methods
 	 */
-	public static String start(StartRequest request, MultipartFile file) {
-		if(optThread != null && optThread.isAlive()) {
-			return "Already running";
-		}
-		
+	public static String start(StartRequest request) throws IOException {
+		System.out.println("Starting Scheduler");
+		File temp = null;
 		//each course object should have a non empty list of sections and a name
 		//each section object should have all fields initialized
 		try {
+			temp = new File(filePath);
+			if(optThread != null && optThread.isAlive()) {
+				throw new Exception("Already running");
+			}
+			if(!temp.exists())
+				throw new Exception("Upload File");
+			System.out.println(temp.getAbsolutePath());
 
-		File temp = File.createTempFile(file.getOriginalFilename(),".xlsx");
-		FileOutputStream fos = new FileOutputStream(temp);
-		fos.write(file.getBytes());
-		fos.close(); 
-
-		List<Section> sectionList = FileReader.readCourseExcel(temp.getPath());
+		List<Section> sectionList = FileReader.readCourseExcel(temp.getAbsolutePath());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
 		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
-
+		courseList = splitLabs(courseList);
+		labelLabReqs(cohortList, courseList);
 		temp.delete();
 
 		for(Course c:courseList) {
@@ -177,11 +197,36 @@ public class ScheduleController {
 		currentScheduler = new ScheduleRunnable(solutions, request.getName());
 		}
 		catch(Exception e) {
+			e.printStackTrace();
+			FileUtils.forceDelete(temp);
 			return "{ \"Status\" : \"Failed to start\", \"Error\" : \"" + e.getMessage() + "\"}";
 		}
+		System.out.println("spinning up thread");
 		optThread = new Thread(currentScheduler);
 		optThread.start();
+		
 		return "{ \"Status\" : \"Started\" }";
+	}
+	
+	public static String Upload(MultipartFile upload) {
+		try {
+			File temp = new File(filePath);
+			if(!semaphore.tryAcquire() || temp.exists())
+				throw new Exception("Only need to start upload once");
+			if(upload == null) {
+				throw new Exception("File not recieved");
+			}
+			InputStream in = upload.getInputStream();
+			File target = new File(filePath);
+			FileUtils.copyInputStreamToFile(in, target);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			semaphore.release();
+			return "\"Error\": \"" + e.getMessage() + "\"";
+		}
+		semaphore.release();
+		return "\"Uploaded\"";
 	}
 	
 	public static String status() {
@@ -210,4 +255,58 @@ public class ScheduleController {
 		return "{ \"Message\" : \"No active scheduler\" }";
 	}
 
+	private static List<Course> splitLabs(List<Course> courseList){
+		List<Course> newList = new ArrayList<>();
+		for(Course course:courseList) {
+			if(course.getSections().get(0).getLink()!=null) {
+				Course lect = new Course();
+				Course lab = new Course();
+				lect.setCourseID(course.getCourseID());
+				lect.setLab(false);
+				lect.setName(course.getName());
+				lect.setUnitSize(course.getUnitSize());
+				lab.setCourseID(course.getCourseID());
+				lab.setLab(true);
+				lab.setName(course.getName());
+				lab.setUnitSize(course.getUnitSize());
+				List<Section> lects = new ArrayList<>();
+				List<Section> labs = new ArrayList<>();
+				for(Section s:course.getSections()) {
+					if(s.getLink().startsWith("L")) {
+						lects.add(s);
+						
+					}else {
+						labs.add(s);
+					}
+				}
+				if(!labs.isEmpty()) {
+					lab.setSections(labs);
+					newList.add(lab);
+				}
+				if(!lects.isEmpty()) {
+					lect.setSections(lects);
+					newList.add(lect);
+				}
+			}else {
+				newList.add(course);
+			}
+		}
+		return newList;
+	}
+	public static void labelLabReqs(List<Cohort> cohorts, List<Course> courses){
+		for(Cohort c:cohorts) {
+			for(ClassRequirement s: c.getRequirements()) {
+				int i = 0;
+				for(Course co:courses) {
+					if(s.getClassName().equals(co.getName())) {
+						i++;
+					}
+				}
+				if(i>1) {
+					s.setHasLab(true);
+				}
+			}
+			
+		}
+	}
 }

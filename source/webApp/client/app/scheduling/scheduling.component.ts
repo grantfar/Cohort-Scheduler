@@ -89,17 +89,25 @@ export class SchedulingComponent implements OnInit {
         this.toast.setMessage('File uploaded successfully.', 'success');
         this.initScheduling();
       },
-      error => this.toast.setMessage('File upload failed.', 'error')
+      error => {
+        console.log(error);
+          this.toast.setMessage('File upload failed.', 'error');
+      }
     );
   }
+  
+  handleFileUpload(files: FileList) {
+    this.file = files.item(0);
+}
 
   initScheduling(){
     let name:string = this.scheduleName;
     name.replace(/\s+/g, '_');
-    let form:FormData = new FormData();
-    form.append('requirements', JSON.stringify(this.reformatCohorts()));
-    form.append('name', name);
-    form.append('date', new Date().toString());
+    let params = {
+      requirements: this.reformatCohorts(),
+      name: name,
+      date: new Date().toString()
+    }
     let sched:Schedule = new Schedule()
     sched.name = name;
     sched.date = new Date().toString();
@@ -109,7 +117,7 @@ export class SchedulingComponent implements OnInit {
       }
     );
     
-    this.schedulingService.runScheduling(form).subscribe(data =>{
+    this.schedulingService.runScheduling(params).subscribe(data =>{
       if(data=="0"){
         this.toast.setMessage('Failed to init schedule, file not found', 'error');
       }else{

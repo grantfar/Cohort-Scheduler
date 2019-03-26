@@ -14,6 +14,8 @@
             <th scope="col">Days</th>
             <th scope="col">Time</th>
             <th scope="col">Campus</th>
+            <th scope="col">CRN</th>
+            <th scope="col">Room Number</th>
           </tr>
         </thead>
         <tbody *ngIf="assignments.length === 0">
@@ -30,6 +32,8 @@
             <td *ngIf="assignment.endTime">{{assignment.startTime}} - {{assignment.endTime}}</td>
             <td *ngIf="assignment.endTime == null">{{assignment.startTime}}</td>
             <td>{{assignment.campus}}</td>
+            <td>{{assignment.crn}}</td>
+            <td>{{assignment.building}} {{assignment.room}}</td>
           </tr>  
         </tbody>
       </table>

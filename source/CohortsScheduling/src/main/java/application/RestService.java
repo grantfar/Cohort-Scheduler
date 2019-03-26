@@ -9,21 +9,26 @@ import org.springframework.web.multipart.MultipartFile;
 import controller.ScheduleController;
 import dataModels.StartRequest;
 import dataModels.Requirement;
+
+import java.io.IOException;
 import java.util.ArrayList;
 @Controller
+@CrossOrigin(origins = "http://localhost:4200",allowCredentials="true")
 @RequestMapping(value="/api")
 public class RestService {
 	@ResponseBody
 	@PostMapping("/start")
-	public static String start(String name,
-			 ArrayList<Requirement> requirements, 
-			MultipartFile file) {
-			StartRequest request = new StartRequest();
-			request.setName(name);
-			request.setRequirements(requirements);
-		return ScheduleController.start(request,file);
+	public static String start(@RequestBody StartRequest startrq) throws IOException {
+		return ScheduleController.start(startrq);
 		//starts scheduling
 	}
+	
+	@ResponseBody
+	@PostMapping("/upload")
+	public static String upload(@RequestParam("file") MultipartFile file) {
+		return ScheduleController.Upload(file);
+	}
+	
 	@GetMapping(value="/status")
 	@ResponseBody
 	public static String status() {

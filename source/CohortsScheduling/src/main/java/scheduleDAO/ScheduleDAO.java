@@ -27,6 +27,7 @@ public class ScheduleDAO {
 	
 	public static int writeToDB(CohortSolution s, String scheduleName) throws IOException {
 		int count = 0;
+		System.out.println("writing to DB");
 		CloseableHttpClient httpclient = HttpClients.createDefault();
 		try {
 			for(CohortSectionAssignment csa: s.getAssignments()) {
@@ -40,6 +41,9 @@ public class ScheduleDAO {
 				NameValuePair endTime = new BasicNameValuePair("endTime",csa.getAssignment().getEndTime().toString());
 				NameValuePair days = new BasicNameValuePair("days", csa.getAssignment().getDaysOfWeek());
 				NameValuePair seats = new BasicNameValuePair("seats",csa.getSeatsNeeded().toString());
+				NameValuePair crn = new BasicNameValuePair("crn", ""+csa.getAssignment().getCrn());
+				NameValuePair room = new BasicNameValuePair("room", csa.getAssignment().getRoom());
+				NameValuePair building = new BasicNameValuePair("building", csa.getAssignment().getBuilding());
 				params.add(schedule);
 				params.add(cohort);
 				params.add(className);
@@ -48,6 +52,9 @@ public class ScheduleDAO {
 				params.add(endTime);
 				params.add(days);
 				params.add(seats);
+				params.add(crn);
+				params.add(room);
+				params.add(building);
 				post.setEntity(new UrlEncodedFormEntity(params));
 				
 				CloseableHttpResponse response = httpclient.execute(post);

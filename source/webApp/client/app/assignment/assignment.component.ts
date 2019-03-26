@@ -49,7 +49,7 @@ export class AssignmentComponent implements OnInit {
               public toast: ToastComponent) { }
 
   ngOnInit() {
-    this.assignmentId = this.getParam("id");
+    this.assignmentId = this.getParam("sch");
     this.getAssignments();
     this.sortAssignments();
     this.isLoading = false;
@@ -63,9 +63,17 @@ export class AssignmentComponent implements OnInit {
   }
 
   getParam(param:string){
-    let qs = location.search;
-    let urlParam = new URLSearchParams(qs);
-    return urlParam.get(param);
+    param+="=";
+    let qs = window.location.search;
+    console.log(qs)
+    let sp = qs.split("&", 10);
+    sp.forEach(element => {
+      if(element.includes(param)){
+        return element.split("=")[1]
+      }
+    });
+    console.log(param);
+    return "";
   }
 
   sortAssignments(){
