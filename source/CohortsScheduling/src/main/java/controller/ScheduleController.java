@@ -1,7 +1,9 @@
 package controller;
-
+import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -20,17 +22,16 @@ import dataModels.StartRequest;
 import runnable.ScheduleRunnable;
 
 public class ScheduleController {
-
+	
+	private static String filePath = "data.xlsx";
 	private static boolean cohortCalcRunning;
 	private static ScheduleRunnable currentScheduler;
 	private static Thread optThread;
-	private static MultipartFile file;
 	private static Semaphore semaphore;
 	public static void init() {
 		cohortCalcRunning = false;
 		currentScheduler = null;
 		optThread = null;
-		file = null;
 		semaphore = new Semaphore(1);
 	}
 	
@@ -161,22 +162,21 @@ public class ScheduleController {
 	 * End Private helper methods
 	 * End Private helper methods
 	 */
-	public static String start(StartRequest request) {
+	public static String start(StartRequest request) throws IOException {
+		System.out.println("Starting Scheduler");
 		File temp = null;
 		//each course object should have a non empty list of sections and a name
 		//each section object should have all fields initialized
 		try {
+			temp = new File(filePath);
 			if(optThread != null && optThread.isAlive()) {
 				throw new Exception("Already running");
 			}
-			if(file == null)
+			if(!temp.exists())
 				throw new Exception("Upload File");
-		temp = File.createTempFile(file.getOriginalFilename(),".xlsx");
-		FileOutputStream fos = new FileOutputStream(temp);
-		fos.write(file.getBytes());
-		fos.close(); 
+			System.out.println(temp.getAbsolutePath());
 
-		List<Section> sectionList = FileReader.readCourseExcel(temp.getPath());
+		List<Section> sectionList = FileReader.readCourseExcel(temp.getAbsolutePath());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
 		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
 		courseList = splitLabs(courseList);
@@ -197,32 +197,36 @@ public class ScheduleController {
 		currentScheduler = new ScheduleRunnable(solutions, request.getName());
 		}
 		catch(Exception e) {
-			if(temp != null)
-				temp.delete();
-			file = null;
+			e.printStackTrace();
+			FileUtils.forceDelete(temp);
 			return "{ \"Status\" : \"Failed to start\", \"Error\" : \"" + e.getMessage() + "\"}";
 		}
+		System.out.println("spinning up thread");
 		optThread = new Thread(currentScheduler);
 		optThread.start();
-		file = null;
+		
 		return "{ \"Status\" : \"Started\" }";
 	}
 	
 	public static String Upload(MultipartFile upload) {
 		try {
-			if(!semaphore.tryAcquire() || file != null)
+			File temp = new File(filePath);
+			if(!semaphore.tryAcquire() || temp.exists())
 				throw new Exception("Only need to start upload once");
 			if(upload == null) {
 				throw new Exception("File not recieved");
 			}
-			file = upload;
+			InputStream in = upload.getInputStream();
+			File target = new File(filePath);
+			FileUtils.copyInputStreamToFile(in, target);
 		}
 		catch(Exception e) {
+			e.printStackTrace();
 			semaphore.release();
 			return "\"Error\": \"" + e.getMessage() + "\"";
 		}
 		semaphore.release();
-		return "Uploaded";
+		return "\"Uploaded\"";
 	}
 	
 	public static String status() {

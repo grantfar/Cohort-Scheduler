@@ -27,6 +27,7 @@ public class ScheduleDAO {
 	
 	public static int writeToDB(CohortSolution s, String scheduleName) throws IOException {
 		int count = 0;
+		System.out.println("writing to DB");
 		CloseableHttpClient httpclient = HttpClients.createDefault();
 		try {
 			for(CohortSectionAssignment csa: s.getAssignments()) {

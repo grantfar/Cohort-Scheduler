@@ -240,10 +240,11 @@ public class FileReader {
 	 *             by column name rather than by column number.
 	 *             https://ww.callicoder.com/java-read-excel-file-apache-poi/
 	 */
-	public static List<Section> readCourseExcel(String fileName)
-			throws EncryptedDocumentException, InvalidFormatException, IOException {
+	public static List<Section> readCourseExcel(String fileName)throws Exception {
+		Workbook workbook = null;
+		try {
 
-		Workbook workbook = WorkbookFactory.create(new File(fileName));
+		workbook = WorkbookFactory.create(new File(fileName));
 		Iterator<Sheet> sheetIterator = workbook.sheetIterator();
 
 		DataFormatter dataFormatter = new DataFormatter();
@@ -262,7 +263,7 @@ public class FileReader {
 			map.put(cell.getStringCellValue(), cell.getColumnIndex()); // add the cell contents (name of column) and
 																		// cell index to the map
 		}
-
+		System.out.println(map.keySet());
 		int col1 = map.get("Course ID");
 		int col2 = map.get("CRN");
 		int col3 = map.get("Section");
@@ -321,7 +322,10 @@ public class FileReader {
 		}
 
 		return sections;
-
+		}catch(Exception e) {
+			workbook.close();
+			throw e;
+		}
 	}
 
 	public static List<Course> separateSectionsIntoCourses(List<Section> sections) {
