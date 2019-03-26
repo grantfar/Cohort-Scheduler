@@ -20,6 +20,7 @@ public class SoftScoringFunctions {
         score += assignmentsPastSeven(s);
         score += dayScores(cohorts);
         score += moreThanThreeInADay(cohorts);
+        score += wrongSections(s);
         return score;
     }
     
@@ -138,5 +139,15 @@ public class SoftScoringFunctions {
 			cohorts.add(coh);
 		}
 		return cohorts;
+	}
+	
+	private static int wrongSections(CohortSolution s) {
+		int i = 0;
+		for(CohortSectionAssignment csa:s.getAssignments()) {
+			if(csa.getSectionCode()!=null && csa.getSectionCode().length()>0&&csa.getAssignment().getSectionId()!=null&&!csa.getAssignment().getSectionId().startsWith(csa.getSectionCode())) {
+				i-=2;
+			}
+		}
+		return i;
 	}
 }

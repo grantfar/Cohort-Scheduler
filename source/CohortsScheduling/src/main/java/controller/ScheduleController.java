@@ -96,9 +96,14 @@ public class ScheduleController {
 			//Finds the course for every requirement
 			for(ClassRequirement req: coh.getRequirements()) {
 				int courseIndex = -1;
+				int labIndex = -1;
 				for(Course course: courses) {
 					if(req.getClassName().equals(course.getName())) {
-						courseIndex = courses.indexOf(course);
+						if(course.isLab()) {
+							labIndex = courses.indexOf(course);
+						}else {
+							courseIndex = courses.indexOf(course);
+						}
 					}
 				}
 				if(courseIndex<0) {
@@ -110,6 +115,14 @@ public class ScheduleController {
 				toAdd.setSectionCode(req.getSectionsAllowed());
 				toAdd.setSeatsNeeded(req.getSeatsNeeded());
 				csa.add(toAdd);
+				if(labIndex > 0) {
+					CohortSectionAssignment labToAdd = new CohortSectionAssignment();
+					labToAdd.setMyCohort(coh);
+					labToAdd.setMyCourse(courses.get(labIndex));
+					labToAdd.setSectionCode(req.getSectionsAllowed());
+					labToAdd.setSeatsNeeded(req.getSeatsNeeded());
+					csa.add(labToAdd);
+				}
 			}
 		}
 		for(int i = 0; i < count; i++) {
@@ -160,7 +173,8 @@ public class ScheduleController {
 		List<Section> sectionList = FileReader.readCourseExcel(temp.getPath());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
 		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
-
+		courseList = splitLabs(courseList);
+		labelLabReqs(cohortList, courseList);
 		temp.delete();
 
 		for(Course c:courseList) {
@@ -210,4 +224,58 @@ public class ScheduleController {
 		return "{ \"Message\" : \"No active scheduler\" }";
 	}
 
+	private static List<Course> splitLabs(List<Course> courseList){
+		List<Course> newList = new ArrayList<>();
+		for(Course course:courseList) {
+			if(course.getSections().get(0).getLink()!=null) {
+				Course lect = new Course();
+				Course lab = new Course();
+				lect.setCourseID(course.getCourseID());
+				lect.setLab(false);
+				lect.setName(course.getName());
+				lect.setUnitSize(course.getUnitSize());
+				lab.setCourseID(course.getCourseID());
+				lab.setLab(true);
+				lab.setName(course.getName());
+				lab.setUnitSize(course.getUnitSize());
+				List<Section> lects = new ArrayList<>();
+				List<Section> labs = new ArrayList<>();
+				for(Section s:course.getSections()) {
+					if(s.getLink().startsWith("L")) {
+						lects.add(s);
+						
+					}else {
+						labs.add(s);
+					}
+				}
+				if(!labs.isEmpty()) {
+					lab.setSections(labs);
+					newList.add(lab);
+				}
+				if(!lects.isEmpty()) {
+					lect.setSections(lects);
+					newList.add(lect);
+				}
+			}else {
+				newList.add(course);
+			}
+		}
+		return newList;
+	}
+	public static void labelLabReqs(List<Cohort> cohorts, List<Course> courses){
+		for(Cohort c:cohorts) {
+			for(ClassRequirement s: c.getRequirements()) {
+				int i = 0;
+				for(Course co:courses) {
+					if(s.getClassName().equals(co.getName())) {
+						i++;
+					}
+				}
+				if(i>1) {
+					s.setHasLab(true);
+				}
+			}
+			
+		}
+	}
 }
