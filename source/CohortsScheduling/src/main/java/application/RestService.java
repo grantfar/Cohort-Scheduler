@@ -15,15 +15,17 @@ import java.util.ArrayList;
 public class RestService {
 	@ResponseBody
 	@PostMapping("/start")
-	public static String start(String name,
-			 ArrayList<Requirement> requirements, 
-			MultipartFile file) {
-			StartRequest request = new StartRequest();
-			request.setName(name);
-			request.setRequirements(requirements);
-		return ScheduleController.start(request,file);
+	public static String start(@RequestBody StartRequest startrq) {
+		return ScheduleController.start(startrq);
 		//starts scheduling
 	}
+	
+	@ResponseBody
+	@PostMapping("/upload")
+	public static String upload(@RequestParam("file") MultipartFile file) {
+		return ScheduleController.Upload(file);
+	}
+	
 	@GetMapping(value="/status")
 	@ResponseBody
 	public static String status() {
