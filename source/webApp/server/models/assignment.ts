@@ -32,7 +32,8 @@ const assignmentSchema = new mongoose.Schema({
   days: String,
   seats: Number,
   crn: String,
-  room: String
+  room: String,
+  building:String
 });
 
 const Assignment = mongoose.model('Assignment', assignmentSchema);
