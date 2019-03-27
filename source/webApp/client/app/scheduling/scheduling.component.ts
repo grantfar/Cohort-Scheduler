@@ -87,7 +87,7 @@ export class SchedulingComponent implements OnInit {
     this.schedulingService.sendFile(fileForm).subscribe(
       res => {
         this.toast.setMessage('File uploaded successfully.', 'success');
-        this.initScheduling();
+        this.createSchedule();
       },
       error => {
         console.log(error);
@@ -100,27 +100,41 @@ export class SchedulingComponent implements OnInit {
     this.file = files.item(0);
 }
 
-  initScheduling(){
+  createSchedule(){
+    let newSch = null;
     let name:string = this.scheduleName;
     name.replace(/\s+/g, '_');
+    let sched:Schedule = new Schedule()
+    sched.name = name;
+    sched.date = new Date().toString();
+    this.schedulingService.addSchedule(sched).subscribe(
+      (res:any) =>{
+        newSch = {name:res.name, date:res.date, _id:res._id};
+        this.initScheduling(name, newSch); 
+      }
+    );
+  }
+
+  initScheduling(name:string, newSch:Schedule){
+    console.log("startInit: "+newSch)
     let params = {
       requirements: this.reformatCohorts(),
       name: name,
       date: new Date().toString()
     }
-    let sched:Schedule = new Schedule()
-    sched.name = name;
-    sched.date = new Date().toString();
-    this.schedulingService.addSchedule(sched).subscribe(
-      res=>{
-        //this.toast.setMessage('created schedule object', 'success');
-      }
-    );
     
     this.schedulingService.runScheduling(params).subscribe(data =>{
       if(data=="0"){
-        this.toast.setMessage('Failed to init schedule, file not found', 'error');
-      }else{
+        this.toast.setMessage('Failed to initiate scheduling', 'error');
+          this.schedulingService.deleteSchedule(newSch);
+        
+      }else if(data=="-1"){
+        this.toast.setMessage('Some required classes are not in the excel file. Failed to start scheduling.', 'error');
+        console.log("deleting");
+        this.schedulingService.deleteSchedule(newSch).subscribe(data => console.log(data));
+        
+      }
+      else{
         this.toast.setMessage('Scheduling initiated', 'success');
       }
     });

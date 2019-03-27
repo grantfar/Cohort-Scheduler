@@ -163,7 +163,6 @@ public class ScheduleController {
 	 * End Private helper methods
 	 */
 	public static String start(StartRequest request) throws IOException {
-		System.out.println("Starting Scheduler");
 		File temp = null;
 		//each course object should have a non empty list of sections and a name
 		//each section object should have all fields initialized
@@ -174,7 +173,6 @@ public class ScheduleController {
 			}
 			if(!temp.exists())
 				throw new Exception("Upload File");
-			System.out.println(temp.getAbsolutePath());
 
 		List<Section> sectionList = FileReader.readCourseExcel(temp.getAbsolutePath());
 		List<Cohort> cohortList = createCohorts(request.getRequirements());
@@ -189,8 +187,11 @@ public class ScheduleController {
 		}
 		
 		//verifies that a course exists for each ClassRequirement
-		verifyClassesExist(courseList, cohortList);
-		//Alex Write init function
+		try {
+			verifyClassesExist(courseList, cohortList);
+		}catch(Exception e) {
+			return "-1";
+		}
 		CohortSolution solutions[] = initializeSolution(1, cohortList, courseList);
 		//recordSolutions(solutions);
 		
@@ -199,13 +200,12 @@ public class ScheduleController {
 		catch(Exception e) {
 			e.printStackTrace();
 			FileUtils.forceDelete(temp);
-			return "{ \"Status\" : \"Failed to start\", \"Error\" : \"" + e.getMessage() + "\"}";
+			return "0";
 		}
-		System.out.println("spinning up thread");
 		optThread = new Thread(currentScheduler);
 		optThread.start();
 		
-		return "{ \"Status\" : \"Started\" }";
+		return "1";
 	}
 	
 	public static String Upload(MultipartFile upload) {

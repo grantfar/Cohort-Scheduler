@@ -147,62 +147,20 @@ public class FileReader {
 			List<Section> sections = new ArrayList<Section>();
 			Sheet sheet = workbook.getSheetAt(0);
 			Iterator<Row> rowIterator = sheet.rowIterator();
-			Section section = new Section();
 
 			Map<String, Integer> map = new HashMap<String, Integer>(); // Create map
 			
-			row = rowIterator.next();
-		}
-		//if the first line does not contain one of these labels, an error occurs
-		//the loop should work unless there are only some fields missing
-		int col1 = map.get("Course ID");
-		int col2 = map.get("CRN");
-		int col3 = map.get("Section");
-		int col5 = map.get("Link");
-		int col6 = map.get("Meeting Days");
-		int col7 = map.get("Meeting Time");
-		int col8 = map.get("Building");
-		int col9 = map.get("Room");
-		int col10 = map.get("Cap");
-
-		while (sheetIterator.hasNext()) {
-			while (rowIterator.hasNext()) {
-				Row dataRow = rowIterator.next();
-
-				Cell cell1 = dataRow.getCell(col1); // Get the cells for each of the indexes
-				Cell cell2 = dataRow.getCell(col2);
-				Cell cell3 = dataRow.getCell(col3);
-				Cell cell5 = dataRow.getCell(col5);
-				Cell cell6 = dataRow.getCell(col6);
-				Cell cell7 = dataRow.getCell(col7);
-				Cell cell8 = dataRow.getCell(col8);
-				Cell cell9 = dataRow.getCell(col9);
-				Cell cell10 = dataRow.getCell(col10);
-
-				String cellValue1 = dataFormatter.formatCellValue(cell1);
-				String cellValue2 = dataFormatter.formatCellValue(cell2);
-				String cellValue3 = dataFormatter.formatCellValue(cell3);
-				String cellValue5 = dataFormatter.formatCellValue(cell5);
-				String cellValue6 = dataFormatter.formatCellValue(cell6);
-				String cellValue7 = dataFormatter.formatCellValue(cell7);
-				String cellValue8 = dataFormatter.formatCellValue(cell8);
-				String cellValue9 = dataFormatter.formatCellValue(cell9);
-				String cellValue10 = dataFormatter.formatCellValue(cell10);
-
-				section.setName(cellValue1);
-				//the below line causes errors when there's lines of data after the table
-				//check that required fields are not empty befor assigning them to a section
-				//I think it's safe to assume that any row with a blank required field which 
-				//comes after the header row marks the end of the data on that sheet
-				section.setCrn(Integer.parseInt(cellValue2));
-				section.setSectionId(cellValue3);
-				section.setLink(cellValue5);
-				section.setDaysOfWeek(cellValue6);
-				try {
-					setExcelTimes(cellValue7, section);
-				} catch (Exception e) {
-					section.setStartTime(null);
-					section.setEndTime(null);
+			Row row = sheet.getRow(0); // Get first row
+			
+			while (!map.containsKey("Course ID")) {
+				map = new HashMap<String, Integer>();
+				short minColIx = row.getFirstCellNum(); // get the first column index for a row
+				short maxColIx = row.getLastCellNum(); // get the last column index for a row
+				for (short colIx = minColIx; colIx < maxColIx; colIx++) { // loop from first to last index
+					Cell cell = row.getCell(colIx); // get the cell
+					map.put(cell.getStringCellValue(), cell.getColumnIndex()); // add the cell contents (name of column)
+																				// and
+																				// cell index to the map
 				}
 
 				row = rowIterator.next();
@@ -240,17 +198,12 @@ public class FileReader {
 			if (map.containsKey("Cap"))
 				col10 = map.get("Cap");
 
-			rowIterator.next(); // skip first row
 			while (sheetIterator.hasNext()) {
 				Row dataRow = null; 
 				while (sheetIterator.hasNext()) {
-
 					while (rowIterator.hasNext()) {
 						 dataRow = rowIterator.next();
-						// the below line causes errors when there's lines of data after the table
-						// check that required fields are not empty before assigning them to a section
-						// Get the cells for each of the indexes
-						
+						Section section = new Section();
 						// 1-------------------------------------------------------
 						if (col1 != 0) {
 							Cell cell1 = dataRow.getCell(col1);
@@ -261,6 +214,12 @@ public class FileReader {
 						if (col2 != 0) {
 							Cell cell2 = dataRow.getCell(col2);
 							String cellValue2 = dataFormatter.formatCellValue(cell2);
+							
+							try{
+								int i = Integer.parseInt(cellValue2);
+							}catch(NumberFormatException e){
+								break;
+							}
 							section.setCrn(Integer.parseInt(cellValue2));
 						}
 						// 3-------------------------------------------------------
@@ -319,6 +278,7 @@ public class FileReader {
 					}
 				}
 			}
+			workbook.close();
 			return sections;
 		} catch (Exception e) {
 			workbook.close();
