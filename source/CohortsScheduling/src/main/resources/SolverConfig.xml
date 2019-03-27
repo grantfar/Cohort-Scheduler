@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solver>
+	<environmentMode>NON_REPRODUCIBLE</environmentMode>
 	<solutionClass>CohortsSolverData.CohortSolution</solutionClass>
 	<entityClass>CohortDataClasses.CohortSectionAssignment</entityClass>
 	<scoreDirectorFactory>

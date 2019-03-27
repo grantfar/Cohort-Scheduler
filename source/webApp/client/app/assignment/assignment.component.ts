@@ -51,13 +51,15 @@ export class AssignmentComponent implements OnInit {
   ngOnInit() {
     this.assignmentId = this.getParam("sch");
     this.getAssignments();
-    this.sortAssignments();
     this.isLoading = false;
   }
 
   getAssignments() {
     this.assignmentService.getAssignments(this.assignmentId).subscribe(
-      data => this.assignments = data,
+      data => {
+        this.assignments = data;  
+        this.sortAssignments();
+      },
       error => console.log(error),
     );
   }
@@ -77,7 +79,7 @@ export class AssignmentComponent implements OnInit {
   }
 
   sortAssignments(){
-
+    console.log(this.assignments);
     this.assignments.forEach((element:Assignment) => {
       let foundGroup = false;
       this.assignmentGroups.forEach((group:AssignmentGroup) => {
@@ -90,8 +92,11 @@ export class AssignmentComponent implements OnInit {
         let gp:AssignmentGroup = new AssignmentGroup();
         gp.cohortName = element.cohort;
         gp.assignments = [element];
+        this.assignmentGroups.push(gp);
+        console.log("created group")
       }
     });
+    console.log("sorting finished")
   }
   
 }

@@ -123,7 +123,7 @@ public class ScheduleController {
 				toAdd.setSectionCode(req.getSectionsAllowed());
 				toAdd.setSeatsNeeded(req.getSeatsNeeded());
 				csa.add(toAdd);
-				if(labIndex > 0) {
+				if(labIndex >= 0) {
 					CohortSectionAssignment labToAdd = new CohortSectionAssignment();
 					labToAdd.setMyCohort(coh);
 					labToAdd.setMyCourse(courses.get(labIndex));
@@ -166,12 +166,16 @@ public class ScheduleController {
 	 */
 	public static String start(StartRequest request) throws IOException {
 		File temp = null;
-		//each course object should have a non empty list of sections and a name
-		//each section object should have all fields initialized
+		
 		try {
 			temp = new File(filePath);
+			
 			if(optThread != null && optThread.isAlive()) {
-				throw new Exception("Already running");
+				if(currentScheduler.isFinished()) {
+					optThread.interrupt();
+				}else {
+					throw new Exception("Already running");
+				}
 			}
 			if(!temp.exists())
 				throw new Exception("Upload File");
@@ -306,6 +310,8 @@ public class ScheduleController {
 				}
 				if(i>1) {
 					s.setHasLab(true);
+				}else {
+					s.setHasLab(false);
 				}
 			}
 			
