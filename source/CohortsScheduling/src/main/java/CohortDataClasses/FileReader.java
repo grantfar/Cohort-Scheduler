@@ -308,6 +308,8 @@ public class FileReader {
 				section.setName(cellValue1);
 				//the below line causes errors when there's lines of data after the table
 				//check that required fields are not empty befor assigning them to a section
+				//I think it's safe to assume that any row with a blank required field which 
+				//comes after the header row marks the end of the data on that sheet
 				section.setCrn(Integer.parseInt(cellValue2));
 				section.setSectionId(cellValue3);
 				section.setLink(cellValue5);
