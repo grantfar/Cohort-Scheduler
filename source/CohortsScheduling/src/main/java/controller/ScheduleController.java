@@ -1,5 +1,7 @@
 package controller;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -272,7 +274,7 @@ public class ScheduleController {
 				List<Section> lects = new ArrayList<>();
 				List<Section> labs = new ArrayList<>();
 				for(Section s:course.getSections()) {
-					if(s.getLink().startsWith("L")) {
+					if(s.getLink().startsWith("L") || StringUtils.isBlank(s.getLink())) {
 						lects.add(s);
 						
 					}else {

@@ -126,11 +126,11 @@ export class SchedulingComponent implements OnInit {
     this.schedulingService.runScheduling(params).subscribe(data =>{
       if(data=="0"){
         this.toast.setMessage('Failed to initiate scheduling', 'error');
-          this.schedulingService.deleteSchedule(newSch);
+        this.schedulingService.deleteSchedule(newSch).subscribe(data => console.log(data));
         
       }else if(data=="-1"){
         this.toast.setMessage('Some required classes are not in the excel file. Failed to start scheduling.', 'error');
-        console.log("deleting");
+        
         this.schedulingService.deleteSchedule(newSch).subscribe(data => console.log(data));
         
       }
