@@ -59,13 +59,25 @@ public class FileReaderTest {
         List<Section> list = new ArrayList<Section>(); 
         List<Course> courseList = new ArrayList<Course>(); 
 
-        list = FileReader.readCourseExcel("TestFiles/AS-STEM_Course_Offerings_Fall_2018.xlsx"); 
+        list = FileReader.readCourseExcel("TestFiles/CAS-STEM_Course_Offerings_Fall_2018.xlsx"); 
+
+
+        assertTrue(list.size()>0);
+
+    }  
+    
+    @Test
+    public void fileReader_Test5() throws  Exception {
+     
+        List<Section> list = new ArrayList<Section>(); 
+        List<Course> courseList = new ArrayList<Course>(); 
+
+        list = FileReader.readCourseExcel("TestFiles/CAS-STEM_Course_Offerings_Fall_2018.xlsx"); 
 
         courseList = FileReader.separateSectionsIntoCourses(list);
 
         assertTrue(courseList.size()>0);
 
     }  
-    
 
 }
