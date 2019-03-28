@@ -27,11 +27,10 @@ public class ScheduleDAO {
 	
 	public static int writeToDB(CohortSolution s, String scheduleName) throws IOException {
 		int count = 0;
-		System.out.println("writing to DB");
 		CloseableHttpClient httpclient = HttpClients.createDefault();
 		try {
 			for(CohortSectionAssignment csa: s.getAssignments()) {
-				HttpPost post = new HttpPost("localhost:3000/api/assignment");
+				HttpPost post = new HttpPost("http://localhost:3000/api/assignment");
 				List<NameValuePair> params = new ArrayList<>();
 				NameValuePair schedule = new BasicNameValuePair("schedule", scheduleName);
 				NameValuePair cohort = new BasicNameValuePair("cohort",csa.getMyCohort().getName());
@@ -58,10 +57,10 @@ public class ScheduleDAO {
 				post.setEntity(new UrlEncodedFormEntity(params));
 				
 				CloseableHttpResponse response = httpclient.execute(post);
-				if(response.getStatusLine().getStatusCode()==(200)) {
+				if(response.getStatusLine().getStatusCode()==(201)) {
 					count++;
 				}
-			    
+			    response.close();
 			}
 			httpclient.close();
 		}finally {

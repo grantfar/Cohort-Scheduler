@@ -53,12 +53,11 @@ public class ScheduleRunnable implements Runnable {
     		for(CohortSolution s: solutions) {
     			ScheduleDAO.writeToDB(s, name);
     		}
-    		finished = true;
+    		this.finished = true;
     	}catch(Exception e) {
     		e.printStackTrace();
     	}
-    	
-    	
+    	this.finished = true;
     	
     }
 

@@ -82,23 +82,41 @@ export class SchedulingComponent implements OnInit {
   }
 
   runSchedule() {
-    let fileForm:FormData = new FormData();
-    fileForm.append('file', this.file);
-    this.schedulingService.sendFile(fileForm).subscribe(
-      res => {
-        this.toast.setMessage('File uploaded successfully.', 'success');
-        this.createSchedule();
-      },
-      error => {
-        console.log(error);
-          this.toast.setMessage('File upload failed.', 'error');
-      }
-    );
+    let newSch = null;
+    let name:string = this.scheduleName;
+    name.replace(/\s+/g, '_');
+    if(this.nameExists(name)){
+      this.toast.setMessage('A schedule with that name already exists.', 'error');
+    }else{
+      let fileForm:FormData = new FormData();
+      fileForm.append('file', this.file);
+      this.schedulingService.sendFile(fileForm).subscribe(
+        res => {
+          this.toast.setMessage('File uploaded successfully.', 'success');
+          this.createSchedule();
+        },
+        error => {
+          console.log(error);
+            this.toast.setMessage('File upload failed.', 'error');
+        }
+      );
+    }
+    
   }
   
   handleFileUpload(files: FileList) {
     this.file = files.item(0);
-}
+  }
+
+  nameExists(name:string):boolean{
+    this.schedules.forEach(element=>{
+      if(element.name == name){
+        return true;
+      }
+    });
+
+    return false;
+  }
 
   createSchedule(){
     let newSch = null;

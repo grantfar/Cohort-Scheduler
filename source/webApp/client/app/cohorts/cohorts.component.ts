@@ -80,6 +80,9 @@ export class CohortsComponent implements OnInit {
   }
 
   addCohort() {
+    if(this.addCohortForm['sections'].value == null){
+      this.addCohortForm['sections'].value ="";
+    }
     this.cohortService.addCohort(this.addCohortForm.value).subscribe(
       res => {
         this.cohorts.push(res);
