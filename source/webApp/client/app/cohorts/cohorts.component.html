@@ -19,7 +19,7 @@
       </form>
     </div>
   </div>
-<div class="card mb-3" *ngIf="!isLoading">
+<div class="card mb-3" *ngIf="!isLoading && !isEditing">
 <div *ngFor="let cName of cohortNames">
     <h4 class="card-header">Cohort: {{cName}}</h4>
     <div class="card-body">
@@ -76,3 +76,61 @@
 </div>
 </div>
 
+<div class="card mb-3" *ngIf="!isLoading && isEditing">
+    <div >
+        <h4 class="card-header">Editing:</h4>
+        <div class="card-body">
+            <table class="table table-bordered">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">Class</th>
+                  <th scope="col">Seats Required</th>
+                  <th scope="col">Sections Allowed</th>
+                  <th scope="col">Actions</th>
+                </tr>
+              </thead>
+              <tbody *ngIf="!isEditing">
+                <ng-container *ngFor="let cohort of cohorts">
+                    <tr *ngIf="cohort.cohort == cName">
+                        <td>{{cohort.class}}</td>
+                        <td>{{cohort.required}}</td>
+                        <td>{{cohort.sections}}</td>
+                        <td>
+                          <button class="btn btn-sm btn-primary" (click)="enableEditing(cohort)">
+                            <i class="fa fa-pencil"></i> Edit
+                          </button> 
+                          <button class="btn btn-sm btn-danger ml-1" (click)="deleteCohort(cohort)">
+                            <i class="fa fa-trash"></i> Delete
+                          </button>
+                        </td>
+                      </tr>
+                    </ng-container>
+              </tbody>
+              <tbody *ngIf="isEditing">
+                <tr>
+                  <td colspan="4">
+                    <form class="form-inline" #form="ngForm" (ngSubmit)="editCohort(cohort)">
+                      <input class="form-control mr-2" type="text" name="cohort"
+                             [(ngModel)]="cohort.cohort" placeholder="Cohort" required>
+                      <input class="form-control mr-2" type="text" name="class"
+                             [(ngModel)]="cohort.class" placeholder="Class" min="0" required>
+                      <input class="form-control mr-2" type="number" name="required"
+                             [(ngModel)]="cohort.required" placeholder="Seats Required" step="1" min="0" required>
+                      <input class="form-control mr-2" type="text" name="sections"
+                             [(ngModel)]="cohort.sections" placeholder="Allowed Sections">
+                      <button class="btn btn-sm btn-primary mr-2" type="submit" [disabled]="!form.form.valid">
+                        <i class="fa fa-floppy-o"></i> Save
+                      </button>
+                      <button class="btn btn-sm btn-warning" (click)="cancelEditing()">
+                        <i class="fa fa-times"></i> Cancel
+                      </button>
+                    </form>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+    </div>
+    </div>
+    
+    
