@@ -7,6 +7,7 @@ public class ClassRequirement {
 	private Integer seatsNeeded;
 	private String cohortName;
 	private boolean hasLab;
+	private String sectionType;
 	
 	public ClassRequirement() {
 		// TODO Auto-generated constructor stub
@@ -50,6 +51,14 @@ public class ClassRequirement {
 
 	public void setHasLab(boolean hasLab) {
 		this.hasLab = hasLab;
+	}
+
+	public String getSectionType() {
+		return sectionType;
+	}
+
+	public void setSectionType(String sectionType) {
+		this.sectionType = sectionType;
 	}
 
 }

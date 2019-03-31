@@ -21,6 +21,7 @@ public class Section {
 	private String building;
 	private String room; 
 	private boolean isLab;
+	private String title;
 
 	private int    subSectionId;
 	
@@ -191,6 +192,14 @@ public class Section {
 
 	public void setLab(boolean isLab) {
 		this.isLab = isLab;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
 	}
 }
 

@@ -86,6 +86,7 @@ public class ScheduleController {
 			req.setClassName(r.getCourse());
 			req.setSeatsNeeded(r.getSeatsNeeded());
 			req.setSectionsAllowed(r.getSectionsAllowed());
+			req.setSectionType(r.getSectionType());
 			c.addReq(req);
 		}
 		return new ArrayList<Cohort>(cohorts.values());
@@ -122,6 +123,7 @@ public class ScheduleController {
 				toAdd.setMyCourse(courses.get(courseIndex));
 				toAdd.setSectionCode(req.getSectionsAllowed());
 				toAdd.setSeatsNeeded(req.getSeatsNeeded());
+				toAdd.setSectionType(req.getSectionType());
 				csa.add(toAdd);
 				if(labIndex >= 0) {
 					CohortSectionAssignment labToAdd = new CohortSectionAssignment();
@@ -129,6 +131,7 @@ public class ScheduleController {
 					labToAdd.setMyCourse(courses.get(labIndex));
 					labToAdd.setSectionCode(req.getSectionsAllowed());
 					labToAdd.setSeatsNeeded(req.getSeatsNeeded());
+					labToAdd.setSectionType(req.getSectionType());
 					csa.add(labToAdd);
 				}
 			}
@@ -196,6 +199,7 @@ public class ScheduleController {
 		try {
 			verifyClassesExist(courseList, cohortList);
 		}catch(Exception e) {
+			System.out.println(e.getMessage());
 			return "-1";
 		}
 		CohortSolution solutions[] = initializeSolution(1, cohortList, courseList);
