@@ -5,6 +5,7 @@ public class Requirement {
 	private String course;
 	private String sectionsAllowed;
 	private int seatsNeeded;
+	private String sectionType;
 	
 	public Requirement(String cohort, String course, String sectionsAllowed, int seatsNeeded) {
 		this.cohort = cohort;
@@ -46,5 +47,13 @@ public class Requirement {
 	
 	public void setSeatsNeeded(int seatsNeeded) {
 		this.seatsNeeded = seatsNeeded;
+	}
+
+	public String getSectionType() {
+		return sectionType;
+	}
+
+	public void setSectionType(String sectionType) {
+		this.sectionType = sectionType;
 	}
 }

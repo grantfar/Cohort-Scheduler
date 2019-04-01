@@ -165,7 +165,8 @@ export class SchedulingComponent implements OnInit {
         cohort: element.cohort,
         course: element.class,
         sectionsAllowed: element.sections,
-        seatsNeeded: element.required
+        seatsNeeded: element.required,
+        sectionType:element.sectionType
       });
     });
     return reformatted;

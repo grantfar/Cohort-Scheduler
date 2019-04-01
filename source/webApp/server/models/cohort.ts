@@ -26,7 +26,8 @@ const cohortSchema = new mongoose.Schema({
   cohort: String,
   class: String,
   required: Number,
-  sections: String
+  sections: String,
+  sectionType:String
 });
 
 const Cohort = mongoose.model('Cohort', cohortSchema);

@@ -28,4 +28,5 @@ export class Cohort {
   class?: string;
   required?: number;
   sections?: string;
+  sectionType?:string;
 }

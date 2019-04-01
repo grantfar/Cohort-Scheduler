@@ -49,6 +49,7 @@ export class CohortsComponent implements OnInit {
   class = new FormControl('', Validators.required);
   required = new FormControl('', Validators.required);
   sections = new FormControl('');
+  sectionType = new FormControl('', Validators.required);
 
   constructor(private cohortService: CohortService,
               private formBuilder: FormBuilder,
@@ -60,7 +61,8 @@ export class CohortsComponent implements OnInit {
       cohort: this.cohortName,
       class: this.class,
       required: this.required,
-      sections: this.sections
+      sections: this.sections,
+      sectionType: this.sectionType
     });
   }
 
@@ -80,9 +82,6 @@ export class CohortsComponent implements OnInit {
   }
 
   addCohort() {
-    if(this.addCohortForm['sections'].value == null){
-      this.addCohortForm['sections'].value ="";
-    }
     this.cohortService.addCohort(this.addCohortForm.value).subscribe(
       res => {
         this.cohorts.push(res);

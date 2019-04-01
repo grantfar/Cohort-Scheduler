@@ -20,8 +20,9 @@ public class CohortSectionAssignment {
 	//represents alpha part of section code i.e. if this is "HE" then "HE1 is an allowable section
 	private String sectionCode;
 	private Integer seatsNeeded;
+	private String sectionType;
 	
-	public CohortSectionAssignment(Course course, Section assignment, Cohort cohort) {
+	public CohortSectionAssignment(Course course, Section assignment, Cohort cohort, String sectionType) {
 		this.myCohort = cohort;
 		this.assignment = assignment;
 		this.myCourse = course;
@@ -87,5 +88,13 @@ public class CohortSectionAssignment {
 
 	public void setSeatsNeeded(Integer seatsNeeded) {
 		this.seatsNeeded = seatsNeeded;
+	}
+
+	public String getSectionType() {
+		return sectionType;
+	}
+
+	public void setSectionType(String sectionType) {
+		this.sectionType = sectionType;
 	}
 }

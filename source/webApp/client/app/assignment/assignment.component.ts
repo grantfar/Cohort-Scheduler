@@ -55,6 +55,7 @@ export class AssignmentComponent implements OnInit {
   }
 
   getAssignments() {
+    console.log("id "+ this.assignmentId);
     this.assignmentService.getAssignments(this.assignmentId).subscribe(
       data => {
         this.assignments = data;  
@@ -68,13 +69,9 @@ export class AssignmentComponent implements OnInit {
     param+="=";
     let qs = window.location.search;
     console.log(qs)
-    let sp = qs.split("&", 10);
-    sp.forEach(element => {
-      if(element.includes(param)){
-        return element.split("=")[1]
-      }
-    });
-    console.log(param);
+    if(qs.includes(param)){
+      return qs.split("=")[1];
+    }
     return "";
   }
 
