@@ -78,6 +78,23 @@
           </tr>
         </tbody>
       </table>
+      <ng-container *ngFor="let newCo of cohortAddition">
+      <form class="form-inline" *ngIf="newCo.cohort == cName" (ngSubmit)="addCohortAddition(newCo)">
+        <input class="form-control mr-2" type="text" name="cohort" [(ngModel)]="newCo.cohort" placeholder="Cohort" disabled>
+        <input class="form-control mr-2" type="text" name="class" [(ngModel)]="newCo.class" placeholder="Class" min="0" required>
+        <input class="form-control mr-2" type="number" name="required" [(ngModel)]="newCo.required" placeholder="Seats Required" step="1"
+          min="0" required>
+        <input class="form-control mr-2" type="text" name="sections" [(ngModel)]="newCo.sections" placeholder="Sections Allowed">
+        <select class="form-control mr-2" name="sectionType" [(ngModel)]="newCo.sectionType">
+          <option value="None">None</option>
+          <option value="Section">Section Name</option>
+          <option value="Title">Class Title</option>
+        </select>
+        <button class="btn btn-primary" type="submit">
+          <i class="fa fa-plus"></i> Add
+        </button>
+      </form>
+    </ng-container>
     </div>
   </div>
 </div>
