@@ -180,7 +180,7 @@ public class FileReader {
 					}
 				}
 			}
-			
+			workbook.close();
 			return sections;
 		} catch (Exception e) {
 			workbook.close();

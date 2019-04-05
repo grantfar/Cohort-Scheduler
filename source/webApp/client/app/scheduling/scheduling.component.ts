@@ -84,7 +84,7 @@ export class SchedulingComponent implements OnInit {
   runSchedule() {
     let newSch = null;
     let name:string = this.scheduleName;
-    name.replace(/\s+/g, '_');
+    name = name.replace(/\s+/g, '_');
     if(this.nameExists(name)){
       this.toast.setMessage('A schedule with that name already exists.', 'error');
     }else{
@@ -109,32 +109,34 @@ export class SchedulingComponent implements OnInit {
   }
 
   nameExists(name:string):boolean{
+    let retVal = false
     this.schedules.forEach(element=>{
-      if(element.name == name){
-        return true;
+      if(element.name === name){
+        retVal =  true;
       }
     });
-
-    return false;
+    return retVal;
   }
 
   createSchedule(){
     let newSch = null;
     let name:string = this.scheduleName;
-    name.replace(/\s+/g, '_');
-    let sched:Schedule = new Schedule()
-    sched.name = name;
-    sched.date = new Date().toString();
-    this.schedulingService.addSchedule(sched).subscribe(
-      (res:any) =>{
-        newSch = {name:res.name, date:res.date, _id:res._id};
-        this.initScheduling(name, newSch); 
-      }
-    );
+    name = name.replace(/\s+/g, '_');
+    console.log(name);
+      let sched:Schedule = new Schedule()
+      sched.name = name;
+      sched.date = new Date().toString();
+      this.schedulingService.addSchedule(sched).subscribe(
+        (res:any) =>{
+          newSch = {name:res.name, date:res.date, _id:res._id};
+          this.initScheduling(name, newSch); 
+        }
+      );
+    
+    
   }
 
   initScheduling(name:string, newSch:Schedule){
-    console.log("startInit: "+newSch)
     let params = {
       requirements: this.reformatCohorts(),
       name: name,

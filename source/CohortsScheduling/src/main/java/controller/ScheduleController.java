@@ -188,8 +188,8 @@ public class ScheduleController {
 		List<Course> courseList= FileReader.separateSectionsIntoCourses(sectionList);
 		courseList = splitLabs(courseList);
 		labelLabReqs(cohortList, courseList);
-		temp.delete();
-
+		FileUtils.forceDelete(temp);
+		System.out.println("deleted file");
 		for(Course c:courseList) {
 			for(Section s:c.getSections())
 				s.setDayBool();
@@ -218,7 +218,7 @@ public class ScheduleController {
 		return "1";
 	}
 	
-	public static String Upload(MultipartFile upload) {
+	public static String Upload(MultipartFile upload){
 		try {
 			File temp = new File(filePath);
 			if(!semaphore.tryAcquire() || temp.exists())
@@ -231,7 +231,7 @@ public class ScheduleController {
 			FileUtils.copyInputStreamToFile(in, target);
 		}
 		catch(Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			semaphore.release();
 			return "\"Error\": \"" + e.getMessage() + "\"";
 		}
