@@ -82,41 +82,80 @@ export class SchedulingComponent implements OnInit {
   }
 
   runSchedule() {
-    let fileForm:FormData = new FormData();
-    fileForm.append('file', this.file);
-    this.schedulingService.sendFile(fileForm).subscribe(
-      res => {
-        this.toast.setMessage('File uploaded successfully.', 'success');
-        this.initScheduling();
-      },
-      error => this.toast.setMessage('File upload failed.', 'error')
-    );
+    let newSch = null;
+    let name:string = this.scheduleName;
+    name = name.replace(/\s+/g, '_');
+    if(this.nameExists(name)){
+      this.toast.setMessage('A schedule with that name already exists.', 'error');
+    }else{
+      let fileForm:FormData = new FormData();
+      fileForm.append('file', this.file);
+      this.schedulingService.sendFile(fileForm).subscribe(
+        res => {
+          this.toast.setMessage('File uploaded successfully.', 'success');
+          this.createSchedule();
+        },
+        error => {
+          console.log(error);
+            this.toast.setMessage('File upload failed.', 'error');
+        }
+      );
+    }
+    
   }
   
   handleFileUpload(files: FileList) {
     this.file = files.item(0);
-}
+  }
 
-  initScheduling(){
-    let name:string = this.scheduleName;
-    name.replace(/\s+/g, '_');
-    let form:FormData = new FormData();
-    form.append('requirements', JSON.stringify(this.reformatCohorts()));
-    form.append('name', name);
-    form.append('date', new Date().toString());
-    let sched:Schedule = new Schedule()
-    sched.name = name;
-    sched.date = new Date().toString();
-    this.schedulingService.addSchedule(sched).subscribe(
-      res=>{
-        //this.toast.setMessage('created schedule object', 'success');
+  nameExists(name:string):boolean{
+    let retVal = false
+    this.schedules.forEach(element=>{
+      if(element.name === name){
+        retVal =  true;
       }
-    );
+    });
+    return retVal;
+  }
+
+  createSchedule(){
+    let newSch = null;
+    let name:string = this.scheduleName;
+    name = name.replace(/\s+/g, '_');
+    console.log(name);
+      let sched:Schedule = new Schedule()
+      sched.name = name;
+      sched.date = new Date().toString();
+      this.schedulingService.addSchedule(sched).subscribe(
+        (res:any) =>{
+          newSch = {name:res.name, date:res.date, _id:res._id};
+          this.schedules.push(newSch);
+          this.initScheduling(name, newSch); 
+        }
+      );
     
-    this.schedulingService.runScheduling(form).subscribe(data =>{
+    
+  }
+
+  initScheduling(name:string, newSch:Schedule){
+    let params = {
+      requirements: this.reformatCohorts(),
+      name: name,
+      date: new Date().toString()
+    }
+    
+    this.schedulingService.runScheduling(params).subscribe(data =>{
       if(data=="0"){
-        this.toast.setMessage('Failed to init schedule, file not found', 'error');
-      }else{
+        this.toast.setMessage('Failed to initiate scheduling', 'error');
+        this.schedulingService.deleteSchedule(newSch).subscribe(data => console.log(data));
+        
+      }else if(data=="-1"){
+        this.toast.setMessage('Some required classes are not in the excel file. Failed to start scheduling.', 'error');
+        
+        this.schedulingService.deleteSchedule(newSch).subscribe(data => console.log(data));
+        
+      }
+      else{
         this.toast.setMessage('Scheduling initiated', 'success');
       }
     });
@@ -129,7 +168,8 @@ export class SchedulingComponent implements OnInit {
         cohort: element.cohort,
         course: element.class,
         sectionsAllowed: element.sections,
-        seatsNeeded: element.required
+        seatsNeeded: element.required,
+        sectionType:element.sectionType
       });
     });
     return reformatted;

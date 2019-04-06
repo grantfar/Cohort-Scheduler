@@ -35,5 +35,6 @@ export class Assignment {
   campus?:string;
   crn?:string;
   room?:string;
-
+  building?:string;
+  
 }

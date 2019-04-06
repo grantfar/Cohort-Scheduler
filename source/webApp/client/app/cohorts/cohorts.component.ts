@@ -43,12 +43,13 @@ export class CohortsComponent implements OnInit {
   isEditing = false;
 
   cohortNames:string[] = [];
-
+  cohortAddition:Cohort[] = [];
   addCohortForm: FormGroup;
   cohortName = new FormControl('', Validators.required);
   class = new FormControl('', Validators.required);
   required = new FormControl('', Validators.required);
   sections = new FormControl('');
+  sectionType = new FormControl('', Validators.required);
 
   constructor(private cohortService: CohortService,
               private formBuilder: FormBuilder,
@@ -60,7 +61,8 @@ export class CohortsComponent implements OnInit {
       cohort: this.cohortName,
       class: this.class,
       required: this.required,
-      sections: this.sections
+      sections: this.sections,
+      sectionType: this.sectionType
     });
   }
 
@@ -71,6 +73,7 @@ export class CohortsComponent implements OnInit {
         this.cohorts.forEach(element => {
           if(!this.cohortNames.includes(element.cohort)){
             this.cohortNames.push(element.cohort);
+            this.cohortAddition.push({cohort: element.cohort});
           }
         });
       },
@@ -81,6 +84,23 @@ export class CohortsComponent implements OnInit {
 
   addCohort() {
     this.cohortService.addCohort(this.addCohortForm.value).subscribe(
+      res => {
+        this.cohorts.push(res);
+        this.cohortNames = [];
+        this.cohorts.forEach(element => {
+          if(!this.cohortNames.includes(element.cohort)){
+            this.cohortNames.push(element.cohort);
+          }
+        });
+        this.addCohortForm.reset();
+        this.toast.setMessage('item added successfully.', 'success');
+      },
+      error => console.log(error)
+    );
+  }
+
+  addCohortAddition(cohort:Cohort) {
+    this.cohortService.addCohort(cohort).subscribe(
       res => {
         this.cohorts.push(res);
         this.cohortNames = [];

@@ -49,27 +49,34 @@ export class AssignmentComponent implements OnInit {
               public toast: ToastComponent) { }
 
   ngOnInit() {
-    this.assignmentId = this.getParam("id");
+    this.assignmentId = this.getParam("sch");
     this.getAssignments();
-    this.sortAssignments();
     this.isLoading = false;
   }
 
   getAssignments() {
+    console.log("id "+ this.assignmentId);
     this.assignmentService.getAssignments(this.assignmentId).subscribe(
-      data => this.assignments = data,
+      data => {
+        this.assignments = data;  
+        this.sortAssignments();
+      },
       error => console.log(error),
     );
   }
 
   getParam(param:string){
-    let qs = location.search;
-    let urlParam = new URLSearchParams(qs);
-    return urlParam.get(param);
+    param+="=";
+    let qs = window.location.search;
+    console.log(qs)
+    if(qs.includes(param)){
+      return qs.split("=")[1];
+    }
+    return "";
   }
 
   sortAssignments(){
-
+    console.log(this.assignments);
     this.assignments.forEach((element:Assignment) => {
       let foundGroup = false;
       this.assignmentGroups.forEach((group:AssignmentGroup) => {
@@ -82,8 +89,11 @@ export class AssignmentComponent implements OnInit {
         let gp:AssignmentGroup = new AssignmentGroup();
         gp.cohortName = element.cohort;
         gp.assignments = [element];
+        this.assignmentGroups.push(gp);
+        console.log("created group")
       }
     });
+    console.log("sorting finished")
   }
   
 }

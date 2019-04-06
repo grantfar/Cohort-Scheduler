@@ -11,6 +11,7 @@ public class Course implements Serializable {
 	private String name;
 	private String courseID;
 	private int    unitSize;
+	private boolean isLab;
 	
 	public Course() {
 		this.sections = new ArrayList<Section>();
@@ -46,6 +47,14 @@ public class Course implements Serializable {
 
 	public void setCourseID(String courseID) {
 		this.courseID = courseID;
+	}
+
+	public boolean isLab() {
+		return isLab;
+	}
+
+	public void setLab(boolean isLab) {
+		this.isLab = isLab;
 	}
 
 

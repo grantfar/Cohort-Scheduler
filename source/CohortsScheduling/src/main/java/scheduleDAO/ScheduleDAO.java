@@ -30,7 +30,7 @@ public class ScheduleDAO {
 		CloseableHttpClient httpclient = HttpClients.createDefault();
 		try {
 			for(CohortSectionAssignment csa: s.getAssignments()) {
-				HttpPost post = new HttpPost("localhost:3000/api/assignment");
+				HttpPost post = new HttpPost("http://localhost:3000/api/assignment");
 				List<NameValuePair> params = new ArrayList<>();
 				NameValuePair schedule = new BasicNameValuePair("schedule", scheduleName);
 				NameValuePair cohort = new BasicNameValuePair("cohort",csa.getMyCohort().getName());
@@ -40,6 +40,9 @@ public class ScheduleDAO {
 				NameValuePair endTime = new BasicNameValuePair("endTime",csa.getAssignment().getEndTime().toString());
 				NameValuePair days = new BasicNameValuePair("days", csa.getAssignment().getDaysOfWeek());
 				NameValuePair seats = new BasicNameValuePair("seats",csa.getSeatsNeeded().toString());
+				NameValuePair crn = new BasicNameValuePair("crn", ""+csa.getAssignment().getCrn());
+				NameValuePair room = new BasicNameValuePair("room", csa.getAssignment().getRoom());
+				NameValuePair building = new BasicNameValuePair("building", csa.getAssignment().getBuilding());
 				params.add(schedule);
 				params.add(cohort);
 				params.add(className);
@@ -48,13 +51,16 @@ public class ScheduleDAO {
 				params.add(endTime);
 				params.add(days);
 				params.add(seats);
+				params.add(crn);
+				params.add(room);
+				params.add(building);
 				post.setEntity(new UrlEncodedFormEntity(params));
 				
 				CloseableHttpResponse response = httpclient.execute(post);
-				if(response.getStatusLine().getStatusCode()==(200)) {
+				if(response.getStatusLine().getStatusCode()==(201)) {
 					count++;
 				}
-			    
+			    response.close();
 			}
 			httpclient.close();
 		}finally {

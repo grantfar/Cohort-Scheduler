@@ -1,0 +1,11 @@
+/.DS_Store
+/CohortDataClasses/
+/CohortScoring/
+/CohortsSolverData/
+/LICENSE
+/application/
+/controller/
+/dataModels/
+/runnable/
+/scheduleDAO/
+/wmuCohorts/

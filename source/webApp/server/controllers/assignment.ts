@@ -28,7 +28,7 @@ export default class AssignmentCtrl extends BaseCtrl {
   
   getByName = async(req, res)=>{
     try{
-      const docs = await this.model.find({schedule: req.name});
+      const docs = await this.model.find({schedule: req.params.name});
       res.status(200).json(docs);
     } catch (err) {
       return res.status(400).json({ error: err.message });

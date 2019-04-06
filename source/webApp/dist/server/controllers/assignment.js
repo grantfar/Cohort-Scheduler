@@ -37,7 +37,7 @@ var AssignmentCtrl = /** @class */ (function (_super) {
                 switch (_a.label) {
                     case 0:
                         _a.trys.push([0, 2, , 3]);
-                        return [4 /*yield*/, this.model.find({ schedule: req.name })];
+                        return [4 /*yield*/, this.model.find({ schedule: req.params.name })];
                     case 1:
                         docs = _a.sent();
                         res.status(200).json(docs);
