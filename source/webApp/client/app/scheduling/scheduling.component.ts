@@ -129,6 +129,7 @@ export class SchedulingComponent implements OnInit {
       this.schedulingService.addSchedule(sched).subscribe(
         (res:any) =>{
           newSch = {name:res.name, date:res.date, _id:res._id};
+          this.schedules.push(newSch);
           this.initScheduling(name, newSch); 
         }
       );
