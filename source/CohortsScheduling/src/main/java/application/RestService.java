@@ -13,7 +13,7 @@ import dataModels.Requirement;
 import java.io.IOException;
 import java.util.ArrayList;
 @Controller
-@CrossOrigin(origins = {"http://localhost:4200", "https://cohorts.cs.wmich.edu",allowCredentials="true")
+@CrossOrigin(origins = {"http://localhost:4200", "https://cohorts.cs.wmich.edu"},allowCredentials="true")
 @RequestMapping(value="/api")
 public class RestService {
 	@ResponseBody
