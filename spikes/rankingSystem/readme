@@ -1,9 +1,0 @@
-The purpose of this spike is to test a ranking system to see what threshholds are appropriate for a point based ranking system.
-
-The criteria for the ranking system are as follows:
-Not too many classes in a day
-Minimize transitions between parkview and main campus in a day
-Not too many late classes
-Not too much of a gap between classes (excluding travel time)
-No back to back to back classes
-
