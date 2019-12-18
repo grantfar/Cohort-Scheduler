@@ -1,5 +1,6 @@
 .vscode
 .vscode/*
-source/webApp/node_modules/*
-source/webApp/npm/*
+*/node_modules/*
+*/npm/*
+*/.idea/*
 
