@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solver>
 	<environmentMode>NON_REPRODUCIBLE</environmentMode>
-	<solutionClass>CohortsSolverData.CohortSolution</solutionClass>
+	<solutionClass>optaplanner.CohortsSolverData.CohortSolution</solutionClass>
 	<entityClass>CohortDataClasses.CohortSectionAssignment</entityClass>
 	<scoreDirectorFactory>
-    	<easyScoreCalculatorClass>CohortScoring.cohortScoring</easyScoreCalculatorClass>
+    	<easyScoreCalculatorClass>optaplanner.CohortScoring.cohortScoring</easyScoreCalculatorClass>
   	</scoreDirectorFactory>
   <termination>
     <secondsSpentLimit>120</secondsSpentLimit>

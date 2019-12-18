@@ -3,14 +3,13 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.Semaphore;
-import java.io.FileOutputStream;
+
 import org.springframework.web.multipart.MultipartFile;
 import CohortDataClasses.ClassRequirement;
 import CohortDataClasses.Cohort;
@@ -18,10 +17,10 @@ import CohortDataClasses.CohortSectionAssignment;
 import CohortDataClasses.Course;
 import CohortDataClasses.FileReader;
 import CohortDataClasses.Section;
-import CohortsSolverData.CohortSolution;
+import optaplanner.CohortsSolverData.CohortSolution;
 import dataModels.Requirement;
 import dataModels.StartRequest;
-import runnable.ScheduleRunnable;
+import optaplanner.runnable.ScheduleRunnable;
 
 public class ScheduleController {
 	

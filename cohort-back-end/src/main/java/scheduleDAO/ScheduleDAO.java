@@ -1,6 +1,6 @@
 package scheduleDAO;
 
-import CohortsSolverData.CohortSolution;
+import optaplanner.CohortsSolverData.CohortSolution;
 
 import java.io.IOException;
 import java.util.ArrayList;

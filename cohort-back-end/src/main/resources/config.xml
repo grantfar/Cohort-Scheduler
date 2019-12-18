@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <url>localhost</url>
+    <port>27017</port>
+    <databaseName>cohorts</databaseName>
+    <authentication>
+        <type>none</type>
+        <username>none</username>
+        <password>none</password>
+        <authenticationDatabase>none</authenticationDatabase>
+    </authentication>
+</database>
