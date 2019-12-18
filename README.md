@@ -2,7 +2,7 @@
 This Software solves cohort schedules
 
 This project was created by:
-Alex Markules (amarlar2354@gmail.com)
+Alex Markules
 Jacob Kampf
-Grant Farnsworth
+Grant Farnsworth 
 
